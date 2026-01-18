@@ -11,7 +11,7 @@ export class GeminiService {
    * [1] TẠO QUIZ: Soạn bộ đề trắc nghiệm theo chuẩn năng lực Apple Education.
    */
   static async generateQuiz(topic: Topic, count: 10 | 25, isArena: boolean = false): Promise<Question[]> {
-    const ai = new GoogleGenAI({ apiKey: process.env.API_KEY });
+    const ai = new GoogleGenAI({ apiKey: process.env.GEMINI_API_KEY });
     
     const systemInstruction = `BẠN LÀ "APPLE SENIOR EDUCATION ENGINEER". 
     NHIỆM VỤ: Soạn bộ đề trắc nghiệm địa lý lớp 8 (Việt Nam) đẳng cấp thế giới.
@@ -85,7 +85,7 @@ export class GeminiService {
   static async analyzeClassStrategy(students: StudentSnapshot[]): Promise<string> {
     if (students.length === 0) return "Không có dữ liệu học sinh để phân tích.";
     
-    const ai = new GoogleGenAI({ apiKey: process.env.API_KEY });
+    const ai = new GoogleGenAI({ apiKey: process.env.GEMINI_API_KEY });
     const avgMastery = Math.round(students.reduce((a, s) => a + s.avgMastery, 0) / students.length);
     const criticalCount = students.filter(s => s.status === 'CRITICAL').length;
 
@@ -111,7 +111,7 @@ export class GeminiService {
    * [3] TRA CỨU INSIGHT: Sử dụng Google Search Grounding để tóm tắt kiến thức chuyên đề.
    */
   static async fetchTopicInsights(topic: Topic): Promise<SearchResult> {
-    const ai = new GoogleGenAI({ apiKey: process.env.API_KEY });
+    const ai = new GoogleGenAI({ apiKey: process.env.GEMINI_API_KEY });
     
     const prompt = `Tóm tắt kiến thức cốt lõi và các từ khóa quan trọng cho chuyên đề: "${topic.full_text}". 
     Yêu cầu: Ngắn gọn, súc tích, chuẩn kiến thức SGK Địa lí 8 Kết nối tri thức. 
