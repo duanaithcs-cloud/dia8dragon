@@ -12,7 +12,7 @@ export class GeminiService {
    */
   static async generateQuiz(topic: Topic, count: 10 | 25, isArena: boolean = false): Promise<Question[]> {
     // Luôn tạo instance mới trước khi gọi để đảm bảo lấy API_KEY mới nhất từ môi trường
-    const ai = new GoogleGenAI({ apiKey: process.env.API_KEY });
+    const ai = new GoogleGenAI({ apiKey: process.GEMINI_API_KEY });
     
     const systemInstruction = `BẠN LÀ "APPLE SENIOR EDUCATION ENGINEER". 
     NHIỆM VỤ: Soạn bộ đề trắc nghiệm địa lý lớp 8 (Việt Nam) đẳng cấp thế giới.
