@@ -11,7 +11,7 @@ import ArenaMode from './components/ArenaMode';
 import CanvasOptionsDialog from './components/CanvasOptionsDialog';
 import IdentityDialog from './components/IdentityDialog';
 import InfographicModal from './components/InfographicModal'; 
-import { GoogleGenAI, Type } from "@google/genai";
+import { GeminiService } from './services/geminiService';
 
 const APP_STATE_KEY = 'dia_ai_state_v18_identity_reset'; 
 const ARENA_STORE_KEY = 'ARENA_STORE_V1';
@@ -211,79 +211,10 @@ const App: React.FC = () => {
     
     try {
       const topic = state.topics.find(t => t.topic_id === topicId);
-      const ai = new GoogleGenAI({ apiKey: process.env.API_KEY });
-      
-      const systemInstruction = `BẠN LÀ "APPLE SENIOR EDUCATION ENGINEER". 
-      NHIỆM VỤ: Soạn bộ đề trắc nghiệm địa lý lớp 8 (Việt Nam) đẳng cấp thế giới.
-      CHUYÊN ĐỀ: "${topic?.full_text}".
-      ${isArena ? 'CHẾ ĐỘ: ARENA 1v1 (Đấu trường danh vọng). Yêu cầu độ khó cao hơn.' : ''}
-      YÊU CẦU KỸ THUẬT:
-      1. Phải có đủ 3 loại: MCQ (Trắc nghiệm), TF (Đúng/Sai), FILL (Điền khuyết).
-      2. Phân bổ Skill Tag (C1-C4) và Độ khó (1-5) chính xác.
-      3. Đáp án MCQ: A, B, C hoặc D.
-      4. Đáp án TF: "TRUE" hoặc "FALSE".
-      5. Đáp án FILL: Từ khóa ngắn gọn (Ví dụ: "HIMALAYA", "BIỂN ĐÔNG").
-      6. "explain" phải mang tính sư phạm cao.
-      7. TRẢ VỀ JSON THUẦN TÚY.`;
+      if (!topic) throw new Error("Topic not found");
 
-      setLoadingQuiz({ active: true, stage: isArena ? 'AI ĐANG SOẠN ĐỀ ĐẤU TRƯỜNG...' : 'AI ĐANG SOẠN ĐỀ LUYỆN...' });
-      
-      const response = await ai.models.generateContent({
-        model: 'gemini-3-flash-preview',
-        contents: `Generate ${count} specialized questions for topic: ${topic?.short_label}.`,
-        config: { 
-            systemInstruction,
-            responseMimeType: "application/json",
-            responseSchema: {
-                type: Type.OBJECT,
-                properties: {
-                    questions: {
-                        type: Type.ARRAY,
-                        items: {
-                            type: Type.OBJECT,
-                            properties: {
-                                qid: { type: Type.STRING },
-                                type: { type: Type.STRING, description: "MCQ, TF, or FILL" },
-                                skill_tag: { type: Type.STRING, description: "C1, C2, C3, or C4" },
-                                difficulty: { type: Type.NUMBER },
-                                prompt: { type: Type.STRING },
-                                choices: { 
-                                    type: Type.OBJECT, 
-                                    properties: { 
-                                        A: { type: Type.STRING }, 
-                                        B: { type: Type.STRING }, 
-                                        C: { type: Type.STRING }, 
-                                        D: { type: Type.STRING } 
-                                    } 
-                                },
-                                answer_key: { type: Type.STRING },
-                                explain: { type: Type.STRING }
-                            },
-                            required: ["qid", "type", "skill_tag", "difficulty", "prompt", "answer_key", "explain"]
-                        }
-                    }
-                }
-            }
-        }
-      });
-
-      setLoadingQuiz({ active: true, stage: 'KIỂM TRA TÍNH TOÀN VẸN...' });
-      
-      const rawText = response.text || "{\"questions\": []}";
-      const data = JSON.parse(rawText);
-      
-      const auditedQuestions: Question[] = (data.questions || []).map((q: any) => ({
-        ...q,
-        qid: q.qid || `Q-${Math.random().toString(36).substr(2, 5)}`,
-        type: q.type || 'MCQ',
-        skill_tag: (['C1','C2','C3','C4'].includes(q.skill_tag) ? q.skill_tag : 'C1'),
-        difficulty: q.difficulty || 1,
-        choices: q.type === 'MCQ' ? (q.choices || { A: "...", B: "...", C: "...", D: "..." }) : undefined,
-        answer_key: q.answer_key ? q.answer_key.toString().toUpperCase() : "A",
-        explain: q.explain || "Đáp án đã được hệ thống phê duyệt."
-      }));
-
-      if (auditedQuestions.length === 0) throw new Error("Empty questions");
+      // Gọi dịch vụ tập trung thay vì xử lý trực tiếp tại App
+      const auditedQuestions = await GeminiService.generateQuiz(topic, count, isArena);
 
       setQuizSession({ 
         topic_id: topicId, 
