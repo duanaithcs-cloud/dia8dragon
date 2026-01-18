@@ -1,0 +1,8 @@
+{
+  "name": "DIA8DRAGON",
+  "description": "An advanced competency-based learning platform for Hanoi 9th Grade Geography students, featuring a 77-topic bubble canvas, C1-C4 skill assessment, and AI-driven coaching.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ]
+}
