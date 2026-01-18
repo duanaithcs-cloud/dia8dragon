@@ -32,35 +32,49 @@ const ArenaMode: React.FC<ArenaModeProps> = ({ topics, userProfile, arenaStore =
   const BLUE_HEXTECH = "#00c8c8";
   const DARK_BG = "#010a13";
 
-  // Pokemon Evolution Logic
+  // Pokemon Evolution Logic - Enhanced Granularity
   const pokemonEvo = useMemo(() => {
     const rank = userProfile.rank;
+    const points = userProfile.rankPoints;
+
     if (rank === RankLevel.DONG || rank === RankLevel.BAC) {
       return {
         id: 447,
         name: "Riolu",
         stage: "MẦM NON",
-        aura: "rgba(0, 200, 200, 0.3)",
+        aura: "rgba(0, 200, 200, 0.2)",
+        effect: "",
         url: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/447.png"
       };
-    } else if (rank === RankLevel.THACH_DAU) {
+    } else if (rank === RankLevel.VANG || rank === RankLevel.BACH_KIM) {
+      return {
+        id: 448,
+        name: "Lucario",
+        stage: "TRƯỞNG THÀNH",
+        aura: "rgba(200, 155, 60, 0.3)",
+        effect: "animate-pulse",
+        url: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/448.png"
+      };
+    } else if (rank === RankLevel.KIM_CUONG || rank === RankLevel.CAO_THU) {
+      return {
+        id: 448, // Use Lucario but with high-intensity effects
+        name: "Aura Lucario",
+        stage: "CHIẾN BINH",
+        aura: "rgba(13, 51, 242, 0.4)",
+        effect: "animate-lightning",
+        url: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/448.png"
+      };
+    } else {
       return {
         id: 10059,
         name: "Mega Lucario",
         stage: "HUYỀN THOẠI",
         aura: "rgba(200, 155, 60, 0.6)",
+        effect: "animate-lightning",
         url: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10059.png"
       };
-    } else {
-      return {
-        id: 448,
-        name: "Lucario",
-        stage: "TRƯỞNG THÀNH",
-        aura: "rgba(200, 155, 60, 0.4)",
-        url: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/448.png"
-      };
     }
-  }, [userProfile.rank]);
+  }, [userProfile.rank, userProfile.rankPoints]);
 
   const handleMouseMove = (e: React.MouseEvent) => {
     if (!containerRef.current) return;
@@ -105,11 +119,14 @@ const ArenaMode: React.FC<ArenaModeProps> = ({ topics, userProfile, arenaStore =
                 className="relative z-10 transition-transform duration-300 ease-out flex flex-col items-center"
                 style={{ transform: `perspective(1000px) rotateY(${mousePos.x * 12}deg) rotateX(${mousePos.y * -12}deg)` }}
               >
-                <img 
-                  src={pokemonEvo.url} 
-                  className="size-64 object-contain drop-shadow-[0_0_40px_rgba(255,255,255,0.3)] animate-breathing" 
-                  alt={pokemonEvo.name} 
-                />
+                <div className="relative">
+                   <div className="aura-ring"></div>
+                   <img 
+                     src={pokemonEvo.url} 
+                     className={`size-64 object-contain drop-shadow-[0_0_40px_rgba(255,255,255,0.3)] animate-breathing ${pokemonEvo.effect}`} 
+                     alt={pokemonEvo.name} 
+                   />
+                </div>
                 <div className={`mt-4 px-6 py-1.5 bg-[${GOLD}] text-black text-[11px] font-black uppercase tracking-[0.25em] rounded-full shadow-[0_0_25px_rgba(200,155,60,0.8)]`}>
                   {pokemonEvo.name} • {pokemonEvo.stage}
                 </div>
@@ -162,12 +179,12 @@ const ArenaMode: React.FC<ArenaModeProps> = ({ topics, userProfile, arenaStore =
                       <div className="absolute inset-0 rounded-full border border-white/10 animate-spin-slow opacity-20"></div>
                       <div className="absolute inset-[-20px] rounded-full border border-[#c89b3c]/20 animate-ping opacity-10"></div>
                       <div 
-                        className="size-64 rounded-full border-4 flex items-center justify-center relative z-10 shadow-2xl transition-transform duration-500 group-hover:scale-105"
+                        className="size-64 rounded-full border-4 flex items-center justify-center relative z-10 shadow-2xl transition-transform duration-500 group-hover:scale-105 overflow-hidden"
                         style={{ borderColor: GOLD, boxShadow: `0 0 60px ${GOLD}33, inset 0 0 40px ${GOLD}11` }}
                       >
                          <img 
                            src={pokemonEvo.url} 
-                           className="size-[85%] object-contain drop-shadow-[0_0_15px_rgba(255,255,255,0.4)]"
+                           className={`size-[85%] object-contain drop-shadow-[0_0_15px_rgba(255,255,255,0.4)] ${pokemonEvo.effect}`}
                            alt={pokemonEvo.name}
                          />
                       </div>

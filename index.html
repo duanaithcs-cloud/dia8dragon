@@ -8,7 +8,29 @@
     <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
     <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&family=Space+Grotesk:wght@300..700&display=swap" rel="stylesheet" />
     <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet" />
-    
+    <script>
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": "#0d33f2",
+                        "background-dark": "#05070a",
+                        "card-dark": "#161b33",
+                        "c1-cyan": "#00f5ff",
+                        "c2-indigo": "#6366f1",
+                        "c3-amber": "#f59e0b",
+                        "c4-green": "#00ff88",
+                        "danger-glow": "#ff0055",
+                    },
+                    fontFamily: {
+                        "display": ["Lexend", "sans-serif"],
+                        "grotesk": ["Space Grotesk", "sans-serif"]
+                    }
+                }
+            }
+        }
+    </script>
     <style>
         body { 
             font-family: 'Lexend', sans-serif; 
@@ -187,22 +209,74 @@
 
         .fill-1 { font-variation-settings: 'FILL' 1, 'wght' 700, 'GRAD' 0, 'opsz' 48; }
 
-        @keyframes star-twinkle {
-            0%, 100% { opacity: 1; transform: scale(1); filter: brightness(1.5) drop-shadow(0 0 12px #f59e0b); }
-            50% { opacity: 0.7; transform: scale(0.9); filter: brightness(1) drop-shadow(0 0 4px #f59e0b); }
+        /* PRESTIGE STAR EFFECTS */
+        @keyframes metallic-glint {
+            0% { transform: translate(-150%, -150%) rotate(45deg); opacity: 0; }
+            50% { opacity: 0.8; }
+            100% { transform: translate(150%, 150%) rotate(45deg); opacity: 0; }
         }
-        .dragon-ball-star {
-            animation: star-twinkle 2.5s infinite ease-in-out;
-            animation-delay: var(--delay);
+
+        .prestige-star {
+            position: relative;
+            background: linear-gradient(135deg, #ffffff 0%, #f59e0b 30%, #ffcc00 50%, #f59e0b 70%, #785a28 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            filter: drop-shadow(0 0 8px rgba(245, 158, 11, 0.6));
             will-change: transform, opacity, filter;
+            transition: all 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+        }
+
+        .prestige-star::after {
+            content: 'star';
+            position: absolute;
+            inset: 0;
+            background: linear-gradient(90deg, transparent, rgba(255,255,255,0.9), transparent);
+            -webkit-background-clip: text;
+            animation: metallic-glint 3s infinite linear;
+            pointer-events: none;
+            z-index: 2;
+        }
+
+        @keyframes star-vinh-quang-aura {
+            0%, 100% { filter: drop-shadow(0 0 10px rgba(245, 158, 11, 0.8)); transform: scale(1); }
+            50% { filter: drop-shadow(0 0 25px rgba(245, 158, 11, 1)); transform: scale(1.05); }
+        }
+        .star-crown-aura {
+            animation: star-vinh-quang-aura 2s infinite ease-in-out;
+            will-change: filter, transform;
+        }
+
+        /* AI GENERATING FOCUS MODE */
+        @keyframes generating-focus-pulse {
+            0%, 100% { 
+                box-shadow: 0 0 100px 20px #ffffff, inset 0 0 40px #ffffff; 
+                filter: brightness(1.5) contrast(1.2); 
+                transform: scale(2.0);
+            }
+            50% { 
+                box-shadow: 0 0 150px 40px #ffffff, inset 0 0 60px #ffffff; 
+                filter: brightness(2) contrast(1.5);
+                transform: scale(2.1) translate(2px, -2px);
+            }
+        }
+        .animate-generating-focus {
+            animation: generating-focus-pulse 0.4s ease-in-out infinite;
+            z-index: 1000 !important;
             pointer-events: none;
         }
     </style>
-
+<script type="importmap">
+{
+  "imports": {
+    "react/": "https://esm.sh/react@^19.2.3/",
+    "react": "https://esm.sh/react@^19.2.3",
+    "react-dom/": "https://esm.sh/react-dom@^19.2.3/",
+    "@google/genai": "https://esm.sh/@google/genai@^1.35.0"
+  }
+}
+</script>
 </head>
-<body>
-  <div id="root"></div>
-  <script type="module" src="/index.tsx"></script>
+<body class="overflow-hidden bg-slate-50 text-slate-900 dark:bg-background-dark dark:text-white">
+    <div id="root"></div>
 </body>
-
 </html>

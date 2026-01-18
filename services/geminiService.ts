@@ -10,7 +10,7 @@ export class GeminiService {
    * [1] TẠO QUIZ: Soạn bộ đề trắc nghiệm chuyên sâu.
    */
   static async generateQuiz(topic: Topic, count: 10 | 25, isArena: boolean = false): Promise<Question[]> {
-    const ai = new GoogleGenAI({ apiKey: process.env.GEMINI_API_KEY });
+    const ai = new GoogleGenAI({ apiKey: process.env.API_KEY });
     
     const systemInstruction = `BẠN LÀ "BỘ NÃO KHẢO THÍ ĐỊA AI" - CHUYÊN GIA SỐ 1 VỀ ĐỊA LÍ 8 (BỘ KNTT). 
     NHIỆM VỤ: Soạn bộ đề luyện năng lực cao cấp cho chuyên đề: "${topic.full_text}".
@@ -92,7 +92,7 @@ export class GeminiService {
   static async analyzeClassStrategy(students: StudentSnapshot[]): Promise<string> {
     if (students.length === 0) return "Không có dữ liệu học sinh để phân tích.";
     
-    const ai = new GoogleGenAI({ apiKey: process.env.GEMINI_API_KEY });
+    const ai = new GoogleGenAI({ apiKey: process.env.API_KEY });
     const avgMastery = Math.round(students.reduce((a, s) => a + s.avgMastery, 0) / students.length);
     const criticalCount = students.filter(s => s.status === 'CRITICAL').length;
 
@@ -118,7 +118,7 @@ export class GeminiService {
    * [3] TRA CỨU INSIGHT: Grounding kiến thức.
    */
   static async fetchTopicInsights(topic: Topic): Promise<SearchResult> {
-    const ai = new GoogleGenAI({ apiKey: process.env.GEMINI_API_KEY });
+    const ai = new GoogleGenAI({ apiKey: process.env.API_KEY });
     
     const prompt = `Tóm tắt kiến thức cốt lõi và các từ khóa quan trọng cho chuyên đề: "${topic.keyword_label}". 
     Dựa trên chương trình Địa lí 8 Kết nối tri thức. Ngắn gọn, súc tích.`;

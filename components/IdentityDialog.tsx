@@ -49,7 +49,7 @@ const IdentityDialog: React.FC<IdentityDialogProps> = ({ onConfirm, onCancel }) 
                 type="text" 
                 value={cls}
                 onChange={(e) => setCls(e.target.value)}
-                placeholder="VD: 9A1"
+                placeholder="VD: 8A"
                 className="w-full h-16 bg-white/5 border border-white/10 rounded-2xl px-6 text-lg font-bold text-white placeholder:text-gray-700 focus:border-primary focus:ring-0 transition-all uppercase"
               />
             </div>

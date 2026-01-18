@@ -86,6 +86,9 @@ const App: React.FC = () => {
     return saved ? JSON.parse(saved) : {};
   });
 
+  const [isEvolutionModalOpen, setIsEvolutionModalOpen] = useState(false);
+  const [evolutionData, setEvolutionData] = useState<{ oldRank: RankLevel, newRank: RankLevel } | null>(null);
+
   useEffect(() => {
     localStorage.setItem(APP_STATE_KEY, JSON.stringify(state));
   }, [state]);
@@ -205,20 +208,34 @@ const App: React.FC = () => {
       }
     });
     const accuracy = (correctCount / quizSession.questions.length) * 100;
-    if (isArenaMatch) {
-      const currentStats = arenaStore[quizSession.topic_id] || { star_level: 0, matches_played: 0, best_accuracy: 0, last_match_at: null, last_result: null };
-      let newStarLevel = currentStats.star_level;
-      if (accuracy >= 80) newStarLevel = Math.min(5, newStarLevel + 1);
-      setArenaStore(prev => ({
-        ...prev,
-        [quizSession.topic_id]: {
-          star_level: newStarLevel, matches_played: currentStats.matches_played + 1,
-          best_accuracy: Math.max(currentStats.best_accuracy, accuracy), last_match_at: new Date().toISOString(),
-          last_result: { correct_count: correctCount, wrong_count: quizSession.questions.length - correctCount, accuracy }
-        }
-      }));
-    }
+
+    const currentStats = arenaStore[quizSession.topic_id] || { star_level: 0, matches_played: 0, best_accuracy: 0, last_match_at: null, last_result: null };
+    let newStarLevel = currentStats.star_level;
+    if (accuracy >= 80) newStarLevel = Math.min(5, newStarLevel + 1);
+
+    setArenaStore(prev => ({
+      ...prev,
+      [quizSession.topic_id]: {
+        ...currentStats,
+        star_level: newStarLevel, 
+        matches_played: isArenaMatch ? currentStats.matches_played + 1 : currentStats.matches_played,
+        best_accuracy: Math.max(currentStats.best_accuracy, accuracy), 
+        last_match_at: new Date().toISOString(),
+        last_result: { correct_count: correctCount, wrong_count: quizSession.questions.length - correctCount, accuracy }
+      }
+    }));
+
     setCelebrationTopicId(quizSession.topic_id);
+    
+    const oldRank = state.user_profile.rank;
+    const newPoints = state.user_profile.rankPoints + scoreTotal;
+    const newRank = getRankFromPoints(newPoints);
+
+    if (newRank !== oldRank) {
+       setEvolutionData({ oldRank, newRank });
+       setTimeout(() => setIsEvolutionModalOpen(true), 1500);
+    }
+
     setState(prev => {
       const updatedTopics = prev.topics.map(t => {
         if (t.topic_id === quizSession.topic_id) {
@@ -226,10 +243,10 @@ const App: React.FC = () => {
         }
         return t;
       });
-      const newPoints = prev.user_profile.rankPoints + scoreTotal;
       const newHistoryEntry: HistoryEntry = { id: Math.random().toString(36).substr(2, 9), timestamp: new Date().toISOString(), type: isArenaMatch ? 'ARENA_MATCH_END' : 'QUIZ_COMPLETE', topicId: quizSession.topic_id, topicLabel: updatedTopics.find(t => t.topic_id === quizSession.topic_id)?.short_label || '', details: isArenaMatch ? `Đúng ${correctCount}/10` : `Đúng ${correctCount}/${quizSession.questions.length}` };
-      return { ...prev, topics: updatedTopics, user_profile: { ...prev.user_profile, rankPoints: newPoints, rank: getRankFromPoints(newPoints), streak: accuracy >= 80 ? prev.user_profile.streak + 1 : 0 }, session_log: [newHistoryEntry, ...(prev.session_log || [])].slice(0, 50) };
+      return { ...prev, topics: updatedTopics, user_profile: { ...prev.user_profile, rankPoints: newPoints, rank: newRank, streak: accuracy >= 80 ? prev.user_profile.streak + 1 : 0 }, session_log: [newHistoryEntry, ...(prev.session_log || [])].slice(0, 50) };
     });
+    
     setTimeout(() => { setCelebrationTopicId(null); setState(prev => ({ ...prev, topics: prev.topics.map(t => ({ ...t, pulse_type: null })) })); }, 3000);
     setQuizSession(null);
   };
@@ -240,6 +257,43 @@ const App: React.FC = () => {
     <div className="h-screen w-full flex flex-col bg-background-dark text-white font-display overflow-hidden">
       {showIdentityDialog && <IdentityDialog onConfirm={handleIdentityConfirm} onCancel={() => setShowIdentityDialog(false)} />}
       {showInfographic && selectedTopicId && <InfographicModal url={state.topics.find(t => t.topic_id === selectedTopicId)?.infographic_url || ""} topicName={state.topics.find(t => t.topic_id === selectedTopicId)?.keyword_label || ""} onClose={() => setShowInfographic(false)} />}
+      
+      {/* EVOLUTION MODAL */}
+      {isEvolutionModalOpen && evolutionData && (
+        <div className="fixed inset-0 z-[1000] flex items-center justify-center p-4">
+           <div className="absolute inset-0 bg-black/90 backdrop-blur-3xl animate-fade-in" onClick={() => setIsEvolutionModalOpen(false)}></div>
+           <div className="relative w-full max-w-xl text-center space-y-10 evolution-enter">
+              <div className="relative">
+                 <div className="absolute inset-0 bg-primary/20 blur-[100px] animate-pulse"></div>
+                 <h2 className="text-6xl font-black italic uppercase text-primary drop-shadow-[0_0_20px_rgba(13,51,242,0.8)]">POKEMON EVOLUTION!</h2>
+                 <p className="text-xl font-bold text-gray-400 mt-2 uppercase tracking-[0.5em]">Hành trình từ {evolutionData.oldRank} lên {evolutionData.newRank}</p>
+              </div>
+              
+              <div className="flex items-center justify-center gap-12 relative py-10">
+                 <div className="flex flex-col items-center opacity-40 grayscale">
+                    <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/447.png" className="size-40 object-contain" />
+                    <span className="text-xs font-black uppercase mt-4 text-gray-500">{evolutionData.oldRank}</span>
+                 </div>
+                 <div className="material-symbols-outlined text-5xl text-primary animate-pulse">double_arrow</div>
+                 <div className="flex flex-col items-center">
+                    <div className="relative">
+                       <div className="absolute inset-[-40px] border-2 border-primary border-dashed rounded-full animate-spin-slow opacity-30"></div>
+                       <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/448.png" className="size-64 object-contain animate-lightning relative z-10" />
+                    </div>
+                    <span className="text-2xl font-black uppercase mt-6 text-primary italic tracking-widest drop-shadow-[0_0_10px_#0d33f2]">{evolutionData.newRank}</span>
+                 </div>
+              </div>
+
+              <button 
+                onClick={() => setIsEvolutionModalOpen(false)}
+                className="px-12 py-5 bg-primary text-white font-black uppercase tracking-[0.3em] rounded-2xl shadow-[0_20px_50px_rgba(13,51,242,0.5)] hover:scale-105 active:scale-95 transition-all"
+              >
+                TIẾP TỤC HÀNH TRÌNH
+              </button>
+           </div>
+        </div>
+      )}
+
       {loadingQuiz.active && (
         <div className="fixed inset-0 z-[200] bg-transparent flex flex-col items-center justify-center animate-fade-in pointer-events-none">
            <div className="mt-8 text-center bg-black/40 backdrop-blur-md p-6 rounded-[2rem] border border-white/10">
@@ -308,12 +362,12 @@ const App: React.FC = () => {
                   arenaStore={arenaStore} 
                   onBubbleClick={(id) => { setSelectedTopicId(id); setIsDrawerOpen(true); }} 
                 />
-                {/* NÚT TRUNG TÂM ĐIỀU KHIỂN (CONTROL CENTER TRIGGER) */}
                 <button 
                   onClick={() => setIsCanvasSettingsOpen(true)}
-                  className="fixed bottom-8 right-8 z-[110] size-14 rounded-2xl bg-black/60 backdrop-blur-xl border border-white/10 flex items-center justify-center text-primary shadow-[0_0_30px_rgba(13,51,242,0.3)] hover:scale-110 active:scale-90 transition-all group animate-breathing"
+                  className="fixed bottom-8 right-8 z-[110] size-14 rounded-full bubble-inner neon-ring flex items-center justify-center transition-all hover:scale-110 active:scale-95 group animate-breathing"
+                  style={{ '--neon-color': '#0d33f2', '--core-color': '#0d33f2' } as any}
                 >
-                  <span className="material-symbols-outlined text-3xl group-hover:rotate-90 transition-transform duration-500">tune</span>
+                  <span className="material-symbols-outlined text-3xl group-hover:rotate-90 transition-transform duration-500 text-white">tune</span>
                   <div className="absolute -top-1 -right-1 size-3 bg-c4-green rounded-full border-2 border-background-dark"></div>
                 </button>
               </>
