@@ -298,7 +298,26 @@ const App: React.FC = () => {
       <main className="flex-1 relative overflow-hidden bg-background-dark">
         {quizSession ? <QuizView topic={state.topics.find(t => t.topic_id === quizSession.topic_id)!} session={quizSession} arenaStore={arenaStore} onCorrect={handleMidQuizCorrect} onComplete={handleQuizComplete} onCancel={() => setQuizSession(null)} /> : (
           <>
-            {state.view_mode === 'STUDENT_CANVAS' && <BubbleCanvas topics={state.topics} generatingTopicId={generatingTopicId} celebrationTopicId={celebrationTopicId} preferences={state.user_profile.preferences} arenaStore={arenaStore} onBubbleClick={(id) => { setSelectedTopicId(id); setIsDrawerOpen(true); }} />}
+            {state.view_mode === 'STUDENT_CANVAS' && (
+              <>
+                <BubbleCanvas 
+                  topics={state.topics} 
+                  generatingTopicId={generatingTopicId} 
+                  celebrationTopicId={celebrationTopicId} 
+                  preferences={state.user_profile.preferences} 
+                  arenaStore={arenaStore} 
+                  onBubbleClick={(id) => { setSelectedTopicId(id); setIsDrawerOpen(true); }} 
+                />
+                {/* NÚT TRUNG TÂM ĐIỀU KHIỂN (CONTROL CENTER TRIGGER) */}
+                <button 
+                  onClick={() => setIsCanvasSettingsOpen(true)}
+                  className="fixed bottom-8 right-8 z-[110] size-14 rounded-2xl bg-black/60 backdrop-blur-xl border border-white/10 flex items-center justify-center text-primary shadow-[0_0_30px_rgba(13,51,242,0.3)] hover:scale-110 active:scale-90 transition-all group animate-breathing"
+                >
+                  <span className="material-symbols-outlined text-3xl group-hover:rotate-90 transition-transform duration-500">tune</span>
+                  <div className="absolute -top-1 -right-1 size-3 bg-c4-green rounded-full border-2 border-background-dark"></div>
+                </button>
+              </>
+            )}
             {state.view_mode === 'ARENA_MODE' && <ArenaMode topics={state.topics} userProfile={state.user_profile} arenaStore={arenaStore} onStartMatch={(id) => startQuiz(id, 10, true)} />}
             {state.view_mode === 'TEACHER_DASHBOARD' && <TeacherDashboard topics={state.topics} onAssignMission={handleAssignMission} />}
           </>

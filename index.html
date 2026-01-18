@@ -8,13 +8,37 @@
     <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
     <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&family=Space+Grotesk:wght@300..700&display=swap" rel="stylesheet" />
     <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet" />
-   
+    <script>
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": "#0d33f2",
+                        "background-dark": "#05070a",
+                        "card-dark": "#161b33",
+                        "c1-cyan": "#00f5ff",
+                        "c2-indigo": "#6366f1",
+                        "c3-amber": "#f59e0b",
+                        "c4-green": "#00ff88",
+                        "danger-glow": "#ff0055",
+                    },
+                    fontFamily: {
+                        "display": ["Lexend", "sans-serif"],
+                        "grotesk": ["Space Grotesk", "sans-serif"]
+                    }
+                }
+            }
+        }
+    </script>
     <style>
-        <body>
-  <div id="root"></div>
-  <script type="module" src="/index.tsx"></script>
-</body>
-
+        body { 
+            font-family: 'Lexend', sans-serif; 
+            margin: 0; 
+            padding: 0; 
+            transition: background-color 0.3s ease, color 0.3s ease;
+            background: #05070a;
+        }
         
         .no-scrollbar::-webkit-scrollbar { display: none; }
         .no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
@@ -54,18 +78,31 @@
             z-index: 1;
         }
 
-        /* Dynamic Glass Panel */
-        .glass-panel {
-            background: rgba(255, 255, 255, 0.75);
-            backdrop-filter: blur(16px);
-            border: 1px solid rgba(0, 0, 0, 0.05);
-            color: #0f172a;
+        /* MATRIX AUDIT SCAN EFFECT */
+        @keyframes scanline-sweep {
+            0% { top: 0%; opacity: 0; }
+            10% { opacity: 1; }
+            90% { opacity: 1; }
+            100% { top: 100%; opacity: 0; }
+        }
+        .matrix-scanline {
+            position: absolute;
+            left: 0; right: 0;
+            height: 4px;
+            background: linear-gradient(to right, transparent, var(--scan-color, #0d33f2), transparent);
+            box-shadow: 0 0 20px 2px var(--scan-color, #0d33f2);
+            z-index: 50;
+            pointer-events: none;
+            animation: scanline-sweep 1.2s cubic-bezier(0.4, 0, 0.2, 1) infinite;
         }
 
-        .dark .glass-panel {
-            background: rgba(10, 12, 20, 0.85);
-            border: 1px solid rgba(255, 255, 255, 0.08);
-            color: white;
+        /* DYNAMIC LIGHTING DIM */
+        @keyframes bg-dim-overlay {
+            from { opacity: 0; }
+            to { opacity: 0.7; }
+        }
+        .bg-dim-active {
+            animation: bg-dim-overlay 0.5s ease-out forwards;
         }
 
         /* CRYPTO BUBBLE STYLING - HYPER NEON */
@@ -87,7 +124,6 @@
             filter: brightness(1.4) contrast(1.1);
         }
 
-        /* 3D Glass Sphere Look - Refractive Lens Effect */
         .bubble-inner {
             background: 
                 radial-gradient(circle at 30% 30%, rgba(255,255,255,0.4) 0%, transparent 20%),
@@ -103,7 +139,6 @@
             contain: content;
         }
 
-        /* High-End Gloss Specular */
         .bubble-inner::before {
             content: '';
             position: absolute;
@@ -119,7 +154,6 @@
             z-index: 5;
         }
 
-        /* Enhanced Shimmer Sweep */
         @keyframes shimmer-sweep {
             0% { transform: translate3d(-150%, -150%, 0) rotate(45deg); opacity: 0; }
             50% { opacity: 0.3; }
@@ -135,7 +169,6 @@
             will-change: transform, opacity;
         }
 
-        /* ORGANIC BREATHING - Pulsing Glow */
         @keyframes breathing {
             0%, 100% { transform: scale(1.0); filter: brightness(1) saturate(1); box-shadow: 0 0 20px -5px var(--neon-color); }
             50% { transform: scale(1.04); filter: brightness(1.2) saturate(1.3); box-shadow: 0 0 40px -2px var(--neon-color); }
@@ -145,7 +178,6 @@
             will-change: transform, filter, box-shadow;
         }
 
-        /* NEON PULSE RESONANCE (VIBRATE & EXPAND) */
         @keyframes pulse-green-vibrate-resonance {
             0% { box-shadow: 0 0 0 0 rgba(0, 255, 136, 0.7); transform: scale(1); }
             10% { transform: scale(1.15) translate3d(-3px, 3px, 0); }
@@ -175,7 +207,6 @@
         }
         .bubble-container:hover .hover-ripple { display: block; }
 
-        /* DRAGON BALL STARS - CELESTIAL GLOW */
         .fill-1 { font-variation-settings: 'FILL' 1, 'wght' 700, 'GRAD' 0, 'opsz' 48; }
 
         @keyframes star-twinkle {
@@ -189,11 +220,18 @@
             pointer-events: none;
         }
     </style>
-
+<script type="importmap">
+{
+  "imports": {
+    "react/": "https://esm.sh/react@^19.2.3/",
+    "react": "https://esm.sh/react@^19.2.3",
+    "react-dom/": "https://esm.sh/react-dom@^19.2.3/",
+    "@google/genai": "https://esm.sh/@google/genai@^1.35.0"
+  }
+}
+</script>
 </head>
-<body>
-  <div id="root"></div>
-  <script type="module" src="/index.tsx"></script>
+<body class="overflow-hidden bg-slate-50 text-slate-900 dark:bg-background-dark dark:text-white">
+    <div id="root"></div>
 </body>
-
 </html>
