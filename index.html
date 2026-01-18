@@ -8,29 +8,7 @@
     <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
     <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&family=Space+Grotesk:wght@300..700&display=swap" rel="stylesheet" />
     <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet" />
-    <script>
-        tailwind.config = {
-            darkMode: "class",
-            theme: {
-                extend: {
-                    colors: {
-                        "primary": "#0d33f2",
-                        "background-dark": "#05070a",
-                        "card-dark": "#161b33",
-                        "c1-cyan": "#00f5ff",
-                        "c2-indigo": "#6366f1",
-                        "c3-amber": "#f59e0b",
-                        "c4-green": "#00ff88",
-                        "danger-glow": "#ff0055",
-                    },
-                    fontFamily: {
-                        "display": ["Lexend", "sans-serif"],
-                        "grotesk": ["Space Grotesk", "sans-serif"]
-                    }
-                }
-            }
-        }
-    </script>
+    
     <style>
         body { 
             font-family: 'Lexend', sans-serif; 
@@ -220,18 +198,11 @@
             pointer-events: none;
         }
     </style>
-<script type="importmap">
-{
-  "imports": {
-    "react/": "https://esm.sh/react@^19.2.3/",
-    "react": "https://esm.sh/react@^19.2.3",
-    "react-dom/": "https://esm.sh/react-dom@^19.2.3/",
-    "@google/genai": "https://esm.sh/@google/genai@^1.35.0"
-  }
-}
-</script>
+
 </head>
-<body class="overflow-hidden bg-slate-50 text-slate-900 dark:bg-background-dark dark:text-white">
-    <div id="root"></div>
+<body>
+  <div id="root"></div>
+  <script type="module" src="/index.tsx"></script>
 </body>
+
 </html>
