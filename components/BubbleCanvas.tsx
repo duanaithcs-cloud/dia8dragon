@@ -338,11 +338,13 @@ const BubbleCanvas: React.FC<BubbleCanvasProps> = ({
                 </div>
               )}
 
-              <div className="flex flex-col items-center justify-center p-2 text-center relative z-20 transition-transform group-hover:scale-105 duration-500">
+              <div className="flex flex-col items-center justify-center p-2 text-center relative z-20 transition-transform group-hover:scale-105 duration-500 w-full overflow-hidden">
                 <span className="material-symbols-outlined text-white opacity-40 group-hover:opacity-100 transition-all duration-500 drop-shadow-[0_0_10px_rgba(255,255,255,0.4)]" style={{ fontSize: b.r * 0.6 }}>
                   {isGenerating ? 'refresh' : b.icon}
                 </span>
-                <span className="text-white font-black uppercase tracking-tighter leading-none whitespace-nowrap overflow-hidden text-ellipsis max-w-[95%] text-halo transition-all"
+                
+                {/* HIỂN THỊ TÊN CHUYÊN ĐỀ ĐẦY ĐỦ VỚI CHẾ ĐỘ XUỐNG DÒNG */}
+                <span className="text-white font-black uppercase tracking-tighter leading-tight whitespace-normal max-w-[95%] text-halo transition-all text-center"
                       style={{ fontSize: (preferences.fontSize || 16) * (b.r / 55) }}>
                   {topic?.keyword_label}
                 </span>
