@@ -1,0 +1,331 @@
+{
+  "topic_id": "1",
+  "topic_title": "VTĐL-PVLT",
+  "questions": [
+    {
+      "qid": "t01_q001",
+      "type": "mcq",
+      "level": "C1",
+      "stem": "Việt Nam nằm ở vị trí nào sau đây?",
+      "choices": [
+        { "id": "A", "text": "Trung tâm lục địa châu Á" },
+        { "id": "B", "text": "Phía đông bán đảo Đông Dương" },
+        { "id": "C", "text": "Bờ tây bán đảo Đông Dương" },
+        { "id": "D", "text": "Trên đường chí tuyến Nam" }
+      ],
+      "answer_key": "B"
+    },
+    {
+      "qid": "t01_q002",
+      "type": "mcq",
+      "level": "C1",
+      "stem": "Địa hình chiếm diện tích lớn nhất ở Việt Nam là",
+      "choices": [
+        { "id": "A", "text": "đồng bằng" },
+        { "id": "B", "text": "cao nguyên" },
+        { "id": "C", "text": "đồi núi" },
+        { "id": "D", "text": "thềm lục địa" }
+      ],
+      "answer_key": "C"
+    },
+    {
+      "qid": "t01_q003",
+      "type": "mcq",
+      "level": "C1",
+      "stem": "Vùng biển Việt Nam rộng khoảng",
+      "choices": [
+        { "id": "A", "text": "500.000 km²" },
+        { "id": "B", "text": "1 triệu km²" },
+        { "id": "C", "text": "200.000 km²" },
+        { "id": "D", "text": "1,5 triệu km²" }
+      ],
+      "answer_key": "B"
+    },
+    {
+      "qid": "t01_q004",
+      "type": "mcq",
+      "level": "C1",
+      "stem": "Đồng bằng sông Cửu Long có diện tích khoảng:",
+      "choices": [
+        { "id": "A", "text": "10.000 km²" },
+        { "id": "B", "text": "25.000 km²" },
+        { "id": "C", "text": "40.000 km²" },
+        { "id": "D", "text": "50.000 km²" }
+      ],
+      "answer_key": "C"
+    },
+    {
+      "qid": "t01_q005",
+      "type": "mcq",
+      "level": "C1",
+      "stem": "Lãnh thổ nước ta bao gồm",
+      "choices": [
+        { "id": "A", "text": "Vùng đất, vùng biển, đảo" },
+        { "id": "B", "text": "Đảo, quần đảo, đất liền" },
+        { "id": "C", "text": "Vùng biển, đảo và quần đảo" },
+        { "id": "D", "text": "Vùng đất, vùng biển, vùng trời" }
+      ],
+      "answer_key": "D"
+    },
+    {
+      "qid": "t01_q006",
+      "type": "mcq",
+      "level": "C1",
+      "stem": "Phần đất liền nước ta",
+      "choices": [
+        { "id": "A", "text": "cầu nối giữa Châu Á và Châu Âu" },
+        { "id": "B", "text": "nằm hoàn toàn trong vùng nội chí tuyến" },
+        { "id": "C", "text": "nằm giữa xích đạo và chí tuyến Nam" },
+        { "id": "D", "text": "thuộc bán cầu Bắc và bán cầu Tây" }
+      ],
+      "answer_key": "B"
+    },
+    {
+      "qid": "t01_q007",
+      "type": "mcq",
+      "level": "C1",
+      "stem": "Việt Nam không có đường biên giới trên đất liền chung với",
+      "choices": [
+        { "id": "A", "text": "Lào" },
+        { "id": "B", "text": "Campuchia" },
+        { "id": "C", "text": "Trung Quốc" },
+        { "id": "D", "text": "Thái Lan" }
+      ],
+      "answer_key": "D"
+    },
+    {
+      "qid": "t01_q008",
+      "type": "mcq",
+      "level": "C1",
+      "stem": "Việt Nam nằm ở phía nào của bán đảo Đông Dương?",
+      "choices": [
+        { "id": "A", "text": "Phía tây" },
+        { "id": "B", "text": "Phía đông" },
+        { "id": "C", "text": "Phía bắc" },
+        { "id": "D", "text": "Phía nam" }
+      ],
+      "answer_key": "B"
+    },
+    {
+      "qid": "t01_q009",
+      "type": "mcq",
+      "level": "C1",
+      "stem": "Việt Nam được xem là cầu nối giữa",
+      "choices": [
+        { "id": "A", "text": "Châu Á và châu Âu" },
+        { "id": "B", "text": "Đông Nam Á đất liền và Đông Nam Á hải đảo" },
+        { "id": "C", "text": "Châu Đại Dương và châu Mỹ" },
+        { "id": "D", "text": "Bắc Á và Tây Á" }
+      ],
+      "answer_key": "B"
+    },
+    {
+      "qid": "t01_q010",
+      "type": "mcq",
+      "level": "C1",
+      "stem": "Phía Bắc nước ta giáp quốc gia nào sau đây?",
+      "choices": [
+        { "id": "A", "text": "Thái Lan" },
+        { "id": "B", "text": "Trung Quốc" },
+        { "id": "C", "text": "Myanmar" },
+        { "id": "D", "text": "Malaysia" }
+      ],
+      "answer_key": "B"
+    },
+    {
+      "qid": "t01_q011",
+      "type": "mcq",
+      "level": "C1",
+      "stem": "Phía Tây nước ta giáp các quốc gia nào sau đây?",
+      "choices": [
+        { "id": "A", "text": "Lào và Campuchia" },
+        { "id": "B", "text": "Trung Quốc và Lào" },
+        { "id": "C", "text": "Thái Lan và Myanmar" },
+        { "id": "D", "text": "Indonesia và Malaysia" }
+      ],
+      "answer_key": "A"
+    },
+    {
+      "qid": "t01_q012",
+      "type": "mcq",
+      "level": "C1",
+      "stem": "Phía Đông và Đông Nam nước ta giáp",
+      "choices": [
+        { "id": "A", "text": "Ấn Độ Dương" },
+        { "id": "B", "text": "Biển Đông" },
+        { "id": "C", "text": "Biển Đỏ" },
+        { "id": "D", "text": "Địa Trung Hải" }
+      ],
+      "answer_key": "B"
+    },
+    {
+      "qid": "t01_q013",
+      "type": "mcq",
+      "level": "C1",
+      "stem": "Điểm cực Bắc của Việt Nam có tọa độ gần đúng là",
+      "choices": [
+        { "id": "A", "text": "23°23′B" },
+        { "id": "B", "text": "8°34′B" },
+        { "id": "C", "text": "109°28′Đ" },
+        { "id": "D", "text": "102°10′Đ" }
+      ],
+      "answer_key": "A"
+    },
+    {
+      "qid": "t01_q014",
+      "type": "mcq",
+      "level": "C1",
+      "stem": "Điểm cực Nam của Việt Nam có tọa độ gần đúng là",
+      "choices": [
+        { "id": "A", "text": "23°23′B" },
+        { "id": "B", "text": "8°34′B" },
+        { "id": "C", "text": "109°28′Đ" },
+        { "id": "D", "text": "102°10′Đ" }
+      ],
+      "answer_key": "B"
+    },
+    {
+      "qid": "t01_q015",
+      "type": "mcq",
+      "level": "C1",
+      "stem": "Điểm cực Đông của Việt Nam có tọa độ gần đúng là",
+      "choices": [
+        { "id": "A", "text": "23°23′B" },
+        { "id": "B", "text": "8°34′B" },
+        { "id": "C", "text": "109°28′Đ" },
+        { "id": "D", "text": "102°10′Đ" }
+      ],
+      "answer_key": "C"
+    },
+    {
+      "qid": "t01_q016",
+      "type": "mcq",
+      "level": "C1",
+      "stem": "Điểm cực Tây của Việt Nam có tọa độ gần đúng là",
+      "choices": [
+        { "id": "A", "text": "23°23′B" },
+        { "id": "B", "text": "8°34′B" },
+        { "id": "C", "text": "109°28′Đ" },
+        { "id": "D", "text": "102°10′Đ" }
+      ],
+      "answer_key": "D"
+    },
+    {
+      "qid": "t01_q017",
+      "type": "mcq",
+      "level": "C1",
+      "stem": "Điểm cực Đông của Việt Nam thuộc tỉnh nào theo dữ liệu đã cho?",
+      "choices": [
+        { "id": "A", "text": "Khánh Hòa" },
+        { "id": "B", "text": "Cà Mau" },
+        { "id": "C", "text": "Điện Biên" },
+        { "id": "D", "text": "Tuyên Quang" }
+      ],
+      "answer_key": "A"
+    },
+    {
+      "qid": "t01_q018",
+      "type": "mcq",
+      "level": "C2",
+      "stem": "Thuận lợi nổi bật của vị trí giáp biển đối với phát triển kinh tế nước ta là",
+      "choices": [
+        { "id": "A", "text": "Chỉ phát triển được nông nghiệp lúa nước" },
+        { "id": "B", "text": "Phát triển tổng hợp kinh tế biển" },
+        { "id": "C", "text": "Giảm hoàn toàn rủi ro thiên tai" },
+        { "id": "D", "text": "Không chịu tác động của giao thông quốc tế" }
+      ],
+      "answer_key": "B"
+    },
+    {
+      "qid": "t01_q019",
+      "type": "mcq",
+      "level": "C2",
+      "stem": "Khó khăn lớn do đường bờ biển dài và tiếp giáp biển Đông mang lại là",
+      "choices": [
+        { "id": "A", "text": "Thiếu mưa nghiêm trọng quanh năm" },
+        { "id": "B", "text": "Ảnh hưởng của bão biển và thiên tai" },
+        { "id": "C", "text": "Không thể giao lưu với bên ngoài" },
+        { "id": "D", "text": "Không có tài nguyên hải sản" }
+      ],
+      "answer_key": "B"
+    },
+    {
+      "qid": "t01_q020",
+      "type": "mcq",
+      "level": "C2",
+      "stem": "Vị trí tiếp xúc của các luồng gió mùa có ý nghĩa chủ yếu làm",
+      "choices": [
+        { "id": "A", "text": "khí hậu nước ta hoàn toàn khô hạn" },
+        { "id": "B", "text": "khí hậu mang tính chất nhiệt đới ẩm gió mùa và phân mùa rõ" },
+        { "id": "C", "text": "mùa đông nóng hơn mùa hè" },
+        { "id": "D", "text": "khí hậu đồng nhất hoàn toàn trên cả nước" }
+      ],
+      "answer_key": "B"
+    },
+    {
+      "qid": "t01_q021",
+      "type": "mcq",
+      "level": "C2",
+      "stem": "Vị trí nội chí tuyến Bắc bán cầu là cơ sở quan trọng làm cho thiên nhiên nước ta",
+      "choices": [
+        { "id": "A", "text": "có nền nhiệt cao, nhận được nhiều bức xạ Mặt Trời" },
+        { "id": "B", "text": "chịu băng tuyết quanh năm" },
+        { "id": "C", "text": "có khí hậu hàn đới" },
+        { "id": "D", "text": "mưa rất ít và độ ẩm thấp" }
+      ],
+      "answer_key": "A"
+    },
+    {
+      "qid": "t01_q022",
+      "type": "mcq",
+      "level": "C3",
+      "stem": "Lãnh thổ Việt Nam kéo dài theo chiều Bắc – Nam chủ yếu dẫn đến hệ quả tự nhiên nào?",
+      "choices": [
+        { "id": "A", "text": "Thiên nhiên hoàn toàn đồng nhất theo vĩ độ" },
+        { "id": "B", "text": "Phân hóa thiên nhiên theo chiều Bắc – Nam" },
+        { "id": "C", "text": "Chỉ phân hóa theo kinh tuyến" },
+        { "id": "D", "text": "Không có sự phân hóa khí hậu" }
+      ],
+      "answer_key": "B"
+    },
+    {
+      "qid": "t01_q023",
+      "type": "mcq",
+      "level": "C3",
+      "stem": "Vị trí “cầu nối giữa đất liền và biển” góp phần quan trọng tạo nên đặc điểm nào của thiên nhiên Việt Nam?",
+      "choices": [
+        { "id": "A", "text": "Thiên nhiên thuần lục địa, ít chịu tác động biển" },
+        { "id": "B", "text": "Tính biển thể hiện rõ và thiên nhiên đa dạng, phân hóa" },
+        { "id": "C", "text": "Chỉ có cảnh quan hoang mạc" },
+        { "id": "D", "text": "Không có hệ sinh thái ven biển" }
+      ],
+      "answer_key": "B"
+    },
+    {
+      "qid": "t01_q024",
+      "type": "mcq",
+      "level": "C4",
+      "stem": "Nhận định nào sau đây đúng nhất về tác động tổng hợp của vị trí địa lí Việt Nam?",
+      "choices": [
+        { "id": "A", "text": "Chỉ tạo thuận lợi, hầu như không có rủi ro tự nhiên" },
+        { "id": "B", "text": "Vừa tạo điều kiện giao lưu – phát triển kinh tế biển, vừa làm tăng rủi ro thiên tai do chịu tác động biển và gió mùa" },
+        { "id": "C", "text": "Chủ yếu làm khí hậu lạnh quanh năm" },
+        { "id": "D", "text": "Không ảnh hưởng đến phân hóa tự nhiên" }
+      ],
+      "answer_key": "B"
+    },
+    {
+      "qid": "t01_q025",
+      "type": "mcq",
+      "level": "C2",
+      "stem": "Nội dung “Vị trí tiếp xúc các luồng sinh vật” giải thích trực tiếp nhất cho đặc điểm nào của sinh vật Việt Nam?",
+      "choices": [
+        { "id": "A", "text": "Ít loài, nghèo hệ sinh thái" },
+        { "id": "B", "text": "Đa dạng thành phần loài và hệ sinh thái do giao thoa" },
+        { "id": "C", "text": "Chỉ có loài ôn đới" },
+        { "id": "D", "text": "Không có loài biển" }
+      ],
+      "answer_key": "B"
+    }
+  ]
+}
