@@ -6,231 +6,247 @@ import { Question, Topic, StudentSnapshot, SearchResult } from "../types";
  */
 export class GeminiService {
   // ===== Helpers =====
-  private static isTopic1(topic?: Topic) {
-    return String((topic as any)?.id ?? "") === "1";
+  private static normalizeSkillTag(input: any): "C1" | "C2" | "C3" | "C4" {
+    const v = String(input ?? "").toUpperCase().trim();
+    if (v === "C1" || v === "C2" || v === "C3" || v === "C4") return v;
+    return "C1";
+  }
+
+  private static safeJsonParse(text?: string): any {
+    try {
+      return JSON.parse(text || "{}");
+    } catch {
+      return {};
+    }
   }
 
   /**
-   * Trả base URL dùng cho fetch trên SERVER.
-   * - Client: dùng relative (/data/...)
-   * - Server (Vercel): dùng https://${VERCEL_URL}
+   * Convert Topic #1 static JSON (stem + choices[{id,text}]) -> app Question schema (prompt + choices{A,B,C,D})
+   * Hỗ trợ luôn trường hợp JSON đã đúng schema app.
    */
-  private static getBaseUrlForServer(): string {
-    // Client
-    if (typeof window !== "undefined") return "";
+  private static convertStaticQuestions(rawQuestions: any[]): Question[] {
+    if (!Array.isArray(rawQuestions)) return [];
 
-    // Server on Vercel
-    const vercelUrl = process.env.VERCEL_URL; // ví dụ: dia8dragon.vercel.app
-    if (vercelUrl) return `https://${vercelUrl}`;
+    return rawQuestions.map((q: any, idx: number) => {
+      // Nếu đã là schema app (prompt + choices object)
+      const hasPrompt = typeof q?.prompt === "string";
+      const hasChoicesObject =
+        q?.choices &&
+        typeof q.choices === "object" &&
+        !Array.isArray(q.choices) &&
+        ("A" in q.choices || "B" in q.choices || "C" in q.choices || "D" in q.choices);
 
-    // Fallback local/dev
-    return "http://localhost:3000";
-  }
+      if (hasPrompt) {
+        // chuẩn hóa nhẹ
+        const out: any = { ...q };
+        out.qid = out.qid || q.qid || `T1-${idx + 1}`;
+        out.type = out.type || "MCQ";
+        out.skill_tag = this.normalizeSkillTag(out.skill_tag || out.level || out.skillTag);
+        out.difficulty = typeof out.difficulty === "number" ? out.difficulty : 1;
+        if (out.type === "MCQ" && !hasChoicesObject) {
+          // cố map nếu choices dạng array
+          if (Array.isArray(out.choices)) {
+            const map: any = {};
+            for (const c of out.choices) {
+              if (c?.id && c?.text) map[String(c.id).toUpperCase()] = String(c.text);
+            }
+            out.choices = { A: map.A || "...", B: map.B || "...", C: map.C || "...", D: map.D || "..." };
+          } else {
+            out.choices = { A: "...", B: "...", C: "...", D: "..." };
+          }
+        }
+        out.answer_key = (out.answer_key || "A").toString().toUpperCase();
+        out.explain =
+          out.explain ||
+          "[CORE FACT]: Dữ liệu tĩnh Topic #1. [DEEP DIVE]: Câu hỏi lấy từ kho đề GitHub. [PRO TIP]: Luyện theo C1→C4.";
+        return out as Question;
+      }
 
-  /** Convert choices array [{id:"A", text:"..."}, ...] -> {A:"...",B:"...",C:"...",D:"..."} */
-  private static toChoicesObject(
-    choices: any
-  ): { A: string; B: string; C: string; D: string } | undefined {
-    if (!Array.isArray(choices)) return undefined;
+      // Schema JSON đang là (stem, choices: [{id,text}], answer_key, level)
+      const stem = q?.stem ?? q?.question ?? q?.text ?? "";
+      const choicesArr = Array.isArray(q?.choices) ? q.choices : [];
+      const choiceMap: Record<string, string> = {};
+      for (const c of choicesArr) {
+        if (!c) continue;
+        const id = String(c.id ?? "").toUpperCase().trim();
+        const text = String(c.text ?? "");
+        if (id) choiceMap[id] = text;
+      }
 
-    const map: any = {};
-    for (const c of choices) {
-      const k = String(c?.id ?? "").toUpperCase();
-      if (["A", "B", "C", "D"].includes(k)) map[k] = String(c?.text ?? "");
-    }
+      const typeRaw = String(q?.type ?? "MCQ").toUpperCase();
+      const isTF = typeRaw === "TF" || typeRaw === "TRUEFALSE" || typeRaw === "DUNGSAI";
+      const isFill = typeRaw === "FILL" || typeRaw === "FILLIN" || typeRaw === "DIENKHUYET";
 
-    if (!map.A) map.A = "...";
-    if (!map.B) map.B = "...";
-    if (!map.C) map.C = "...";
-    if (!map.D) map.D = "...";
+      // App thường dùng: MCQ / TF / FILL
+      const outType = isTF ? "TF" : isFill ? "FILL" : "MCQ";
 
-    return map as { A: string; B: string; C: string; D: string };
-  }
-
-  /** Convert {A,B,C,D} -> [{id:"A", text:"..."}, ...]  (nhiều UI cần dạng array) */
-  private static toChoicesArray(choicesObj: any) {
-    if (!choicesObj || typeof choicesObj !== "object") return undefined;
-    return ["A", "B", "C", "D"].map((k) => ({ id: k, text: String(choicesObj[k] ?? "...") }));
-  }
-
-  /** Normalize question từ JSON tĩnh -> schema "an toàn" cho nhiều UI */
-  private static normalizeFromTopicJson(raw: any): Question {
-    const qid = String(raw?.qid ?? raw?.id ?? `Q-${Math.random().toString(36).slice(2, 8)}`);
-
-    const rawType = String(raw?.type ?? "MCQ").toUpperCase();
-    const level = String(raw?.level ?? raw?.skill_tag ?? "C1").toUpperCase();
-    const answerKey = String(raw?.answer_key ?? raw?.answer ?? raw?.answerKey ?? "A").toUpperCase();
-
-    const type =
-      rawType === "TF" || rawType === "TRUE_FALSE" || rawType === "TRUE/FALSE"
-        ? "TF"
-        : rawType === "FILL" || rawType === "FILL_BLANK" || rawType === "FILL-IN"
-        ? "FILL"
-        : "MCQ";
-
-    const stem = String(raw?.stem ?? raw?.prompt ?? "");
-    const prompt = String(raw?.prompt ?? raw?.stem ?? "");
-
-    const choicesObj =
-      type === "MCQ"
-        ? (this.toChoicesObject(raw?.choices) ??
-           (raw?.choices && typeof raw.choices === "object" ? raw.choices : { A: "...", B: "...", C: "...", D: "..." }))
-        : undefined;
-
-    const explain =
-      String(raw?.explain ?? "").trim() ||
-      "[CORE FACT]: Câu hỏi lấy từ bộ đề tĩnh Topic #1. [DEEP DIVE]: Ôn đúng kiến thức SGK và phân tích đáp án. [PRO TIP]: Gạch từ khóa trong đề trước khi chọn.";
-
-    const difficulty = Number.isFinite(raw?.difficulty) ? Number(raw.difficulty) : 1;
-    const skill_tag = ["C1", "C2", "C3", "C4"].includes(level) ? level : "C1";
-
-    // ✅ Trả ra object “kép” để UI kiểu nào cũng đọc được:
-    const normalized: any = {
-      qid,
-      type,
-      level: skill_tag,      // hỗ trợ UI dùng level
-      skill_tag,             // hỗ trợ UI dùng skill_tag
-      difficulty,
-
-      stem,                  // hỗ trợ UI dùng stem
-      prompt,                // hỗ trợ UI dùng prompt
-
-      answer_key: answerKey, // hỗ trợ UI dùng answer_key
-      answerKey,             // hỗ trợ UI dùng answerKey
-      explain,
-    };
-
-    if (type === "MCQ") {
-      normalized.choices = choicesObj;                  // dạng object A/B/C/D
-      normalized.choicesArray = this.toChoicesArray(choicesObj); // dạng array [{id,text}]
-    }
-
-    return normalized as Question;
-  }
-
-  /** Load static Topic #1 JSON from Vercel public, and normalize for UI */
-  private static async loadTopic1StaticQuiz(): Promise<Question[]> {
-    const base = this.getBaseUrlForServer();
-    const url = `${base}/data/topics/1.json`;
-
-    const res = await fetch(url, { cache: "no-store" });
-
-    if (!res.ok) {
-      throw new Error(`Cannot load Topic #1 JSON: ${url} (HTTP ${res.status})`);
-    }
-
-    const data = await res.json();
-    const arr = Array.isArray(data?.questions) ? data.questions : [];
-
-    if (!arr.length) {
-      throw new Error(`Topic #1 JSON loaded but has no questions[] at ${url}`);
-    }
-
-    return arr.map((q: any) => this.normalizeFromTopicJson(q));
-  }
-
-  // ===== [1] TẠO QUIZ =====
-  static async generateQuiz(
-    topic: Topic,
-    count: 10 | 25,
-    isArena: boolean = false
-  ): Promise<Question[]> {
-    // ✅ TEST MODE: Topic #1 MUST use static JSON ONLY (no fallback)
-    if (this.isTopic1(topic)) {
-      const all = await this.loadTopic1StaticQuiz();
-      return all.slice(0, count);
-    }
-
-    // --- Other topics: Gemini normal ---
-    const ai = new GoogleGenAI({ apiKey: process.env.GEMINI_API_KEY });
-
-    const systemInstruction = `BẠN LÀ "BỘ NÃO KHẢO THÍ ĐỊA AI" - CHUYÊN GIA SỐ 1 VỀ ĐỊA LÍ 8 (BỘ KNTT).
-NHIỆM VỤ: Soạn bộ đề luyện năng lực cao cấp cho chuyên đề: "${topic.full_text}".
-${isArena ? "CHẾ ĐỘ: ARENA COMBAT (Yêu cầu các câu hỏi lắt léo, bẫy tư duy, đòi hỏi kỹ năng C3-C4 cao)." : ""}
-YÊU CẦU: trả về JSON thuần túy, không có text thừa.`;
-
-    const response = await ai.models.generateContent({
-      model: "gemini-3-flash-preview",
-      contents: `Generate ${count} questions for topic: ${topic.keyword_label}.`,
-      config: {
-        systemInstruction,
-        responseMimeType: "application/json",
-        responseSchema: {
-          type: Type.OBJECT,
-          properties: {
-            questions: {
-              type: Type.ARRAY,
-              items: {
-                type: Type.OBJECT,
-                properties: {
-                  qid: { type: Type.STRING },
-                  type: { type: Type.STRING },
-                  skill_tag: { type: Type.STRING },
-                  difficulty: { type: Type.NUMBER },
-                  prompt: { type: Type.STRING },
-                  choices: {
-                    type: Type.OBJECT,
-                    properties: {
-                      A: { type: Type.STRING },
-                      B: { type: Type.STRING },
-                      C: { type: Type.STRING },
-                      D: { type: Type.STRING },
-                    },
-                  },
-                  answer_key: { type: Type.STRING },
-                  explain: { type: Type.STRING },
-                },
-                required: ["qid", "type", "skill_tag", "difficulty", "prompt", "answer_key", "explain"],
-              },
-            },
-          },
-          required: ["questions"],
-        },
-      },
-    });
-
-    const parsed = JSON.parse(response.text || `{"questions":[]}`);
-    const questions = Array.isArray(parsed?.questions) ? parsed.questions : [];
-
-    return questions.map((q: any) => {
       const out: any = {
-        qid: String(q?.qid ?? `Q-${Math.random().toString(36).slice(2, 8)}`),
-        type: String(q?.type ?? "MCQ").toUpperCase(),
-        skill_tag: ["C1", "C2", "C3", "C4"].includes(String(q?.skill_tag).toUpperCase())
-          ? String(q.skill_tag).toUpperCase()
-          : "C1",
-        level: ["C1", "C2", "C3", "C4"].includes(String(q?.skill_tag).toUpperCase())
-          ? String(q.skill_tag).toUpperCase()
-          : "C1",
-        difficulty: Number.isFinite(q?.difficulty) ? Number(q.difficulty) : 1,
-        prompt: String(q?.prompt ?? ""),
-        stem: String(q?.prompt ?? ""),
-        answer_key: String(q?.answer_key ?? "A").toUpperCase(),
-        answerKey: String(q?.answer_key ?? "A").toUpperCase(),
-        explain: String(q?.explain ?? "").trim() || "[CORE FACT]: ... [DEEP DIVE]: ... [PRO TIP]: ...",
+        qid: q?.qid || `T1-${idx + 1}`,
+        type: outType,
+        skill_tag: this.normalizeSkillTag(q?.level || q?.skill_tag),
+        difficulty: typeof q?.difficulty === "number" ? q.difficulty : 1,
+        prompt: String(stem),
+        answer_key: (q?.answer_key || "A").toString().toUpperCase(),
+        explain:
+          q?.explain ||
+          "[CORE FACT]: Dữ liệu tĩnh Topic #1. [DEEP DIVE]: Câu hỏi lấy từ kho đề GitHub. [PRO TIP]: Chú ý bẫy khái niệm.",
       };
 
-      if (out.type === "MCQ") {
-        out.choices = q?.choices ?? { A: "...", B: "...", C: "...", D: "..." };
-        out.choicesArray = GeminiService.toChoicesArray(out.choices);
+      if (outType === "MCQ") {
+        out.choices = {
+          A: choiceMap.A || "...",
+          B: choiceMap.B || "...",
+          C: choiceMap.C || "...",
+          D: choiceMap.D || "...",
+        };
+      } else {
+        // TF/FILL thường không cần choices object kiểu A-D (tùy UI). Nếu UI cần, có thể thêm.
+        // Giữ undefined để tránh UI hiểu nhầm.
+        out.choices = undefined;
       }
+
       return out as Question;
     });
   }
 
-  // ===== [2] PHÂN TÍCH CHIẾN LƯỢC =====
-  static async analyzeClassStrategy(students: StudentSnapshot[]): Promise<string> {
-    if (!students?.length) return "Không có dữ liệu học sinh để phân tích.";
+  /**
+   * [1] TẠO QUIZ: Soạn bộ đề trắc nghiệm chuyên sâu.
+   */
+  static async generateQuiz(topic: Topic, count: 10 | 25, isArena: boolean = false): Promise<Question[]> {
+    // ✅ HARD LOCK: Topic #1 luôn dùng JSON tĩnh (không gọi Gemini)
+    if (String(topic?.id) === "1") {
+      const url = `/data/topics/1.json`;
+      const res = await fetch(url, { cache: "no-store" });
 
-    const ai = new GoogleGenAI({ apiKey: process.env.GEMINI_API_KEY });
-    const avgMastery = Math.round(students.reduce((a, s) => a + (s.avgMastery ?? 0), 0) / students.length);
+      if (!res.ok) {
+        // Không fallback sang Gemini để khỏi “lẫn nguồn”
+        throw new Error(`Cannot load ${url}: ${res.status}`);
+      }
+
+      const data = await res.json();
+      const questions = this.convertStaticQuestions(data?.questions ?? []);
+      // cắt đúng số lượng yêu cầu (10 hoặc 25) cho đồng bộ UI
+      return questions.slice(0, count);
+    }
+
+    // ===== Gemini path (topic khác #1) =====
+    const apiKey = process.env.GEMINI_API_KEY;
+    if (!apiKey) throw new Error("Missing GEMINI_API_KEY in environment variables.");
+
+    const ai = new GoogleGenAI({ apiKey });
+
+    const systemInstruction = `BẠN LÀ "BỘ NÃO KHẢO THÍ ĐỊA AI" - CHUYÊN GIA SỐ 1 VỀ ĐỊA LÍ 8 (BỘ KNTT).
+NHIỆM VỤ: Soạn bộ đề luyện năng lực cao cấp cho chuyên đề: "${topic.full_text}".
+${isArena ? 'CHẾ ĐỘ: ARENA COMBAT (Yêu cầu các câu hỏi lắt léo, bẫy tư duy, đòi hỏi kỹ năng C3-C4 cao).' : ''}
+
+YÊU CẦU KỸ THUẬT QUAN TRỌNG:
+1. LOẠI CÂU HỎI: Phối hợp MCQ (A,B,C,D), TF (Nhận định Đúng/Sai), và FILL (Điền khuyết).
+2. CHI TIẾT DẠNG NHẬN ĐỊNH ĐÚNG/SAI (TF):
+   - KHÔNG soạn câu đơn giản. Phải soạn dạng NHẬN ĐỊNH PHỨC HỢP: [Hiện tượng] + [Nguyên nhân] + [Hệ quả/Đặc điểm chi tiết].
+   - Cài bẫy logic: hiện tượng đúng nhưng nguyên nhân sai, hoặc nhầm đặc điểm giữa vùng/miền.
+3. CHUẨN NĂNG LỰC: Skill Tag từ C1 đến C4.
+4. GIẢI THÍCH CHUYÊN SÂU (BẮT BUỘC): "explain" theo cấu trúc:
+   - [CORE FACT]
+   - [DEEP DIVE]
+   - [PRO TIP]
+5. TRẢ VỀ JSON THUẦN TÚY. KHÔNG CÓ TEXT THỪA.`;
+
+    try {
+      const response = await ai.models.generateContent({
+        model: "gemini-3-flash-preview",
+        contents: `Generate ${count} specialized questions for topic: ${topic.keyword_label}.`,
+        config: {
+          systemInstruction,
+          responseMimeType: "application/json",
+          responseSchema: {
+            type: Type.OBJECT,
+            properties: {
+              questions: {
+                type: Type.ARRAY,
+                items: {
+                  type: Type.OBJECT,
+                  properties: {
+                    qid: { type: Type.STRING },
+                    type: { type: Type.STRING }, // MCQ | TF | FILL
+                    skill_tag: { type: Type.STRING }, // C1..C4
+                    difficulty: { type: Type.NUMBER },
+                    prompt: { type: Type.STRING },
+                    choices: {
+                      type: Type.OBJECT,
+                      properties: {
+                        A: { type: Type.STRING },
+                        B: { type: Type.STRING },
+                        C: { type: Type.STRING },
+                        D: { type: Type.STRING },
+                      },
+                    },
+                    answer_key: { type: Type.STRING },
+                    explain: { type: Type.STRING },
+                  },
+                  required: ["qid", "type", "skill_tag", "difficulty", "prompt", "answer_key", "explain"],
+                },
+              },
+            },
+            required: ["questions"],
+          },
+        },
+      });
+
+      const data = this.safeJsonParse(response.text);
+      const arr = Array.isArray(data?.questions) ? data.questions : [];
+
+      return arr.map((q: any, i: number) => {
+        const qid = q?.qid || `Q-${Math.random().toString(36).slice(2, 7)}`;
+        const type = (q?.type || "MCQ").toString().toUpperCase();
+        const skill_tag = this.normalizeSkillTag(q?.skill_tag);
+        const difficulty = typeof q?.difficulty === "number" ? q.difficulty : 1;
+
+        const out: any = {
+          ...q,
+          qid,
+          type,
+          skill_tag,
+          difficulty,
+          prompt: String(q?.prompt || ""),
+          answer_key: (q?.answer_key || "A").toString().toUpperCase(),
+          explain:
+            q?.explain ||
+            "[CORE FACT]: Dữ liệu hệ thống. [DEEP DIVE]: Phân tích theo từng vế. [PRO TIP]: Ghi nhớ từ khóa vàng.",
+        };
+
+        if (type === "MCQ") {
+          out.choices = q?.choices || { A: "...", B: "...", C: "...", D: "..." };
+        } else {
+          out.choices = undefined;
+        }
+
+        return out as Question;
+      });
+    } catch (error) {
+      console.error("GeminiService.generateQuiz Error:", error);
+      throw error;
+    }
+  }
+
+  /**
+   * [2] PHÂN TÍCH CHIẾN LƯỢC: Quét ma trận CCTV lớp.
+   */
+  static async analyzeClassStrategy(students: StudentSnapshot[]): Promise<string> {
+    if (students.length === 0) return "Không có dữ liệu học sinh để phân tích.";
+
+    const apiKey = process.env.GEMINI_API_KEY;
+    if (!apiKey) return "Thiếu GEMINI_API_KEY nên không thể phân tích chiến lược.";
+
+    const ai = new GoogleGenAI({ apiKey });
+
+    const avgMastery = Math.round(students.reduce((a, s) => a + (s.avgMastery || 0), 0) / students.length);
     const criticalCount = students.filter((s) => s.status === "CRITICAL").length;
 
     const prompt = `Bạn là Hội đồng Chiến lược Giáo dục Địa AI.
 Phân tích dữ liệu Matrix 33 chuyên đề của ${students.length} học sinh.
 Mastery trung bình lớp: ${avgMastery}%.
 Số HS nguy cấp (<40%): ${criticalCount}.
-Hãy đưa ra 3 phương án can thiệp chiến lược.`;
+Hãy đưa ra 3 phương án can thiệp NANO-MATRIX chiến lược.`;
 
     try {
       const response = await ai.models.generateContent({
@@ -244,11 +260,17 @@ Hãy đưa ra 3 phương án can thiệp chiến lược.`;
     }
   }
 
-  // ===== [3] TRA CỨU INSIGHT =====
+  /**
+   * [3] TRA CỨU INSIGHT: Grounding kiến thức.
+   */
   static async fetchTopicInsights(topic: Topic): Promise<SearchResult> {
-    const ai = new GoogleGenAI({ apiKey: process.env.GEMINI_API_KEY });
+    const apiKey = process.env.GEMINI_API_KEY;
+    if (!apiKey) return { summary: "Thiếu GEMINI_API_KEY nên không thể tra cứu.", sources: [] };
 
-    const prompt = `Tóm tắt kiến thức cốt lõi và từ khóa quan trọng cho chuyên đề: "${topic.keyword_label}" (Địa lí 8 KNTT).`;
+    const ai = new GoogleGenAI({ apiKey });
+
+    const prompt = `Tóm tắt kiến thức cốt lõi và các từ khóa quan trọng cho chuyên đề: "${topic.keyword_label}".
+Dựa trên chương trình Địa lí 8 Kết nối tri thức. Ngắn gọn, súc tích.`;
 
     try {
       const response = await ai.models.generateContent({
@@ -258,9 +280,9 @@ Hãy đưa ra 3 phương án can thiệp chiến lược.`;
       });
 
       const summary = response.text || "Không tìm thấy thông tin tóm tắt.";
-      const chunks = (response as any)?.candidates?.[0]?.groundingMetadata?.groundingChunks || [];
+      const chunks = response.candidates?.[0]?.groundingMetadata?.groundingChunks || [];
       const sources = chunks
-        .filter((c: any) => c?.web?.uri)
+        .filter((c: any) => c.web)
         .map((c: any) => ({ title: c.web.title, uri: c.web.uri }));
 
       return { summary, sources: sources.slice(0, 3) };
