@@ -8,13 +8,7 @@ export class GeminiService {
   /**
    * [1] TẠO QUIZ: Soạn bộ đề trắc nghiệm chuyên sâu.
    */
-  static async generateQuiz(topic: Topic, count: 10 | 25, isArena: boolean = false): Promise<Question[]> {    // ✅ TEST MODE: Topic #1 uses static JSON from GitHub (Vercel public)
-    if (String(topic?.id) === "1") {
-      const res = await fetch(`/data/topics/1.json`, { cache: "no-store" });
-      if (!res.ok) throw new Error(`Cannot load /data/topics/1.json: ${res.status}`);
-      const data = await res.json();
-      return (data?.questions ?? []) as Question[];
-    }
+  static async generateQuiz(topic: Topic, count: 10 | 25, isArena: boolean = false): Promise<Question[]> {  
 
     const ai = new GoogleGenAI({ apiKey: process.env.GEMINI_API_KEY });
     
