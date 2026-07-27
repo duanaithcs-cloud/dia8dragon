@@ -10,7 +10,18 @@ lerna-debug.log*
 node_modules
 dist
 dist-ssr
+release
 *.local
+
+# Secrets and Vercel local metadata
+.env
+.env.*
+!.env.example
+.vercel
+
+# Local audit screenshots
+audit-*.png
+audit-*.jpg
 
 # Editor directories and files
 .vscode/*

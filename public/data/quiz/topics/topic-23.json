@@ -1,0 +1,38 @@
+{
+  "topic_id": 23,
+  "label": "Dat feralit va gia tri su dung",
+  "status": "accepted",
+  "accepted_count": 2,
+  "questions": [
+    {
+      "qid": "D8-T23-MCQ-001",
+      "topic_id": "23",
+      "type": "MCQ",
+      "skill_tag": "C3",
+      "cognitive_level": "TH",
+      "difficulty": 2,
+      "prompt": "Câu 12: Nội dung nào sau đây không phải là nguyên nhân dẫn đến tình trạng thoái hóa đất ở Việt Nam?",
+      "answer_key": "B",
+      "explain": "[CORE FACT]: Dap an lay truc tiep tu tai lieu C1-C4 da gui. [DEEP DIVE]: Cau hoi duoc gan vao bong bong \"Dat feralit va gia tri su dung\" theo tu khoa va mach noi dung trong tai lieu. [PRO TIP]: Neu chua chac, mo lai phan A/B cua file goc de doi chieu.",
+      "source_file": "LOP_8_C3---c68ef26f-94b3-44a8-bb7f-e11f5ae96917.docx",
+      "choices": {
+        "A": "Việt Nam có 3/4 diện tích đồi núi, có độ dốc cao.",
+        "B": "Hạn chế sử dụng phân bón hóa học trong sản xuất nông nghiệp.",
+        "C": "Biến đổi khí hậu làm gia tăng tình trạng hạn hán, ngập lụt.",
+        "D": "Nạn phá rừng để lấy gỗ, đốt nương làm rẫy."
+      }
+    },
+    {
+      "qid": "D8-T23-FILL-002",
+      "topic_id": "23",
+      "type": "FILL",
+      "skill_tag": "C3",
+      "cognitive_level": "TH",
+      "difficulty": 2,
+      "prompt": "Câu 3. Lớp phủ thổ nhưỡng của nước ta có tính chất điển hình nào?",
+      "answer_key": "Câu 3. Nhiệt đới ẩm gió mùa.",
+      "explain": "[CORE FACT]: Dap an lay truc tiep tu tai lieu C1-C4 da gui. [DEEP DIVE]: Cau hoi duoc gan vao bong bong \"Dat feralit va gia tri su dung\" theo tu khoa va mach noi dung trong tai lieu. [PRO TIP]: Neu chua chac, mo lai phan A/B cua file goc de doi chieu.",
+      "source_file": "LOP_8_C3---c68ef26f-94b3-44a8-bb7f-e11f5ae96917.docx"
+    }
+  ]
+}

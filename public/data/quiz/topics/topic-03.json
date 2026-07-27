@@ -1,0 +1,68 @@
+{
+  "topic_id": 3,
+  "label": "Dac diem dia hinh Viet Nam",
+  "status": "accepted",
+  "accepted_count": 4,
+  "questions": [
+    {
+      "qid": "D8-T03-MCQ-001",
+      "topic_id": "3",
+      "type": "MCQ",
+      "skill_tag": "C1",
+      "cognitive_level": "NB",
+      "difficulty": 1,
+      "prompt": "Câu 7. Việt Nam không có đường biên giới trên đất liền chung với",
+      "answer_key": "D",
+      "explain": "[CORE FACT]: Dap an lay truc tiep tu tai lieu C1-C4 da gui. [DEEP DIVE]: Cau hoi duoc gan vao bong bong \"Dac diem dia hinh Viet Nam\" theo tu khoa va mach noi dung trong tai lieu. [PRO TIP]: Neu chua chac, mo lai phan A/B cua file goc de doi chieu.",
+      "source_file": "LOP_8_C1---d3c76b6e-82aa-48bd-abe3-8075329ed35f.docx",
+      "choices": {
+        "A": "Lào",
+        "B": "Campuchia",
+        "C": "Trung Quốc",
+        "D": "Thái Lan"
+      }
+    },
+    {
+      "qid": "D8-T03-MCQ-002",
+      "topic_id": "3",
+      "type": "MCQ",
+      "skill_tag": "C1",
+      "cognitive_level": "NB",
+      "difficulty": 1,
+      "prompt": "Câu 15. Địa hình đồng bằng thuận lợi cho",
+      "answer_key": "C",
+      "explain": "[CORE FACT]: Dap an lay truc tiep tu tai lieu C1-C4 da gui. [DEEP DIVE]: Cau hoi duoc gan vao bong bong \"Dac diem dia hinh Viet Nam\" theo tu khoa va mach noi dung trong tai lieu. [PRO TIP]: Neu chua chac, mo lai phan A/B cua file goc de doi chieu.",
+      "source_file": "LOP_8_C1---d3c76b6e-82aa-48bd-abe3-8075329ed35f.docx",
+      "choices": {
+        "A": "chăn nuôi gia súc lớn",
+        "B": "khai thác và chế biến khoáng sản",
+        "C": "sản xuất lương thực",
+        "D": "sản xuất cây công nghiệp lâu năm"
+      }
+    },
+    {
+      "qid": "D8-T03-TF-003",
+      "topic_id": "3",
+      "type": "TF",
+      "skill_tag": "C1",
+      "cognitive_level": "NB",
+      "difficulty": 1,
+      "prompt": "Câu 3. Khoáng sản Việt Nam phân bố đều khắp cả nước.",
+      "answer_key": "FALSE",
+      "explain": "[CORE FACT]: Dap an lay truc tiep tu tai lieu C1-C4 da gui. [DEEP DIVE]: Cau hoi duoc gan vao bong bong \"Dac diem dia hinh Viet Nam\" theo tu khoa va mach noi dung trong tai lieu. [PRO TIP]: Neu chua chac, mo lai phan A/B cua file goc de doi chieu.",
+      "source_file": "LOP_8_C1---d3c76b6e-82aa-48bd-abe3-8075329ed35f.docx"
+    },
+    {
+      "qid": "D8-T03-FILL-004",
+      "topic_id": "3",
+      "type": "FILL",
+      "skill_tag": "C1",
+      "cognitive_level": "NB",
+      "difficulty": 1,
+      "prompt": "Câu 4. Kể tên một số dãy núi có hướng tây bắc-đông nam",
+      "answer_key": "Câu 4. Hoàng Liên Sơn, Con Voi, Trường Sơn Bắc, Pu Đen Đinh, Pu Sam Sao.",
+      "explain": "[CORE FACT]: Dap an lay truc tiep tu tai lieu C1-C4 da gui. [DEEP DIVE]: Cau hoi duoc gan vao bong bong \"Dac diem dia hinh Viet Nam\" theo tu khoa va mach noi dung trong tai lieu. [PRO TIP]: Neu chua chac, mo lai phan A/B cua file goc de doi chieu.",
+      "source_file": "LOP_8_C1---d3c76b6e-82aa-48bd-abe3-8075329ed35f.docx"
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "topic_id": 1,
+  "label": "Vi tri dia li va pham vi lanh tho",
+  "status": "accepted",
+  "accepted_count": 4,
+  "questions": [
+    {
+      "qid": "D8-T01-MCQ-001",
+      "topic_id": "1",
+      "type": "MCQ",
+      "skill_tag": "C1",
+      "cognitive_level": "NB",
+      "difficulty": 1,
+      "prompt": "Câu 5. Lãnh thổ nước ta bao gồm",
+      "answer_key": "D",
+      "explain": "[CORE FACT]: Dap an lay truc tiep tu tai lieu C1-C4 da gui. [DEEP DIVE]: Cau hoi duoc gan vao bong bong \"Vi tri dia li va pham vi lanh tho\" theo tu khoa va mach noi dung trong tai lieu. [PRO TIP]: Neu chua chac, mo lai phan A/B cua file goc de doi chieu.",
+      "source_file": "LOP_8_C1---d3c76b6e-82aa-48bd-abe3-8075329ed35f.docx",
+      "choices": {
+        "A": "Vùng đất, vùng biển, đảo",
+        "B": "Đảo, quần đảo, đất liền",
+        "C": "Vùng biển, đảo và quần đảo",
+        "D": "Vùng đất, vùng biển, vùng trời"
+      }
+    },
+    {
+      "qid": "D8-T01-MCQ-002",
+      "topic_id": "1",
+      "type": "MCQ",
+      "skill_tag": "C1",
+      "cognitive_level": "NB",
+      "difficulty": 1,
+      "prompt": "Câu 12. Địa hình nào sau đây là địa hình nhân tạo?",
+      "answer_key": "C",
+      "explain": "[CORE FACT]: Dap an lay truc tiep tu tai lieu C1-C4 da gui. [DEEP DIVE]: Cau hoi duoc gan vao bong bong \"Vi tri dia li va pham vi lanh tho\" theo tu khoa va mach noi dung trong tai lieu. [PRO TIP]: Neu chua chac, mo lai phan A/B cua file goc de doi chieu.",
+      "source_file": "LOP_8_C1---d3c76b6e-82aa-48bd-abe3-8075329ed35f.docx",
+      "choices": {
+        "A": "Thềm lục địa",
+        "B": "Bờ biển",
+        "C": "Đập nước",
+        "D": "Hang động"
+      }
+    },
+    {
+      "qid": "D8-T01-TF-003",
+      "topic_id": "1",
+      "type": "TF",
+      "skill_tag": "C1",
+      "cognitive_level": "NB",
+      "difficulty": 1,
+      "prompt": "Câu 1. Việt Nam có 34 tỉnh, trong đó 21 tỉnh giáp biển.",
+      "answer_key": "TRUE",
+      "explain": "[CORE FACT]: Dap an lay truc tiep tu tai lieu C1-C4 da gui. [DEEP DIVE]: Cau hoi duoc gan vao bong bong \"Vi tri dia li va pham vi lanh tho\" theo tu khoa va mach noi dung trong tai lieu. [PRO TIP]: Neu chua chac, mo lai phan A/B cua file goc de doi chieu.",
+      "source_file": "LOP_8_C1---d3c76b6e-82aa-48bd-abe3-8075329ed35f.docx"
+    },
+    {
+      "qid": "D8-T01-FILL-004",
+      "topic_id": "1",
+      "type": "FILL",
+      "skill_tag": "C1",
+      "cognitive_level": "NB",
+      "difficulty": 1,
+      "prompt": "Câu 2. Kể tên một số đồng bằng lớn ở nước ta",
+      "answer_key": "Câu 2. Đồng bằng sông Hồng, đồng bằng sông Cửu Long.",
+      "explain": "[CORE FACT]: Dap an lay truc tiep tu tai lieu C1-C4 da gui. [DEEP DIVE]: Cau hoi duoc gan vao bong bong \"Vi tri dia li va pham vi lanh tho\" theo tu khoa va mach noi dung trong tai lieu. [PRO TIP]: Neu chua chac, mo lai phan A/B cua file goc de doi chieu.",
+      "source_file": "LOP_8_C1---d3c76b6e-82aa-48bd-abe3-8075329ed35f.docx"
+    }
+  ]
+}

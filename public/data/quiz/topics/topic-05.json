@@ -1,0 +1,139 @@
+{
+  "topic_id": 5,
+  "label": "Dac diem khoang san Viet Nam",
+  "status": "accepted",
+  "accepted_count": 8,
+  "questions": [
+    {
+      "qid": "D8-T05-MCQ-001",
+      "topic_id": "5",
+      "type": "MCQ",
+      "skill_tag": "C1",
+      "cognitive_level": "TH",
+      "difficulty": 2,
+      "prompt": "Câu 2. Địa hình chiếm diện tích lớn nhất ở Việt Nam là",
+      "answer_key": "C",
+      "explain": "[CORE FACT]: Dap an lay truc tiep tu tai lieu C1-C4 da gui. [DEEP DIVE]: Cau hoi duoc gan vao bong bong \"Dac diem khoang san Viet Nam\" theo tu khoa va mach noi dung trong tai lieu. [PRO TIP]: Neu chua chac, mo lai phan A/B cua file goc de doi chieu.",
+      "source_file": "LOP_8_C1---d3c76b6e-82aa-48bd-abe3-8075329ed35f.docx",
+      "choices": {
+        "A": "đồng bằng",
+        "B": "cao nguyên",
+        "C": "đồi núi",
+        "D": "thềm lục địa"
+      }
+    },
+    {
+      "qid": "D8-T05-MCQ-002",
+      "topic_id": "5",
+      "type": "MCQ",
+      "skill_tag": "C1",
+      "cognitive_level": "TH",
+      "difficulty": 2,
+      "prompt": "Câu 9. Địa hình chủ yếu là đồi núi thấp, gồm các dãy núi hướng vòng cung như Sông Gâm, Ngân Sơn, Bắc Sơn, Đông Triều là đặc điểm của vùng núi?",
+      "answer_key": "A",
+      "explain": "[CORE FACT]: Dap an lay truc tiep tu tai lieu C1-C4 da gui. [DEEP DIVE]: Cau hoi duoc gan vao bong bong \"Dac diem khoang san Viet Nam\" theo tu khoa va mach noi dung trong tai lieu. [PRO TIP]: Neu chua chac, mo lai phan A/B cua file goc de doi chieu.",
+      "source_file": "LOP_8_C1---d3c76b6e-82aa-48bd-abe3-8075329ed35f.docx",
+      "choices": {
+        "A": "Đông Bắc",
+        "B": "Trường Sơn Nam",
+        "C": "Tây Bắc",
+        "D": "Trường Sơn Bắc"
+      }
+    },
+    {
+      "qid": "D8-T05-MCQ-003",
+      "topic_id": "5",
+      "type": "MCQ",
+      "skill_tag": "C1",
+      "cognitive_level": "TH",
+      "difficulty": 2,
+      "prompt": "Câu 14. Địa hình đồi núi không thuận lợi cho việc hình thành và phát triển",
+      "answer_key": "D",
+      "explain": "[CORE FACT]: Dap an lay truc tiep tu tai lieu C1-C4 da gui. [DEEP DIVE]: Cau hoi duoc gan vao bong bong \"Dac diem khoang san Viet Nam\" theo tu khoa va mach noi dung trong tai lieu. [PRO TIP]: Neu chua chac, mo lai phan A/B cua file goc de doi chieu.",
+      "source_file": "LOP_8_C1---d3c76b6e-82aa-48bd-abe3-8075329ed35f.docx",
+      "choices": {
+        "A": "chăn nuôi gia súc lớn.",
+        "B": "vùng chuyên canh cây công nghiệp lâu năm.",
+        "C": "thuỷ điện.",
+        "D": "vùng chuyên canh cây lương thực, thực phẩm."
+      }
+    },
+    {
+      "qid": "D8-T05-MCQ-004",
+      "topic_id": "5",
+      "type": "MCQ",
+      "skill_tag": "C1",
+      "cognitive_level": "TH",
+      "difficulty": 2,
+      "prompt": "Câu 17. Ý nào đúng về đặc điểm của tài nguyên khoáng sản ở Việt Nam?",
+      "answer_key": "C",
+      "explain": "[CORE FACT]: Dap an lay truc tiep tu tai lieu C1-C4 da gui. [DEEP DIVE]: Cau hoi duoc gan vao bong bong \"Dac diem khoang san Viet Nam\" theo tu khoa va mach noi dung trong tai lieu. [PRO TIP]: Neu chua chac, mo lai phan A/B cua file goc de doi chieu.",
+      "source_file": "LOP_8_C1---d3c76b6e-82aa-48bd-abe3-8075329ed35f.docx",
+      "choices": {
+        "A": "Phần lớn các mỏ khoáng sản có quy mô lớn",
+        "B": "Phân bố khoáng sản gắn liền với sự phát triển kinh tế",
+        "C": "Tài nguyên khoáng sản nước ta khá phong phú",
+        "D": "Khoáng sản chỉ tập trung ở phía nam nước ta"
+      }
+    },
+    {
+      "qid": "D8-T05-MCQ-005",
+      "topic_id": "5",
+      "type": "MCQ",
+      "skill_tag": "C1",
+      "cognitive_level": "TH",
+      "difficulty": 2,
+      "prompt": "Câu 18. Biện pháp nào dưới đây góp phần sử dụng hợp lí tài nguyên khoáng sản ở nước ta?",
+      "answer_key": "B",
+      "explain": "[CORE FACT]: Dap an lay truc tiep tu tai lieu C1-C4 da gui. [DEEP DIVE]: Cau hoi duoc gan vao bong bong \"Dac diem khoang san Viet Nam\" theo tu khoa va mach noi dung trong tai lieu. [PRO TIP]: Neu chua chac, mo lai phan A/B cua file goc de doi chieu.",
+      "source_file": "LOP_8_C1---d3c76b6e-82aa-48bd-abe3-8075329ed35f.docx",
+      "choices": {
+        "A": "Cấm khai thác và sử dụng khoáng sản",
+        "B": "Thực hiện nghiêm luật khoáng sản của nước ta",
+        "C": "Đẩy mạnh khai thác để xuất khẩu khoáng sản",
+        "D": "Không truy cứu trách nhiệm cá nhân mà tập trung vào tổ chức"
+      }
+    },
+    {
+      "qid": "D8-T05-TF-006",
+      "topic_id": "5",
+      "type": "TF",
+      "skill_tag": "C1",
+      "cognitive_level": "TH",
+      "difficulty": 2,
+      "prompt": "Câu 5. Địa hình Trường Sơn Bắc có nhiều nhánh núi đâm ngang ra biển.",
+      "answer_key": "TRUE",
+      "explain": "[CORE FACT]: Dap an lay truc tiep tu tai lieu C1-C4 da gui. [DEEP DIVE]: Cau hoi duoc gan vao bong bong \"Dac diem khoang san Viet Nam\" theo tu khoa va mach noi dung trong tai lieu. [PRO TIP]: Neu chua chac, mo lai phan A/B cua file goc de doi chieu.",
+      "source_file": "LOP_8_C1---d3c76b6e-82aa-48bd-abe3-8075329ed35f.docx"
+    },
+    {
+      "qid": "D8-T05-FILL-007",
+      "topic_id": "5",
+      "type": "FILL",
+      "skill_tag": "C1",
+      "cognitive_level": "TH",
+      "difficulty": 2,
+      "prompt": "Câu 6. Hai quần đảo lớn ở phía Đông và Đông Nam của nước ta là",
+      "answer_key": "Câu 6. Hoàng Sa, Trường Sa.",
+      "explain": "[CORE FACT]: Dap an lay truc tiep tu tai lieu C1-C4 da gui. [DEEP DIVE]: Cau hoi duoc gan vao bong bong \"Dac diem khoang san Viet Nam\" theo tu khoa va mach noi dung trong tai lieu. [PRO TIP]: Neu chua chac, mo lai phan A/B cua file goc de doi chieu.",
+      "source_file": "LOP_8_C1---d3c76b6e-82aa-48bd-abe3-8075329ed35f.docx"
+    },
+    {
+      "qid": "D8-T05-MATCH-900",
+      "topic_id": "5",
+      "type": "FILL",
+      "subtype": "MATCHING",
+      "skill_tag": "C1",
+      "cognitive_level": "TH",
+      "difficulty": 2,
+      "prompt": "Ghep noi noi dung cot A voi cot B ve dia hinh, khoang san va tai nguyen trong tai lieu C1. Nhap dap an theo mau: 1-A; 2-B; ...",
+      "answer_key": "1-B; 2-A; 3-E; 4-C; 5-D",
+      "accepted_answers": [
+        "1-B; 2-A; 3-E; 4-C; 5-D",
+        "1-B;  2-A;  3-E;  4-C;  5-D"
+      ],
+      "explain": "[CORE FACT]: Day la dang ghep noi trich tu bang trong file LOP_8_C1---d3c76b6e-82aa-48bd-abe3-8075329ed35f.docx. [DEEP DIVE]: Dap an duoc lap bang cach doi chieu cot A/B voi noi dung trong tai lieu, khong dung du lieu ngoai. [PRO TIP]: Nhap dung cap so-chu cai, vi du 1-A; 2-B.",
+      "source_file": "LOP_8_C1---d3c76b6e-82aa-48bd-abe3-8075329ed35f.docx"
+    }
+  ]
+}

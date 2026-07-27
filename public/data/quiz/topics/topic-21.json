@@ -1,0 +1,50 @@
+{
+  "topic_id": 21,
+  "label": "Ba nhom dat chinh",
+  "status": "accepted",
+  "accepted_count": 3,
+  "questions": [
+    {
+      "qid": "D8-T21-MCQ-001",
+      "topic_id": "21",
+      "type": "MCQ",
+      "skill_tag": "C3",
+      "cognitive_level": "NB",
+      "difficulty": 1,
+      "prompt": "Câu 10. Đặc điểm nào sau đây không đúng với nhóm đất phù sa ở nước ta?",
+      "answer_key": "A",
+      "explain": "[CORE FACT]: Dap an lay truc tiep tu tai lieu C1-C4 da gui. [DEEP DIVE]: Cau hoi duoc gan vao bong bong \"Ba nhom dat chinh\" theo tu khoa va mach noi dung trong tai lieu. [PRO TIP]: Neu chua chac, mo lai phan A/B cua file goc de doi chieu.",
+      "source_file": "LOP_8_C3---c68ef26f-94b3-44a8-bb7f-e11f5ae96917.docx",
+      "choices": {
+        "A": "chua, giàu mùn, tơi xốp và giữ nước kém.",
+        "B": "chiếm 24% diện tích đất tự nhiên.",
+        "C": "độ phì phụ thuộc vào đặc tính phù sa của các sông và chế độ canh tác.",
+        "D": "có nhiều loại và phân bố ở nhiều nơi."
+      }
+    },
+    {
+      "qid": "D8-T21-FILL-002",
+      "topic_id": "21",
+      "type": "FILL",
+      "skill_tag": "C3",
+      "cognitive_level": "NB",
+      "difficulty": 1,
+      "prompt": "Câu 1. Thổ nhưỡng là thuật ngữ nói về tài nguyên nào?",
+      "answer_key": "Câu 1. Đất.",
+      "explain": "[CORE FACT]: Dap an lay truc tiep tu tai lieu C1-C4 da gui. [DEEP DIVE]: Cau hoi duoc gan vao bong bong \"Ba nhom dat chinh\" theo tu khoa va mach noi dung trong tai lieu. [PRO TIP]: Neu chua chac, mo lai phan A/B cua file goc de doi chieu.",
+      "source_file": "LOP_8_C3---c68ef26f-94b3-44a8-bb7f-e11f5ae96917.docx"
+    },
+    {
+      "qid": "D8-T21-FILL-003",
+      "topic_id": "21",
+      "type": "FILL",
+      "skill_tag": "C3",
+      "cognitive_level": "NB",
+      "difficulty": 1,
+      "prompt": "Câu 8: Kể tên 5 vườn quốc gia của nước ta.",
+      "answer_key": "Câu 8: Ba Bể, Cúc Phương, Bạch Mã, Cát Tiên, Phú Quốc,…",
+      "explain": "[CORE FACT]: Dap an lay truc tiep tu tai lieu C1-C4 da gui. [DEEP DIVE]: Cau hoi duoc gan vao bong bong \"Ba nhom dat chinh\" theo tu khoa va mach noi dung trong tai lieu. [PRO TIP]: Neu chua chac, mo lai phan A/B cua file goc de doi chieu.",
+      "source_file": "LOP_8_C3---c68ef26f-94b3-44a8-bb7f-e11f5ae96917.docx"
+    }
+  ]
+}

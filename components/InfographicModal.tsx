@@ -1,5 +1,7 @@
 
 import React, { useEffect, useState, useRef } from 'react';
+import { isImagePreloaded, preloadImage } from '../utils/imagePreloader';
+import { useDialogFocus } from '../utils/accessibility';
 
 interface InfographicModalProps {
   url: string;
@@ -8,12 +10,29 @@ interface InfographicModalProps {
 }
 
 const InfographicModal: React.FC<InfographicModalProps> = ({ url, topicName, onClose }) => {
-  const [loading, setLoading] = useState(true);
+  const [loading, setLoading] = useState(() => !isImagePreloaded(url));
   const [scale, setScale] = useState(1);
   const [position, setPosition] = useState({ x: 0, y: 0 });
   const [isDragging, setIsDragging] = useState(false);
   const [dragStart, setDragStart] = useState({ x: 0, y: 0 });
   const containerRef = useRef<HTMLDivElement>(null);
+  const dialogRef = useDialogFocus<HTMLDivElement>(onClose);
+
+  useEffect(() => {
+    if (!url) return;
+    if (isImagePreloaded(url)) {
+      setLoading(false);
+      return;
+    }
+    setLoading(true);
+    let active = true;
+    preloadImage(url).then(() => {
+      if (active) setLoading(false);
+    });
+    return () => {
+      active = false;
+    };
+  }, [url]);
 
   // Khóa cuộn trang khi mở Modal
   useEffect(() => {
@@ -60,7 +79,12 @@ const InfographicModal: React.FC<InfographicModalProps> = ({ url, topicName, onC
 
   return (
     <div 
-      className="fixed inset-0 z-[2000] flex flex-col items-center justify-center animate-fade-in touch-none select-none"
+      ref={dialogRef}
+      tabIndex={-1}
+      role="dialog"
+      aria-modal="true"
+      aria-label={`Ảnh minh họa ${topicName}`}
+      className="infographic-viewer fixed inset-0 z-[2000] flex flex-col items-center justify-center animate-fade-in touch-none select-none"
       style={{ background: 'rgba(2, 3, 5, 0.98)', backdropFilter: 'blur(40px)' }}
     >
       {/* Nền phía sau để click thoát nhanh */}
@@ -69,7 +93,7 @@ const InfographicModal: React.FC<InfographicModalProps> = ({ url, topicName, onC
       {/* Khu vực hiển thị ảnh chính */}
       <div 
         ref={containerRef}
-        className={`relative w-full h-full flex items-center justify-center overflow-hidden z-10 ${scale > 1 ? 'cursor-grab' : 'cursor-default'} ${isDragging ? 'cursor-grabbing' : ''}`}
+        className={`infographic-stage relative w-full h-full flex items-center justify-center overflow-hidden z-10 ${scale > 1 ? 'cursor-grab' : 'cursor-default'} ${isDragging ? 'cursor-grabbing' : ''}`}
         onPointerDown={handlePointerDown}
         onPointerMove={handlePointerMove}
         onPointerUp={handlePointerUp}
@@ -92,8 +116,10 @@ const InfographicModal: React.FC<InfographicModalProps> = ({ url, topicName, onC
             src={url} 
             alt={topicName}
             onLoad={() => setLoading(false)}
+            loading="eager"
+            decoding="async"
             draggable={false}
-            className={`max-w-[100vw] max-h-[100vh] md:max-w-[90vw] md:max-h-[85vh] object-contain transition-opacity duration-500 ${loading ? 'opacity-0' : 'opacity-100 shadow-[0_0_80px_rgba(0,0,0,0.9)]'}`}
+            className={`infographic-image max-w-[100vw] max-h-[100vh] object-contain transition-opacity duration-500 ${loading ? 'opacity-0' : 'opacity-100 shadow-[0_0_80px_rgba(0,0,0,0.9)]'}`}
           />
         </div>
       </div>

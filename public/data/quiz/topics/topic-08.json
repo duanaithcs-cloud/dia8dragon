@@ -1,0 +1,74 @@
+{
+  "topic_id": 8,
+  "label": "Khi hau nhiet doi am gio mua",
+  "status": "accepted",
+  "accepted_count": 4,
+  "questions": [
+    {
+      "qid": "D8-T08-MCQ-001",
+      "topic_id": "8",
+      "type": "MCQ",
+      "skill_tag": "C2",
+      "cognitive_level": "NB",
+      "difficulty": 1,
+      "prompt": "Câu 2. Nước ta có lượng mưa trung bình năm là bao nhiêu mm/năm?",
+      "answer_key": "B",
+      "explain": "[CORE FACT]: Dap an lay truc tiep tu tai lieu C1-C4 da gui. [DEEP DIVE]: Cau hoi duoc gan vao bong bong \"Khi hau nhiet doi am gio mua\" theo tu khoa va mach noi dung trong tai lieu. [PRO TIP]: Neu chua chac, mo lai phan A/B cua file goc de doi chieu.",
+      "source_file": "LOP_8_C2---662f9dd8-7d10-4634-822b-a0cbf3ab2aea.docx",
+      "choices": {
+        "A": "1000-2000mm",
+        "B": "1500-2000mm",
+        "C": "2000-2500mm",
+        "D": "2500-3000mm"
+      }
+    },
+    {
+      "qid": "D8-T08-MCQ-002",
+      "topic_id": "8",
+      "type": "MCQ",
+      "skill_tag": "C2",
+      "cognitive_level": "NB",
+      "difficulty": 1,
+      "prompt": "Câu 14. Hệ thống sông Hồng chảy theo hướng nào?",
+      "answer_key": "B",
+      "explain": "[CORE FACT]: Dap an lay truc tiep tu tai lieu C1-C4 da gui. [DEEP DIVE]: Cau hoi duoc gan vao bong bong \"Khi hau nhiet doi am gio mua\" theo tu khoa va mach noi dung trong tai lieu. [PRO TIP]: Neu chua chac, mo lai phan A/B cua file goc de doi chieu.",
+      "source_file": "LOP_8_C2---662f9dd8-7d10-4634-822b-a0cbf3ab2aea.docx",
+      "choices": {
+        "A": "Vòng cung",
+        "B": "Tây Bắc – Đông Nam",
+        "C": "Tây – Đông",
+        "D": "Bắc - Nam"
+      }
+    },
+    {
+      "qid": "D8-T08-MCQ-003",
+      "topic_id": "8",
+      "type": "MCQ",
+      "skill_tag": "C2",
+      "cognitive_level": "NB",
+      "difficulty": 1,
+      "prompt": "Câu 29. Hồ, đầm có vai trò gì đối với sinh hoạt?",
+      "answer_key": "A",
+      "explain": "[CORE FACT]: Dap an lay truc tiep tu tai lieu C1-C4 da gui. [DEEP DIVE]: Cau hoi duoc gan vao bong bong \"Khi hau nhiet doi am gio mua\" theo tu khoa va mach noi dung trong tai lieu. [PRO TIP]: Neu chua chac, mo lai phan A/B cua file goc de doi chieu.",
+      "source_file": "LOP_8_C2---662f9dd8-7d10-4634-822b-a0cbf3ab2aea.docx",
+      "choices": {
+        "A": "Cung cấp nước ngọt cho sinh hoạt",
+        "B": "Phát triển du lịch",
+        "C": "Đảm bảo an ninh nguồn nước, nhất là các khu vực có mùa khô sâu sắc.",
+        "D": "Đáp án A và C đúng"
+      }
+    },
+    {
+      "qid": "D8-T08-FILL-004",
+      "topic_id": "8",
+      "type": "FILL",
+      "skill_tag": "C2",
+      "cognitive_level": "NB",
+      "difficulty": 1,
+      "prompt": "Câu 7. Khí hậu miền Nam có đặc điểm gì khác biệt so với miền Bắc?",
+      "answer_key": "Câu 7. Mang tính cận xích đạo, nóng quanh năm, ít biến động nhiệt độ, mùa mưa – khô rõ rệt.",
+      "explain": "[CORE FACT]: Dap an lay truc tiep tu tai lieu C1-C4 da gui. [DEEP DIVE]: Cau hoi duoc gan vao bong bong \"Khi hau nhiet doi am gio mua\" theo tu khoa va mach noi dung trong tai lieu. [PRO TIP]: Neu chua chac, mo lai phan A/B cua file goc de doi chieu.",
+      "source_file": "LOP_8_C2---662f9dd8-7d10-4634-822b-a0cbf3ab2aea.docx"
+    }
+  ]
+}

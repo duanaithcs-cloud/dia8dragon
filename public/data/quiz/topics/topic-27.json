@@ -1,0 +1,73 @@
+{
+  "topic_id": 27,
+  "label": "Bao ton da dang sinh hoc",
+  "status": "accepted",
+  "accepted_count": 4,
+  "questions": [
+    {
+      "qid": "D8-T27-MCQ-001",
+      "topic_id": "27",
+      "type": "MCQ",
+      "skill_tag": "C3",
+      "cognitive_level": "VD",
+      "difficulty": 3,
+      "prompt": "Câu 8. Nhóm đất mùn núi cao chiếm bao nhiêu phần trăm diện tích đất tự nhiên?",
+      "answer_key": "A",
+      "explain": "[CORE FACT]: Dap an lay truc tiep tu tai lieu C1-C4 da gui. [DEEP DIVE]: Cau hoi duoc gan vao bong bong \"Bao ton da dang sinh hoc\" theo tu khoa va mach noi dung trong tai lieu. [PRO TIP]: Neu chua chac, mo lai phan A/B cua file goc de doi chieu.",
+      "source_file": "LOP_8_C3---c68ef26f-94b3-44a8-bb7f-e11f5ae96917.docx",
+      "choices": {
+        "A": "11%.",
+        "B": "15%.",
+        "C": "20%.",
+        "D": "25%."
+      }
+    },
+    {
+      "qid": "D8-T27-MCQ-002",
+      "topic_id": "27",
+      "type": "MCQ",
+      "skill_tag": "C3",
+      "cognitive_level": "VD",
+      "difficulty": 3,
+      "prompt": "Câu 27. Ở các rừng ngập mặn ven biển, các bãi triều ngập nước và ở cửa sông lớn thuận lợi cho việc",
+      "answer_key": "B",
+      "explain": "[CORE FACT]: Dap an lay truc tiep tu tai lieu C1-C4 da gui. [DEEP DIVE]: Cau hoi duoc gan vao bong bong \"Bao ton da dang sinh hoc\" theo tu khoa va mach noi dung trong tai lieu. [PRO TIP]: Neu chua chac, mo lai phan A/B cua file goc de doi chieu.",
+      "source_file": "LOP_8_C3---c68ef26f-94b3-44a8-bb7f-e11f5ae96917.docx",
+      "choices": {
+        "A": "đánh bắt thủy sản.",
+        "B": "nuôi trồng thủy sản.",
+        "C": "trồng cây lâu năm.",
+        "D": "trồng cây lúa nước"
+      }
+    },
+    {
+      "qid": "D8-T27-FILL-003",
+      "topic_id": "27",
+      "type": "FILL",
+      "skill_tag": "C3",
+      "cognitive_level": "VD",
+      "difficulty": 3,
+      "prompt": "Câu 7: Kể tên 5 loài thảm thực vật của nước ta.",
+      "answer_key": "Câu 7: Rừng kín thường xanh, rừng thưa, rừng tre nứa, rừng ngập mặn, rừng trên núi đá vôi,…",
+      "explain": "[CORE FACT]: Dap an lay truc tiep tu tai lieu C1-C4 da gui. [DEEP DIVE]: Cau hoi duoc gan vao bong bong \"Bao ton da dang sinh hoc\" theo tu khoa va mach noi dung trong tai lieu. [PRO TIP]: Neu chua chac, mo lai phan A/B cua file goc de doi chieu.",
+      "source_file": "LOP_8_C3---c68ef26f-94b3-44a8-bb7f-e11f5ae96917.docx"
+    },
+    {
+      "qid": "D8-T27-MATCH-901",
+      "topic_id": "27",
+      "type": "FILL",
+      "subtype": "MATCHING",
+      "skill_tag": "C3",
+      "cognitive_level": "TH",
+      "difficulty": 2,
+      "prompt": "Ghep noi noi dung ve suy giam va bao ton sinh vat trong tai lieu C3. Nhap dap an theo mau: 1-A; 2-B; ...",
+      "answer_key": "1-D; 2-A; 3-C; 4-B",
+      "accepted_answers": [
+        "1-D; 2-A; 3-C; 4-B",
+        "1-D;  2-A;  3-C;  4-B"
+      ],
+      "explain": "[CORE FACT]: Day la dang ghep noi trich tu bang trong file LOP_8_C3---c68ef26f-94b3-44a8-bb7f-e11f5ae96917.docx. [DEEP DIVE]: Dap an duoc lap bang cach doi chieu cot A/B voi noi dung trong tai lieu, khong dung du lieu ngoai. [PRO TIP]: Nhap dung cap so-chu cai, vi du 1-A; 2-B.",
+      "source_file": "LOP_8_C3---c68ef26f-94b3-44a8-bb7f-e11f5ae96917.docx"
+    }
+  ]
+}

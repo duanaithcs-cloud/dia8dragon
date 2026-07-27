@@ -1,0 +1,74 @@
+{
+  "topic_id": 13,
+  "label": "Phan tich mot he thong song",
+  "status": "accepted",
+  "accepted_count": 4,
+  "questions": [
+    {
+      "qid": "D8-T13-MCQ-001",
+      "topic_id": "13",
+      "type": "MCQ",
+      "skill_tag": "C2",
+      "cognitive_level": "TH",
+      "difficulty": 2,
+      "prompt": "Câu 7. Nước ta có mấy hệ thống sông lớn?",
+      "answer_key": "B",
+      "explain": "[CORE FACT]: Dap an lay truc tiep tu tai lieu C1-C4 da gui. [DEEP DIVE]: Cau hoi duoc gan vao bong bong \"Phan tich mot he thong song\" theo tu khoa va mach noi dung trong tai lieu. [PRO TIP]: Neu chua chac, mo lai phan A/B cua file goc de doi chieu.",
+      "source_file": "LOP_8_C2---662f9dd8-7d10-4634-822b-a0cbf3ab2aea.docx",
+      "choices": {
+        "A": "8",
+        "B": "9",
+        "C": "10",
+        "D": "11"
+      }
+    },
+    {
+      "qid": "D8-T13-MCQ-002",
+      "topic_id": "13",
+      "type": "MCQ",
+      "skill_tag": "C2",
+      "cognitive_level": "TH",
+      "difficulty": 2,
+      "prompt": "Câu 19. Hệ thống sông có lưu vực lớn nhất ở miền Bắc là:",
+      "answer_key": "B",
+      "explain": "[CORE FACT]: Dap an lay truc tiep tu tai lieu C1-C4 da gui. [DEEP DIVE]: Cau hoi duoc gan vao bong bong \"Phan tich mot he thong song\" theo tu khoa va mach noi dung trong tai lieu. [PRO TIP]: Neu chua chac, mo lai phan A/B cua file goc de doi chieu.",
+      "source_file": "LOP_8_C2---662f9dd8-7d10-4634-822b-a0cbf3ab2aea.docx",
+      "choices": {
+        "A": "Sông Cả.",
+        "B": "Sông Hồng.",
+        "C": "Sông Thái Bình.",
+        "D": "Sông Mã"
+      }
+    },
+    {
+      "qid": "D8-T13-MCQ-003",
+      "topic_id": "13",
+      "type": "MCQ",
+      "skill_tag": "C2",
+      "cognitive_level": "TH",
+      "difficulty": 2,
+      "prompt": "Câu 36. Mực nước ngầm phụ thuộc vào các yếu tố nào dưới đây?",
+      "answer_key": "A",
+      "explain": "[CORE FACT]: Dap an lay truc tiep tu tai lieu C1-C4 da gui. [DEEP DIVE]: Cau hoi duoc gan vao bong bong \"Phan tich mot he thong song\" theo tu khoa va mach noi dung trong tai lieu. [PRO TIP]: Neu chua chac, mo lai phan A/B cua file goc de doi chieu.",
+      "source_file": "LOP_8_C2---662f9dd8-7d10-4634-822b-a0cbf3ab2aea.docx",
+      "choices": {
+        "A": "Nguồn cung cấp nước và lượng bốc hơi.",
+        "B": "Độ cao địa hình, bề mặt các dạng địa hình.",
+        "C": "Các hoạt động sản xuất của con người.",
+        "D": "Vị trí trên mặt đất và hướng của địa hình."
+      }
+    },
+    {
+      "qid": "D8-T13-FILL-004",
+      "topic_id": "13",
+      "type": "FILL",
+      "skill_tag": "C2",
+      "cognitive_level": "TH",
+      "difficulty": 2,
+      "prompt": "Câu 12. Đặc điểm chung của sông ngòi Việt Nam là gì?",
+      "answer_key": "Câu 12. Mạng lưới dày đặc, ngắn và dốc, nước thay đổi theo mùa (mùa lũ và mùa cạn).",
+      "explain": "[CORE FACT]: Dap an lay truc tiep tu tai lieu C1-C4 da gui. [DEEP DIVE]: Cau hoi duoc gan vao bong bong \"Phan tich mot he thong song\" theo tu khoa va mach noi dung trong tai lieu. [PRO TIP]: Neu chua chac, mo lai phan A/B cua file goc de doi chieu.",
+      "source_file": "LOP_8_C2---662f9dd8-7d10-4634-822b-a0cbf3ab2aea.docx"
+    }
+  ]
+}

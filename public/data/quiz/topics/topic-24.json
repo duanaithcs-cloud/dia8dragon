@@ -1,0 +1,56 @@
+{
+  "topic_id": 24,
+  "label": "Dat phu sa va gia tri su dung",
+  "status": "accepted",
+  "accepted_count": 3,
+  "questions": [
+    {
+      "qid": "D8-T24-MCQ-001",
+      "topic_id": "24",
+      "type": "MCQ",
+      "skill_tag": "C3",
+      "cognitive_level": "TH",
+      "difficulty": 2,
+      "prompt": "Câu 1. Nước ta có mấy nhóm đất chính?",
+      "answer_key": "B",
+      "explain": "[CORE FACT]: Dap an lay truc tiep tu tai lieu C1-C4 da gui. [DEEP DIVE]: Cau hoi duoc gan vao bong bong \"Dat phu sa va gia tri su dung\" theo tu khoa va mach noi dung trong tai lieu. [PRO TIP]: Neu chua chac, mo lai phan A/B cua file goc de doi chieu.",
+      "source_file": "LOP_8_C3---c68ef26f-94b3-44a8-bb7f-e11f5ae96917.docx",
+      "choices": {
+        "A": "2 nhóm",
+        "B": "3 nhóm",
+        "C": "4 nhóm",
+        "D": "5 nhóm"
+      }
+    },
+    {
+      "qid": "D8-T24-MCQ-002",
+      "topic_id": "24",
+      "type": "MCQ",
+      "skill_tag": "C3",
+      "cognitive_level": "TH",
+      "difficulty": 2,
+      "prompt": "Câu 13: Để giảm thiểu tình trạng thoái hóa đất, chúng ta không nên áp dụng biện pháp nào sau đây?",
+      "answer_key": "A",
+      "explain": "[CORE FACT]: Dap an lay truc tiep tu tai lieu C1-C4 da gui. [DEEP DIVE]: Cau hoi duoc gan vao bong bong \"Dat phu sa va gia tri su dung\" theo tu khoa va mach noi dung trong tai lieu. [PRO TIP]: Neu chua chac, mo lai phan A/B cua file goc de doi chieu.",
+      "source_file": "LOP_8_C3---c68ef26f-94b3-44a8-bb7f-e11f5ae96917.docx",
+      "choices": {
+        "A": "Lạm dụng thuốc trừ sâu, phân bón hóa học.",
+        "B": "Trồng cây phủ xanh đất trống, đồi núi trọc.",
+        "C": "Củng cố và hoàn thiện hệ thống các đê ven biển.",
+        "D": "Bổ sung các chất dinh dưỡng cho đất."
+      }
+    },
+    {
+      "qid": "D8-T24-FILL-003",
+      "topic_id": "24",
+      "type": "FILL",
+      "skill_tag": "C3",
+      "cognitive_level": "TH",
+      "difficulty": 2,
+      "prompt": "Câu 4. Lượng mưa lớn tập trung theo mùa làm gia tăng hiện tượng gì của lớp phủ thổ nhưỡng ở miền đồi núi nước ta?",
+      "answer_key": "Câu 4. Xói mòn, rửa trôi.",
+      "explain": "[CORE FACT]: Dap an lay truc tiep tu tai lieu C1-C4 da gui. [DEEP DIVE]: Cau hoi duoc gan vao bong bong \"Dat phu sa va gia tri su dung\" theo tu khoa va mach noi dung trong tai lieu. [PRO TIP]: Neu chua chac, mo lai phan A/B cua file goc de doi chieu.",
+      "source_file": "LOP_8_C3---c68ef26f-94b3-44a8-bb7f-e11f5ae96917.docx"
+    }
+  ]
+}

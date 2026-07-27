@@ -1,0 +1,73 @@
+{
+  "topic_id": 26,
+  "label": "Chong thoai hoa dat",
+  "status": "accepted",
+  "accepted_count": 4,
+  "questions": [
+    {
+      "qid": "D8-T26-MCQ-001",
+      "topic_id": "26",
+      "type": "MCQ",
+      "skill_tag": "C3",
+      "cognitive_level": "VD",
+      "difficulty": 3,
+      "prompt": "Câu 7. Nhóm đất bồi tụ phù sa sông biển chiếm bao nhiêu phần trăm diện tích đất tự nhiên?",
+      "answer_key": "C",
+      "explain": "[CORE FACT]: Dap an lay truc tiep tu tai lieu C1-C4 da gui. [DEEP DIVE]: Cau hoi duoc gan vao bong bong \"Chong thoai hoa dat\" theo tu khoa va mach noi dung trong tai lieu. [PRO TIP]: Neu chua chac, mo lai phan A/B cua file goc de doi chieu.",
+      "source_file": "LOP_8_C3---c68ef26f-94b3-44a8-bb7f-e11f5ae96917.docx",
+      "choices": {
+        "A": "18%.",
+        "B": "21%.",
+        "C": "24%",
+        "D": "27%."
+      }
+    },
+    {
+      "qid": "D8-T26-MCQ-002",
+      "topic_id": "26",
+      "type": "MCQ",
+      "skill_tag": "C3",
+      "cognitive_level": "VD",
+      "difficulty": 3,
+      "prompt": "Câu 15. Trong các nhóm loài thực vật sau, nhóm loài nào là loài thực vật quý hiếm",
+      "answer_key": "D",
+      "explain": "[CORE FACT]: Dap an lay truc tiep tu tai lieu C1-C4 da gui. [DEEP DIVE]: Cau hoi duoc gan vao bong bong \"Chong thoai hoa dat\" theo tu khoa va mach noi dung trong tai lieu. [PRO TIP]: Neu chua chac, mo lai phan A/B cua file goc de doi chieu.",
+      "source_file": "LOP_8_C3---c68ef26f-94b3-44a8-bb7f-e11f5ae96917.docx",
+      "choices": {
+        "A": "Lúa, ngô, khoai, sắn…",
+        "B": "Đinh, Lim, Cà phê, chè…",
+        "C": "Gụ, Lát, Cao su, hồ tiêu…",
+        "D": "Đinh, lim, sến, táu…"
+      }
+    },
+    {
+      "qid": "D8-T26-FILL-003",
+      "topic_id": "26",
+      "type": "FILL",
+      "skill_tag": "C3",
+      "cognitive_level": "VD",
+      "difficulty": 3,
+      "prompt": "Câu 6: Kể tên 5 loài động vật của nước ta.",
+      "answer_key": "Câu 6: Khỉ, vượn, hươu, voi, hổ,…",
+      "explain": "[CORE FACT]: Dap an lay truc tiep tu tai lieu C1-C4 da gui. [DEEP DIVE]: Cau hoi duoc gan vao bong bong \"Chong thoai hoa dat\" theo tu khoa va mach noi dung trong tai lieu. [PRO TIP]: Neu chua chac, mo lai phan A/B cua file goc de doi chieu.",
+      "source_file": "LOP_8_C3---c68ef26f-94b3-44a8-bb7f-e11f5ae96917.docx"
+    },
+    {
+      "qid": "D8-T26-MATCH-900",
+      "topic_id": "26",
+      "type": "FILL",
+      "subtype": "MATCHING",
+      "skill_tag": "C3",
+      "cognitive_level": "TH",
+      "difficulty": 2,
+      "prompt": "Ghep noi noi dung ve thoai hoa dat trong tai lieu C3. Nhap dap an theo mau: 1-A; 2-B; ...",
+      "answer_key": "1-C; 2-B; 3-D; 4-A",
+      "accepted_answers": [
+        "1-C; 2-B; 3-D; 4-A",
+        "1-C;  2-B;  3-D;  4-A"
+      ],
+      "explain": "[CORE FACT]: Day la dang ghep noi trich tu bang trong file LOP_8_C3---c68ef26f-94b3-44a8-bb7f-e11f5ae96917.docx. [DEEP DIVE]: Dap an duoc lap bang cach doi chieu cot A/B voi noi dung trong tai lieu, khong dung du lieu ngoai. [PRO TIP]: Nhap dung cap so-chu cai, vi du 1-A; 2-B.",
+      "source_file": "LOP_8_C3---c68ef26f-94b3-44a8-bb7f-e11f5ae96917.docx"
+    }
+  ]
+}

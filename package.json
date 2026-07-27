@@ -6,7 +6,10 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "package:handoff": "node scripts/package-handoff.mjs",
+    "check:runtime-data": "node scripts/check-dia8-runtime-data.mjs",
+    "check:quality": "npm run check:runtime-data && npm run build"
   },
   "dependencies": {
     "react": "^19.2.3",
@@ -18,5 +21,9 @@
     "@vitejs/plugin-react": "^5.0.0",
     "typescript": "~5.8.2",
     "vite": "^6.2.0"
+  },
+  "packageManager": "npm@10.9.2",
+  "engines": {
+    "node": ">=20 <23"
   }
 }

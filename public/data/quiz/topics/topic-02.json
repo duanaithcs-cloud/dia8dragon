@@ -1,0 +1,68 @@
+{
+  "topic_id": 2,
+  "label": "Anh huong vi tri dia li va pham vi lanh tho",
+  "status": "accepted",
+  "accepted_count": 4,
+  "questions": [
+    {
+      "qid": "D8-T02-MCQ-001",
+      "topic_id": "2",
+      "type": "MCQ",
+      "skill_tag": "C1",
+      "cognitive_level": "TH",
+      "difficulty": 2,
+      "prompt": "Câu 6. Phần đất liền nước ta",
+      "answer_key": "B",
+      "explain": "[CORE FACT]: Dap an lay truc tiep tu tai lieu C1-C4 da gui. [DEEP DIVE]: Cau hoi duoc gan vao bong bong \"Anh huong vi tri dia li va pham vi lanh tho\" theo tu khoa va mach noi dung trong tai lieu. [PRO TIP]: Neu chua chac, mo lai phan A/B cua file goc de doi chieu.",
+      "source_file": "LOP_8_C1---d3c76b6e-82aa-48bd-abe3-8075329ed35f.docx",
+      "choices": {
+        "A": "cầu nối giữa Châu Á và Châu Âu",
+        "B": "nằm hoàn toàn trong vùng nội chí tuyến",
+        "C": "nằm giữa xích đạo và chí tuyến Nam",
+        "D": "thuộc bán cầu bắc và bán cầu tây"
+      }
+    },
+    {
+      "qid": "D8-T02-MCQ-002",
+      "topic_id": "2",
+      "type": "MCQ",
+      "skill_tag": "C1",
+      "cognitive_level": "TH",
+      "difficulty": 2,
+      "prompt": "Câu 13. Dãy núi nào sau đây ở nước ta có dạng hình cánh cung?",
+      "answer_key": "C",
+      "explain": "[CORE FACT]: Dap an lay truc tiep tu tai lieu C1-C4 da gui. [DEEP DIVE]: Cau hoi duoc gan vao bong bong \"Anh huong vi tri dia li va pham vi lanh tho\" theo tu khoa va mach noi dung trong tai lieu. [PRO TIP]: Neu chua chac, mo lai phan A/B cua file goc de doi chieu.",
+      "source_file": "LOP_8_C1---d3c76b6e-82aa-48bd-abe3-8075329ed35f.docx",
+      "choices": {
+        "A": "Con Voi",
+        "B": "Hoàng Liên Sơn",
+        "C": "Ngân Sơn",
+        "D": "Trường Sơn Bắc"
+      }
+    },
+    {
+      "qid": "D8-T02-TF-003",
+      "topic_id": "2",
+      "type": "TF",
+      "skill_tag": "C1",
+      "cognitive_level": "TH",
+      "difficulty": 2,
+      "prompt": "Câu 2. Đồng bằng sông Cửu Long có hệ thống đê sông dày đặc.",
+      "answer_key": "FALSE",
+      "explain": "[CORE FACT]: Dap an lay truc tiep tu tai lieu C1-C4 da gui. [DEEP DIVE]: Cau hoi duoc gan vao bong bong \"Anh huong vi tri dia li va pham vi lanh tho\" theo tu khoa va mach noi dung trong tai lieu. [PRO TIP]: Neu chua chac, mo lai phan A/B cua file goc de doi chieu.",
+      "source_file": "LOP_8_C1---d3c76b6e-82aa-48bd-abe3-8075329ed35f.docx"
+    },
+    {
+      "qid": "D8-T02-FILL-004",
+      "topic_id": "2",
+      "type": "FILL",
+      "skill_tag": "C1",
+      "cognitive_level": "TH",
+      "difficulty": 2,
+      "prompt": "Câu 3. Kể tên một số đỉnh núi và cho biết độ cao của các đỉnh núi đó",
+      "answer_key": "Câu 3. Phan-xi-păng 3143m, Tây Côn Lĩnh 2419m, Khoan La San 1853m, Ngọc Linh 2598m…",
+      "explain": "[CORE FACT]: Dap an lay truc tiep tu tai lieu C1-C4 da gui. [DEEP DIVE]: Cau hoi duoc gan vao bong bong \"Anh huong vi tri dia li va pham vi lanh tho\" theo tu khoa va mach noi dung trong tai lieu. [PRO TIP]: Neu chua chac, mo lai phan A/B cua file goc de doi chieu.",
+      "source_file": "LOP_8_C1---d3c76b6e-82aa-48bd-abe3-8075329ed35f.docx"
+    }
+  ]
+}

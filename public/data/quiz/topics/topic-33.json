@@ -1,0 +1,164 @@
+{
+  "topic_id": 33,
+  "label": "Thuan loi, kho khan kinh te bien va bao ve chu quyen",
+  "status": "accepted",
+  "accepted_count": 9,
+  "questions": [
+    {
+      "qid": "D8-T33-MCQ-001",
+      "topic_id": "33",
+      "type": "MCQ",
+      "skill_tag": "C4",
+      "cognitive_level": "VD",
+      "difficulty": 3,
+      "prompt": "Câu 5. Vịnh biển nào của nước ta được UNESCO công nhận là di sản thiên nhiên thế giới? Vịnh đó được công nhận vào ngày, tháng, năm nào?",
+      "answer_key": "C",
+      "explain": "[CORE FACT]: Dap an lay truc tiep tu tai lieu C1-C4 da gui. [DEEP DIVE]: Cau hoi duoc gan vao bong bong \"Thuan loi, kho khan kinh te bien va bao ve chu quyen\" theo tu khoa va mach noi dung trong tai lieu. [PRO TIP]: Neu chua chac, mo lai phan A/B cua file goc de doi chieu.",
+      "source_file": "LOP_8_C4---07c2372b-3416-493e-887f-a0d331974bbf.docx",
+      "choices": {
+        "A": "Vịnh Cam Ranh thuộc Tỉnh Khánh Hòa. công nhận là di sản thiên nhiên thế giới: Ngày 17/10/1994",
+        "B": "Vịnh Bắc Bộ. công nhận là di sản thiên nhiên thế giới: Ngày 17/12/1995",
+        "C": "Vịnh Hạ Long thuộc Tỉnh Quảng Ninh. công nhận là di sản thiên nhiên thế giới: Ngày 17/12/1994",
+        "D": "Vịnh Thái Lan thuộc Tỉnh Kiên Giang( này là tỉnh An Giang). công nhận là di sản thiên nhiên thế giới: Ngày 22/12/1995"
+      }
+    },
+    {
+      "qid": "D8-T33-MCQ-002",
+      "topic_id": "33",
+      "type": "MCQ",
+      "skill_tag": "C4",
+      "cognitive_level": "VD",
+      "difficulty": 3,
+      "prompt": "Câu 12. Đường cơ sở là căn cứ để xác định",
+      "answer_key": "D",
+      "explain": "[CORE FACT]: Dap an lay truc tiep tu tai lieu C1-C4 da gui. [DEEP DIVE]: Cau hoi duoc gan vao bong bong \"Thuan loi, kho khan kinh te bien va bao ve chu quyen\" theo tu khoa va mach noi dung trong tai lieu. [PRO TIP]: Neu chua chac, mo lai phan A/B cua file goc de doi chieu.",
+      "source_file": "LOP_8_C4---07c2372b-3416-493e-887f-a0d331974bbf.docx",
+      "choices": {
+        "A": "vị trí địa lí, độ sâu của lãnh hải và các vùng biển khác.",
+        "B": "giới hạn, chiều rộng của lãnh hải và các vùng biển khác.",
+        "C": "độ sâu, chiều rộng của lãnh hải và các vùng biển khác.",
+        "D": "phạm vi, chiều rộng của lãnh hải và các vùng biển khác."
+      }
+    },
+    {
+      "qid": "D8-T33-MCQ-003",
+      "topic_id": "33",
+      "type": "MCQ",
+      "skill_tag": "C4",
+      "cognitive_level": "VD",
+      "difficulty": 3,
+      "prompt": "Câu 17. Vùng đặc quyền kinh tế là?",
+      "answer_key": "C",
+      "explain": "[CORE FACT]: Dap an lay truc tiep tu tai lieu C1-C4 da gui. [DEEP DIVE]: Cau hoi duoc gan vao bong bong \"Thuan loi, kho khan kinh te bien va bao ve chu quyen\" theo tu khoa va mach noi dung trong tai lieu. [PRO TIP]: Neu chua chac, mo lai phan A/B cua file goc de doi chieu.",
+      "source_file": "LOP_8_C4---07c2372b-3416-493e-887f-a0d331974bbf.docx",
+      "choices": {
+        "A": "Vùng biển có chiều rộng 12 hải lí tính từ đường cơ sở ra phía biển",
+        "B": "Vùng biển tiếp liền và nằm ngoài lãnh hải Việt Nam, có chiều rộng 12 hải lí tính từ ranh giới ngoài của lãnh hải.",
+        "C": "Vùng biển tiếp liền và nằm ngoài lãnh hải Việt Nam, hợp với lãnh hải thành một vùng biển có chiều rộng 200 hải lí tính từ đường cơ sở.",
+        "D": "Vùng nước tiếp giáp với bờ biển, ở phía trong đường cơ sở và là bộ phận lãnh thổ của Việt Nam."
+      }
+    },
+    {
+      "qid": "D8-T33-MCQ-004",
+      "topic_id": "33",
+      "type": "MCQ",
+      "skill_tag": "C4",
+      "cognitive_level": "VD",
+      "difficulty": 3,
+      "prompt": "Câu 19. Đường biên giới quốc gia trên biển của Việt Nam nằm ở",
+      "answer_key": "C",
+      "explain": "[CORE FACT]: Dap an lay truc tiep tu tai lieu C1-C4 da gui. [DEEP DIVE]: Cau hoi duoc gan vao bong bong \"Thuan loi, kho khan kinh te bien va bao ve chu quyen\" theo tu khoa va mach noi dung trong tai lieu. [PRO TIP]: Neu chua chac, mo lai phan A/B cua file goc de doi chieu.",
+      "source_file": "LOP_8_C4---07c2372b-3416-493e-887f-a0d331974bbf.docx",
+      "choices": {
+        "A": "ranh giới ngoài của nội thủy.",
+        "B": "ranh giới của thềm lục địa.",
+        "C": "ranh giới ngoài của lãnh hải.",
+        "D": "ranh giới đặc quyền kinh tế."
+      }
+    },
+    {
+      "qid": "D8-T33-MCQ-005",
+      "topic_id": "33",
+      "type": "MCQ",
+      "skill_tag": "C4",
+      "cognitive_level": "VD",
+      "difficulty": 3,
+      "prompt": "Câu 20. Luật biển quốc tế ra đời năm nào sau đây?",
+      "answer_key": "B",
+      "explain": "[CORE FACT]: Dap an lay truc tiep tu tai lieu C1-C4 da gui. [DEEP DIVE]: Cau hoi duoc gan vao bong bong \"Thuan loi, kho khan kinh te bien va bao ve chu quyen\" theo tu khoa va mach noi dung trong tai lieu. [PRO TIP]: Neu chua chac, mo lai phan A/B cua file goc de doi chieu.",
+      "source_file": "LOP_8_C4---07c2372b-3416-493e-887f-a0d331974bbf.docx",
+      "choices": {
+        "A": "1985",
+        "B": "1982",
+        "C": "1983",
+        "D": "1984"
+      }
+    },
+    {
+      "qid": "D8-T33-MCQ-006",
+      "topic_id": "33",
+      "type": "MCQ",
+      "skill_tag": "C4",
+      "cognitive_level": "VD",
+      "difficulty": 3,
+      "prompt": "Câu 26. Vùng biển của Việt Nam không giáp với vùng biển của nước:",
+      "answer_key": "C",
+      "explain": "[CORE FACT]: Dap an lay truc tiep tu tai lieu C1-C4 da gui. [DEEP DIVE]: Cau hoi duoc gan vao bong bong \"Thuan loi, kho khan kinh te bien va bao ve chu quyen\" theo tu khoa va mach noi dung trong tai lieu. [PRO TIP]: Neu chua chac, mo lai phan A/B cua file goc de doi chieu.",
+      "source_file": "LOP_8_C4---07c2372b-3416-493e-887f-a0d331974bbf.docx",
+      "choices": {
+        "A": "Trung Quốc",
+        "B": "Phi-lip-pin",
+        "C": "Đông Ti mo",
+        "D": "Ma-lai-xi-a"
+      }
+    },
+    {
+      "qid": "D8-T33-MCQ-007",
+      "topic_id": "33",
+      "type": "MCQ",
+      "skill_tag": "C4",
+      "cognitive_level": "VD",
+      "difficulty": 3,
+      "prompt": "Câu 32. Nhiệt độ nước biển tầng mặt trung bình năm nước ta khoảng bao nhiêu 0C ?",
+      "answer_key": "A",
+      "explain": "[CORE FACT]: Dap an lay truc tiep tu tai lieu C1-C4 da gui. [DEEP DIVE]: Cau hoi duoc gan vao bong bong \"Thuan loi, kho khan kinh te bien va bao ve chu quyen\" theo tu khoa va mach noi dung trong tai lieu. [PRO TIP]: Neu chua chac, mo lai phan A/B cua file goc de doi chieu.",
+      "source_file": "LOP_8_C4---07c2372b-3416-493e-887f-a0d331974bbf.docx",
+      "choices": {
+        "A": "230C",
+        "B": "280C",
+        "C": "300C",
+        "D": "330C"
+      }
+    },
+    {
+      "qid": "D8-T33-MCQ-008",
+      "topic_id": "33",
+      "type": "MCQ",
+      "skill_tag": "C4",
+      "cognitive_level": "VD",
+      "difficulty": 3,
+      "prompt": "Câu 38. Chế độ nhật triều đều rất điển hình ở vùng biển nào của nước ta",
+      "answer_key": "D",
+      "explain": "[CORE FACT]: Dap an lay truc tiep tu tai lieu C1-C4 da gui. [DEEP DIVE]: Cau hoi duoc gan vao bong bong \"Thuan loi, kho khan kinh te bien va bao ve chu quyen\" theo tu khoa va mach noi dung trong tai lieu. [PRO TIP]: Neu chua chac, mo lai phan A/B cua file goc de doi chieu.",
+      "source_file": "LOP_8_C4---07c2372b-3416-493e-887f-a0d331974bbf.docx",
+      "choices": {
+        "A": "Thanh Hóa- Nghệ An.",
+        "B": "Vịnh Thái Lan.",
+        "C": "Ninh Thuận-Bình Thuận.",
+        "D": "Vịnh Bắc bộ."
+      }
+    },
+    {
+      "qid": "D8-T33-FILL-009",
+      "topic_id": "33",
+      "type": "FILL",
+      "skill_tag": "C4",
+      "cognitive_level": "VD",
+      "difficulty": 3,
+      "prompt": "Câu 4. Đảo nào có diện tích lớn nhất nước ta?",
+      "answer_key": "Câu 4. Phú Quốc",
+      "explain": "[CORE FACT]: Dap an lay truc tiep tu tai lieu C1-C4 da gui. [DEEP DIVE]: Cau hoi duoc gan vao bong bong \"Thuan loi, kho khan kinh te bien va bao ve chu quyen\" theo tu khoa va mach noi dung trong tai lieu. [PRO TIP]: Neu chua chac, mo lai phan A/B cua file goc de doi chieu.",
+      "source_file": "LOP_8_C4---07c2372b-3416-493e-887f-a0d331974bbf.docx"
+    }
+  ]
+}

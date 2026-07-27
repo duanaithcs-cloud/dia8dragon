@@ -1,0 +1,37 @@
+{
+  "schema": "dia8dragon-learning-library.v1",
+  "items": [
+    {
+      "id": "lop-8-c1",
+      "title": "LOP 8 C1",
+      "fileName": "LOP_8_C1---d3c76b6e-82aa-48bd-abe3-8075329ed35f.docx",
+      "path": "/documents/learning-library/files/LOP_8_C1---d3c76b6e-82aa-48bd-abe3-8075329ed35f.docx",
+      "kind": "docx",
+      "source": "uploaded"
+    },
+    {
+      "id": "lop-8-c2",
+      "title": "LOP 8 C2",
+      "fileName": "LOP_8_C2---662f9dd8-7d10-4634-822b-a0cbf3ab2aea.docx",
+      "path": "/documents/learning-library/files/LOP_8_C2---662f9dd8-7d10-4634-822b-a0cbf3ab2aea.docx",
+      "kind": "docx",
+      "source": "uploaded"
+    },
+    {
+      "id": "lop-8-c3",
+      "title": "LOP 8 C3",
+      "fileName": "LOP_8_C3---c68ef26f-94b3-44a8-bb7f-e11f5ae96917.docx",
+      "path": "/documents/learning-library/files/LOP_8_C3---c68ef26f-94b3-44a8-bb7f-e11f5ae96917.docx",
+      "kind": "docx",
+      "source": "uploaded"
+    },
+    {
+      "id": "lop-8-c4",
+      "title": "LOP 8 C4",
+      "fileName": "LOP_8_C4---07c2372b-3416-493e-887f-a0d331974bbf.docx",
+      "path": "/documents/learning-library/files/LOP_8_C4---07c2372b-3416-493e-887f-a0d331974bbf.docx",
+      "kind": "docx",
+      "source": "uploaded"
+    }
+  ]
+}

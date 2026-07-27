@@ -1,0 +1,73 @@
+{
+  "topic_id": 18,
+  "label": "Ung pho voi bien doi khi hau",
+  "status": "accepted",
+  "accepted_count": 4,
+  "questions": [
+    {
+      "qid": "D8-T18-MCQ-001",
+      "topic_id": "18",
+      "type": "MCQ",
+      "skill_tag": "C2",
+      "cognitive_level": "VDC",
+      "difficulty": 4,
+      "prompt": "Câu 12. Hệ thống sông Hồng nằm ở khu vực nào nước ta?",
+      "answer_key": "A",
+      "explain": "[CORE FACT]: Dap an lay truc tiep tu tai lieu C1-C4 da gui. [DEEP DIVE]: Cau hoi duoc gan vao bong bong \"Ung pho voi bien doi khi hau\" theo tu khoa va mach noi dung trong tai lieu. [PRO TIP]: Neu chua chac, mo lai phan A/B cua file goc de doi chieu.",
+      "source_file": "LOP_8_C2---662f9dd8-7d10-4634-822b-a0cbf3ab2aea.docx",
+      "choices": {
+        "A": "Miền Bắc",
+        "B": "Miền Trung",
+        "C": "Miền Nam",
+        "D": "Tây Nguyên"
+      }
+    },
+    {
+      "qid": "D8-T18-MCQ-002",
+      "topic_id": "18",
+      "type": "MCQ",
+      "skill_tag": "C2",
+      "cognitive_level": "VDC",
+      "difficulty": 4,
+      "prompt": "Câu 26. Hồ tự nhiên lớn nhất nước ta là?",
+      "answer_key": "B",
+      "explain": "[CORE FACT]: Dap an lay truc tiep tu tai lieu C1-C4 da gui. [DEEP DIVE]: Cau hoi duoc gan vao bong bong \"Ung pho voi bien doi khi hau\" theo tu khoa va mach noi dung trong tai lieu. [PRO TIP]: Neu chua chac, mo lai phan A/B cua file goc de doi chieu.",
+      "source_file": "LOP_8_C2---662f9dd8-7d10-4634-822b-a0cbf3ab2aea.docx",
+      "choices": {
+        "A": "Hồ Lăk",
+        "B": "Hồ Ba Bể",
+        "C": "Hồ Thác Bà",
+        "D": "Hồ Trị An"
+      }
+    },
+    {
+      "qid": "D8-T18-FILL-003",
+      "topic_id": "18",
+      "type": "FILL",
+      "skill_tag": "C2",
+      "cognitive_level": "VDC",
+      "difficulty": 4,
+      "prompt": "Câu 4. Gió mùa Đông Bắc thường hoạt động vào thời gian nào? Gây ảnh hưởng gì?",
+      "answer_key": "Câu 4. Từ tháng 11 đến tháng 4; gây lạnh và khô ở miền Bắc, ít ảnh hưởng ở miền Nam.",
+      "explain": "[CORE FACT]: Dap an lay truc tiep tu tai lieu C1-C4 da gui. [DEEP DIVE]: Cau hoi duoc gan vao bong bong \"Ung pho voi bien doi khi hau\" theo tu khoa va mach noi dung trong tai lieu. [PRO TIP]: Neu chua chac, mo lai phan A/B cua file goc de doi chieu.",
+      "source_file": "LOP_8_C2---662f9dd8-7d10-4634-822b-a0cbf3ab2aea.docx"
+    },
+    {
+      "qid": "D8-T18-MATCH-900",
+      "topic_id": "18",
+      "type": "FILL",
+      "subtype": "MATCHING",
+      "skill_tag": "C2",
+      "cognitive_level": "TH",
+      "difficulty": 2,
+      "prompt": "Ghep noi bieu hien/giai phap bien doi khi hau trong tai lieu C2. Nhap dap an theo mau: 1-A; 2-B; ...",
+      "answer_key": "1-B; 2-A; 3-C; 4-D",
+      "accepted_answers": [
+        "1-B; 2-A; 3-C; 4-D",
+        "1-B;  2-A;  3-C;  4-D"
+      ],
+      "explain": "[CORE FACT]: Day la dang ghep noi trich tu bang trong file LOP_8_C2---662f9dd8-7d10-4634-822b-a0cbf3ab2aea.docx. [DEEP DIVE]: Dap an duoc lap bang cach doi chieu cot A/B voi noi dung trong tai lieu, khong dung du lieu ngoai. [PRO TIP]: Nhap dung cap so-chu cai, vi du 1-A; 2-B.",
+      "source_file": "LOP_8_C2---662f9dd8-7d10-4634-822b-a0cbf3ab2aea.docx"
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "topic_id": 10,
+  "label": "Phan hoa khi hau Viet Nam",
+  "status": "accepted",
+  "accepted_count": 4,
+  "questions": [
+    {
+      "qid": "D8-T10-MCQ-001",
+      "topic_id": "10",
+      "type": "MCQ",
+      "skill_tag": "C2",
+      "cognitive_level": "TH",
+      "difficulty": 2,
+      "prompt": "Câu 4. Gió mùa mùa đông của nước ta thổi theo hướng nào?",
+      "answer_key": "D",
+      "explain": "[CORE FACT]: Dap an lay truc tiep tu tai lieu C1-C4 da gui. [DEEP DIVE]: Cau hoi duoc gan vao bong bong \"Phan hoa khi hau Viet Nam\" theo tu khoa va mach noi dung trong tai lieu. [PRO TIP]: Neu chua chac, mo lai phan A/B cua file goc de doi chieu.",
+      "source_file": "LOP_8_C2---662f9dd8-7d10-4634-822b-a0cbf3ab2aea.docx",
+      "choices": {
+        "A": "tây nam",
+        "B": "tây bắc",
+        "C": "đông nam",
+        "D": "đông bắc"
+      }
+    },
+    {
+      "qid": "D8-T10-MCQ-002",
+      "topic_id": "10",
+      "type": "MCQ",
+      "skill_tag": "C2",
+      "cognitive_level": "TH",
+      "difficulty": 2,
+      "prompt": "Câu 16. Chế độ nước của sông ngòi nước ta có đặc điểm là:",
+      "answer_key": "D",
+      "explain": "[CORE FACT]: Dap an lay truc tiep tu tai lieu C1-C4 da gui. [DEEP DIVE]: Cau hoi duoc gan vao bong bong \"Phan hoa khi hau Viet Nam\" theo tu khoa va mach noi dung trong tai lieu. [PRO TIP]: Neu chua chac, mo lai phan A/B cua file goc de doi chieu.",
+      "source_file": "LOP_8_C2---662f9dd8-7d10-4634-822b-a0cbf3ab2aea.docx",
+      "choices": {
+        "A": "Mưa nhiều, đầy nước quanh năm",
+        "B": "Ít mưa, hạn hán quanh năm",
+        "C": "Mưa lũ vào mùa xuân",
+        "D": "Hai mùa nước: mùa lũ và mùa cạn khác nhau rõ rệt"
+      }
+    },
+    {
+      "qid": "D8-T10-MCQ-003",
+      "topic_id": "10",
+      "type": "MCQ",
+      "skill_tag": "C2",
+      "cognitive_level": "TH",
+      "difficulty": 2,
+      "prompt": "Câu 31. Nước ngầm là gì?",
+      "answer_key": "B",
+      "explain": "[CORE FACT]: Dap an lay truc tiep tu tai lieu C1-C4 da gui. [DEEP DIVE]: Cau hoi duoc gan vao bong bong \"Phan hoa khi hau Viet Nam\" theo tu khoa va mach noi dung trong tai lieu. [PRO TIP]: Neu chua chac, mo lai phan A/B cua file goc de doi chieu.",
+      "source_file": "LOP_8_C2---662f9dd8-7d10-4634-822b-a0cbf3ab2aea.docx",
+      "choices": {
+        "A": "Nước ngầm là nguồn nước ở dưới bề mặt Trái Đất.",
+        "B": "Một phần nước mưa hay tuyết tan được ngấm xuống đất và xuống sâu qua các tầng đá, được giữ lại trong các lỗ hổng của đất, các lỗ hổng và khe nứt của đá, goi là nước ngầm.",
+        "C": "Một phần nước mưa hay tuyết tan được ngấm xuống đất và xuống sâu qua các tầng đá được gọi là nước ngầm.",
+        "D": "Nước ngầm là nguồn nước chính trên bề mặt Trái Đất, có tác dụng điều hòa dòng chảy các con sông."
+      }
+    },
+    {
+      "qid": "D8-T10-FILL-004",
+      "topic_id": "10",
+      "type": "FILL",
+      "skill_tag": "C2",
+      "cognitive_level": "TH",
+      "difficulty": 2,
+      "prompt": "Câu 9. Tại sao khu vực đồng bằng ven biển miền Trung mưa ít vào mùa hè?",
+      "answer_key": "Câu 9. Do bị dãy Trường Sơn chắn gió Tây Nam, không khí khô nóng khi vượt núi.",
+      "explain": "[CORE FACT]: Dap an lay truc tiep tu tai lieu C1-C4 da gui. [DEEP DIVE]: Cau hoi duoc gan vao bong bong \"Phan hoa khi hau Viet Nam\" theo tu khoa va mach noi dung trong tai lieu. [PRO TIP]: Neu chua chac, mo lai phan A/B cua file goc de doi chieu.",
+      "source_file": "LOP_8_C2---662f9dd8-7d10-4634-822b-a0cbf3ab2aea.docx"
+    }
+  ]
+}

@@ -1,93 +1,94 @@
-
 import { Topic, TagLevel } from './types';
 
-const INFOGRAPHIC_BASE_URL = "https://raw.githubusercontent.com/duanaithcs-cloud/anh-infographic-33-bubbles/main/";
-
-export const TOPICS_33_RAW = [
-  // 1) I/ Vị trí địa lí & phạm vi lãnh thổ VN
-  { id: 1, label: "VTĐL-PVLT", short: "VTĐL-PVLT", level: TagLevel.NB, group: "Vị trí địa lí & PVLT", text: "NB: Trình bày đặc điểm vị trí địa lí, phạm vi lãnh thổ và 34 tỉnh thành phố sau sáp nhập.", icon: "location_on", mastery: 85, scale: 1.2 },
-  { id: 2, label: "A/H VTĐL – PVLT", short: "A/H VTĐL – PVLT", level: TagLevel.TH, group: "Vị trí địa lí & PVLT", text: "TH: Phân tích ảnh hưởng vị trí & phạm vi lãnh thổ tới hình thành đặc điểm tự nhiên VN.", icon: "explore", mastery: 42, scale: 0.9 },
-  
-  // 2) II/ Địa hình & khoáng sản
-  { id: 3, label: "ĐỊA HÌNH.", short: "ĐỊA HÌNH", level: TagLevel.NB, group: "Địa hình & khoáng sản", text: "NB: Trình bày 1 trong các đặc điểm chủ yếu địa hình VN: đồi núi; đồi núi thấp; hướng địa hình; nhiệt đới ẩm gió mùa; tác động con người.", icon: "terrain", mastery: 100, scale: 1.3 },
-  { id: 4, label: "K.VỰC ĐH", short: "K.VỰC ĐH", level: TagLevel.NB, group: "Địa hình & khoáng sản", text: "NB: Trình bày đặc điểm các khu vực địa hình: đồi núi; đồng bằng; bờ biển & thềm lục địa.", icon: "landscape", mastery: 65, scale: 1.1 },
-  { id: 5, label: "Đ2 K.SẢN", short: "Đ2 K.SẢN", level: TagLevel.TH, group: "Địa hình & khoáng sản", text: "TH: Trình bày và giải thích đặc điểm chung khoáng sản VN.", icon: "diamond", mastery: 28, scale: 0.8 },
-  { id: 6, label: "P.BỐ SD KS", short: "P.BỐ SD KS", level: TagLevel.TH, group: "Địa hình & khoáng sản", text: "TH: Phân tích phân bố khoáng sản chủ yếu and sử dụng hợp lí.", icon: "precision_manufacturing", mastery: 55, scale: 1.0 },
-  { id: 7, label: "P.HÓA ĐỊA HÌNH", short: "P.HÓA ĐỊA HÌNH", level: TagLevel.VD, group: "Địa hình & khoáng sản", text: "VD: Ví dụ chứng minh phân hoá địa hình → phân hoá tự nhiên & khai thác kinh tế.", icon: "layers", mastery: 15, scale: 0.85 },
-
-  // 3) III/ Khí hậu & thuỷ văn
-  { id: 8, label: "KH NĐAGM", short: "KH NĐAGM", level: TagLevel.NB, group: "Khí hậu & thuỷ văn", text: "NB: Trình bày khí hậu nhiệt đới ẩm gió mùa VN.", icon: "thermostat", mastery: 92, scale: 1.25 },
-  { id: 9, label: "LƯU VỰC SÔNG", short: "LƯU VỰC SÔNG", level: TagLevel.NB, group: "Khí hậu & thuỷ văn", text: "NB: Xác định bản đồ lưu vực các hệ thống sông lớn.", icon: "water", mastery: 78, scale: 1.15 },
-  { id: 10, label: "P.HÓA KH", short: "P.HÓA KH", level: TagLevel.TH, group: "Khí hậu & thuỷ văn", text: "TH: Chứng minh phân hoá khí hậu: Bắc–Nam; theo đai cao.", icon: "wb_sunny", mastery: 48, scale: 0.95 },
-  { id: 11, label: "T.Đ BĐKH KH+TV", short: "T.Đ BĐKH KH+TV", level: TagLevel.TH, group: "Khí hậu & thuỷ văn", text: "TH: Phân tích tác động BĐKH tới khí hậu & thuỷ văn VN.", icon: "cyclone", mastery: 35, scale: 0.9 },
-  { id: 12, label: "KH–N.NGHIỆP", short: "KH–N.NGHIỆP", level: TagLevel.TH, group: "Khí hậu & thuỷ văn", text: "TH: Phân tích ảnh hưởng khí hậu tới nông nghiệp.", icon: "agriculture", mastery: 62, scale: 1.05 },
-  { id: 13, label: "1 HT SÔNG", short: "1 HT SÔNG", level: TagLevel.TH, group: "Khí hậu & thuỷ văn", text: "TH: Phân tích mạng lưới sông và chế độ nước sông của một số hệ thống sông lớn.", icon: "humidity_mid", mastery: 100, scale: 1.3 },
-  { id: 14, label: "HỒ-ĐẦM-NN", short: "HỒ-ĐẦM-NN", level: TagLevel.TH, group: "Khí hậu & thuỷ văn", text: "TH: Phân tích vai trò hồ, đầm và nước ngầm đối với sản xuất và sinh hoạt.", icon: "waves", mastery: 25, scale: 0.8 },
-  { id: 15, label: "BĐ–TRẠM-KH", short: "BĐ–TRẠM-KH", level: TagLevel.TH, group: "Khí hậu & thuỷ văn", text: "TH: Đọc được biểu đồ khí hậu của 1 số trạm khí tượng thủy văn.", icon: "bar_chart", mastery: 58, scale: 1.0 },
-  { id: 16, label: "VẼ P.T BĐ KH", short: "VẼ P.T BĐ KH", level: TagLevel.VD, group: "Khí hậu & thuỷ văn", text: "VD: Vẽ và phân tích được biểu đồ khí hậu của một số trạm thuộc các vùng khí hậu khác nhau.", icon: "legend_toggle", mastery: 20, scale: 0.85 },
-  { id: 17, label: "KH-DU.L", short: "KH-DU.L", level: TagLevel.VD, group: "Khí hậu & thuỷ văn", text: "VD: Phân tích được vai trò của khí hậu đối với sự phát triển du lịch ở một số điểm du lịch nổi tiếng của nước ta.", icon: "camera_outdoor", mastery: 74, scale: 1.1 },
-  { id: 18, label: "Ư.PHÓ BĐKH.", short: "Ư.PHÓ BĐKH", level: TagLevel.VDC, group: "Khí hậu & thuỷ văn", text: "VDC: Tìm ví dụ về giải pháp ứng phó với biến đổi khí hậu.", icon: "verified", mastery: 12, scale: 0.75 },
-  { id: 19, label: "K.THÁC TN NƯỚC", short: "K.THÁC TN NƯỚC", level: TagLevel.VDC, group: "Khí hậu & thuỷ văn", text: "VDC: Lấy ví dụ chứng minh được tầm quan trọng của việc sử dụng tổng hợp tài nguyên nước ở một lưu vực sông.", icon: "water_damage", mastery: 88, scale: 1.2 },
-  { id: 20, label: "T.Đ BĐKH TN", short: "T.Đ BĐKH TN", level: TagLevel.VDC, group: "Khí hậu & thuỷ văn", text: "VDC: Phân tích được tác động của Biến đổi khí hậu đối with 1 số yếu tố Tự nhiên Việt Nam.", icon: "warning", mastery: 45, scale: 0.95 },
-
-  // 4) IV/ Thổ nhưỡng & sinh vật
-  { id: 21, label: "3 LOẠI ĐẤT", short: "3 LOẠI ĐẤT", level: TagLevel.NB, group: "Thổ nhưỡng & sinh vật", text: "NB: Trình bày được đặc điểm phân bố của ba nhóm đất chính.", icon: "potted_plant", mastery: 100, scale: 1.35 },
-  { id: 22, label: "THỔ.N NĐAGM", short: "THỔ.N NĐAGM", level: TagLevel.TH, group: "Thổ nhưỡng & sinh vật", text: "TH: Chứng minh được tính chất nhiệt đới gió mùa của lớp phủ thổ nhưỡng.", icon: "eco", mastery: 67, scale: 1.1 },
-  { id: 23, label: "ĐẤT FERALIT", short: "ĐẤT FERALIT", level: TagLevel.TH, group: "Thổ nhưỡng & sinh vật", text: "TH: Phân tích được đặc điểm của đất feralit và giá trị sử dụng đất feralit trong sản xuất nông lâm nghiệp.", icon: "park", mastery: 52, scale: 1.0 },
-  { id: 24, label: "ĐẤT PHÙ SA", short: "ĐẤT PHÙ SA", level: TagLevel.TH, group: "Thổ nhưỡng & sinh vật", text: "TH: Phân tích được đặc điểm của đất phù sa và giá trị sử dụng của đất phù sa trong sản xuất nông nghiệp, thuỷ sản.", icon: "grass", mastery: 81, scale: 1.2 },
-  { id: 25, label: "SINH VẬT ĐA DẠNG", short: "SINH VẬT ĐA DẠNG", level: TagLevel.TH, group: "Thổ nhưỡng & sinh vật", text: "TH: Chứng minh được sự đa dạng của sinh vật ở Việt Nam.", icon: "pets", mastery: 40, scale: 0.9 },
-  { id: 26, label: "CHỐNG THOÁI HÓA ĐẤT", short: "CHỐNG THOÁI HÓA ĐẤT", level: TagLevel.VD, group: "Thổ nhưỡng & sinh vật", text: "VD: Chứng minh được tính cấp thiết của vấn đề chống thoái hoá đất.", icon: "compost", mastery: 30, scale: 0.85 },
-  { id: 27, label: "BẢO TỒN ĐA DẠNG SV", short: "BẢO TỒN ĐA DẠNG SV", level: TagLevel.VD, group: "Thổ nhưỡng & sinh vật", text: "VD: Chứng minh được tính cấp thiết của vấn đề bảo tồn đa dạng sinh học ở Việt Nam.", icon: "diversity_3", mastery: 95, scale: 1.25 },
-
-  // 5) V/ Biển đảo VN
-  { id: 28, label: "PV BIỂN", short: "PV BIỂN", level: TagLevel.NB, group: "Biển đảo VN", text: "NB: Xác định được trên bản đồ phạm vi Biển Đông, các nước và vùng lãnh thổ có chung Biển Đông với Việt Nam.", icon: "explore", mastery: 72, scale: 1.1 },
-  { id: 29, label: "TỰ NHIÊN BIỂN", short: "TỰ NHIÊN BIỂN", level: TagLevel.NB, group: "Biển đảo VN", text: "NB: Trình bày được đặc điểm tự nhiên vùng biển đảo Việt Nam.", icon: "waves", mastery: 50, scale: 1.0 },
-  { id: 30, label: "TÀI NGUYÊN BIỂN.", short: "TÀI NGUYÊN BIỂN", level: TagLevel.NB, group: "Biển đảo VN", text: "NB: Trình bày được các tài nguyên biển và thềm lục địa Việt Nam.", icon: "sailing", mastery: 100, scale: 1.3 },
-  { id: 31, label: "MÔI TRƯỜNG BIỂN", short: "MÔI TRƯỜNG BIỂN", level: TagLevel.TH, group: "Biển đảo VN", text: "TH: Nêu được đặc điểm môi trường biển đảo và vấn đề bảo vệ môi trường biển đảo Việt Nam.", icon: "recycling", mastery: 38, scale: 0.85 },
-  { id: 32, label: "LUẬT BIỂN", short: "LUẬT BIỂN", level: TagLevel.VD, group: "Biển đảo VN", text: "VD: Xác định được trên bản đồ các mốc xác định đường cơ sở, đường phân chia vịnh Bắc Bộ... (theo Luật Biển VN).", icon: "gavel", mastery: 22, scale: 0.8 },
-  { id: 33, label: "TL KK BIỂN", short: "TL KK BIỂN", level: TagLevel.VD, group: "Biển đảo VN", text: "VD: Phân tích được những thuận lợi và khó khăn đối with kinh tế và bảo vệ chủ quyền.", icon: "account_balance", mastery: 83, scale: 1.2 }
+export const TOPIC_CATALOG = [
+  { id: 1, label: "Vi tri dia li va pham vi lanh tho", short: "VTDL-PVLT", level: TagLevel.NB, group: "Vi tri dia li & pham vi lanh tho", text: "1. VỊ TRÍ ĐỊA LÍ VÀ PHẠM VI LÃNH THỔ VIỆT NAM; 1.1 Vị trí địa lí; Vị trí:", icon: "location_on", color: "#00f5ff", mastery: 0, scale: 1.0 },
+  { id: 2, label: "Anh huong vi tri dia li va pham vi lanh tho", short: "AH VTDL", level: TagLevel.TH, group: "Vi tri dia li & pham vi lanh tho", text: "- Vùng trời: là khoảng không gian bao trùm lên lãnh thổ nước ta.; 1.3 Ảnh hưởng của vị trí địa lí và phạm vi lãnh thổ đối với sự hình thành đặc điểm địa lí tự nhiên Việt Nam; * Vị trí địa lí và lãnh thổ đã quy định đặc điểm cơ bản của thiên nhiên nước ta mang tính chất nhiệt đới ẩm gió mùa, chịu ảnh hưởng sâu sắc của biển và phân hóa đa dạng:", icon: "explore", color: "#00f5ff", mastery: 0, scale: 1.0 },
+  { id: 3, label: "Dac diem dia hinh Viet Nam", short: "Dia hinh VN", level: TagLevel.NB, group: "Dia hinh & khoang san", text: "- Hướng vòng cung: thể hiện rõ nhất ở vùng núi Đông Bắc.; c) Địa hình có tính chất phân bậc khá rõ rệt; - Nguyên nhân: quá trình địa chất lâu dài, vận động tạo núi Hi-ma-lay-a.", icon: "terrain", color: "#6366f1", mastery: 0, scale: 1.0 },
+  { id: 4, label: "Cac khu vuc dia hinh", short: "Khu vuc DH", level: TagLevel.NB, group: "Dia hinh & khoang san", text: "- Đồng bằng chiếm 1/4 diện tích lãnh thổ.; b) Địa hình có hai hướng chính là tây bắc-đông nam và hướng vòng cung; - Hướng tây bắc- đông nam như Con Voi, Hoàng Liên Sơn, Trường Sơn Bắc,...", icon: "landscape", color: "#6366f1", mastery: 0, scale: 1.0 },
+  { id: 5, label: "Dac diem khoang san Viet Nam", short: "Dac diem KS", level: TagLevel.TH, group: "Dia hinh & khoang san", text: "+ Đối với nông nghiệp, lâm nghiệp: trồng rừng, cây công nghiệp, cây ăn quả, chăn nuôi gia súc.; + Đối với công nghiệp: phát triển khai thác khoáng sản, luyện kim, thủy điện,...; + Đối với du lịch: Khu vực đồi núi có khí hậu mát mẻ, cảnh quan đa dạng, đặc sắc là cơ sở hình thành các điểm du lịch có giá trị.", icon: "diamond", color: "#6366f1", mastery: 0, scale: 1.0 },
+  { id: 6, label: "Phan bo va su dung khoang san", short: "PB-SD KS", level: TagLevel.TH, group: "Dia hinh & khoang san", text: "+ Đối với nông nghiệp, lâm nghiệp: trồng rừng, cây công nghiệp, cây ăn quả, chăn nuôi gia súc.; + Đối với công nghiệp: phát triển khai thác khoáng sản, luyện kim, thủy điện,...; + Đối với du lịch: Khu vực đồi núi có khí hậu mát mẻ, cảnh quan đa dạng, đặc sắc là cơ sở hình thành các điểm du lịch có giá trị.", icon: "precision_manufacturing", color: "#6366f1", mastery: 0, scale: 1.0 },
+  { id: 7, label: "Phan hoa dia hinh va tu nhien", short: "Phan hoa DH", level: TagLevel.VD, group: "Dia hinh & khoang san", text: "1.3 Ảnh hưởng của vị trí địa lí và phạm vi lãnh thổ đối với sự hình thành đặc điểm địa lí tự nhiên Việt Nam; * Vị trí địa lí và lãnh thổ đã quy định đặc điểm cơ bản của thiên nhiên nước ta mang tính chất nhiệt đới ẩm gió mùa, chịu ảnh hưởng sâu sắc của biển và phân hóa đa dạng:; - Khí hậu: một năm có 2 mùa rõ rệt, chịu ảnh hưởng của các cơn bão lớn.", icon: "layers", color: "#6366f1", mastery: 0, scale: 1.0 },
+  { id: 8, label: "Khi hau nhiet doi am gio mua", short: "KH NDAGM", level: TagLevel.NB, group: "Khi hau & thuy van", text: "- Cán cân bức xạ từ 70-100 kcal/cm2/năm.; b) Tính chất ẩm; - Lượng mưa trung bình năm lớn: từ 1500 - 2000 mm/năm.", icon: "thermostat", color: "#00d1ff", mastery: 0, scale: 1.0 },
+  { id: 9, label: "Luu vuc song va he thong song lon", short: "Luu vuc song", level: TagLevel.NB, group: "Khi hau & thuy van", text: "2. THUỶ VĂN VIỆT NAM; 2.1. Sông ngòi; a) Đặc điểm chung", icon: "water", color: "#00d1ff", mastery: 0, scale: 1.0 },
+  { id: 10, label: "Phan hoa khi hau Viet Nam", short: "Phan hoa KH", level: TagLevel.TH, group: "Khi hau & thuy van", text: "a) Phân hoá theo chiều bắc-nam; - Miền khí hậu phía Bắc: nhiệt độ trung bình năm trên 200C, có mùa đông lạnh, ít mưa; mùa hạ nóng, ẩm và mưa nhiều.; - Miền khí hậu phía Nam: nhiệt độ trung bình năm trên 250C, có 2 mùa mưa, khô phân hóa rõ rệt.", icon: "wb_sunny", color: "#00d1ff", mastery: 0, scale: 1.0 },
+  { id: 11, label: "Tac dong bien doi khi hau toi khi hau va thuy van", short: "BDKH KH-TV", level: TagLevel.TH, group: "Khi hau & thuy van", text: "CHỦ ĐỀ 2: KHÍ HẬU VÀ THUỶ VĂN VIỆT NAM; 1. KHÍ HẬU VIỆT NAM; Khí hậu Việt Nam phân hóa thành 3 đai cao gồm: nhiệt đới gió mùa; cận nhiệt đới gió mùa trên núi và ôn đới gió mùa trên núi.", icon: "cyclone", color: "#00d1ff", mastery: 0, scale: 1.0 },
+  { id: 12, label: "Khi hau va nong nghiep", short: "KH-Nong nghiep", level: TagLevel.TH, group: "Khi hau & thuy van", text: "c) Tính chất gió mùa; * Gió mùa mùa đông:; - Thời gian: từ tháng 11 – 4 năm sau", icon: "agriculture", color: "#00d1ff", mastery: 0, scale: 1.0 },
+  { id: 13, label: "Phan tich mot he thong song", short: "Mot HT song", level: TagLevel.TH, group: "Khi hau & thuy van", text: "b) Một số hệ thống sông; * Hệ thống sông Hồng; - Đặc điểm mạng lưới sông:", icon: "humidity_mid", color: "#00d1ff", mastery: 0, scale: 1.0 },
+  { id: 14, label: "Ho, dam va nuoc ngam", short: "Ho-dam-NN", level: TagLevel.TH, group: "Khi hau & thuy van", text: "- Lượng mưa trung bình năm lớn: từ 1500 - 2000 mm/năm.; - Độ ẩm không khí cao, trên 80%.; c) Tính chất gió mùa", icon: "waves", color: "#00d1ff", mastery: 0, scale: 1.0 },
+  { id: 15, label: "Doc bieu do khi hau va tram khi tuong thuy van", short: "Doc BD KH", level: TagLevel.TH, group: "Khi hau & thuy van", text: "b) Tính chất ẩm; - Lượng mưa trung bình năm lớn: từ 1500 - 2000 mm/năm.; - Độ ẩm không khí cao, trên 80%.", icon: "bar_chart", color: "#00d1ff", mastery: 0, scale: 1.0 },
+  { id: 16, label: "Ve va phan tich bieu do khi hau", short: "Ve PT BD KH", level: TagLevel.VD, group: "Khi hau & thuy van", text: "b) Tính chất ẩm; - Lượng mưa trung bình năm lớn: từ 1500 - 2000 mm/năm.; - Độ ẩm không khí cao, trên 80%.", icon: "legend_toggle", color: "#00d1ff", mastery: 0, scale: 1.0 },
+  { id: 17, label: "Vai tro khi hau doi voi du lich", short: "KH-Du lich", level: TagLevel.VD, group: "Khi hau & thuy van", text: "- Đặc điểm:; + Ở miền Bắc: nửa đầu mùa đông thời tiết lạnh khô, nửa sau mùa đông thời tiết lạnh ẩm, có mưa phùn.; + Ở miền Nam, Tín phong chiếm ưu thế đem đến mùa khô cho Nan Bộ và Tây Nguyên, gây mưa cho vùng biển Nam Trung Bộ.", icon: "camera_outdoor", color: "#00d1ff", mastery: 0, scale: 1.0 },
+  { id: 18, label: "Ung pho voi bien doi khi hau", short: "Ung pho BDKH", level: TagLevel.VDC, group: "Khi hau & thuy van", text: "+ Nông nghiệp: cung cấp nước cho trồng trọt và chăn nuôi, nuôi trồng, đánh bắt thuỷ sản.; + Công nghiệp: phát triển thuỷ điện, cung cấp nước cho các ngành công nghiệp.; + Dịch vụ: có giá trị về giao thông, phát triển du lịch.", icon: "verified", color: "#00d1ff", mastery: 0, scale: 1.0 },
+  { id: 19, label: "Khai thac tong hop tai nguyen nuoc", short: "Khai thac nuoc", level: TagLevel.VDC, group: "Khi hau & thuy van", text: "- Đối với sinh hoạt: là nguồn nước quan trọng phục vụ cho sinh hoạt của người dân.; 3. VAI TRÒ CỦA TÀI NGUYÊN KHÍ HẬU VÀ TÀI NGUYÊN NƯỚC ĐỐI VỚI SỰ PHÁT TRIỂN KINH TẾ-XÃ HỘI CỦA NƯỚC TA; 3.1. Ảnh hưởng của khí hậu đối với sản xuất nông nghiệp", icon: "water_damage", color: "#00d1ff", mastery: 0, scale: 1.0 },
+  { id: 20, label: "Tac dong bien doi khi hau toi tu nhien", short: "BDKH TN", level: TagLevel.VDC, group: "Khi hau & thuy van", text: "- Khó khăn:; + Nhiều thiên tai thường xuyên xảy ra (bão, lũ lụt, hạn hán, gió Tây khô nóng, sương muối,...) gây thiệt hại cho sản xuất nông nghiệp.; + Khí hậu nóng ẩm tạo điều kiện cho sâu bệnh, dịch bệnh, nấm mốc phát triển gây hại cho cây trồng, vật nuôi.", icon: "warning", color: "#00d1ff", mastery: 0, scale: 1.0 },
+  { id: 21, label: "Ba nhom dat chinh", short: "Ba nhom dat", level: TagLevel.NB, group: "Tho nhuong & sinh vat", text: "CHỦ ĐỀ 3: THỔ NHƯỠNG VÀ SINH VẬT VIỆT NAM; 1. THỔ NHƯỠNG VIỆT NAM; 1.1. Tính chất nhiệt đới gió mùa của lớp phủ thổ nhưỡng", icon: "potted_plant", color: "#00ff88", mastery: 0, scale: 1.0 },
+  { id: 22, label: "Tinh chat nhiet doi gio mua cua tho nhuong", short: "Tho NDGM", level: TagLevel.TH, group: "Tho nhuong & sinh vat", text: "1. THỔ NHƯỠNG VIỆT NAM; 1.1. Tính chất nhiệt đới gió mùa của lớp phủ thổ nhưỡng; - Thổ nhưỡng là lớp vật chất mỏng, vụn bở, bao phủ trên bề mặt các lục địa và đảo, được đặc trưng bởi độ phì.", icon: "eco", color: "#00ff88", mastery: 0, scale: 1.0 },
+  { id: 23, label: "Dat feralit va gia tri su dung", short: "Dat feralit", level: TagLevel.TH, group: "Tho nhuong & sinh vat", text: "- Đặc điểm:; + Chứa nhiều oxít sắt và oxít nhôm tạo nên màu đỏ vàng.; + Có lớp vỏ phong hóa dày thoáng khí, dễ thoát nước, đất chua, nghèo các chất badơ và mùn.", icon: "park", color: "#00ff88", mastery: 0, scale: 1.0 },
+  { id: 24, label: "Dat phu sa va gia tri su dung", short: "Dat phu sa", level: TagLevel.TH, group: "Tho nhuong & sinh vat", text: "+ Trong nông nghiệp: sản xuất lương thực, cây công nghiệp hàng năm và cây ăn quả.; + Trong thủy sản: vùng đất phèn, đất mặn tạo điều kiện thuận lợi cho việc đánh bắt thuỷ sản. Ở các rừng ngập mặn ven biển, các bãi triều ngập nước và ở cửa sông lớn thuận lợi cho nuôi trồng thủy sản.; c) Nhóm đất mùn trên núi", icon: "grass", color: "#00ff88", mastery: 0, scale: 1.0 },
+  { id: 25, label: "Su da dang sinh vat Viet Nam", short: "Sinh vat da dang", level: TagLevel.TH, group: "Tho nhuong & sinh vat", text: "CHỦ ĐỀ 3: THỔ NHƯỠNG VÀ SINH VẬT VIỆT NAM; 1. THỔ NHƯỠNG VIỆT NAM; 1.1. Tính chất nhiệt đới gió mùa của lớp phủ thổ nhưỡng", icon: "pets", color: "#00ff88", mastery: 0, scale: 1.0 },
+  { id: 26, label: "Chong thoai hoa dat", short: "Chong thoai hoa", level: TagLevel.VD, group: "Tho nhuong & sinh vat", text: "+ Ở khu vực nhiệt đới ẩm gió mùa, quá trình phong hoá diễn ra với cường độ mạnh.; + Lượng mưa tập trung theo mùa rửa trôi các chất badơ dễ tan đồng thời tích tụ oxit sắt và oxit nhôm.; + Một số nơi mất đi lớp phủ thực vật.", icon: "compost", color: "#00ff88", mastery: 0, scale: 1.0 },
+  { id: 27, label: "Bao ton da dang sinh hoc", short: "Bao ton DDSH", level: TagLevel.VD, group: "Tho nhuong & sinh vat", text: "* Đa dạng về thành phần loài: Ở nước ta đã phát hiện hơn 50.000 loài sinh vật, trong đó nhiều loài thực vật quý hiếm (trầm hương, trắc, sâm Ngọc Linh, nghiến, gỗ gụ…) và động vật quý hiếm (Sao la, voi, bò tót, trĩ…).; * Đa dạng về nguồn gen di truyền: số lượng các cá thể trong mỗi loài tương đối phong phú, tạo nên sự đa dạng về nguồn gen di truyền,…; * Đa dạng về hệ sinh thái:", icon: "diversity_3", color: "#00ff88", mastery: 0, scale: 1.0 },
+  { id: 28, label: "Pham vi Bien Dong va vung bien Viet Nam", short: "Pham vi bien", level: TagLevel.NB, group: "Bien dao Viet Nam", text: "1.2. Các vùng biển của Việt Nam ở Biển Đông; - Đường cơ sở để tính chiều rộng lãnh hải VN là đường thẳng gãy khúc, nối liền các điểm từ 0 – A11.; - Vùng biển nước ta có diện tích khoàng 1 triệu km2.", icon: "explore", color: "#3357FF", mastery: 0, scale: 1.0 },
+  { id: 29, label: "Dac diem tu nhien vung bien dao", short: "Tu nhien bien", level: TagLevel.NB, group: "Bien dao Viet Nam", text: "- Thiên tai: bão, lốc, áp thấp nhiệt đới,...; c) Hải văn; - Độ muối trung bình là 32 - 33%0.", icon: "waves", color: "#3357FF", mastery: 0, scale: 1.0 },
+  { id: 30, label: "Tai nguyen bien va them luc dia", short: "Tai nguyen bien", level: TagLevel.NB, group: "Bien dao Viet Nam", text: "c) Hải văn; - Độ muối trung bình là 32 - 33%0.; - Dòng biển: thay đổi theo mùa: mùa đông, dòng biển có hướng đông bắc - tây nam; mùa hạ, là tây nam - đông bắc.", icon: "sailing", color: "#3357FF", mastery: 0, scale: 1.0 },
+  { id: 31, label: "Moi truong bien dao Viet Nam", short: "Moi truong bien", level: TagLevel.TH, group: "Bien dao Viet Nam", text: "2. MÔI TRƯỜNG VÀ TÀI NGUYÊN BIỂN ĐẢO VIỆT NAM; 2.1. Môi trường biển đảo Việt Nam; a) Đặc điêm môi trường biển đảo", icon: "recycling", color: "#3357FF", mastery: 0, scale: 1.0 },
+  { id: 32, label: "Luat bien va cac vung bien Viet Nam", short: "Luat bien", level: TagLevel.VD, group: "Bien dao Viet Nam", text: "1.2. Các vùng biển của Việt Nam ở Biển Đông; - Đường cơ sở để tính chiều rộng lãnh hải VN là đường thẳng gãy khúc, nối liền các điểm từ 0 – A11.; - Vùng biển nước ta có diện tích khoàng 1 triệu km2.", icon: "gavel", color: "#3357FF", mastery: 0, scale: 1.0 },
+  { id: 33, label: "Thuan loi, kho khan kinh te bien va bao ve chu quyen", short: "TL-KK bien", level: TagLevel.VD, group: "Bien dao Viet Nam", text: "- Vùng thềm lục địa rộng, bằng phẳng ở phía bắc và phía nam, hẹp và sâu ở miền Trung.; - Có nhiểu đảo và quần đảo, trong đó có 2 quần đảo xa bờ là Hoàng Sa và Trường Sa.; b) Khí hậu", icon: "account_balance", color: "#3357FF", mastery: 0, scale: 1.0 },
 ];
 
-const COLORS_BY_GROUP: Record<string, string> = {
-  "Vị trí địa lí & PVLT": "#00f5ff",
-  "Địa hình & khoáng sản": "#6366f1",
-  "Khí hậu & thuỷ văn": "#00d1ff",
-  "Thổ nhưỡng & sinh vật": "#00ff88",
-  "Biển đảo VN": "#3357FF",
+const LOCALIZED_TOPIC_META: Record<number, { label: string; short: string; group: string }> = {
+  1: { label: "Vị trí địa lí và phạm vi lãnh thổ", short: "Vị trí - lãnh thổ", group: "Vị trí địa lí và lãnh thổ" },
+  2: { label: "Ảnh hưởng của vị trí địa lí", short: "Ảnh hưởng vị trí", group: "Vị trí địa lí và lãnh thổ" },
+  3: { label: "Đặc điểm địa hình Việt Nam", short: "Địa hình VN", group: "Địa hình và khoáng sản" },
+  4: { label: "Các khu vực địa hình", short: "Khu vực địa hình", group: "Địa hình và khoáng sản" },
+  5: { label: "Đặc điểm khoáng sản Việt Nam", short: "Khoáng sản VN", group: "Địa hình và khoáng sản" },
+  6: { label: "Phân bố và sử dụng khoáng sản", short: "Sử dụng khoáng sản", group: "Địa hình và khoáng sản" },
+  7: { label: "Phân hoá địa hình và tự nhiên", short: "Phân hoá địa hình", group: "Địa hình và khoáng sản" },
+  8: { label: "Khí hậu nhiệt đới ẩm gió mùa", short: "Khí hậu gió mùa", group: "Khí hậu và thuỷ văn" },
+  9: { label: "Lưu vực sông và hệ thống sông lớn", short: "Hệ thống sông", group: "Khí hậu và thuỷ văn" },
+  10: { label: "Phân hoá khí hậu Việt Nam", short: "Phân hoá khí hậu", group: "Khí hậu và thuỷ văn" },
+  11: { label: "Tác động biến đổi khí hậu tới khí hậu và thuỷ văn", short: "Tác động BĐKH", group: "Khí hậu và thuỷ văn" },
+  12: { label: "Khí hậu và nông nghiệp", short: "Khí hậu - nông nghiệp", group: "Khí hậu và thuỷ văn" },
+  13: { label: "Phân tích một hệ thống sông", short: "Phân tích sông", group: "Khí hậu và thuỷ văn" },
+  14: { label: "Hồ, đầm và nước ngầm", short: "Hồ đầm - nước ngầm", group: "Khí hậu và thuỷ văn" },
+  15: { label: "Đọc biểu đồ khí hậu", short: "Đọc biểu đồ", group: "Khí hậu và thuỷ văn" },
+  16: { label: "Vẽ và phân tích biểu đồ khí hậu", short: "Vẽ biểu đồ", group: "Khí hậu và thuỷ văn" },
+  17: { label: "Vai trò khí hậu đối với du lịch", short: "Khí hậu - du lịch", group: "Khí hậu và thuỷ văn" },
+  18: { label: "Ứng phó với biến đổi khí hậu", short: "Ứng phó BĐKH", group: "Khí hậu và thuỷ văn" },
+  19: { label: "Khai thác tổng hợp tài nguyên nước", short: "Tài nguyên nước", group: "Khí hậu và thuỷ văn" },
+  20: { label: "Tác động biến đổi khí hậu tới tự nhiên", short: "BĐKH và tự nhiên", group: "Khí hậu và thuỷ văn" },
+  21: { label: "Ba nhóm đất chính", short: "Ba nhóm đất", group: "Thổ nhưỡng và sinh vật" },
+  22: { label: "Tính chất nhiệt đới gió mùa của thổ nhưỡng", short: "Thổ nhưỡng gió mùa", group: "Thổ nhưỡng và sinh vật" },
+  23: { label: "Đất feralit và giá trị sử dụng", short: "Đất feralit", group: "Thổ nhưỡng và sinh vật" },
+  24: { label: "Đất phù sa và giá trị sử dụng", short: "Đất phù sa", group: "Thổ nhưỡng và sinh vật" },
+  25: { label: "Sự đa dạng sinh vật Việt Nam", short: "Đa dạng sinh vật", group: "Thổ nhưỡng và sinh vật" },
+  26: { label: "Chống thoái hoá đất", short: "Chống thoái hoá đất", group: "Thổ nhưỡng và sinh vật" },
+  27: { label: "Bảo tồn đa dạng sinh học", short: "Bảo tồn sinh học", group: "Thổ nhưỡng và sinh vật" },
+  28: { label: "Phạm vi Biển Đông và vùng biển Việt Nam", short: "Phạm vi biển", group: "Biển đảo Việt Nam" },
+  29: { label: "Đặc điểm tự nhiên vùng biển đảo", short: "Tự nhiên biển đảo", group: "Biển đảo Việt Nam" },
+  30: { label: "Tài nguyên biển và thềm lục địa", short: "Tài nguyên biển", group: "Biển đảo Việt Nam" },
+  31: { label: "Môi trường biển đảo Việt Nam", short: "Môi trường biển", group: "Biển đảo Việt Nam" },
+  32: { label: "Luật biển và các vùng biển Việt Nam", short: "Luật biển", group: "Biển đảo Việt Nam" },
+  33: { label: "Thuận lợi, khó khăn kinh tế biển và bảo vệ chủ quyền", short: "Kinh tế biển", group: "Biển đảo Việt Nam" },
 };
 
-export const MOCK_TOPICS: Topic[] = TOPICS_33_RAW.map((item) => {
-  const baseColor = COLORS_BY_GROUP[item.group] || "#0d33f2";
-  return {
-    topic_id: item.id,
-    group_id: Math.ceil(item.id / 7),
-    group_title: item.group,
-    tag_level: item.level,
-    keyword_label: item.label,
-    short_label: item.short,
-    full_text: item.text,
-    mastery_percent: item.mastery || 0,
-    scale: item.scale || 1.0, 
-    delta: Math.floor(Math.random() * 10) - 2, 
-    attempts_count: Math.floor(Math.random() * 5),
-    avg_time_sec: 0,
-    competency_scores: { 
-        C1: Math.min(100, (item.mastery || 0) + 5), 
-        C2: Math.min(100, Math.floor((item.mastery || 0) * 0.8)), 
-        C3: Math.min(100, Math.floor((item.mastery || 0) * 0.6)), 
-        C4: Math.min(100, Math.floor((item.mastery || 0) * 0.4)) 
-    },
-    last_attempt_at: null,
-    error_tags: [],
-    pinned: false,
-    history_mastery: { 
-        day: Math.floor(Math.random() * 5), 
-        week: Math.floor(Math.random() * 15), 
-        month: Math.floor(Math.random() * 30), 
-        three_months: Math.floor(Math.random() * 50) 
-    },
-    icon: item.icon,
-    color: baseColor,
-    infographic_url: `${INFOGRAPHIC_BASE_URL}${item.id}.png` // New data field
-  };
-});
+export const MOCK_TOPICS: Topic[] = TOPIC_CATALOG.map((item) => ({
+  topic_id: item.id,
+  group_id: Array.from(new Set(TOPIC_CATALOG.map(t => LOCALIZED_TOPIC_META[t.id]?.group || t.group))).indexOf(LOCALIZED_TOPIC_META[item.id]?.group || item.group) + 1,
+  group_title: LOCALIZED_TOPIC_META[item.id]?.group || item.group,
+  tag_level: item.level,
+  keyword_label: LOCALIZED_TOPIC_META[item.id]?.label || item.label,
+  short_label: LOCALIZED_TOPIC_META[item.id]?.short || item.short,
+  full_text: item.text,
+  mastery_percent: item.mastery,
+  scale: item.scale,
+  delta: 0, attempts_count: 0, avg_time_sec: 0,
+  competency_scores: { C1: 0, C2: 0, C3: 0, C4: 0 },
+  last_attempt_at: null, error_tags: [], pinned: false,
+  history_mastery: { day: 0, week: 0, month: 0, three_months: 0 },
+  icon: item.icon,
+  color: item.color,
+  source_file: `Học liệu Dia8Dragon - ${LOCALIZED_TOPIC_META[item.id]?.group || item.group}`,
+  source_excerpt: item.text,
+  source_readable: true
+}));

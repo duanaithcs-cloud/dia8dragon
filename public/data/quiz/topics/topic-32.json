@@ -1,0 +1,157 @@
+{
+  "topic_id": 32,
+  "label": "Luat bien va cac vung bien Viet Nam",
+  "status": "accepted",
+  "accepted_count": 9,
+  "questions": [
+    {
+      "qid": "D8-T32-MCQ-001",
+      "topic_id": "32",
+      "type": "MCQ",
+      "skill_tag": "C4",
+      "cognitive_level": "VD",
+      "difficulty": 3,
+      "prompt": "Câu 4. Trong 2 cuộc kháng chiến chống Thực dân Pháp và đế quốc Mỹ, đảo nào sau đây được mệnh danh là “Địa ngục trần gian”:",
+      "answer_key": "C",
+      "explain": "[CORE FACT]: Dap an lay truc tiep tu tai lieu C1-C4 da gui. [DEEP DIVE]: Cau hoi duoc gan vao bong bong \"Luat bien va cac vung bien Viet Nam\" theo tu khoa va mach noi dung trong tai lieu. [PRO TIP]: Neu chua chac, mo lai phan A/B cua file goc de doi chieu.",
+      "source_file": "LOP_8_C4---07c2372b-3416-493e-887f-a0d331974bbf.docx",
+      "choices": {
+        "A": "Đảo Lý Sơn",
+        "B": "Đảo Phú Quốc",
+        "C": "Côn Đảo",
+        "D": "Đảo Cát Bà"
+      }
+    },
+    {
+      "qid": "D8-T32-MCQ-002",
+      "topic_id": "32",
+      "type": "MCQ",
+      "skill_tag": "C4",
+      "cognitive_level": "VD",
+      "difficulty": 3,
+      "prompt": "Câu 11. Đường phân định vịnh Bắc Bộ được xác định bằng",
+      "answer_key": "A",
+      "explain": "[CORE FACT]: Dap an lay truc tiep tu tai lieu C1-C4 da gui. [DEEP DIVE]: Cau hoi duoc gan vao bong bong \"Luat bien va cac vung bien Viet Nam\" theo tu khoa va mach noi dung trong tai lieu. [PRO TIP]: Neu chua chac, mo lai phan A/B cua file goc de doi chieu.",
+      "source_file": "LOP_8_C4---07c2372b-3416-493e-887f-a0d331974bbf.docx",
+      "choices": {
+        "A": "21 điểm có toạ độ xác định.",
+        "B": "20 điểm có toạ độ xác định.",
+        "C": "23 điểm có toạ độ xác định.",
+        "D": "22 điểm có toạ độ xác định."
+      }
+    },
+    {
+      "qid": "D8-T32-MCQ-003",
+      "topic_id": "32",
+      "type": "MCQ",
+      "skill_tag": "C4",
+      "cognitive_level": "VD",
+      "difficulty": 3,
+      "prompt": "Câu 18. Thềm lục địa Việt Nam là?",
+      "answer_key": "C",
+      "explain": "[CORE FACT]: Dap an lay truc tiep tu tai lieu C1-C4 da gui. [DEEP DIVE]: Cau hoi duoc gan vao bong bong \"Luat bien va cac vung bien Viet Nam\" theo tu khoa va mach noi dung trong tai lieu. [PRO TIP]: Neu chua chac, mo lai phan A/B cua file goc de doi chieu.",
+      "source_file": "LOP_8_C4---07c2372b-3416-493e-887f-a0d331974bbf.docx",
+      "choices": {
+        "A": "Vùng biển có chiều rộng 12 hải lí tính từ đường cơ sở ra phía biển",
+        "B": "Vùng biển tiếp liền và nằm ngoài lãnh hải Việt Nam, có chiều rộng 12 hải lí tính từ ranh giới ngoài của lãnh hải.",
+        "C": "Đáy biển và lòng đất dưới đáy biển, tiếp liền và nằm ngoài lãnh hải Việt Nam, trên toàn bộ phần kéo dài tự nhiên của lãnh thổ đất liền, các đảo và quần đảo của Việt Nam cho đến mép ngoài của rìa lục địa.",
+        "D": "Vùng nước tiếp giáp với bờ biển, ở phía trong đường cơ sở và là bộ phận lãnh thổ của Việt Nam."
+      }
+    },
+    {
+      "qid": "D8-T32-MCQ-004",
+      "topic_id": "32",
+      "type": "MCQ",
+      "skill_tag": "C4",
+      "cognitive_level": "VD",
+      "difficulty": 3,
+      "prompt": "Câu 25. Vùng biển của Việt Nam thông qua hai đại dương lớn nào",
+      "answer_key": "B",
+      "explain": "[CORE FACT]: Dap an lay truc tiep tu tai lieu C1-C4 da gui. [DEEP DIVE]: Cau hoi duoc gan vao bong bong \"Luat bien va cac vung bien Viet Nam\" theo tu khoa va mach noi dung trong tai lieu. [PRO TIP]: Neu chua chac, mo lai phan A/B cua file goc de doi chieu.",
+      "source_file": "LOP_8_C4---07c2372b-3416-493e-887f-a0d331974bbf.docx",
+      "choices": {
+        "A": "Thái Bình Dương và Bắc Băng Dương",
+        "B": "Thái Bình Dương và Ấn Độ Dương",
+        "C": "Ấn Độ Dương và Đại Tây Dương",
+        "D": "Đại Tây Dương và Thái Bình Dương"
+      }
+    },
+    {
+      "qid": "D8-T32-MCQ-005",
+      "topic_id": "32",
+      "type": "MCQ",
+      "skill_tag": "C4",
+      "cognitive_level": "VD",
+      "difficulty": 3,
+      "prompt": "Câu 31. Địa hình ven biển nước ta không bao gồm:",
+      "answer_key": "C",
+      "explain": "[CORE FACT]: Dap an lay truc tiep tu tai lieu C1-C4 da gui. [DEEP DIVE]: Cau hoi duoc gan vao bong bong \"Luat bien va cac vung bien Viet Nam\" theo tu khoa va mach noi dung trong tai lieu. [PRO TIP]: Neu chua chac, mo lai phan A/B cua file goc de doi chieu.",
+      "source_file": "LOP_8_C4---07c2372b-3416-493e-887f-a0d331974bbf.docx",
+      "choices": {
+        "A": "cồn cát.",
+        "B": "đầm phá.",
+        "C": "trung du.",
+        "D": "tam giác châu."
+      }
+    },
+    {
+      "qid": "D8-T32-MCQ-006",
+      "topic_id": "32",
+      "type": "MCQ",
+      "skill_tag": "C4",
+      "cognitive_level": "VD",
+      "difficulty": 3,
+      "prompt": "Câu 37. Lượng mưa trung bình trên vùng biển nước ta trong 1 năm khoảng",
+      "answer_key": "A",
+      "explain": "[CORE FACT]: Dap an lay truc tiep tu tai lieu C1-C4 da gui. [DEEP DIVE]: Cau hoi duoc gan vao bong bong \"Luat bien va cac vung bien Viet Nam\" theo tu khoa va mach noi dung trong tai lieu. [PRO TIP]: Neu chua chac, mo lai phan A/B cua file goc de doi chieu.",
+      "source_file": "LOP_8_C4---07c2372b-3416-493e-887f-a0d331974bbf.docx",
+      "choices": {
+        "A": "1100mm.",
+        "B": "1500mm.",
+        "C": "1700mm.",
+        "D": "2000mm."
+      }
+    },
+    {
+      "qid": "D8-T32-FILL-007",
+      "topic_id": "32",
+      "type": "FILL",
+      "skill_tag": "C4",
+      "cognitive_level": "VD",
+      "difficulty": 3,
+      "prompt": "Câu 3. Nước ta có bao nhiêu tỉnh và TP. Trực thuộc trung ương giáp biển?",
+      "answer_key": "Câu 3. 21",
+      "explain": "[CORE FACT]: Dap an lay truc tiep tu tai lieu C1-C4 da gui. [DEEP DIVE]: Cau hoi duoc gan vao bong bong \"Luat bien va cac vung bien Viet Nam\" theo tu khoa va mach noi dung trong tai lieu. [PRO TIP]: Neu chua chac, mo lai phan A/B cua file goc de doi chieu.",
+      "source_file": "LOP_8_C4---07c2372b-3416-493e-887f-a0d331974bbf.docx"
+    },
+    {
+      "qid": "D8-T32-FILL-008",
+      "topic_id": "32",
+      "type": "FILL",
+      "skill_tag": "C4",
+      "cognitive_level": "VD",
+      "difficulty": 3,
+      "prompt": "Câu 9. Kể tên các quốc gia và vùng lãnh thổ có chung Biển Đông với nước ta?",
+      "answer_key": "Câu 9. Các nước có chung Biển Đông với Việt Nam là: Trung Quốc, Phi-lip-pin, In-đô-nê-xia, Bru-nây, Ma-lay-xia, Xin-ga-po, Thái Lan, Cam-pu-chia",
+      "explain": "[CORE FACT]: Dap an lay truc tiep tu tai lieu C1-C4 da gui. [DEEP DIVE]: Cau hoi duoc gan vao bong bong \"Luat bien va cac vung bien Viet Nam\" theo tu khoa va mach noi dung trong tai lieu. [PRO TIP]: Neu chua chac, mo lai phan A/B cua file goc de doi chieu.",
+      "source_file": "LOP_8_C4---07c2372b-3416-493e-887f-a0d331974bbf.docx"
+    },
+    {
+      "qid": "D8-T32-MATCH-901",
+      "topic_id": "32",
+      "type": "FILL",
+      "subtype": "MATCHING",
+      "skill_tag": "C4",
+      "cognitive_level": "TH",
+      "difficulty": 2,
+      "prompt": "Ghép nối các vùng biển Việt Nam với khái niệm trong tài liệu C4. Nhập đáp án theo mẫu: 1-A; 2-B; ...",
+      "answer_key": "1-D; 2-E; 3-A; 4-B; 5-C",
+      "accepted_answers": [
+        "1-D; 2-E; 3-A; 4-B; 5-C",
+        "1-D;  2-E;  3-A;  4-B;  5-C"
+      ],
+      "explain": "[CORE FACT]: Day la dang ghep noi trich tu bang trong file LOP_8_C4---07c2372b-3416-493e-887f-a0d331974bbf.docx. [DEEP DIVE]: Dap an duoc lap bang cach doi chieu cot A/B voi noi dung trong tai lieu, khong dung du lieu ngoai. [PRO TIP]: Nhap dung cap so-chu cai, vi du 1-A; 2-B.",
+      "source_file": "LOP_8_C4---07c2372b-3416-493e-887f-a0d331974bbf.docx"
+    }
+  ]
+}

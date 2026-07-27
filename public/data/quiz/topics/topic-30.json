@@ -1,0 +1,157 @@
+{
+  "topic_id": 30,
+  "label": "Tai nguyen bien va them luc dia",
+  "status": "accepted",
+  "accepted_count": 9,
+  "questions": [
+    {
+      "qid": "D8-T30-MCQ-001",
+      "topic_id": "30",
+      "type": "MCQ",
+      "skill_tag": "C4",
+      "cognitive_level": "NB",
+      "difficulty": 1,
+      "prompt": "Câu 2. Quần đảo Hoàng Sa thuộc tỉnh nào?",
+      "answer_key": "A",
+      "explain": "[CORE FACT]: Dap an lay truc tiep tu tai lieu C1-C4 da gui. [DEEP DIVE]: Cau hoi duoc gan vao bong bong \"Tai nguyen bien va them luc dia\" theo tu khoa va mach noi dung trong tai lieu. [PRO TIP]: Neu chua chac, mo lai phan A/B cua file goc de doi chieu.",
+      "source_file": "LOP_8_C4---07c2372b-3416-493e-887f-a0d331974bbf.docx",
+      "choices": {
+        "A": "Đà Nẵng.",
+        "B": "Kiên Giang",
+        "C": "Khánh Hòa.",
+        "D": "Hậu Giang"
+      }
+    },
+    {
+      "qid": "D8-T30-MCQ-002",
+      "topic_id": "30",
+      "type": "MCQ",
+      "skill_tag": "C4",
+      "cognitive_level": "NB",
+      "difficulty": 1,
+      "prompt": "Câu 9. Huyện đảo Cô Tô trực thuộc tỉnh thành phố nào?",
+      "answer_key": "A",
+      "explain": "[CORE FACT]: Dap an lay truc tiep tu tai lieu C1-C4 da gui. [DEEP DIVE]: Cau hoi duoc gan vao bong bong \"Tai nguyen bien va them luc dia\" theo tu khoa va mach noi dung trong tai lieu. [PRO TIP]: Neu chua chac, mo lai phan A/B cua file goc de doi chieu.",
+      "source_file": "LOP_8_C4---07c2372b-3416-493e-887f-a0d331974bbf.docx",
+      "choices": {
+        "A": "Quảng Ninh",
+        "B": "Thanh Hóa",
+        "C": "Quảng Bình",
+        "D": "Quảng Trị"
+      }
+    },
+    {
+      "qid": "D8-T30-MCQ-003",
+      "topic_id": "30",
+      "type": "MCQ",
+      "skill_tag": "C4",
+      "cognitive_level": "NB",
+      "difficulty": 1,
+      "prompt": "Câu 15. Lãnh hải là?",
+      "answer_key": "D",
+      "explain": "[CORE FACT]: Dap an lay truc tiep tu tai lieu C1-C4 da gui. [DEEP DIVE]: Cau hoi duoc gan vao bong bong \"Tai nguyen bien va them luc dia\" theo tu khoa va mach noi dung trong tai lieu. [PRO TIP]: Neu chua chac, mo lai phan A/B cua file goc de doi chieu.",
+      "source_file": "LOP_8_C4---07c2372b-3416-493e-887f-a0d331974bbf.docx",
+      "choices": {
+        "A": "Đáy biển và lòng đất dưới đáy biển",
+        "B": "Vùng biển tiếp liền và nằm ngoài lãnh hải Việt Nam, có chiều rộng 12 hải lí tính từ ranh giới ngoài của lãnh hải.",
+        "C": "Vùng biển tiếp liền và nằm ngoài lãnh hải Việt Nam, hợp với lãnh hải thành một vùng biển có chiều rộng 200 hải lí tính từ đường cơ sở.",
+        "D": "Vùng biển có chiều rộng 12 hải lí tính từ đường cơ sở ra phía biển. Ranh giới ngoài của lãnh hải là biên giới quốc gia trên biển của Việt Nam."
+      }
+    },
+    {
+      "qid": "D8-T30-MCQ-004",
+      "topic_id": "30",
+      "type": "MCQ",
+      "skill_tag": "C4",
+      "cognitive_level": "NB",
+      "difficulty": 1,
+      "prompt": "Câu 23. Vùng biển của Việt Nam là một phần của biển",
+      "answer_key": "B",
+      "explain": "[CORE FACT]: Dap an lay truc tiep tu tai lieu C1-C4 da gui. [DEEP DIVE]: Cau hoi duoc gan vao bong bong \"Tai nguyen bien va them luc dia\" theo tu khoa va mach noi dung trong tai lieu. [PRO TIP]: Neu chua chac, mo lai phan A/B cua file goc de doi chieu.",
+      "source_file": "LOP_8_C4---07c2372b-3416-493e-887f-a0d331974bbf.docx",
+      "choices": {
+        "A": "Biển Hoa Đông",
+        "B": "Biển Đông",
+        "C": "Biển Xu-Lu",
+        "D": "Biển Gia-va"
+      }
+    },
+    {
+      "qid": "D8-T30-MCQ-005",
+      "topic_id": "30",
+      "type": "MCQ",
+      "skill_tag": "C4",
+      "cognitive_level": "NB",
+      "difficulty": 1,
+      "prompt": "Câu 29. Phần biển Việt Nam nằm trong biển Đông có diện tích là bao nhiêu km2?",
+      "answer_key": "A",
+      "explain": "[CORE FACT]: Dap an lay truc tiep tu tai lieu C1-C4 da gui. [DEEP DIVE]: Cau hoi duoc gan vao bong bong \"Tai nguyen bien va them luc dia\" theo tu khoa va mach noi dung trong tai lieu. [PRO TIP]: Neu chua chac, mo lai phan A/B cua file goc de doi chieu.",
+      "source_file": "LOP_8_C4---07c2372b-3416-493e-887f-a0d331974bbf.docx",
+      "choices": {
+        "A": "1 triệu km2",
+        "B": "1.5 triệu km2.",
+        "C": "1.4 triệu km2.",
+        "D": "1.6 triệu km2."
+      }
+    },
+    {
+      "qid": "D8-T30-MCQ-006",
+      "topic_id": "30",
+      "type": "MCQ",
+      "skill_tag": "C4",
+      "cognitive_level": "NB",
+      "difficulty": 1,
+      "prompt": "Câu 35. Ý nào sau đây không đúng khi nói về đặc điểm khí hậu vùng biển nước ta?",
+      "answer_key": "C",
+      "explain": "[CORE FACT]: Dap an lay truc tiep tu tai lieu C1-C4 da gui. [DEEP DIVE]: Cau hoi duoc gan vao bong bong \"Tai nguyen bien va them luc dia\" theo tu khoa va mach noi dung trong tai lieu. [PRO TIP]: Neu chua chac, mo lai phan A/B cua file goc de doi chieu.",
+      "source_file": "LOP_8_C4---07c2372b-3416-493e-887f-a0d331974bbf.docx",
+      "choices": {
+        "A": "Gió trên biển mạnh hơn trên đất liền.",
+        "B": "Lượng mưa trên biển nhỏ hơn trên đất liền.",
+        "C": "Vùng biển nước ta ít chịu thiên tai.",
+        "D": "Khí hậu vùng biển nước ta mang tính chất nhiệt đới gió mùa."
+      }
+    },
+    {
+      "qid": "D8-T30-FILL-007",
+      "topic_id": "30",
+      "type": "FILL",
+      "skill_tag": "C4",
+      "cognitive_level": "NB",
+      "difficulty": 1,
+      "prompt": "Câu 1. Đường bờ biển của nước ta dài bao nhiêu km?",
+      "answer_key": "Câu 1. 3260km",
+      "explain": "[CORE FACT]: Dap an lay truc tiep tu tai lieu C1-C4 da gui. [DEEP DIVE]: Cau hoi duoc gan vao bong bong \"Tai nguyen bien va them luc dia\" theo tu khoa va mach noi dung trong tai lieu. [PRO TIP]: Neu chua chac, mo lai phan A/B cua file goc de doi chieu.",
+      "source_file": "LOP_8_C4---07c2372b-3416-493e-887f-a0d331974bbf.docx"
+    },
+    {
+      "qid": "D8-T30-FILL-008",
+      "topic_id": "30",
+      "type": "FILL",
+      "skill_tag": "C4",
+      "cognitive_level": "NB",
+      "difficulty": 1,
+      "prompt": "Câu 7. Biển Đông nằm ở đại dương nào? Trải dài trên những vĩ độ nào?",
+      "answer_key": "Câu 7. Biển Đông thuộc Thái Bình Dương, trải rộng từ vĩ độ 30N đến vĩ độ 260B và từ kinh độ 1000 đến 1210Đ.",
+      "explain": "[CORE FACT]: Dap an lay truc tiep tu tai lieu C1-C4 da gui. [DEEP DIVE]: Cau hoi duoc gan vao bong bong \"Tai nguyen bien va them luc dia\" theo tu khoa va mach noi dung trong tai lieu. [PRO TIP]: Neu chua chac, mo lai phan A/B cua file goc de doi chieu.",
+      "source_file": "LOP_8_C4---07c2372b-3416-493e-887f-a0d331974bbf.docx"
+    },
+    {
+      "qid": "D8-T30-MATCH-902",
+      "topic_id": "30",
+      "type": "FILL",
+      "subtype": "MATCHING",
+      "skill_tag": "C4",
+      "cognitive_level": "TH",
+      "difficulty": 2,
+      "prompt": "Ghep noi tai nguyen bien voi vi du trong tai lieu C4. Nhap dap an theo mau: 1-A; 2-B; ...",
+      "answer_key": "1-D; 2-C; 3-B; 4-A",
+      "accepted_answers": [
+        "1-D; 2-C; 3-B; 4-A",
+        "1-D;  2-C;  3-B;  4-A"
+      ],
+      "explain": "[CORE FACT]: Day la dang ghep noi trich tu bang trong file LOP_8_C4---07c2372b-3416-493e-887f-a0d331974bbf.docx. [DEEP DIVE]: Dap an duoc lap bang cach doi chieu cot A/B voi noi dung trong tai lieu, khong dung du lieu ngoai. [PRO TIP]: Nhap dung cap so-chu cai, vi du 1-A; 2-B.",
+      "source_file": "LOP_8_C4---07c2372b-3416-493e-887f-a0d331974bbf.docx"
+    }
+  ]
+}

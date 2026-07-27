@@ -1,0 +1,86 @@
+{
+  "topic_id": 14,
+  "label": "Ho, dam va nuoc ngam",
+  "status": "accepted",
+  "accepted_count": 5,
+  "questions": [
+    {
+      "qid": "D8-T14-MCQ-001",
+      "topic_id": "14",
+      "type": "MCQ",
+      "skill_tag": "C2",
+      "cognitive_level": "TH",
+      "difficulty": 2,
+      "prompt": "Câu 8. Sông nào sao đây có hướng vòng cung?",
+      "answer_key": "B",
+      "explain": "[CORE FACT]: Dap an lay truc tiep tu tai lieu C1-C4 da gui. [DEEP DIVE]: Cau hoi duoc gan vao bong bong \"Ho, dam va nuoc ngam\" theo tu khoa va mach noi dung trong tai lieu. [PRO TIP]: Neu chua chac, mo lai phan A/B cua file goc de doi chieu.",
+      "source_file": "LOP_8_C2---662f9dd8-7d10-4634-822b-a0cbf3ab2aea.docx",
+      "choices": {
+        "A": "sông Tiền",
+        "B": "Sông Cầu",
+        "C": "sông Gianh",
+        "D": "sông Mã"
+      }
+    },
+    {
+      "qid": "D8-T14-MCQ-002",
+      "topic_id": "14",
+      "type": "MCQ",
+      "skill_tag": "C2",
+      "cognitive_level": "TH",
+      "difficulty": 2,
+      "prompt": "Câu 20. Mùa lũ ở nước ta thường nằm trong khoảng thời gian",
+      "answer_key": "B",
+      "explain": "[CORE FACT]: Dap an lay truc tiep tu tai lieu C1-C4 da gui. [DEEP DIVE]: Cau hoi duoc gan vao bong bong \"Ho, dam va nuoc ngam\" theo tu khoa va mach noi dung trong tai lieu. [PRO TIP]: Neu chua chac, mo lai phan A/B cua file goc de doi chieu.",
+      "source_file": "LOP_8_C2---662f9dd8-7d10-4634-822b-a0cbf3ab2aea.docx",
+      "choices": {
+        "A": "từ tháng 1 đến tháng 6",
+        "B": "từ tháng 6 đến tháng 12",
+        "C": "từ tháng 3 đến tháng 9",
+        "D": "từ tháng 9 đến tháng 3 năm sau"
+      }
+    },
+    {
+      "qid": "D8-T14-MCQ-003",
+      "topic_id": "14",
+      "type": "MCQ",
+      "skill_tag": "C2",
+      "cognitive_level": "TH",
+      "difficulty": 2,
+      "prompt": "Câu 37. Ở Việt Nam, nguồn nước ngầm phong phú nhất ở",
+      "answer_key": "A",
+      "explain": "[CORE FACT]: Dap an lay truc tiep tu tai lieu C1-C4 da gui. [DEEP DIVE]: Cau hoi duoc gan vao bong bong \"Ho, dam va nuoc ngam\" theo tu khoa va mach noi dung trong tai lieu. [PRO TIP]: Neu chua chac, mo lai phan A/B cua file goc de doi chieu.",
+      "source_file": "LOP_8_C2---662f9dd8-7d10-4634-822b-a0cbf3ab2aea.docx",
+      "choices": {
+        "A": "đồng bằng phù sa.",
+        "B": "vùng núi.",
+        "C": "cao nguyên ba dan.",
+        "D": "ven biển."
+      }
+    },
+    {
+      "qid": "D8-T14-FILL-004",
+      "topic_id": "14",
+      "type": "FILL",
+      "skill_tag": "C2",
+      "cognitive_level": "TH",
+      "difficulty": 2,
+      "prompt": "Câu 3. Khí hậu Việt Nam chia làm mấy mùa gió chính? Kể tên.",
+      "answer_key": "Câu 3. Hai mùa gió: gió mùa Đông Bắc (mùa khô) và mùa gió mùa Tây Nam (mùa mưa).",
+      "explain": "[CORE FACT]: Dap an lay truc tiep tu tai lieu C1-C4 da gui. [DEEP DIVE]: Cau hoi duoc gan vao bong bong \"Ho, dam va nuoc ngam\" theo tu khoa va mach noi dung trong tai lieu. [PRO TIP]: Neu chua chac, mo lai phan A/B cua file goc de doi chieu.",
+      "source_file": "LOP_8_C2---662f9dd8-7d10-4634-822b-a0cbf3ab2aea.docx"
+    },
+    {
+      "qid": "D8-T14-FILL-005",
+      "topic_id": "14",
+      "type": "FILL",
+      "skill_tag": "C2",
+      "cognitive_level": "TH",
+      "difficulty": 2,
+      "prompt": "Câu 13. Sông Hồng và sông Cửu Long có điểm gì khác biệt về chế độ nước?",
+      "answer_key": "Câu 13. Sông Hồng có lũ vào mùa hạ, mùa đông cạn; sông Cửu Long có lũ kéo dài hơn và nước điều hòa hơn.",
+      "explain": "[CORE FACT]: Dap an lay truc tiep tu tai lieu C1-C4 da gui. [DEEP DIVE]: Cau hoi duoc gan vao bong bong \"Ho, dam va nuoc ngam\" theo tu khoa va mach noi dung trong tai lieu. [PRO TIP]: Neu chua chac, mo lai phan A/B cua file goc de doi chieu.",
+      "source_file": "LOP_8_C2---662f9dd8-7d10-4634-822b-a0cbf3ab2aea.docx"
+    }
+  ]
+}

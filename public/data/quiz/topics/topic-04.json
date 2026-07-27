@@ -1,0 +1,103 @@
+{
+  "topic_id": 4,
+  "label": "Cac khu vuc dia hinh",
+  "status": "accepted",
+  "accepted_count": 6,
+  "questions": [
+    {
+      "qid": "D8-T04-MCQ-001",
+      "topic_id": "4",
+      "type": "MCQ",
+      "skill_tag": "C1",
+      "cognitive_level": "NB",
+      "difficulty": 1,
+      "prompt": "Câu 1. Việt Nam nằm ở vị trí nào sau đây?",
+      "answer_key": "B",
+      "explain": "[CORE FACT]: Dap an lay truc tiep tu tai lieu C1-C4 da gui. [DEEP DIVE]: Cau hoi duoc gan vao bong bong \"Cac khu vuc dia hinh\" theo tu khoa va mach noi dung trong tai lieu. [PRO TIP]: Neu chua chac, mo lai phan A/B cua file goc de doi chieu.",
+      "source_file": "LOP_8_C1---d3c76b6e-82aa-48bd-abe3-8075329ed35f.docx",
+      "choices": {
+        "A": "Trung tâm lục địa châu Á",
+        "B": "Phía đông bán đảo Đông Dương",
+        "C": "Bờ tây bán đảo Đông Dương",
+        "D": "Trên đường chí tuyến nam"
+      }
+    },
+    {
+      "qid": "D8-T04-MCQ-002",
+      "topic_id": "4",
+      "type": "MCQ",
+      "skill_tag": "C1",
+      "cognitive_level": "NB",
+      "difficulty": 1,
+      "prompt": "Câu 8. Vùng núi nào sau đây nằm giữa sông Hồng và sông Cả?",
+      "answer_key": "C",
+      "explain": "[CORE FACT]: Dap an lay truc tiep tu tai lieu C1-C4 da gui. [DEEP DIVE]: Cau hoi duoc gan vao bong bong \"Cac khu vuc dia hinh\" theo tu khoa va mach noi dung trong tai lieu. [PRO TIP]: Neu chua chac, mo lai phan A/B cua file goc de doi chieu.",
+      "source_file": "LOP_8_C1---d3c76b6e-82aa-48bd-abe3-8075329ed35f.docx",
+      "choices": {
+        "A": "Đông Bắc",
+        "B": "Trường Sơn Nam",
+        "C": "Tây Bắc",
+        "D": "Trường Sơn Bắc"
+      }
+    },
+    {
+      "qid": "D8-T04-MCQ-003",
+      "topic_id": "4",
+      "type": "MCQ",
+      "skill_tag": "C1",
+      "cognitive_level": "NB",
+      "difficulty": 1,
+      "prompt": "Câu 16. Hướng nghiêng của địa hình làm cho sông ngòi ở khu vực Tây Bắc chảy theo hướng",
+      "answer_key": "A",
+      "explain": "[CORE FACT]: Dap an lay truc tiep tu tai lieu C1-C4 da gui. [DEEP DIVE]: Cau hoi duoc gan vao bong bong \"Cac khu vuc dia hinh\" theo tu khoa va mach noi dung trong tai lieu. [PRO TIP]: Neu chua chac, mo lai phan A/B cua file goc de doi chieu.",
+      "source_file": "LOP_8_C1---d3c76b6e-82aa-48bd-abe3-8075329ed35f.docx",
+      "choices": {
+        "A": "tây bắc- đông nam",
+        "B": "đông bắc- tây nam",
+        "C": "bắc – nam",
+        "D": "vòng cung"
+      }
+    },
+    {
+      "qid": "D8-T04-TF-004",
+      "topic_id": "4",
+      "type": "TF",
+      "skill_tag": "C1",
+      "cognitive_level": "NB",
+      "difficulty": 1,
+      "prompt": "Câu 4. Địa hình chủ yếu của Việt Nam là đồi núi.",
+      "answer_key": "TRUE",
+      "explain": "[CORE FACT]: Dap an lay truc tiep tu tai lieu C1-C4 da gui. [DEEP DIVE]: Cau hoi duoc gan vao bong bong \"Cac khu vuc dia hinh\" theo tu khoa va mach noi dung trong tai lieu. [PRO TIP]: Neu chua chac, mo lai phan A/B cua file goc de doi chieu.",
+      "source_file": "LOP_8_C1---d3c76b6e-82aa-48bd-abe3-8075329ed35f.docx"
+    },
+    {
+      "qid": "D8-T04-FILL-005",
+      "topic_id": "4",
+      "type": "FILL",
+      "skill_tag": "C1",
+      "cognitive_level": "NB",
+      "difficulty": 1,
+      "prompt": "Câu 5. Một số dãy núi có hướng vòng cung",
+      "answer_key": "Câu 5. Bắc Sơn, Sông Gâm, Ngân Sơn, Đông Triều.",
+      "explain": "[CORE FACT]: Dap an lay truc tiep tu tai lieu C1-C4 da gui. [DEEP DIVE]: Cau hoi duoc gan vao bong bong \"Cac khu vuc dia hinh\" theo tu khoa va mach noi dung trong tai lieu. [PRO TIP]: Neu chua chac, mo lai phan A/B cua file goc de doi chieu.",
+      "source_file": "LOP_8_C1---d3c76b6e-82aa-48bd-abe3-8075329ed35f.docx"
+    },
+    {
+      "qid": "D8-T04-MATCH-901",
+      "topic_id": "4",
+      "type": "FILL",
+      "subtype": "MATCHING",
+      "skill_tag": "C1",
+      "cognitive_level": "TH",
+      "difficulty": 2,
+      "prompt": "Ghep noi dac diem voi khu vuc dia hinh trong tai lieu C1. Nhap dap an theo mau: 1-A; 2-B; ...",
+      "answer_key": "1-C; 2-D; 3-B; 4-A",
+      "accepted_answers": [
+        "1-C; 2-D; 3-B; 4-A",
+        "1-C;  2-D;  3-B;  4-A"
+      ],
+      "explain": "[CORE FACT]: Day la dang ghep noi trich tu bang trong file LOP_8_C1---d3c76b6e-82aa-48bd-abe3-8075329ed35f.docx. [DEEP DIVE]: Dap an duoc lap bang cach doi chieu cot A/B voi noi dung trong tai lieu, khong dung du lieu ngoai. [PRO TIP]: Nhap dung cap so-chu cai, vi du 1-A; 2-B.",
+      "source_file": "LOP_8_C1---d3c76b6e-82aa-48bd-abe3-8075329ed35f.docx"
+    }
+  ]
+}

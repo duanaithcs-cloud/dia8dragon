@@ -1,0 +1,4022 @@
+{
+  "schema": "dia8dragon-question-intelligence-audit.v1",
+  "release": "3.2.3",
+  "auditedAt": "2026-07-26T00:00:00.000Z",
+  "total": 499,
+  "recommendedStatusCounts": {
+    "STABLE": 499
+  },
+  "signalCounts": {
+    "MISSING_UNIT_OR_YEAR": 2
+  },
+  "questions": [
+    {
+      "qid": "HSG8-T01-TN001",
+      "topicId": 1,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T01-TN002",
+      "topicId": 1,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T01-TN003",
+      "topicId": 1,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T01-TN004",
+      "topicId": 1,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T01-TN005",
+      "topicId": 1,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T01-TN006",
+      "topicId": 1,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T01-TN007",
+      "topicId": 1,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T01-TN008",
+      "topicId": 1,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T01-TN009",
+      "topicId": 1,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T01-TN010",
+      "topicId": 1,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T01-TN011",
+      "topicId": 1,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T01-TN012",
+      "topicId": 1,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T01-TN013",
+      "topicId": 1,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T01-TN014",
+      "topicId": 1,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T01-TN015",
+      "topicId": 1,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T01-TN016",
+      "topicId": 1,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T01-TN017",
+      "topicId": 1,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T01-TN018",
+      "topicId": 1,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T01-TN019",
+      "topicId": 1,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T01-TN020",
+      "topicId": 1,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T01-TN021",
+      "topicId": 1,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T01-TN022",
+      "topicId": 1,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T01-TN023",
+      "topicId": 1,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T01-TN024",
+      "topicId": 1,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T01-TN025",
+      "topicId": 1,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T01-TN026",
+      "topicId": 1,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T01-TN027",
+      "topicId": 1,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T01-TN028",
+      "topicId": 1,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T01-TN029",
+      "topicId": 1,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T01-TN030",
+      "topicId": 1,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T02-TN001",
+      "topicId": 2,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T02-TN002",
+      "topicId": 2,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T02-TN003",
+      "topicId": 2,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T02-TN004",
+      "topicId": 2,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T02-TN005",
+      "topicId": 2,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T02-TN006",
+      "topicId": 2,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T02-TN007",
+      "topicId": 2,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T02-TN008",
+      "topicId": 2,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T02-TN009",
+      "topicId": 2,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T02-TN010",
+      "topicId": 2,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T02-TN011",
+      "topicId": 2,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T02-TN012",
+      "topicId": 2,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T02-TN013",
+      "topicId": 2,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T02-TN014",
+      "topicId": 2,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T02-TN015",
+      "topicId": 2,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T02-TN016",
+      "topicId": 2,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T02-TN017",
+      "topicId": 2,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T02-TN018",
+      "topicId": 2,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T02-TN019",
+      "topicId": 2,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T02-TN020",
+      "topicId": 2,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T02-TN021",
+      "topicId": 2,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T02-TN022",
+      "topicId": 2,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T02-TN023",
+      "topicId": 2,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T02-TN024",
+      "topicId": 2,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T02-TN025",
+      "topicId": 2,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T02-TN026",
+      "topicId": 2,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T02-TN027",
+      "topicId": 2,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T02-TN028",
+      "topicId": 2,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T02-TN029",
+      "topicId": 2,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T02-TN030",
+      "topicId": 2,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T03-TN001",
+      "topicId": 3,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T03-TN002",
+      "topicId": 3,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T03-TN003",
+      "topicId": 3,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T03-TN004",
+      "topicId": 3,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T03-TN005",
+      "topicId": 3,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T03-TN006",
+      "topicId": 3,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T03-TN007",
+      "topicId": 3,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T03-TN008",
+      "topicId": 3,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T03-TN009",
+      "topicId": 3,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T03-TN010",
+      "topicId": 3,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T03-TN011",
+      "topicId": 3,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T03-TN012",
+      "topicId": 3,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T03-TN013",
+      "topicId": 3,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T03-TN014",
+      "topicId": 3,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T03-TN015",
+      "topicId": 3,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T03-TN016",
+      "topicId": 3,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T03-TN017",
+      "topicId": 3,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T03-TN018",
+      "topicId": 3,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T03-TN019",
+      "topicId": 3,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T03-TN020",
+      "topicId": 3,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T03-TN021",
+      "topicId": 3,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T03-TN022",
+      "topicId": 3,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T03-TN023",
+      "topicId": 3,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T03-TN024",
+      "topicId": 3,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T03-TN025",
+      "topicId": 3,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T03-TN026",
+      "topicId": 3,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T03-TN027",
+      "topicId": 3,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T03-TN028",
+      "topicId": 3,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T03-TN029",
+      "topicId": 3,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T03-TN030",
+      "topicId": 3,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T05-TN001",
+      "topicId": 5,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T05-TN002",
+      "topicId": 5,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T05-TN003",
+      "topicId": 5,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T05-TN004",
+      "topicId": 5,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T05-TN005",
+      "topicId": 5,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T05-TN006",
+      "topicId": 5,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T05-TN007",
+      "topicId": 5,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T05-TN008",
+      "topicId": 5,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T05-TN009",
+      "topicId": 5,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T05-TN010",
+      "topicId": 5,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T05-TN011",
+      "topicId": 5,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T05-TN012",
+      "topicId": 5,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T05-TN013",
+      "topicId": 5,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T05-TN014",
+      "topicId": 5,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T05-TN015",
+      "topicId": 5,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T05-TN016",
+      "topicId": 5,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T05-TN017",
+      "topicId": 5,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T05-TN018",
+      "topicId": 5,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T05-TN019",
+      "topicId": 5,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T05-TN020",
+      "topicId": 5,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T05-TN021",
+      "topicId": 5,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T05-TN022",
+      "topicId": 5,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T05-TN023",
+      "topicId": 5,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T05-TN024",
+      "topicId": 5,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T05-TN025",
+      "topicId": 5,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T05-TN026",
+      "topicId": 5,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T05-TN027",
+      "topicId": 5,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T05-TN028",
+      "topicId": 5,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T05-TN029",
+      "topicId": 5,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T05-TN030",
+      "topicId": 5,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T06-TN001",
+      "topicId": 6,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T06-TN002",
+      "topicId": 6,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T06-TN003",
+      "topicId": 6,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T06-TN004",
+      "topicId": 6,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T06-TN005",
+      "topicId": 6,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T06-TN006",
+      "topicId": 6,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T06-TN007",
+      "topicId": 6,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T06-TN008",
+      "topicId": 6,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T06-TN009",
+      "topicId": 6,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T06-TN010",
+      "topicId": 6,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T06-TN011",
+      "topicId": 6,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T06-TN012",
+      "topicId": 6,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T06-TN013",
+      "topicId": 6,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T06-TN014",
+      "topicId": 6,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T06-TN015",
+      "topicId": 6,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T06-TN016",
+      "topicId": 6,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T06-TN017",
+      "topicId": 6,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T06-TN018",
+      "topicId": 6,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T06-TN019",
+      "topicId": 6,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T06-TN020",
+      "topicId": 6,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T06-TN021",
+      "topicId": 6,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T06-TN022",
+      "topicId": 6,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T06-TN023",
+      "topicId": 6,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T06-TN024",
+      "topicId": 6,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T06-TN025",
+      "topicId": 6,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T06-TN026",
+      "topicId": 6,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T06-TN027",
+      "topicId": 6,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T06-TN028",
+      "topicId": 6,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T06-TN029",
+      "topicId": 6,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T06-TN030",
+      "topicId": 6,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T07-TN001",
+      "topicId": 7,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T07-TN002",
+      "topicId": 7,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T07-TN003",
+      "topicId": 7,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T07-TN004",
+      "topicId": 7,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T07-TN005",
+      "topicId": 7,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T07-TN006",
+      "topicId": 7,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T07-TN007",
+      "topicId": 7,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T07-TN008",
+      "topicId": 7,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T07-TN009",
+      "topicId": 7,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T07-TN010",
+      "topicId": 7,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T07-TN011",
+      "topicId": 7,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T07-TN012",
+      "topicId": 7,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T07-TN013",
+      "topicId": 7,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T07-TN014",
+      "topicId": 7,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T07-TN015",
+      "topicId": 7,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T07-TN016",
+      "topicId": 7,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T07-TN017",
+      "topicId": 7,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T07-TN018",
+      "topicId": 7,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T07-TN019",
+      "topicId": 7,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T07-TN020",
+      "topicId": 7,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T07-TN021",
+      "topicId": 7,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T07-TN022",
+      "topicId": 7,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T07-TN023",
+      "topicId": 7,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T07-TN024",
+      "topicId": 7,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T07-TN025",
+      "topicId": 7,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T07-TN026",
+      "topicId": 7,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T07-TN027",
+      "topicId": 7,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T07-TN028",
+      "topicId": 7,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T07-TN029",
+      "topicId": 7,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T07-TN030",
+      "topicId": 7,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T08-TN001",
+      "topicId": 8,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T08-TN002",
+      "topicId": 8,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T08-TN003",
+      "topicId": 8,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T08-TN004",
+      "topicId": 8,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T08-TN005",
+      "topicId": 8,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T08-TN006",
+      "topicId": 8,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T08-TN007",
+      "topicId": 8,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T08-TN008",
+      "topicId": 8,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T08-TN009",
+      "topicId": 8,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T08-TN010",
+      "topicId": 8,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T08-TN011",
+      "topicId": 8,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T08-TN012",
+      "topicId": 8,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T08-TN013",
+      "topicId": 8,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T08-TN014",
+      "topicId": 8,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T08-TN015",
+      "topicId": 8,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T08-TN016",
+      "topicId": 8,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T08-TN017",
+      "topicId": 8,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T08-TN018",
+      "topicId": 8,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T08-TN019",
+      "topicId": 8,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T08-TN020",
+      "topicId": 8,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T08-TN021",
+      "topicId": 8,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T08-TN022",
+      "topicId": 8,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T08-TN023",
+      "topicId": 8,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T08-TN024",
+      "topicId": 8,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T08-TN025",
+      "topicId": 8,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T08-TN026",
+      "topicId": 8,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T08-TN027",
+      "topicId": 8,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T08-TN028",
+      "topicId": 8,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T08-TN029",
+      "topicId": 8,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T08-TN030",
+      "topicId": 8,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T10-TN001",
+      "topicId": 10,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T10-TN002",
+      "topicId": 10,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T10-TN003",
+      "topicId": 10,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T10-TN004",
+      "topicId": 10,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T10-TN005",
+      "topicId": 10,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T10-TN006",
+      "topicId": 10,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T10-TN007",
+      "topicId": 10,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T10-TN008",
+      "topicId": 10,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T10-TN009",
+      "topicId": 10,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T10-TN010",
+      "topicId": 10,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T10-TN011",
+      "topicId": 10,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T10-TN012",
+      "topicId": 10,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T10-TN013",
+      "topicId": 10,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T10-TN014",
+      "topicId": 10,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T10-TN015",
+      "topicId": 10,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T10-TN016",
+      "topicId": 10,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T10-TN017",
+      "topicId": 10,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T10-TN018",
+      "topicId": 10,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T10-TN019",
+      "topicId": 10,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T10-TN020",
+      "topicId": 10,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T10-TN021",
+      "topicId": 10,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T10-TN022",
+      "topicId": 10,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T10-TN023",
+      "topicId": 10,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T10-TN024",
+      "topicId": 10,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T10-TN025",
+      "topicId": 10,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T10-TN026",
+      "topicId": 10,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T10-TN027",
+      "topicId": 10,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T10-TN028",
+      "topicId": 10,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T10-TN029",
+      "topicId": 10,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T10-TN030",
+      "topicId": 10,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T10-TN031",
+      "topicId": 10,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T10-TN032",
+      "topicId": 10,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T10-TN033",
+      "topicId": 10,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T10-TN034",
+      "topicId": 10,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T10-TN035",
+      "topicId": 10,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T10-TN035B",
+      "topicId": 10,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T10-TN036",
+      "topicId": 10,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T10-TN037",
+      "topicId": 10,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T10-TN038",
+      "topicId": 10,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T10-TN039",
+      "topicId": 10,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T10-TN040",
+      "topicId": 10,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T11-TN001",
+      "topicId": 11,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T11-TN002",
+      "topicId": 11,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T11-TN003",
+      "topicId": 11,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T11-TN004",
+      "topicId": 11,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T11-TN005",
+      "topicId": 11,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T11-TN006",
+      "topicId": 11,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T11-TN007",
+      "topicId": 11,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T11-TN008",
+      "topicId": 11,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T11-TN009",
+      "topicId": 11,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T11-TN010",
+      "topicId": 11,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T11-TN011",
+      "topicId": 11,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T11-TN012",
+      "topicId": 11,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T11-TN013",
+      "topicId": 11,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T11-TN014",
+      "topicId": 11,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T11-TN015",
+      "topicId": 11,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T11-TN016",
+      "topicId": 11,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T11-TN017",
+      "topicId": 11,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T11-TN018",
+      "topicId": 11,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T11-TN019",
+      "topicId": 11,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T11-TN020",
+      "topicId": 11,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T11-TN021",
+      "topicId": 11,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T11-TN022",
+      "topicId": 11,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T11-TN023",
+      "topicId": 11,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T11-TN024",
+      "topicId": 11,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T11-TN025",
+      "topicId": 11,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T11-TN026",
+      "topicId": 11,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T11-TN027",
+      "topicId": 11,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T11-TN028",
+      "topicId": 11,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T11-TN029",
+      "topicId": 11,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T11-TN030",
+      "topicId": 11,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T12-TN001",
+      "topicId": 12,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T12-TN002",
+      "topicId": 12,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T12-TN003",
+      "topicId": 12,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T12-TN004",
+      "topicId": 12,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T12-TN005",
+      "topicId": 12,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T12-TN006",
+      "topicId": 12,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T12-TN007",
+      "topicId": 12,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T12-TN008",
+      "topicId": 12,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T12-TN009",
+      "topicId": 12,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T12-TN010",
+      "topicId": 12,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T12-TN011",
+      "topicId": 12,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T12-TN012",
+      "topicId": 12,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T12-TN013",
+      "topicId": 12,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T12-TN014",
+      "topicId": 12,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T12-TN015",
+      "topicId": 12,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T12-TN016",
+      "topicId": 12,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T12-TN017",
+      "topicId": 12,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T12-TN018",
+      "topicId": 12,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T12-TN019",
+      "topicId": 12,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T12-TN020",
+      "topicId": 12,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T12-TN021",
+      "topicId": 12,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T12-TN022",
+      "topicId": 12,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T12-TN023",
+      "topicId": 12,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T12-TN024",
+      "topicId": 12,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T12-TN025",
+      "topicId": 12,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T12-TN026",
+      "topicId": 12,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T12-TN027",
+      "topicId": 12,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T12-TN028",
+      "topicId": 12,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T12-TN029",
+      "topicId": 12,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T12-TN030",
+      "topicId": 12,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T13-TN001",
+      "topicId": 13,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T13-TN002",
+      "topicId": 13,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T13-TN003",
+      "topicId": 13,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T13-TN004",
+      "topicId": 13,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T13-TN005",
+      "topicId": 13,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T13-TN006",
+      "topicId": 13,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T13-TN007",
+      "topicId": 13,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T13-TN008",
+      "topicId": 13,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T13-TN009",
+      "topicId": 13,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T13-TN010",
+      "topicId": 13,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T13-TN011",
+      "topicId": 13,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T13-TN012",
+      "topicId": 13,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T13-TN013",
+      "topicId": 13,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T13-TN014",
+      "topicId": 13,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T13-TN015",
+      "topicId": 13,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T13-TN016",
+      "topicId": 13,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T13-TN017",
+      "topicId": 13,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T13-TN018",
+      "topicId": 13,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T13-TN019",
+      "topicId": 13,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T13-TN020",
+      "topicId": 13,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T13-TN021",
+      "topicId": 13,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T13-TN022",
+      "topicId": 13,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T13-TN023",
+      "topicId": 13,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T13-TN024",
+      "topicId": 13,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T13-TN025",
+      "topicId": 13,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T13-TN026",
+      "topicId": 13,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T13-TN027",
+      "topicId": 13,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T13-TN028",
+      "topicId": 13,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T13-TN029",
+      "topicId": 13,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T13-TN030",
+      "topicId": 13,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T13-TN031",
+      "topicId": 13,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T13-TN032",
+      "topicId": 13,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T13-TN033",
+      "topicId": 13,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T13-TN034",
+      "topicId": 13,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T13-TN035",
+      "topicId": 13,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T13-TN036",
+      "topicId": 13,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T13-TN037",
+      "topicId": 13,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T13-TN038",
+      "topicId": 13,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T13-TN039",
+      "topicId": 13,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T13-TN040",
+      "topicId": 13,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T14-TN001",
+      "topicId": 14,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T14-TN002",
+      "topicId": 14,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T14-TN004",
+      "topicId": 14,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T14-TN005",
+      "topicId": 14,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T14-TN006",
+      "topicId": 14,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T14-TN007",
+      "topicId": 14,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T14-TN008",
+      "topicId": 14,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T14-TN009",
+      "topicId": 14,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T14-TN010",
+      "topicId": 14,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T14-TN011",
+      "topicId": 14,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T14-TN012",
+      "topicId": 14,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T14-TN013",
+      "topicId": 14,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T14-TN014",
+      "topicId": 14,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T14-TN015",
+      "topicId": 14,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T14-TN016",
+      "topicId": 14,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T14-TN017",
+      "topicId": 14,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T14-TN018",
+      "topicId": 14,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T14-TN019",
+      "topicId": 14,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T14-TN020",
+      "topicId": 14,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T14-TN021",
+      "topicId": 14,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T14-TN022",
+      "topicId": 14,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T14-TN023",
+      "topicId": 14,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T14-TN024",
+      "topicId": 14,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T14-TN026",
+      "topicId": 14,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T14-TN027",
+      "topicId": 14,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T14-TN028",
+      "topicId": 14,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T14-TN029",
+      "topicId": 14,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T14-TN030",
+      "topicId": 14,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T15-TN001",
+      "topicId": 15,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T15-TN002",
+      "topicId": 15,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T15-TN003",
+      "topicId": 15,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T15-TN004",
+      "topicId": 15,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T15-TN005",
+      "topicId": 15,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T15-TN006",
+      "topicId": 15,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T15-TN007",
+      "topicId": 15,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T15-TN008",
+      "topicId": 15,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T15-TN009",
+      "topicId": 15,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T15-TN010",
+      "topicId": 15,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 22,
+      "signals": [
+        {
+          "code": "MISSING_UNIT_OR_YEAR",
+          "severity": "WARNING",
+          "label": "Đơn vị hoặc mốc thời gian chưa đồng nhất",
+          "detail": "Các phương án số liệu không cùng cách ghi đơn vị/mốc, có thể gây nhiễu không chủ đích.",
+          "evidence": "A: Kéo dài khoảng hai tháng, bắt đầu từ tháng 01 đến tháng 02 | B: Kéo dài khoảng năm tháng, bắt đầu từ tháng 11 đến tháng 04 | C: Kéo dài khoảng bốn tháng, bắt đầu từ tháng 08 đến tháng 11 | D: Kéo dài khoảng ba tháng, bắt đầu từ tháng 05 đến tháng 07"
+        }
+      ]
+    },
+    {
+      "qid": "HSG8-T15-TN011",
+      "topicId": 15,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T15-TN012",
+      "topicId": 15,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T15-TN013",
+      "topicId": 15,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T15-TN014",
+      "topicId": 15,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T15-TN015",
+      "topicId": 15,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T15-TN016",
+      "topicId": 15,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T15-TN017",
+      "topicId": 15,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T15-TN018",
+      "topicId": 15,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T15-TN019",
+      "topicId": 15,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T15-TN020",
+      "topicId": 15,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T15-TN021",
+      "topicId": 15,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T15-TN022",
+      "topicId": 15,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T15-TN023",
+      "topicId": 15,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T15-TN024",
+      "topicId": 15,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T15-TN025",
+      "topicId": 15,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T15-TN026",
+      "topicId": 15,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T15-TN027",
+      "topicId": 15,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T15-TN028",
+      "topicId": 15,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T15-TN029",
+      "topicId": 15,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T15-TN030",
+      "topicId": 15,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T17-TN001",
+      "topicId": 17,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T17-TN002",
+      "topicId": 17,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T17-TN003",
+      "topicId": 17,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T17-TN004",
+      "topicId": 17,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T17-TN005",
+      "topicId": 17,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T17-TN006",
+      "topicId": 17,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T17-TN007",
+      "topicId": 17,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T17-TN008",
+      "topicId": 17,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T17-TN009",
+      "topicId": 17,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T17-TN010",
+      "topicId": 17,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T17-TN011",
+      "topicId": 17,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T17-TN012",
+      "topicId": 17,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T17-TN013",
+      "topicId": 17,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T17-TN014",
+      "topicId": 17,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T17-TN015",
+      "topicId": 17,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T17-TN016",
+      "topicId": 17,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T17-TN017",
+      "topicId": 17,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T17-TN018",
+      "topicId": 17,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T17-TN019",
+      "topicId": 17,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T17-TN020",
+      "topicId": 17,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T17-TN021",
+      "topicId": 17,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T17-TN022",
+      "topicId": 17,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T17-TN023",
+      "topicId": 17,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T17-TN024",
+      "topicId": 17,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T17-TN025",
+      "topicId": 17,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T17-TN026",
+      "topicId": 17,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T17-TN027",
+      "topicId": 17,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T17-TN028",
+      "topicId": 17,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T17-TN029",
+      "topicId": 17,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T17-TN030",
+      "topicId": 17,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T18-TN001",
+      "topicId": 18,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T18-TN002",
+      "topicId": 18,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T18-TN003",
+      "topicId": 18,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T18-TN004",
+      "topicId": 18,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T18-TN005",
+      "topicId": 18,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T18-TN006",
+      "topicId": 18,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T18-TN007",
+      "topicId": 18,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T18-TN008",
+      "topicId": 18,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T18-TN009",
+      "topicId": 18,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T18-TN010",
+      "topicId": 18,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T18-TN011",
+      "topicId": 18,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T18-TN012",
+      "topicId": 18,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T18-TN013",
+      "topicId": 18,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T18-TN014",
+      "topicId": 18,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T18-TN015",
+      "topicId": 18,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T18-TN016",
+      "topicId": 18,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T18-TN017",
+      "topicId": 18,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T18-TN018",
+      "topicId": 18,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T18-TN019",
+      "topicId": 18,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T18-TN020",
+      "topicId": 18,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T18-TN021",
+      "topicId": 18,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T18-TN022",
+      "topicId": 18,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T18-TN023",
+      "topicId": 18,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T18-TN024",
+      "topicId": 18,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T18-TN025",
+      "topicId": 18,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T18-TN026",
+      "topicId": 18,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T18-TN027",
+      "topicId": 18,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T18-TN028",
+      "topicId": 18,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 22,
+      "signals": [
+        {
+          "code": "MISSING_UNIT_OR_YEAR",
+          "severity": "WARNING",
+          "label": "Đơn vị hoặc mốc thời gian chưa đồng nhất",
+          "detail": "Các phương án số liệu không cùng cách ghi đơn vị/mốc, có thể gây nhiễu không chủ đích.",
+          "evidence": "A: Gấp ~2,5 lần, cho thấy các quốc gia phát triển đang bước vào giai đoạn suy thoái kinh tế. | B: Gấp ~4,2 lần, phản ánh tốc độ chuyển đổi số diễn ra vô cùng nhanh chóng của phương Tây. | C: Gấp ~1,8 lần, chứng tỏ quá trình đô thị hóa đang diễn ra vô cùng đồng đều trên thế giới. | D: Gấp ~3,6 lần, cho thấy trọng tâm của quá trình đô thị hóa đã chuyển sang nư"
+        }
+      ]
+    },
+    {
+      "qid": "HSG8-T18-TN029",
+      "topicId": 18,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T18-TN030",
+      "topicId": 18,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T19-TN001",
+      "topicId": 19,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T19-TN002",
+      "topicId": 19,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T19-TN003",
+      "topicId": 19,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T19-TN004",
+      "topicId": 19,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T19-TN005",
+      "topicId": 19,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T19-TN006",
+      "topicId": 19,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T19-TN007",
+      "topicId": 19,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T19-TN008",
+      "topicId": 19,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T19-TN009",
+      "topicId": 19,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T19-TN010",
+      "topicId": 19,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T19-TN011",
+      "topicId": 19,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T19-TN012",
+      "topicId": 19,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T19-TN013",
+      "topicId": 19,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T19-TN014",
+      "topicId": 19,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T19-TN015",
+      "topicId": 19,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T19-TN016",
+      "topicId": 19,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T19-TN017",
+      "topicId": 19,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T19-TN018",
+      "topicId": 19,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T19-TN019",
+      "topicId": 19,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T19-TN020",
+      "topicId": 19,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T19-TN021",
+      "topicId": 19,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T19-TN022",
+      "topicId": 19,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T19-TN023",
+      "topicId": 19,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T19-TN024",
+      "topicId": 19,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T19-TN025",
+      "topicId": 19,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T19-TN026",
+      "topicId": 19,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T19-TN027",
+      "topicId": 19,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T19-TN028",
+      "topicId": 19,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T19-TN029",
+      "topicId": 19,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    },
+    {
+      "qid": "HSG8-T19-TN030",
+      "topicId": 19,
+      "status": "STABLE",
+      "recommendedStatus": "STABLE",
+      "riskScore": 0,
+      "signals": []
+    }
+  ]
+}

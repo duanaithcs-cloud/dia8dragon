@@ -1,0 +1,74 @@
+{
+  "topic_id": 12,
+  "label": "Khi hau va nong nghiep",
+  "status": "accepted",
+  "accepted_count": 4,
+  "questions": [
+    {
+      "qid": "D8-T12-MCQ-001",
+      "topic_id": "12",
+      "type": "MCQ",
+      "skill_tag": "C2",
+      "cognitive_level": "TH",
+      "difficulty": 2,
+      "prompt": "Câu 6. Khí hậu nước ta phân hóa đa dạng là do sự ảnh hưởng của?",
+      "answer_key": "D",
+      "explain": "[CORE FACT]: Dap an lay truc tiep tu tai lieu C1-C4 da gui. [DEEP DIVE]: Cau hoi duoc gan vao bong bong \"Khi hau va nong nghiep\" theo tu khoa va mach noi dung trong tai lieu. [PRO TIP]: Neu chua chac, mo lai phan A/B cua file goc de doi chieu.",
+      "source_file": "LOP_8_C2---662f9dd8-7d10-4634-822b-a0cbf3ab2aea.docx",
+      "choices": {
+        "A": "vị trí địa lí",
+        "B": "hình dạng lãnh thổ",
+        "C": "địa hình",
+        "D": "Cả A, B, C"
+      }
+    },
+    {
+      "qid": "D8-T12-MCQ-002",
+      "topic_id": "12",
+      "type": "MCQ",
+      "skill_tag": "C2",
+      "cognitive_level": "TH",
+      "difficulty": 2,
+      "prompt": "Câu 18. Hướng chảy chính của sông ngòi nước ta là Tây Bắc –Đông Nam và vòng cung là do tác động của",
+      "answer_key": "B",
+      "explain": "[CORE FACT]: Dap an lay truc tiep tu tai lieu C1-C4 da gui. [DEEP DIVE]: Cau hoi duoc gan vao bong bong \"Khi hau va nong nghiep\" theo tu khoa va mach noi dung trong tai lieu. [PRO TIP]: Neu chua chac, mo lai phan A/B cua file goc de doi chieu.",
+      "source_file": "LOP_8_C2---662f9dd8-7d10-4634-822b-a0cbf3ab2aea.docx",
+      "choices": {
+        "A": "vị trí địa lí",
+        "B": "địa hình",
+        "C": "khí hậu",
+        "D": "đất đai"
+      }
+    },
+    {
+      "qid": "D8-T12-MCQ-003",
+      "topic_id": "12",
+      "type": "MCQ",
+      "skill_tag": "C2",
+      "cognitive_level": "TH",
+      "difficulty": 2,
+      "prompt": "Câu 35. Ở vùng đất đá thấm nước, nguồn nước nào sau đây có vai trò đáng kể trong việc điều hòa chế độ nước sông?",
+      "answer_key": "B",
+      "explain": "[CORE FACT]: Dap an lay truc tiep tu tai lieu C1-C4 da gui. [DEEP DIVE]: Cau hoi duoc gan vao bong bong \"Khi hau va nong nghiep\" theo tu khoa va mach noi dung trong tai lieu. [PRO TIP]: Neu chua chac, mo lai phan A/B cua file goc de doi chieu.",
+      "source_file": "LOP_8_C2---662f9dd8-7d10-4634-822b-a0cbf3ab2aea.docx",
+      "choices": {
+        "A": "Hơi nước.",
+        "B": "Nước ngầm.",
+        "C": "Nước hồ.",
+        "D": "Nước mưa."
+      }
+    },
+    {
+      "qid": "D8-T12-FILL-004",
+      "topic_id": "12",
+      "type": "FILL",
+      "skill_tag": "C2",
+      "cognitive_level": "TH",
+      "difficulty": 2,
+      "prompt": "Câu 11. Việt Nam có hai hệ thống sông chính nào?",
+      "answer_key": "Câu 11. Hệ thống sông ngòi Bắc Bộ và hệ thống sông ngòi Nam Bộ.",
+      "explain": "[CORE FACT]: Dap an lay truc tiep tu tai lieu C1-C4 da gui. [DEEP DIVE]: Cau hoi duoc gan vao bong bong \"Khi hau va nong nghiep\" theo tu khoa va mach noi dung trong tai lieu. [PRO TIP]: Neu chua chac, mo lai phan A/B cua file goc de doi chieu.",
+      "source_file": "LOP_8_C2---662f9dd8-7d10-4634-822b-a0cbf3ab2aea.docx"
+    }
+  ]
+}

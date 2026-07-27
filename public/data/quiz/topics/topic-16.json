@@ -1,0 +1,68 @@
+{
+  "topic_id": 16,
+  "label": "Ve va phan tich bieu do khi hau",
+  "status": "accepted",
+  "accepted_count": 4,
+  "questions": [
+    {
+      "qid": "D8-T16-MCQ-001",
+      "topic_id": "16",
+      "type": "MCQ",
+      "skill_tag": "C2",
+      "cognitive_level": "VD",
+      "difficulty": 3,
+      "prompt": "Câu 10. Mùa lũ của sông Thu Bồn kéo dài từ tháng mấy đến tháng mấy?",
+      "answer_key": "C",
+      "explain": "[CORE FACT]: Dap an lay truc tiep tu tai lieu C1-C4 da gui. [DEEP DIVE]: Cau hoi duoc gan vao bong bong \"Ve va phan tich bieu do khi hau\" theo tu khoa va mach noi dung trong tai lieu. [PRO TIP]: Neu chua chac, mo lai phan A/B cua file goc de doi chieu.",
+      "source_file": "LOP_8_C2---662f9dd8-7d10-4634-822b-a0cbf3ab2aea.docx",
+      "choices": {
+        "A": "1 – 10",
+        "B": "5 – 10",
+        "C": "10 – 12",
+        "D": "11 – 1"
+      }
+    },
+    {
+      "qid": "D8-T16-MCQ-002",
+      "topic_id": "16",
+      "type": "MCQ",
+      "skill_tag": "C2",
+      "cognitive_level": "VD",
+      "difficulty": 3,
+      "prompt": "Câu 24. Khi vẽ được biểu đồ khí hậu thể hiện nhiệt độ, lượng mưa ở 1 địa phương, em sẽ vẽ cột lượng mưa như thế nào?",
+      "answer_key": "A",
+      "explain": "[CORE FACT]: Dap an lay truc tiep tu tai lieu C1-C4 da gui. [DEEP DIVE]: Cau hoi duoc gan vao bong bong \"Ve va phan tich bieu do khi hau\" theo tu khoa va mach noi dung trong tai lieu. [PRO TIP]: Neu chua chac, mo lai phan A/B cua file goc de doi chieu.",
+      "source_file": "LOP_8_C2---662f9dd8-7d10-4634-822b-a0cbf3ab2aea.docx",
+      "choices": {
+        "A": "Vẽ 12 cột, độ rộng bằng nhau, các cột sát cạnh nhau và sát 2 trục dọc.",
+        "B": "Các cột không nhất thiết phải rộng như nhau",
+        "C": "Các cột cách xa đều nhau.",
+        "D": "Các cột cao bằng nhau."
+      }
+    },
+    {
+      "qid": "D8-T16-FILL-003",
+      "topic_id": "16",
+      "type": "FILL",
+      "skill_tag": "C2",
+      "cognitive_level": "VD",
+      "difficulty": 3,
+      "prompt": "Câu 1. Việt Nam nằm trong đới khí hậu nào?",
+      "answer_key": "Câu 1. Đới khí hậu nhiệt đới gió mùa.",
+      "explain": "[CORE FACT]: Dap an lay truc tiep tu tai lieu C1-C4 da gui. [DEEP DIVE]: Cau hoi duoc gan vao bong bong \"Ve va phan tich bieu do khi hau\" theo tu khoa va mach noi dung trong tai lieu. [PRO TIP]: Neu chua chac, mo lai phan A/B cua file goc de doi chieu.",
+      "source_file": "LOP_8_C2---662f9dd8-7d10-4634-822b-a0cbf3ab2aea.docx"
+    },
+    {
+      "qid": "D8-T16-FILL-004",
+      "topic_id": "16",
+      "type": "FILL",
+      "skill_tag": "C2",
+      "cognitive_level": "VD",
+      "difficulty": 3,
+      "prompt": "Câu 15. Sông ngòi có vai trò gì đối với phát triển kinh tế nước ta?",
+      "answer_key": "Câu 15. Cung cấp nước tưới, phục vụ giao thông, thủy điện, nuôi trồng thủy sản và sinh hoạt.",
+      "explain": "[CORE FACT]: Dap an lay truc tiep tu tai lieu C1-C4 da gui. [DEEP DIVE]: Cau hoi duoc gan vao bong bong \"Ve va phan tich bieu do khi hau\" theo tu khoa va mach noi dung trong tai lieu. [PRO TIP]: Neu chua chac, mo lai phan A/B cua file goc de doi chieu.",
+      "source_file": "LOP_8_C2---662f9dd8-7d10-4634-822b-a0cbf3ab2aea.docx"
+    }
+  ]
+}

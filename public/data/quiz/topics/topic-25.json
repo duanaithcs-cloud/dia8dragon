@@ -1,0 +1,392 @@
+{
+  "topic_id": 25,
+  "label": "Su da dang sinh vat Viet Nam",
+  "status": "accepted",
+  "accepted_count": 22,
+  "questions": [
+    {
+      "qid": "D8-T25-MCQ-001",
+      "topic_id": "25",
+      "type": "MCQ",
+      "skill_tag": "C3",
+      "cognitive_level": "TH",
+      "difficulty": 2,
+      "prompt": "Câu 5. Đất mùn trên núi phân bố ở các vùng núi có độ cao khoảng?",
+      "answer_key": "C",
+      "explain": "[CORE FACT]: Dap an lay truc tiep tu tai lieu C1-C4 da gui. [DEEP DIVE]: Cau hoi duoc gan vao bong bong \"Su da dang sinh vat Viet Nam\" theo tu khoa va mach noi dung trong tai lieu. [PRO TIP]: Neu chua chac, mo lai phan A/B cua file goc de doi chieu.",
+      "source_file": "LOP_8_C3---c68ef26f-94b3-44a8-bb7f-e11f5ae96917.docx",
+      "choices": {
+        "A": "dưới 1000m.",
+        "B": "trên 1000m.",
+        "C": "từ 1600m- 1700m.",
+        "D": "trên 2000m."
+      }
+    },
+    {
+      "qid": "D8-T25-MCQ-002",
+      "topic_id": "25",
+      "type": "MCQ",
+      "skill_tag": "C3",
+      "cognitive_level": "TH",
+      "difficulty": 2,
+      "prompt": "Câu 14. Các loài động vật sau, loài nào thuộc loài động vật quý hiếm?",
+      "answer_key": "C",
+      "explain": "[CORE FACT]: Dap an lay truc tiep tu tai lieu C1-C4 da gui. [DEEP DIVE]: Cau hoi duoc gan vao bong bong \"Su da dang sinh vat Viet Nam\" theo tu khoa va mach noi dung trong tai lieu. [PRO TIP]: Neu chua chac, mo lai phan A/B cua file goc de doi chieu.",
+      "source_file": "LOP_8_C3---c68ef26f-94b3-44a8-bb7f-e11f5ae96917.docx",
+      "choices": {
+        "A": "Trâu",
+        "B": "Bò",
+        "C": "Sao La",
+        "D": "Ngựa"
+      }
+    },
+    {
+      "qid": "D8-T25-MCQ-003",
+      "topic_id": "25",
+      "type": "MCQ",
+      "skill_tag": "C3",
+      "cognitive_level": "TH",
+      "difficulty": 2,
+      "prompt": "Câu 16. Trong các đáp án sau, đáp án nào không đúng với các phương án bảo vệ tài nguyên sinh vật.",
+      "answer_key": "C",
+      "explain": "[CORE FACT]: Dap an lay truc tiep tu tai lieu C1-C4 da gui. [DEEP DIVE]: Cau hoi duoc gan vao bong bong \"Su da dang sinh vat Viet Nam\" theo tu khoa va mach noi dung trong tai lieu. [PRO TIP]: Neu chua chac, mo lai phan A/B cua file goc de doi chieu.",
+      "source_file": "LOP_8_C3---c68ef26f-94b3-44a8-bb7f-e11f5ae96917.docx",
+      "choices": {
+        "A": "Trồng rừng, bảo vệ rừng.",
+        "B": "Không săn bắt động vật tự nhiên trong rừng.",
+        "C": "Chặt phá rừng, đốt rừng làm nương rẫy.",
+        "D": "Tuyên truyền người thân trong gia đình bảo vệ động thực vật."
+      }
+    },
+    {
+      "qid": "D8-T25-MCQ-004",
+      "topic_id": "25",
+      "type": "MCQ",
+      "skill_tag": "C3",
+      "cognitive_level": "TH",
+      "difficulty": 2,
+      "prompt": "Câu 17.Trong các phương án sau, phương án nào đúng nhất với đặc điểm sinh vật Việt Nam?",
+      "answer_key": "A",
+      "explain": "[CORE FACT]: Dap an lay truc tiep tu tai lieu C1-C4 da gui. [DEEP DIVE]: Cau hoi duoc gan vao bong bong \"Su da dang sinh vat Viet Nam\" theo tu khoa va mach noi dung trong tai lieu. [PRO TIP]: Neu chua chac, mo lai phan A/B cua file goc de doi chieu.",
+      "source_file": "LOP_8_C3---c68ef26f-94b3-44a8-bb7f-e11f5ae96917.docx",
+      "choices": {
+        "A": "Tài nguyên sinh vật Việt Nam đa dạng và phong phú về thành phần loài, về kiểu hệ sinh thái.",
+        "B": "Tài nguyên sinh vật Việt Nam có nhiều hệ sinh thái khác nhau.",
+        "C": "Tài nguyên sinh vật Việt nam rất đa dạng và giàu có về thành phần loài.",
+        "D": "Tài nguyên sinh vật Việt Nam tương đối đa dạng về thành phần loài."
+      }
+    },
+    {
+      "qid": "D8-T25-MCQ-005",
+      "topic_id": "25",
+      "type": "MCQ",
+      "skill_tag": "C3",
+      "cognitive_level": "TH",
+      "difficulty": 2,
+      "prompt": "Câu 18. Vùng chuyên canh và hệ sinh thái nuôi trồng thủy sản thuộc kiểu hệ sinh thái nào?",
+      "answer_key": "C",
+      "explain": "[CORE FACT]: Dap an lay truc tiep tu tai lieu C1-C4 da gui. [DEEP DIVE]: Cau hoi duoc gan vao bong bong \"Su da dang sinh vat Viet Nam\" theo tu khoa va mach noi dung trong tai lieu. [PRO TIP]: Neu chua chac, mo lai phan A/B cua file goc de doi chieu.",
+      "source_file": "LOP_8_C3---c68ef26f-94b3-44a8-bb7f-e11f5ae96917.docx",
+      "choices": {
+        "A": "Hệ sinh thái trên cạn.",
+        "B": "Hệ sinh thái dưới nước.",
+        "C": "Hệ sinh thái nhân tạo.",
+        "D": "Không thuộc hệ sinh thái nào."
+      }
+    },
+    {
+      "qid": "D8-T25-MCQ-006",
+      "topic_id": "25",
+      "type": "MCQ",
+      "skill_tag": "C3",
+      "cognitive_level": "TH",
+      "difficulty": 2,
+      "prompt": "Câu 19. Sếu đầu đỏ là 1 trong những loài động vật được đưa vào sách đỏ Việt Nam. Vậy theo em loài này sinh sống ở đâu?",
+      "answer_key": "D",
+      "explain": "[CORE FACT]: Dap an lay truc tiep tu tai lieu C1-C4 da gui. [DEEP DIVE]: Cau hoi duoc gan vao bong bong \"Su da dang sinh vat Viet Nam\" theo tu khoa va mach noi dung trong tai lieu. [PRO TIP]: Neu chua chac, mo lai phan A/B cua file goc de doi chieu.",
+      "source_file": "LOP_8_C3---c68ef26f-94b3-44a8-bb7f-e11f5ae96917.docx",
+      "choices": {
+        "A": "Vườn quốc gia Phong Nha Kẻ Bàng.",
+        "B": "Vườn quốc gia Cúc Phương.",
+        "C": "Vườn quốc gia Bến En",
+        "D": "Vườn quốc gia Tràm Chim ( Đồng Tháp)."
+      }
+    },
+    {
+      "qid": "D8-T25-MCQ-007",
+      "topic_id": "25",
+      "type": "MCQ",
+      "skill_tag": "C3",
+      "cognitive_level": "TH",
+      "difficulty": 2,
+      "prompt": "Câu 20. Tính đa dạng sinh học của nước ta đang trong tình trạng như thế nào?",
+      "answer_key": "A",
+      "explain": "[CORE FACT]: Dap an lay truc tiep tu tai lieu C1-C4 da gui. [DEEP DIVE]: Cau hoi duoc gan vao bong bong \"Su da dang sinh vat Viet Nam\" theo tu khoa va mach noi dung trong tai lieu. [PRO TIP]: Neu chua chac, mo lai phan A/B cua file goc de doi chieu.",
+      "source_file": "LOP_8_C3---c68ef26f-94b3-44a8-bb7f-e11f5ae96917.docx",
+      "choices": {
+        "A": "Ngày càng bị suy giảm nghiêm trọng",
+        "B": "Đang tăng lên đáng kể",
+        "C": "Tăng về số lượng loài",
+        "D": "Tăng về số lượng cá thể ,giảm về số lượng loài"
+      }
+    },
+    {
+      "qid": "D8-T25-MCQ-008",
+      "topic_id": "25",
+      "type": "MCQ",
+      "skill_tag": "C3",
+      "cognitive_level": "TH",
+      "difficulty": 2,
+      "prompt": "Câu 21. Nguyên nhân suy giảm đa dạng sinh học là ?",
+      "answer_key": "A",
+      "explain": "[CORE FACT]: Dap an lay truc tiep tu tai lieu C1-C4 da gui. [DEEP DIVE]: Cau hoi duoc gan vao bong bong \"Su da dang sinh vat Viet Nam\" theo tu khoa va mach noi dung trong tai lieu. [PRO TIP]: Neu chua chac, mo lai phan A/B cua file goc de doi chieu.",
+      "source_file": "LOP_8_C3---c68ef26f-94b3-44a8-bb7f-e11f5ae96917.docx",
+      "choices": {
+        "A": "Do cả yếu tố tự nhiên và hoạt động của con người",
+        "B": "Do yếu tố tự nhiên",
+        "C": "Chủ yếu là do con người",
+        "D": "Do đánh bắt thủy hải sản quá mức ."
+      }
+    },
+    {
+      "qid": "D8-T25-MCQ-009",
+      "topic_id": "25",
+      "type": "MCQ",
+      "skill_tag": "C3",
+      "cognitive_level": "TH",
+      "difficulty": 2,
+      "prompt": "Câu 22. Ý nào sau đây không phải là biện pháp để bảo tồn đa dạng sinh học ở Việt Nam?",
+      "answer_key": "D",
+      "explain": "[CORE FACT]: Dap an lay truc tiep tu tai lieu C1-C4 da gui. [DEEP DIVE]: Cau hoi duoc gan vao bong bong \"Su da dang sinh vat Viet Nam\" theo tu khoa va mach noi dung trong tai lieu. [PRO TIP]: Neu chua chac, mo lai phan A/B cua file goc de doi chieu.",
+      "source_file": "LOP_8_C3---c68ef26f-94b3-44a8-bb7f-e11f5ae96917.docx",
+      "choices": {
+        "A": "Tăng cường trồng rừng và bảo vệ rừng tự nhiên",
+        "B": "Ngăn chặn nạn phá rừng và bảo vệ động vật hoang dã .",
+        "C": "Xử lý các chất thải công nghiệp",
+        "D": "đốt nương làm rẫy để mở rộng diện tích đất canh tác."
+      }
+    },
+    {
+      "qid": "D8-T25-MCQ-010",
+      "topic_id": "25",
+      "type": "MCQ",
+      "skill_tag": "C3",
+      "cognitive_level": "TH",
+      "difficulty": 2,
+      "prompt": "Câu 24. Hệ sinh thái rừng ngập mặn phân bố",
+      "answer_key": "D",
+      "explain": "[CORE FACT]: Dap an lay truc tiep tu tai lieu C1-C4 da gui. [DEEP DIVE]: Cau hoi duoc gan vao bong bong \"Su da dang sinh vat Viet Nam\" theo tu khoa va mach noi dung trong tai lieu. [PRO TIP]: Neu chua chac, mo lai phan A/B cua file goc de doi chieu.",
+      "source_file": "LOP_8_C3---c68ef26f-94b3-44a8-bb7f-e11f5ae96917.docx",
+      "choices": {
+        "A": "ở vùng đồi núi",
+        "B": "ở vùng đồng bằng",
+        "C": "rộng khắp trên cả nước",
+        "D": "ở vùng đất bãi triều cửa sông, ven biển, ven các đảo."
+      }
+    },
+    {
+      "qid": "D8-T25-MCQ-011",
+      "topic_id": "25",
+      "type": "MCQ",
+      "skill_tag": "C3",
+      "cognitive_level": "TH",
+      "difficulty": 2,
+      "prompt": "Câu 25. Nhận định nào sau đây không đúng về hệ sinh thái nông nghiệp?",
+      "answer_key": "A",
+      "explain": "[CORE FACT]: Dap an lay truc tiep tu tai lieu C1-C4 da gui. [DEEP DIVE]: Cau hoi duoc gan vao bong bong \"Su da dang sinh vat Viet Nam\" theo tu khoa va mach noi dung trong tai lieu. [PRO TIP]: Neu chua chac, mo lai phan A/B cua file goc de doi chieu.",
+      "source_file": "LOP_8_C3---c68ef26f-94b3-44a8-bb7f-e11f5ae96917.docx",
+      "choices": {
+        "A": "Hệ sinh thái nông nghiệp cũng chính là hệ sinh thái tự nhiên",
+        "B": "Có xu hướng mở rộng và chiếm diện tích của các hệ sinh thái tự nhiên",
+        "C": "Nơi diễn ra các hoạt động trồng trọt, chăn nuôi",
+        "D": "Phân bố ở vùng đồng bằng, ven biển"
+      }
+    },
+    {
+      "qid": "D8-T25-MCQ-012",
+      "topic_id": "25",
+      "type": "MCQ",
+      "skill_tag": "C3",
+      "cognitive_level": "TH",
+      "difficulty": 2,
+      "prompt": "Câu 26. Loại rừng nào sau đây không thuộc hệ sinh thái tự nhiên trên cạn?",
+      "answer_key": "D",
+      "explain": "[CORE FACT]: Dap an lay truc tiep tu tai lieu C1-C4 da gui. [DEEP DIVE]: Cau hoi duoc gan vao bong bong \"Su da dang sinh vat Viet Nam\" theo tu khoa va mach noi dung trong tai lieu. [PRO TIP]: Neu chua chac, mo lai phan A/B cua file goc de doi chieu.",
+      "source_file": "LOP_8_C3---c68ef26f-94b3-44a8-bb7f-e11f5ae96917.docx",
+      "choices": {
+        "A": "rừng ôn đới trên núi",
+        "B": "rừng tre nứa",
+        "C": "rừng kín thường xanh",
+        "D": "rừng trồng cây lâu năm"
+      }
+    },
+    {
+      "qid": "D8-T25-MCQ-013",
+      "topic_id": "25",
+      "type": "MCQ",
+      "skill_tag": "C3",
+      "cognitive_level": "TH",
+      "difficulty": 2,
+      "prompt": "Câu 28. Rừng trồng cây lấy gỗ, cây công nghiệp thuộc hệ sinh thái nào sau đây?",
+      "answer_key": "A",
+      "explain": "[CORE FACT]: Dap an lay truc tiep tu tai lieu C1-C4 da gui. [DEEP DIVE]: Cau hoi duoc gan vao bong bong \"Su da dang sinh vat Viet Nam\" theo tu khoa va mach noi dung trong tai lieu. [PRO TIP]: Neu chua chac, mo lai phan A/B cua file goc de doi chieu.",
+      "source_file": "LOP_8_C3---c68ef26f-94b3-44a8-bb7f-e11f5ae96917.docx",
+      "choices": {
+        "A": "Hệ sinh thái nông nghiệp.",
+        "B": "Hệ sinh thái tự nhiên.",
+        "C": "Hệ sinh thái công nghiệp.",
+        "D": "Hệ sinh thái nguyên sinh."
+      }
+    },
+    {
+      "qid": "D8-T25-MCQ-014",
+      "topic_id": "25",
+      "type": "MCQ",
+      "skill_tag": "C3",
+      "cognitive_level": "TH",
+      "difficulty": 2,
+      "prompt": "Câu 29. Hệ sinh thái nào sau đây thuộc hệ sinh thái nhân tạo?",
+      "answer_key": "A",
+      "explain": "[CORE FACT]: Dap an lay truc tiep tu tai lieu C1-C4 da gui. [DEEP DIVE]: Cau hoi duoc gan vao bong bong \"Su da dang sinh vat Viet Nam\" theo tu khoa va mach noi dung trong tai lieu. [PRO TIP]: Neu chua chac, mo lai phan A/B cua file goc de doi chieu.",
+      "source_file": "LOP_8_C3---c68ef26f-94b3-44a8-bb7f-e11f5ae96917.docx",
+      "choices": {
+        "A": "Đồng ruộng, rừng trồng.",
+        "B": "Rừng nhiệt đới gió mùa.",
+        "C": "Rừng ngập mặn, cỏ biển.",
+        "D": "Rạn san hô, rừng ôn đới."
+      }
+    },
+    {
+      "qid": "D8-T25-MCQ-015",
+      "topic_id": "25",
+      "type": "MCQ",
+      "skill_tag": "C3",
+      "cognitive_level": "TH",
+      "difficulty": 2,
+      "prompt": "Câu 30. Hệ sinh thái nào sau đây thuộc hệ sinh thái tự nhiên trên cạn?",
+      "answer_key": "B",
+      "explain": "[CORE FACT]: Dap an lay truc tiep tu tai lieu C1-C4 da gui. [DEEP DIVE]: Cau hoi duoc gan vao bong bong \"Su da dang sinh vat Viet Nam\" theo tu khoa va mach noi dung trong tai lieu. [PRO TIP]: Neu chua chac, mo lai phan A/B cua file goc de doi chieu.",
+      "source_file": "LOP_8_C3---c68ef26f-94b3-44a8-bb7f-e11f5ae96917.docx",
+      "choices": {
+        "A": "Rừng ngập mặn, cỏ biển.",
+        "B": "Rừng mưa nhiệt đới.",
+        "C": "Đầm phá ven biển.",
+        "D": "Rạn san hô, rừng ôn đới."
+      }
+    },
+    {
+      "qid": "D8-T25-MCQ-016",
+      "topic_id": "25",
+      "type": "MCQ",
+      "skill_tag": "C3",
+      "cognitive_level": "TH",
+      "difficulty": 2,
+      "prompt": "Câu 31. Hệ sinh thái nào sau đây thuộc hệ sinh thái tự nhiên dưới nước?",
+      "answer_key": "D",
+      "explain": "[CORE FACT]: Dap an lay truc tiep tu tai lieu C1-C4 da gui. [DEEP DIVE]: Cau hoi duoc gan vao bong bong \"Su da dang sinh vat Viet Nam\" theo tu khoa va mach noi dung trong tai lieu. [PRO TIP]: Neu chua chac, mo lai phan A/B cua file goc de doi chieu.",
+      "source_file": "LOP_8_C3---c68ef26f-94b3-44a8-bb7f-e11f5ae96917.docx",
+      "choices": {
+        "A": "Trảng cỏ, cây bụi.",
+        "B": "Rừng mưa nhiệt đới.",
+        "C": "Rừng nhiệt đới gió mùa.",
+        "D": "Rừng ngập mặn, cỏ biển."
+      }
+    },
+    {
+      "qid": "D8-T25-MCQ-017",
+      "topic_id": "25",
+      "type": "MCQ",
+      "skill_tag": "C3",
+      "cognitive_level": "TH",
+      "difficulty": 2,
+      "prompt": "Câu 32. Nội dung nào sau đây không phản ánh đúng về sự suy giảm đa dạng sinh học ở Việt Nam?",
+      "answer_key": "A",
+      "explain": "[CORE FACT]: Dap an lay truc tiep tu tai lieu C1-C4 da gui. [DEEP DIVE]: Cau hoi duoc gan vao bong bong \"Su da dang sinh vat Viet Nam\" theo tu khoa va mach noi dung trong tai lieu. [PRO TIP]: Neu chua chac, mo lai phan A/B cua file goc de doi chieu.",
+      "source_file": "LOP_8_C3---c68ef26f-94b3-44a8-bb7f-e11f5ae96917.docx",
+      "choices": {
+        "A": "Mở rộng phạm vi phân bố của các loài sinh vật.",
+        "B": "Suy giảm số lượng cá thể, loài sinh vật.",
+        "C": "Suy giảm nguồn gen.",
+        "D": "Suy giảm hệ sinh thái."
+      }
+    },
+    {
+      "qid": "D8-T25-MCQ-018",
+      "topic_id": "25",
+      "type": "MCQ",
+      "skill_tag": "C3",
+      "cognitive_level": "TH",
+      "difficulty": 2,
+      "prompt": "Câu 33. Nội dung nào sau đây là biểu hiện của sự suy giảm về số lượng cá thể và loài sinh vật ở Việt Nam?",
+      "answer_key": "C",
+      "explain": "[CORE FACT]: Dap an lay truc tiep tu tai lieu C1-C4 da gui. [DEEP DIVE]: Cau hoi duoc gan vao bong bong \"Su da dang sinh vat Viet Nam\" theo tu khoa va mach noi dung trong tai lieu. [PRO TIP]: Neu chua chac, mo lai phan A/B cua file goc de doi chieu.",
+      "source_file": "LOP_8_C3---c68ef26f-94b3-44a8-bb7f-e11f5ae96917.docx",
+      "choices": {
+        "A": "Phạm vi phân bố loài tăng nhanh.",
+        "B": "Nhiều hệ sinh thái rừng bị phá hủy.",
+        "C": "Nhiều loài có nguy cơ tuyệt chủng.",
+        "D": "Xuất hiện nhiều loài mới do lai tạo."
+      }
+    },
+    {
+      "qid": "D8-T25-MCQ-019",
+      "topic_id": "25",
+      "type": "MCQ",
+      "skill_tag": "C3",
+      "cognitive_level": "TH",
+      "difficulty": 2,
+      "prompt": "Câu 34. Nguyên nhân tự nhiên nào dẫn đến suy giảm đa dạng sinh học ở Việt Nam?",
+      "answer_key": "B",
+      "explain": "[CORE FACT]: Dap an lay truc tiep tu tai lieu C1-C4 da gui. [DEEP DIVE]: Cau hoi duoc gan vao bong bong \"Su da dang sinh vat Viet Nam\" theo tu khoa va mach noi dung trong tai lieu. [PRO TIP]: Neu chua chac, mo lai phan A/B cua file goc de doi chieu.",
+      "source_file": "LOP_8_C3---c68ef26f-94b3-44a8-bb7f-e11f5ae96917.docx",
+      "choices": {
+        "A": "Hoạt động khai thác lâm sản của con người.",
+        "B": "Biến đổi khí hậu với các hệ quả: bão, lũ, hạn hán,...",
+        "C": "Hoạt động đánh bắt thủy sản quá mức.",
+        "D": "Tình trạng đốt nương làm rẫy"
+      }
+    },
+    {
+      "qid": "D8-T25-MCQ-020",
+      "topic_id": "25",
+      "type": "MCQ",
+      "skill_tag": "C3",
+      "cognitive_level": "TH",
+      "difficulty": 2,
+      "prompt": "Câu 35. Để bảo tồn đa dạng sinh học, chúng ta không nên thực hiện hành động nào sau đây?",
+      "answer_key": "D",
+      "explain": "[CORE FACT]: Dap an lay truc tiep tu tai lieu C1-C4 da gui. [DEEP DIVE]: Cau hoi duoc gan vao bong bong \"Su da dang sinh vat Viet Nam\" theo tu khoa va mach noi dung trong tai lieu. [PRO TIP]: Neu chua chac, mo lai phan A/B cua file goc de doi chieu.",
+      "source_file": "LOP_8_C3---c68ef26f-94b3-44a8-bb7f-e11f5ae96917.docx",
+      "choices": {
+        "A": "Xây dựng các khu bảo tồn thiên nhiên.",
+        "B": "Trồng rừng và bảo vệ rừng tự nhiên.",
+        "C": "Xử lí chất thải sinh hoạt và sản xuất.",
+        "D": "Săn bắt động vật hoang dã trái phép"
+      }
+    },
+    {
+      "qid": "D8-T25-FILL-021",
+      "topic_id": "25",
+      "type": "FILL",
+      "skill_tag": "C3",
+      "cognitive_level": "TH",
+      "difficulty": 2,
+      "prompt": "Câu 5. Khí hậu nhiệt đới gió mùa và lượng mưa lớn tập trung theo mùa góp phần lớn trong việc hình thành loại đất nào?",
+      "answer_key": "Câu 5. Feralit.",
+      "explain": "[CORE FACT]: Dap an lay truc tiep tu tai lieu C1-C4 da gui. [DEEP DIVE]: Cau hoi duoc gan vao bong bong \"Su da dang sinh vat Viet Nam\" theo tu khoa va mach noi dung trong tai lieu. [PRO TIP]: Neu chua chac, mo lai phan A/B cua file goc de doi chieu.",
+      "source_file": "LOP_8_C3---c68ef26f-94b3-44a8-bb7f-e11f5ae96917.docx"
+    },
+    {
+      "qid": "D8-T25-FILL-022",
+      "topic_id": "25",
+      "type": "FILL",
+      "skill_tag": "C3",
+      "cognitive_level": "TH",
+      "difficulty": 2,
+      "prompt": "Câu 9: Kể tên 5 khu dự trữ sinh quyển của nước ta.",
+      "answer_key": "Câu 9: Cát Bà, Cù lao Chàm, Cần Giờ, Kiên Giang, Cà Mau,…",
+      "explain": "[CORE FACT]: Dap an lay truc tiep tu tai lieu C1-C4 da gui. [DEEP DIVE]: Cau hoi duoc gan vao bong bong \"Su da dang sinh vat Viet Nam\" theo tu khoa va mach noi dung trong tai lieu. [PRO TIP]: Neu chua chac, mo lai phan A/B cua file goc de doi chieu.",
+      "source_file": "LOP_8_C3---c68ef26f-94b3-44a8-bb7f-e11f5ae96917.docx"
+    }
+  ]
+}

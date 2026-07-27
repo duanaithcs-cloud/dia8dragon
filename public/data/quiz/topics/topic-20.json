@@ -1,0 +1,74 @@
+{
+  "topic_id": 20,
+  "label": "Tac dong bien doi khi hau toi tu nhien",
+  "status": "accepted",
+  "accepted_count": 4,
+  "questions": [
+    {
+      "qid": "D8-T20-MCQ-001",
+      "topic_id": "20",
+      "type": "MCQ",
+      "skill_tag": "C2",
+      "cognitive_level": "VDC",
+      "difficulty": 4,
+      "prompt": "Câu 1. Nhiệt độ trung bình năm ở hầu hết mọi nơi trên cả nước đều trên bao nhiêu 0C?",
+      "answer_key": "A",
+      "explain": "[CORE FACT]: Dap an lay truc tiep tu tai lieu C1-C4 da gui. [DEEP DIVE]: Cau hoi duoc gan vao bong bong \"Tac dong bien doi khi hau toi tu nhien\" theo tu khoa va mach noi dung trong tai lieu. [PRO TIP]: Neu chua chac, mo lai phan A/B cua file goc de doi chieu.",
+      "source_file": "LOP_8_C2---662f9dd8-7d10-4634-822b-a0cbf3ab2aea.docx",
+      "choices": {
+        "A": "200C",
+        "B": "300C",
+        "C": "350C",
+        "D": "370C"
+      }
+    },
+    {
+      "qid": "D8-T20-MCQ-002",
+      "topic_id": "20",
+      "type": "MCQ",
+      "skill_tag": "C2",
+      "cognitive_level": "VDC",
+      "difficulty": 4,
+      "prompt": "Câu 13. Hệ thống sông Mê Kông (Cửu Long) nằm ở khu vực nào nước ta?",
+      "answer_key": "C",
+      "explain": "[CORE FACT]: Dap an lay truc tiep tu tai lieu C1-C4 da gui. [DEEP DIVE]: Cau hoi duoc gan vao bong bong \"Tac dong bien doi khi hau toi tu nhien\" theo tu khoa va mach noi dung trong tai lieu. [PRO TIP]: Neu chua chac, mo lai phan A/B cua file goc de doi chieu.",
+      "source_file": "LOP_8_C2---662f9dd8-7d10-4634-822b-a0cbf3ab2aea.docx",
+      "choices": {
+        "A": "Miền Bắc",
+        "B": "Miền Trung",
+        "C": "Miền Nam",
+        "D": "Tây Nguyên"
+      }
+    },
+    {
+      "qid": "D8-T20-MCQ-003",
+      "topic_id": "20",
+      "type": "MCQ",
+      "skill_tag": "C2",
+      "cognitive_level": "VDC",
+      "difficulty": 4,
+      "prompt": "Câu 28. Hồ Tơ Nưng thuộc tỉnh nào sau đây?",
+      "answer_key": "D",
+      "explain": "[CORE FACT]: Dap an lay truc tiep tu tai lieu C1-C4 da gui. [DEEP DIVE]: Cau hoi duoc gan vao bong bong \"Tac dong bien doi khi hau toi tu nhien\" theo tu khoa va mach noi dung trong tai lieu. [PRO TIP]: Neu chua chac, mo lai phan A/B cua file goc de doi chieu.",
+      "source_file": "LOP_8_C2---662f9dd8-7d10-4634-822b-a0cbf3ab2aea.docx",
+      "choices": {
+        "A": "Đăk lắk",
+        "B": "Kon tum",
+        "C": "Lâm Đồng",
+        "D": "Gia Lai"
+      }
+    },
+    {
+      "qid": "D8-T20-FILL-004",
+      "topic_id": "20",
+      "type": "FILL",
+      "skill_tag": "C2",
+      "cognitive_level": "VDC",
+      "difficulty": 4,
+      "prompt": "Câu 6. Vì sao miền Bắc có mùa đông lạnh hơn miền Nam?",
+      "answer_key": "Câu 6. Do chịu ảnh hưởng trực tiếp và mạnh hơn của gió mùa Đông Bắc từ lục địa Trung Hoa tràn xuống.",
+      "explain": "[CORE FACT]: Dap an lay truc tiep tu tai lieu C1-C4 da gui. [DEEP DIVE]: Cau hoi duoc gan vao bong bong \"Tac dong bien doi khi hau toi tu nhien\" theo tu khoa va mach noi dung trong tai lieu. [PRO TIP]: Neu chua chac, mo lai phan A/B cua file goc de doi chieu.",
+      "source_file": "LOP_8_C2---662f9dd8-7d10-4634-822b-a0cbf3ab2aea.docx"
+    }
+  ]
+}

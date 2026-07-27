@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { HistoryEntry } from '../types';
 
@@ -24,9 +23,10 @@ const HistoryPanel: React.FC<HistoryPanelProps> = ({ history, onClose, onJumpToT
 
   const getTypeStyles = (type: string) => {
     switch (type) {
-      case 'TOPIC_VIEW': return { icon: 'visibility', color: 'text-c1-cyan', bg: 'bg-c1-cyan/10', label: 'Xem chuyên đề' };
-      case 'QUIZ_COMPLETE': return { icon: 'check_circle', color: 'text-c4-green', bg: 'bg-c4-green/10', label: 'Hoàn thành đề' };
-      case 'INSIGHT_GEN': return { icon: 'auto_awesome', color: 'text-c2-indigo', bg: 'bg-c2-indigo/10', label: 'Tra cứu Insight' };
+      case 'TOPIC_VIEW': return { icon: 'visibility', color: 'text-c1-cyan', bg: 'bg-c1-cyan/10', label: 'Xem CĐ' };
+      case 'QUIZ_COMPLETE': return { icon: 'check_circle', color: 'text-c4-green', bg: 'bg-c4-green/10', label: 'Xong đề' };
+      case 'INSIGHT_GEN': return { icon: 'auto_awesome', color: 'text-c2-indigo', bg: 'bg-c2-indigo/10', label: 'Tra AI' };
+      case 'ARENA_MATCH_END': return { icon: 'swords', color: 'text-danger-glow', bg: 'bg-danger-glow/10', label: 'Đấu' };
       default: return { icon: 'history', color: 'text-gray-400', bg: 'bg-white/5', label: 'Hoạt động' };
     }
   };
@@ -39,9 +39,9 @@ const HistoryPanel: React.FC<HistoryPanelProps> = ({ history, onClose, onJumpToT
           <div>
             <h2 className="text-xl font-bold flex items-center gap-2">
               <span className="material-symbols-outlined text-primary">history</span>
-              Lịch sử học tập
+              Lịch sử
             </h2>
-            <p className="text-[10px] text-gray-500 uppercase font-black tracking-widest mt-1">Hành trình bồi dưỡng HSG</p>
+            <p className="text-[10px] text-gray-500 uppercase font-black tracking-widest mt-1">Hành trình HSG</p>
           </div>
           <button onClick={onClose} className="size-8 rounded-lg bg-white/5 hover:bg-white/10 flex items-center justify-center transition-colors">
             <span className="material-symbols-outlined text-sm">close</span>
@@ -52,8 +52,8 @@ const HistoryPanel: React.FC<HistoryPanelProps> = ({ history, onClose, onJumpToT
           {history.length === 0 ? (
             <div className="h-full flex flex-col items-center justify-center text-center opacity-40">
               <span className="material-symbols-outlined text-6xl mb-4">history_edu</span>
-              <p className="text-sm font-medium">Chưa có dữ liệu học tập nào được ghi lại.</p>
-              <p className="text-[10px] uppercase mt-1 tracking-tighter">Hãy bắt đầu ôn luyện ngay hôm nay!</p>
+              <p className="text-sm font-medium">Chưa có dữ liệu học tập.</p>
+              <p className="text-[10px] uppercase mt-1 tracking-tight">Bắt đầu luyện ngay.</p>
             </div>
           ) : (
             history.map((entry, idx) => {
@@ -63,7 +63,7 @@ const HistoryPanel: React.FC<HistoryPanelProps> = ({ history, onClose, onJumpToT
                   {idx !== history.length - 1 && (
                     <div className="absolute left-[15px] top-8 bottom-0 w-0.5 bg-white/5"></div>
                   )}
-                  
+
                   <div className={`size-8 rounded-full ${style.bg} ${style.color} flex items-center justify-center shrink-0 z-10 border border-white/5`}>
                     <span className="material-symbols-outlined text-sm">{style.icon}</span>
                   </div>
@@ -73,7 +73,7 @@ const HistoryPanel: React.FC<HistoryPanelProps> = ({ history, onClose, onJumpToT
                       <span className={`text-[9px] font-black uppercase tracking-widest ${style.color}`}>{style.label}</span>
                       <span className="text-[9px] text-gray-600 font-bold">{formatTime(entry.timestamp)}</span>
                     </div>
-                    <div 
+                    <div
                       onClick={() => onJumpToTopic(entry.topicId)}
                       className="p-3 rounded-xl bg-white/5 border border-white/5 hover:bg-white/10 hover:border-primary/30 transition-all cursor-pointer group/card"
                     >
@@ -92,10 +92,10 @@ const HistoryPanel: React.FC<HistoryPanelProps> = ({ history, onClose, onJumpToT
         </div>
 
         <footer className="p-6 border-t border-white/10 bg-black/20 text-center shrink-0">
-          <p className="text-[10px] text-gray-600 font-bold uppercase tracking-widest">Ghi nhận tối đa 50 hoạt động gần nhất</p>
+          <p className="text-[10px] text-gray-600 font-bold uppercase tracking-widest">Ghi tối đa 50 lượt gần nhất</p>
         </footer>
       </div>
-      
+
       <style>{`
         @keyframes slide-in-right {
           from { transform: translateX(100%); }

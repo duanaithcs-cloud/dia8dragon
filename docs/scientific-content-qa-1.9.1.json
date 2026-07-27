@@ -1,0 +1,307 @@
+{
+  "topics": [
+    {
+      "topic_id": 1,
+      "label": "DÂN TỘC-DÂN SỐ",
+      "edits": 75,
+      "images": 7,
+      "essay_items": 14,
+      "status": "ĐẠT",
+      "flags": [],
+      "change_breakdown": {
+        "dấu câu kép sai": 56,
+        "chuẩn hóa nhãn đơn vị": 14,
+        "xóa khoảng trắng trước dấu câu": 5
+      }
+    },
+    {
+      "topic_id": 2,
+      "label": "PHÂN BỐ DÂN CƯ",
+      "edits": 37,
+      "images": 4,
+      "essay_items": 14,
+      "status": "ĐẠT",
+      "flags": [],
+      "change_breakdown": {
+        "xóa khoảng trắng trước dấu câu": 3,
+        "dấu câu kép sai": 34
+      }
+    },
+    {
+      "topic_id": 3,
+      "label": "LAO ĐỘNG-VIỆC LÀM",
+      "edits": 50,
+      "images": 7,
+      "essay_items": 14,
+      "status": "ĐẠT",
+      "flags": [],
+      "change_breakdown": {
+        "xóa khoảng trắng trước dấu câu": 11,
+        "chuẩn hóa nhãn đơn vị": 15,
+        "dấu câu kép sai": 19,
+        "xóa nội dung quảng bá/Zalo khỏi học liệu": 5
+      }
+    },
+    {
+      "topic_id": 4,
+      "label": "THỰC HÀNH DÂN CƯ",
+      "edits": 0,
+      "images": 1,
+      "essay_items": 1,
+      "status": "ĐẠT",
+      "flags": [],
+      "change_breakdown": {}
+    },
+    {
+      "topic_id": 5,
+      "label": "NÔNG NGHIỆP",
+      "edits": 131,
+      "images": 14,
+      "essay_items": 23,
+      "status": "ĐẠT",
+      "flags": [],
+      "change_breakdown": {
+        "dấu câu kép sai": 116,
+        "chuẩn hóa nhãn đơn vị": 12,
+        "xóa nội dung quảng bá/Zalo khỏi học liệu": 3
+      }
+    },
+    {
+      "topic_id": 6,
+      "label": "LÂM NGHIỆP-THỦY SẢN",
+      "edits": 143,
+      "images": 11,
+      "essay_items": 20,
+      "status": "ĐẠT",
+      "flags": [],
+      "change_breakdown": {
+        "chuẩn hóa gạch nối tên bài": 2,
+        "dấu câu kép sai": 123,
+        "xóa khoảng trắng trước dấu câu": 6,
+        "chuẩn hóa nhãn đơn vị": 9,
+        "xóa nội dung quảng bá/Zalo khỏi học liệu": 3
+      }
+    },
+    {
+      "topic_id": 7,
+      "label": "CÔNG NGHIỆP",
+      "edits": 120,
+      "images": 13,
+      "essay_items": 29,
+      "status": "ĐẠT",
+      "flags": [],
+      "change_breakdown": {
+        "chuẩn hóa gạch nối tên bài": 2,
+        "dấu câu kép sai": 103,
+        "xóa khoảng trắng trước dấu câu": 6,
+        "chuẩn hóa nhãn đơn vị": 3,
+        "xóa khoảng trắng sau dấu mở ngoặc": 3,
+        "xóa nội dung quảng bá/Zalo khỏi học liệu": 3
+      }
+    },
+    {
+      "topic_id": 8,
+      "label": "DỊCH VỤ",
+      "edits": 176,
+      "images": 16,
+      "essay_items": 27,
+      "status": "ĐẠT",
+      "flags": [],
+      "change_breakdown": {
+        "chuẩn hóa gạch nối tên bài": 2,
+        "dấu câu kép sai": 114,
+        "xóa khoảng trắng trước dấu câu": 45,
+        "chuẩn hóa nhãn đơn vị": 12,
+        "xóa nội dung quảng bá/Zalo khỏi học liệu": 3
+      }
+    },
+    {
+      "topic_id": 9,
+      "label": "THƯƠNG MẠI-DU LỊCH",
+      "edits": 0,
+      "images": 1,
+      "essay_items": 6,
+      "status": "ĐẠT",
+      "flags": [],
+      "change_breakdown": {}
+    },
+    {
+      "topic_id": 10,
+      "label": "TDMN PHÍA BẮC",
+      "edits": 54,
+      "images": 16,
+      "essay_items": 22,
+      "status": "ĐẠT",
+      "flags": [],
+      "change_breakdown": {
+        "chuẩn hóa gạch nối tên bài": 2,
+        "xóa khoảng trắng trước dấu câu": 10,
+        "dấu câu kép sai": 29,
+        "chuẩn hóa nhãn đơn vị": 9,
+        "xóa nội dung quảng bá/Zalo khỏi học liệu": 3,
+        "xóa ảnh tư liệu đen 48×48 của TDMN phía Bắc": 1
+      }
+    },
+    {
+      "topic_id": 11,
+      "label": "ĐỒNG BẰNG SÔNG HỒNG",
+      "edits": 102,
+      "images": 14,
+      "essay_items": 25,
+      "status": "ĐẠT",
+      "flags": [],
+      "change_breakdown": {
+        "chuẩn hóa gạch nối tên bài": 2,
+        "dấu câu kép sai": 80,
+        "xóa khoảng trắng trước dấu câu": 14,
+        "chuẩn hóa nhãn đơn vị": 3,
+        "xóa nội dung quảng bá/Zalo khỏi học liệu": 3
+      }
+    },
+    {
+      "topic_id": 12,
+      "label": "BẮC TRUNG BỘ",
+      "edits": 140,
+      "images": 18,
+      "essay_items": 26,
+      "status": "ĐẠT",
+      "flags": [],
+      "change_breakdown": {
+        "chuẩn hóa gạch nối tên bài": 2,
+        "dấu câu kép sai": 62,
+        "xóa khoảng trắng trước dấu câu": 61,
+        "chuẩn hóa nhãn đơn vị": 12,
+        "xóa nội dung quảng bá/Zalo khỏi học liệu": 3
+      }
+    },
+    {
+      "topic_id": 13,
+      "label": "DHNTB-TÂY NGUYÊN",
+      "edits": 106,
+      "images": 19,
+      "essay_items": 33,
+      "status": "ĐẠT",
+      "flags": [],
+      "change_breakdown": {
+        "chuẩn hóa gạch nối tên bài": 2,
+        "xóa khoảng trắng trước dấu câu": 12,
+        "dấu câu kép sai": 75,
+        "xóa khoảng trắng trước dấu đóng ngoặc": 3,
+        "sai chính tả Đơn vị": 3,
+        "chuẩn hóa nhãn đơn vị": 6,
+        "xóa nội dung quảng bá/Zalo khỏi học liệu": 5
+      }
+    },
+    {
+      "topic_id": 14,
+      "label": "ĐÔNG NAM BỘ",
+      "edits": 161,
+      "images": 27,
+      "essay_items": 33,
+      "status": "ĐẠT",
+      "flags": [],
+      "change_breakdown": {
+        "dấu câu kép sai": 154,
+        "xóa nội dung quảng bá/Zalo khỏi học liệu": 7
+      }
+    },
+    {
+      "topic_id": 15,
+      "label": "ĐỒNG BẰNG SÔNG CỬU LONG",
+      "edits": 137,
+      "images": 12,
+      "essay_items": 25,
+      "status": "ĐẠT",
+      "flags": [],
+      "change_breakdown": {
+        "chuẩn hóa gạch nối tên bài": 2,
+        "dấu câu kép sai": 101,
+        "xóa khoảng trắng trước dấu câu": 25,
+        "chuẩn hóa nhãn đơn vị": 6,
+        "sai chính tả Đơn vị": 3
+      }
+    },
+    {
+      "topic_id": 16,
+      "label": "BĐKH ĐBSCL",
+      "edits": 84,
+      "images": 1,
+      "essay_items": 6,
+      "status": "ĐẠT",
+      "flags": [],
+      "change_breakdown": {
+        "thừa dấu ngoặc ở mục khí hậu": 7,
+        "thiếu dấu hai chấm ở mục tài nguyên": 7,
+        "xóa khoảng trắng trước dấu câu": 50,
+        "dấu câu kép sai": 18,
+        "xóa khoảng trắng sau dấu mở ngoặc": 2
+      }
+    },
+    {
+      "topic_id": 17,
+      "label": "KINH TẾ BIỂN ĐẢO",
+      "edits": 114,
+      "images": 11,
+      "essay_items": 25,
+      "status": "ĐẠT",
+      "flags": [],
+      "change_breakdown": {
+        "chuẩn hóa gạch nối tên bài": 4,
+        "dấu câu kép sai": 104,
+        "xóa khoảng trắng trước dấu câu": 3,
+        "xóa nội dung quảng bá/Zalo khỏi học liệu": 3
+      }
+    },
+    {
+      "topic_id": 18,
+      "label": "ĐÔ THỊ: LỊCH SỬ-HIỆN TẠI",
+      "edits": 3,
+      "images": 12,
+      "essay_items": 12,
+      "status": "ĐẠT",
+      "flags": [],
+      "change_breakdown": {
+        "xóa khoảng trắng trước dấu câu": 3
+      }
+    },
+    {
+      "topic_id": 19,
+      "label": "VĂN MINH CHÂU THỔ",
+      "edits": 13,
+      "images": 12,
+      "essay_items": 12,
+      "status": "ĐẠT",
+      "flags": [],
+      "change_breakdown": {
+        "xóa khoảng trắng trước dấu câu": 10,
+        "xóa nội dung quảng bá/Zalo khỏi học liệu": 3
+      }
+    },
+    {
+      "topic_id": 20,
+      "label": "CHỦ QUYỀN BIỂN ĐÔNG",
+      "edits": 13,
+      "images": 10,
+      "essay_items": 16,
+      "status": "ĐẠT",
+      "flags": [],
+      "change_breakdown": {
+        "dấu câu kép sai": 7,
+        "xóa nội dung quảng bá/Zalo khỏi học liệu": 6
+      }
+    }
+  ],
+  "total_changes": {
+    "dấu câu kép sai": 1195,
+    "chuẩn hóa nhãn đơn vị": 101,
+    "xóa khoảng trắng trước dấu câu": 264,
+    "xóa nội dung quảng bá/Zalo khỏi học liệu": 50,
+    "chuẩn hóa gạch nối tên bài": 20,
+    "xóa khoảng trắng sau dấu mở ngoặc": 5,
+    "xóa ảnh tư liệu đen 48×48 của TDMN phía Bắc": 1,
+    "xóa khoảng trắng trước dấu đóng ngoặc": 3,
+    "sai chính tả Đơn vị": 6,
+    "thừa dấu ngoặc ở mục khí hậu": 7,
+    "thiếu dấu hai chấm ở mục tài nguyên": 7
+  }
+}

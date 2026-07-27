@@ -1,0 +1,86 @@
+{
+  "topic_id": 6,
+  "label": "Phan bo va su dung khoang san",
+  "status": "accepted",
+  "accepted_count": 5,
+  "questions": [
+    {
+      "qid": "D8-T06-MCQ-001",
+      "topic_id": "6",
+      "type": "MCQ",
+      "skill_tag": "C1",
+      "cognitive_level": "TH",
+      "difficulty": 2,
+      "prompt": "Câu 3. Vùng biển Việt Nam rộng khoảng",
+      "answer_key": "B",
+      "explain": "[CORE FACT]: Dap an lay truc tiep tu tai lieu C1-C4 da gui. [DEEP DIVE]: Cau hoi duoc gan vao bong bong \"Phan bo va su dung khoang san\" theo tu khoa va mach noi dung trong tai lieu. [PRO TIP]: Neu chua chac, mo lai phan A/B cua file goc de doi chieu.",
+      "source_file": "LOP_8_C1---d3c76b6e-82aa-48bd-abe3-8075329ed35f.docx",
+      "choices": {
+        "A": "500.000 km²",
+        "B": "1 triệu km²",
+        "C": "200.000 km²",
+        "D": "1,5 triệu km²"
+      }
+    },
+    {
+      "qid": "D8-T06-MCQ-002",
+      "topic_id": "6",
+      "type": "MCQ",
+      "skill_tag": "C1",
+      "cognitive_level": "TH",
+      "difficulty": 2,
+      "prompt": "Câu 10. Có độ cao trung bình với các dãy núi chạy song song và so le nhau là đặc điểm của vùng núi",
+      "answer_key": "D",
+      "explain": "[CORE FACT]: Dap an lay truc tiep tu tai lieu C1-C4 da gui. [DEEP DIVE]: Cau hoi duoc gan vao bong bong \"Phan bo va su dung khoang san\" theo tu khoa va mach noi dung trong tai lieu. [PRO TIP]: Neu chua chac, mo lai phan A/B cua file goc de doi chieu.",
+      "source_file": "LOP_8_C1---d3c76b6e-82aa-48bd-abe3-8075329ed35f.docx",
+      "choices": {
+        "A": "Đông Bắc",
+        "B": "Trường Sơn Nam",
+        "C": "Tây Bắc",
+        "D": "Trường Sơn Bắc"
+      }
+    },
+    {
+      "qid": "D8-T06-MCQ-003",
+      "topic_id": "6",
+      "type": "MCQ",
+      "skill_tag": "C1",
+      "cognitive_level": "TH",
+      "difficulty": 2,
+      "prompt": "Câu 19. Việt Nam là nước nhiều thiên tai: Bão,lũ lụt…,nguyên nhân chính do đâu?",
+      "answer_key": "D",
+      "explain": "[CORE FACT]: Dap an lay truc tiep tu tai lieu C1-C4 da gui. [DEEP DIVE]: Cau hoi duoc gan vao bong bong \"Phan bo va su dung khoang san\" theo tu khoa va mach noi dung trong tai lieu. [PRO TIP]: Neu chua chac, mo lai phan A/B cua file goc de doi chieu.",
+      "source_file": "LOP_8_C1---d3c76b6e-82aa-48bd-abe3-8075329ed35f.docx",
+      "choices": {
+        "A": "Địa hình dốc,nhiểu đồi núi.",
+        "B": "Hình dạng lãnh thổ.",
+        "C": "Khí hậu thay đổi theo mùa.",
+        "D": "Vị trí địa lí."
+      }
+    },
+    {
+      "qid": "D8-T06-TF-004",
+      "topic_id": "6",
+      "type": "TF",
+      "skill_tag": "C1",
+      "cognitive_level": "TH",
+      "difficulty": 2,
+      "prompt": "Câu 6. Nước ta trải qua nhiều giai đoạn kiến tạo khác nhau, nên tài nguyên khoáng sản của nước ta phong phú về chủng loại.",
+      "answer_key": "TRUE",
+      "explain": "[CORE FACT]: Dap an lay truc tiep tu tai lieu C1-C4 da gui. [DEEP DIVE]: Cau hoi duoc gan vao bong bong \"Phan bo va su dung khoang san\" theo tu khoa va mach noi dung trong tai lieu. [PRO TIP]: Neu chua chac, mo lai phan A/B cua file goc de doi chieu.",
+      "source_file": "LOP_8_C1---d3c76b6e-82aa-48bd-abe3-8075329ed35f.docx"
+    },
+    {
+      "qid": "D8-T06-FILL-005",
+      "topic_id": "6",
+      "type": "FILL",
+      "skill_tag": "C1",
+      "cognitive_level": "TH",
+      "difficulty": 2,
+      "prompt": "Câu 7. Kể tên hai vịnh lớn ở Biển Đông nước ta",
+      "answer_key": "Câu 7. Vịnh Bắc Bộ, Vịnh Thái Lan.",
+      "explain": "[CORE FACT]: Dap an lay truc tiep tu tai lieu C1-C4 da gui. [DEEP DIVE]: Cau hoi duoc gan vao bong bong \"Phan bo va su dung khoang san\" theo tu khoa va mach noi dung trong tai lieu. [PRO TIP]: Neu chua chac, mo lai phan A/B cua file goc de doi chieu.",
+      "source_file": "LOP_8_C1---d3c76b6e-82aa-48bd-abe3-8075329ed35f.docx"
+    }
+  ]
+}

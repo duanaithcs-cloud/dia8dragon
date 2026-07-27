@@ -1,0 +1,157 @@
+{
+  "topic_id": 31,
+  "label": "Moi truong bien dao Viet Nam",
+  "status": "accepted",
+  "accepted_count": 9,
+  "questions": [
+    {
+      "qid": "D8-T31-MCQ-001",
+      "topic_id": "31",
+      "type": "MCQ",
+      "skill_tag": "C4",
+      "cognitive_level": "TH",
+      "difficulty": 2,
+      "prompt": "Câu 3. Bờ biển nước ta nằm ở phía nào của Biển Đông?",
+      "answer_key": "B",
+      "explain": "[CORE FACT]: Dap an lay truc tiep tu tai lieu C1-C4 da gui. [DEEP DIVE]: Cau hoi duoc gan vao bong bong \"Moi truong bien dao Viet Nam\" theo tu khoa va mach noi dung trong tai lieu. [PRO TIP]: Neu chua chac, mo lai phan A/B cua file goc de doi chieu.",
+      "source_file": "LOP_8_C4---07c2372b-3416-493e-887f-a0d331974bbf.docx",
+      "choices": {
+        "A": "Phía Nam của Biển Đông",
+        "B": "Phía Tây của Biển Đông",
+        "C": "Phía Đông của Biển Đông",
+        "D": "Phía Bắc của Biển Đông"
+      }
+    },
+    {
+      "qid": "D8-T31-MCQ-002",
+      "topic_id": "31",
+      "type": "MCQ",
+      "skill_tag": "C4",
+      "cognitive_level": "TH",
+      "difficulty": 2,
+      "prompt": "Câu 10. Huyện đảo Côn Đảo trực thuộc tỉnh thành phố nào?",
+      "answer_key": "D",
+      "explain": "[CORE FACT]: Dap an lay truc tiep tu tai lieu C1-C4 da gui. [DEEP DIVE]: Cau hoi duoc gan vao bong bong \"Moi truong bien dao Viet Nam\" theo tu khoa va mach noi dung trong tai lieu. [PRO TIP]: Neu chua chac, mo lai phan A/B cua file goc de doi chieu.",
+      "source_file": "LOP_8_C4---07c2372b-3416-493e-887f-a0d331974bbf.docx",
+      "choices": {
+        "A": "Bình Thuận",
+        "B": "Quảng Trị",
+        "C": "Kiên Giang",
+        "D": "Bà Rịa Vũng Tàu( nay thuộc TP Hồ Chí Minh)"
+      }
+    },
+    {
+      "qid": "D8-T31-MCQ-003",
+      "topic_id": "31",
+      "type": "MCQ",
+      "skill_tag": "C4",
+      "cognitive_level": "TH",
+      "difficulty": 2,
+      "prompt": "Câu 16. Vùng tiếp giáp lãnh hải là?",
+      "answer_key": "B",
+      "explain": "[CORE FACT]: Dap an lay truc tiep tu tai lieu C1-C4 da gui. [DEEP DIVE]: Cau hoi duoc gan vao bong bong \"Moi truong bien dao Viet Nam\" theo tu khoa va mach noi dung trong tai lieu. [PRO TIP]: Neu chua chac, mo lai phan A/B cua file goc de doi chieu.",
+      "source_file": "LOP_8_C4---07c2372b-3416-493e-887f-a0d331974bbf.docx",
+      "choices": {
+        "A": "Vùng biển có chiều rộng 12 hải lí tính từ đường cơ sở ra phía biển",
+        "B": "Vùng biển tiếp liền và nằm ngoài lãnh hải Việt Nam, có chiều rộng 12 hải lí tính từ ranh giới ngoài của lãnh hải.",
+        "C": "Vùng biển tiếp liền và nằm ngoài lãnh hải Việt Nam, hợp với lãnh hải thành một vùng biển có chiều rộng 200 hải lí tính từ đường cơ sở.",
+        "D": "Vùng nước tiếp giáp với bờ biển, ở phía trong đường cơ sở và là bộ phận lãnh thổ của Việt Nam"
+      }
+    },
+    {
+      "qid": "D8-T31-MCQ-004",
+      "topic_id": "31",
+      "type": "MCQ",
+      "skill_tag": "C4",
+      "cognitive_level": "TH",
+      "difficulty": 2,
+      "prompt": "Câu 24. Vùng biển của Việt Nam nằm trong khí hậu:",
+      "answer_key": "B",
+      "explain": "[CORE FACT]: Dap an lay truc tiep tu tai lieu C1-C4 da gui. [DEEP DIVE]: Cau hoi duoc gan vao bong bong \"Moi truong bien dao Viet Nam\" theo tu khoa va mach noi dung trong tai lieu. [PRO TIP]: Neu chua chac, mo lai phan A/B cua file goc de doi chieu.",
+      "source_file": "LOP_8_C4---07c2372b-3416-493e-887f-a0d331974bbf.docx",
+      "choices": {
+        "A": "ôn đới gió mùa",
+        "B": "cận nhiệt gió mùa",
+        "C": "nhiệt đới gió mùa",
+        "D": "xích đạo"
+      }
+    },
+    {
+      "qid": "D8-T31-MCQ-005",
+      "topic_id": "31",
+      "type": "MCQ",
+      "skill_tag": "C4",
+      "cognitive_level": "TH",
+      "difficulty": 2,
+      "prompt": "Câu 30. Trên biển Đông gió hướng nào chiếm ưu thế từ tháng 10 đến tháng 4?",
+      "answer_key": "B",
+      "explain": "[CORE FACT]: Dap an lay truc tiep tu tai lieu C1-C4 da gui. [DEEP DIVE]: Cau hoi duoc gan vao bong bong \"Moi truong bien dao Viet Nam\" theo tu khoa va mach noi dung trong tai lieu. [PRO TIP]: Neu chua chac, mo lai phan A/B cua file goc de doi chieu.",
+      "source_file": "LOP_8_C4---07c2372b-3416-493e-887f-a0d331974bbf.docx",
+      "choices": {
+        "A": "Gió đông nam.",
+        "B": "Gió đông bắc.",
+        "C": "Gió tây nam.",
+        "D": "Gió hướng nam"
+      }
+    },
+    {
+      "qid": "D8-T31-MCQ-006",
+      "topic_id": "31",
+      "type": "MCQ",
+      "skill_tag": "C4",
+      "cognitive_level": "TH",
+      "difficulty": 2,
+      "prompt": "Câu 36. Độ muối trung bình của vùng biển nước ta là",
+      "answer_key": "C",
+      "explain": "[CORE FACT]: Dap an lay truc tiep tu tai lieu C1-C4 da gui. [DEEP DIVE]: Cau hoi duoc gan vao bong bong \"Moi truong bien dao Viet Nam\" theo tu khoa va mach noi dung trong tai lieu. [PRO TIP]: Neu chua chac, mo lai phan A/B cua file goc de doi chieu.",
+      "source_file": "LOP_8_C4---07c2372b-3416-493e-887f-a0d331974bbf.docx",
+      "choices": {
+        "A": "23‰- 28‰.",
+        "B": "25‰ - 30‰",
+        "C": "32‰- 33‰.",
+        "D": "33‰- 35‰."
+      }
+    },
+    {
+      "qid": "D8-T31-FILL-007",
+      "topic_id": "31",
+      "type": "FILL",
+      "skill_tag": "C4",
+      "cognitive_level": "TH",
+      "difficulty": 2,
+      "prompt": "Câu 2. Vùng biển nước ta rộng khoảng bao nhiêu km2?",
+      "answer_key": "Câu 2. 1 triệu km2",
+      "explain": "[CORE FACT]: Dap an lay truc tiep tu tai lieu C1-C4 da gui. [DEEP DIVE]: Cau hoi duoc gan vao bong bong \"Moi truong bien dao Viet Nam\" theo tu khoa va mach noi dung trong tai lieu. [PRO TIP]: Neu chua chac, mo lai phan A/B cua file goc de doi chieu.",
+      "source_file": "LOP_8_C4---07c2372b-3416-493e-887f-a0d331974bbf.docx"
+    },
+    {
+      "qid": "D8-T31-FILL-008",
+      "topic_id": "31",
+      "type": "FILL",
+      "skill_tag": "C4",
+      "cognitive_level": "TH",
+      "difficulty": 2,
+      "prompt": "Câu 8. Kể tên 2 vịnh biển lớn trong Biển Đông.",
+      "answer_key": "Câu 8. 2 vịnh lớn là vịnh Bắc Bộ và vịnh Thái Lan.",
+      "explain": "[CORE FACT]: Dap an lay truc tiep tu tai lieu C1-C4 da gui. [DEEP DIVE]: Cau hoi duoc gan vao bong bong \"Moi truong bien dao Viet Nam\" theo tu khoa va mach noi dung trong tai lieu. [PRO TIP]: Neu chua chac, mo lai phan A/B cua file goc de doi chieu.",
+      "source_file": "LOP_8_C4---07c2372b-3416-493e-887f-a0d331974bbf.docx"
+    },
+    {
+      "qid": "D8-T31-MATCH-900",
+      "topic_id": "31",
+      "type": "FILL",
+      "subtype": "MATCHING",
+      "skill_tag": "C4",
+      "cognitive_level": "TH",
+      "difficulty": 2,
+      "prompt": "Ghep noi noi dung ve moi truong bien dao trong tai lieu C4. Nhap dap an theo mau: 1-A; 2-B; ...",
+      "answer_key": "1-D; 2-C; 3-A; 4-B",
+      "accepted_answers": [
+        "1-D; 2-C; 3-A; 4-B",
+        "1-D;  2-C;  3-A;  4-B"
+      ],
+      "explain": "[CORE FACT]: Day la dang ghep noi trich tu bang trong file LOP_8_C4---07c2372b-3416-493e-887f-a0d331974bbf.docx. [DEEP DIVE]: Dap an duoc lap bang cach doi chieu cot A/B voi noi dung trong tai lieu, khong dung du lieu ngoai. [PRO TIP]: Nhap dung cap so-chu cai, vi du 1-A; 2-B.",
+      "source_file": "LOP_8_C4---07c2372b-3416-493e-887f-a0d331974bbf.docx"
+    }
+  ]
+}

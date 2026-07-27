@@ -1,0 +1,92 @@
+{
+  "topic_id": 19,
+  "label": "Khai thac tong hop tai nguyen nuoc",
+  "status": "accepted",
+  "accepted_count": 5,
+  "questions": [
+    {
+      "qid": "D8-T19-MCQ-001",
+      "topic_id": "19",
+      "type": "MCQ",
+      "skill_tag": "C2",
+      "cognitive_level": "VDC",
+      "difficulty": 4,
+      "prompt": "Câu 13. Hệ thống sông Thu Bồn nằm ở khu vực nào nước ta?",
+      "answer_key": "B",
+      "explain": "[CORE FACT]: Dap an lay truc tiep tu tai lieu C1-C4 da gui. [DEEP DIVE]: Cau hoi duoc gan vao bong bong \"Khai thac tong hop tai nguyen nuoc\" theo tu khoa va mach noi dung trong tai lieu. [PRO TIP]: Neu chua chac, mo lai phan A/B cua file goc de doi chieu.",
+      "source_file": "LOP_8_C2---662f9dd8-7d10-4634-822b-a0cbf3ab2aea.docx",
+      "choices": {
+        "A": "Miền Bắc",
+        "B": "Miền Trung",
+        "C": "Miền Nam",
+        "D": "Tây Nguyên"
+      }
+    },
+    {
+      "qid": "D8-T19-MCQ-002",
+      "topic_id": "19",
+      "type": "MCQ",
+      "skill_tag": "C2",
+      "cognitive_level": "VDC",
+      "difficulty": 4,
+      "prompt": "Câu 27. Vai trò của hồ, đầm đối với ngành nông nghiệp nước ta là?",
+      "answer_key": "B",
+      "explain": "[CORE FACT]: Dap an lay truc tiep tu tai lieu C1-C4 da gui. [DEEP DIVE]: Cau hoi duoc gan vao bong bong \"Khai thac tong hop tai nguyen nuoc\" theo tu khoa va mach noi dung trong tai lieu. [PRO TIP]: Neu chua chac, mo lai phan A/B cua file goc de doi chieu.",
+      "source_file": "LOP_8_C2---662f9dd8-7d10-4634-822b-a0cbf3ab2aea.docx",
+      "choices": {
+        "A": "Phát triển thủy điện",
+        "B": "Cung cấp nước cho trồng trọt và chăn nuôi",
+        "C": "Phát triển giao thông",
+        "D": "Phát triển du lịch"
+      }
+    },
+    {
+      "qid": "D8-T19-MCQ-003",
+      "topic_id": "19",
+      "type": "MCQ",
+      "skill_tag": "C2",
+      "cognitive_level": "VDC",
+      "difficulty": 4,
+      "prompt": "Câu 32. “Một số nguồn …., nước khoáng được khai thác để chữa bệnh và phát triển du lịch nghỉ dưỡng.” Điền từ còn thiếu vào dấu….",
+      "answer_key": "D",
+      "explain": "[CORE FACT]: Dap an lay truc tiep tu tai lieu C1-C4 da gui. [DEEP DIVE]: Cau hoi duoc gan vao bong bong \"Khai thac tong hop tai nguyen nuoc\" theo tu khoa va mach noi dung trong tai lieu. [PRO TIP]: Neu chua chac, mo lai phan A/B cua file goc de doi chieu.",
+      "source_file": "LOP_8_C2---662f9dd8-7d10-4634-822b-a0cbf3ab2aea.docx",
+      "choices": {
+        "A": "nước lạnh.",
+        "B": "nước ấm.",
+        "C": "nước khoáng.",
+        "D": "nước nóng."
+      }
+    },
+    {
+      "qid": "D8-T19-MCQ-004",
+      "topic_id": "19",
+      "type": "MCQ",
+      "skill_tag": "C2",
+      "cognitive_level": "VDC",
+      "difficulty": 4,
+      "prompt": "Câu 34. Nguyên nhân gây ô nhiễm nguồn nước ngầm là:",
+      "answer_key": "A",
+      "explain": "[CORE FACT]: Dap an lay truc tiep tu tai lieu C1-C4 da gui. [DEEP DIVE]: Cau hoi duoc gan vao bong bong \"Khai thac tong hop tai nguyen nuoc\" theo tu khoa va mach noi dung trong tai lieu. [PRO TIP]: Neu chua chac, mo lai phan A/B cua file goc de doi chieu.",
+      "source_file": "LOP_8_C2---662f9dd8-7d10-4634-822b-a0cbf3ab2aea.docx",
+      "choices": {
+        "A": "Hệ thống vệ sinh, nước thải và bùn thải không được xử lí.",
+        "B": "Khai thác sử dụng có qui hoạch.",
+        "C": "Ô nhiễm ngày càng nghiêm trọng.",
+        "D": "Sinh hoạt đúng qui trình, trồng cây xanh."
+      }
+    },
+    {
+      "qid": "D8-T19-FILL-005",
+      "topic_id": "19",
+      "type": "FILL",
+      "skill_tag": "C2",
+      "cognitive_level": "VDC",
+      "difficulty": 4,
+      "prompt": "Câu 5. Gió mùa Tây Nam thổi vào mùa nào? Mang đặc điểm gì?",
+      "answer_key": "Câu 5. Vào mùa hạ (tháng 5 đến tháng 10); mang theo không khí ẩm, gây mưa nhiều.",
+      "explain": "[CORE FACT]: Dap an lay truc tiep tu tai lieu C1-C4 da gui. [DEEP DIVE]: Cau hoi duoc gan vao bong bong \"Khai thac tong hop tai nguyen nuoc\" theo tu khoa va mach noi dung trong tai lieu. [PRO TIP]: Neu chua chac, mo lai phan A/B cua file goc de doi chieu.",
+      "source_file": "LOP_8_C2---662f9dd8-7d10-4634-822b-a0cbf3ab2aea.docx"
+    }
+  ]
+}

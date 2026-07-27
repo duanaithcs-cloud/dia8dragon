@@ -1,0 +1,74 @@
+{
+  "topic_id": 15,
+  "label": "Doc bieu do khi hau va tram khi tuong thuy van",
+  "status": "accepted",
+  "accepted_count": 4,
+  "questions": [
+    {
+      "qid": "D8-T15-MCQ-001",
+      "topic_id": "15",
+      "type": "MCQ",
+      "skill_tag": "C2",
+      "cognitive_level": "TH",
+      "difficulty": 2,
+      "prompt": "Câu 9. Sông Đà thuộc hệ thống sông nào?",
+      "answer_key": "D",
+      "explain": "[CORE FACT]: Dap an lay truc tiep tu tai lieu C1-C4 da gui. [DEEP DIVE]: Cau hoi duoc gan vao bong bong \"Doc bieu do khi hau va tram khi tuong thuy van\" theo tu khoa va mach noi dung trong tai lieu. [PRO TIP]: Neu chua chac, mo lai phan A/B cua file goc de doi chieu.",
+      "source_file": "LOP_8_C2---662f9dd8-7d10-4634-822b-a0cbf3ab2aea.docx",
+      "choices": {
+        "A": "sông Mê Công",
+        "B": "sông Thu Bồn",
+        "C": "Sông Mã",
+        "D": "sông Hồng"
+      }
+    },
+    {
+      "qid": "D8-T15-MCQ-002",
+      "topic_id": "15",
+      "type": "MCQ",
+      "skill_tag": "C2",
+      "cognitive_level": "TH",
+      "difficulty": 2,
+      "prompt": "Câu 21. Để vẽ được biểu đồ khí hậu thể hiện nhiệt độ, lượng mưa ở 1 địa phương, người ta sử dụng hệ trục tọa độ nào?",
+      "answer_key": "C",
+      "explain": "[CORE FACT]: Dap an lay truc tiep tu tai lieu C1-C4 da gui. [DEEP DIVE]: Cau hoi duoc gan vao bong bong \"Doc bieu do khi hau va tram khi tuong thuy van\" theo tu khoa va mach noi dung trong tai lieu. [PRO TIP]: Neu chua chac, mo lai phan A/B cua file goc de doi chieu.",
+      "source_file": "LOP_8_C2---662f9dd8-7d10-4634-822b-a0cbf3ab2aea.docx",
+      "choices": {
+        "A": "1 trục dọc và 1 trục ngang.",
+        "B": "2 trục ngang, 1 trục dọc.",
+        "C": "2 trục dọc 1 trục ngang",
+        "D": "2 trục ngang, 2 trục dọc."
+      }
+    },
+    {
+      "qid": "D8-T15-MCQ-003",
+      "topic_id": "15",
+      "type": "MCQ",
+      "skill_tag": "C2",
+      "cognitive_level": "TH",
+      "difficulty": 2,
+      "prompt": "Câu 38. Mực nước ngầm dao động khá rõ rệt giữa",
+      "answer_key": "D",
+      "explain": "[CORE FACT]: Dap an lay truc tiep tu tai lieu C1-C4 da gui. [DEEP DIVE]: Cau hoi duoc gan vao bong bong \"Doc bieu do khi hau va tram khi tuong thuy van\" theo tu khoa va mach noi dung trong tai lieu. [PRO TIP]: Neu chua chac, mo lai phan A/B cua file goc de doi chieu.",
+      "source_file": "LOP_8_C2---662f9dd8-7d10-4634-822b-a0cbf3ab2aea.docx",
+      "choices": {
+        "A": "mùa nóng và mùa lạnh.",
+        "B": "mùa mưa và mùa nóng.",
+        "C": "mùa khô và mùa nóng.",
+        "D": "mùa mưa và mùa khô."
+      }
+    },
+    {
+      "qid": "D8-T15-FILL-004",
+      "topic_id": "15",
+      "type": "FILL",
+      "skill_tag": "C2",
+      "cognitive_level": "TH",
+      "difficulty": 2,
+      "prompt": "Câu 14. Tại sao nước sông ở Việt Nam có lưu lượng thay đổi theo mùa?",
+      "answer_key": "Câu 14. Do chế độ mưa theo mùa: mưa nhiều vào mùa hạ, ít mưa vào mùa đông.",
+      "explain": "[CORE FACT]: Dap an lay truc tiep tu tai lieu C1-C4 da gui. [DEEP DIVE]: Cau hoi duoc gan vao bong bong \"Doc bieu do khi hau va tram khi tuong thuy van\" theo tu khoa va mach noi dung trong tai lieu. [PRO TIP]: Neu chua chac, mo lai phan A/B cua file goc de doi chieu.",
+      "source_file": "LOP_8_C2---662f9dd8-7d10-4634-822b-a0cbf3ab2aea.docx"
+    }
+  ]
+}

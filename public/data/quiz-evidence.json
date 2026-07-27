@@ -1,0 +1,12 @@
+{
+  "schema": "dia8dragon-quiz-evidence.v1",
+  "source": "LOP_8_C1-C4 uploaded documents only",
+  "policy": "No external data was used. Questions are accepted only when answer evidence is present in the uploaded documents or tables.",
+  "accepted_count": 185,
+  "type_counts": {
+    "MCQ": 131,
+    "TF": 6,
+    "FILL": 48
+  },
+  "matching_count": 8
+}

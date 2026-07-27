@@ -1,0 +1,146 @@
+{
+  "topic_id": 29,
+  "label": "Dac diem tu nhien vung bien dao",
+  "status": "accepted",
+  "accepted_count": 8,
+  "questions": [
+    {
+      "qid": "D8-T29-MCQ-001",
+      "topic_id": "29",
+      "type": "MCQ",
+      "skill_tag": "C4",
+      "cognitive_level": "NB",
+      "difficulty": 1,
+      "prompt": "Câu 1. Đảo Phú Quốc và Thổ Chu thuộc địa phận tỉnh thành nào của nước ta hiện nay?",
+      "answer_key": "A",
+      "explain": "[CORE FACT]: Dap an lay truc tiep tu tai lieu C1-C4 da gui. [DEEP DIVE]: Cau hoi duoc gan vao bong bong \"Dac diem tu nhien vung bien dao\" theo tu khoa va mach noi dung trong tai lieu. [PRO TIP]: Neu chua chac, mo lai phan A/B cua file goc de doi chieu.",
+      "source_file": "LOP_8_C4---07c2372b-3416-493e-887f-a0d331974bbf.docx",
+      "choices": {
+        "A": "An Giang",
+        "B": "Khánh Hoà",
+        "C": "Cà mau",
+        "D": "Đồng Tháp"
+      }
+    },
+    {
+      "qid": "D8-T29-MCQ-002",
+      "topic_id": "29",
+      "type": "MCQ",
+      "skill_tag": "C4",
+      "cognitive_level": "NB",
+      "difficulty": 1,
+      "prompt": "Câu 8. Huyện đảo Bạch Long Vỹ trực thuộc tỉnh thành phố nào?",
+      "answer_key": "C",
+      "explain": "[CORE FACT]: Dap an lay truc tiep tu tai lieu C1-C4 da gui. [DEEP DIVE]: Cau hoi duoc gan vao bong bong \"Dac diem tu nhien vung bien dao\" theo tu khoa va mach noi dung trong tai lieu. [PRO TIP]: Neu chua chac, mo lai phan A/B cua file goc de doi chieu.",
+      "source_file": "LOP_8_C4---07c2372b-3416-493e-887f-a0d331974bbf.docx",
+      "choices": {
+        "A": "Tỉnh Thanh Hóa",
+        "B": "Tỉnh Quảng Ninh",
+        "C": "Thành phố Hải Phòng",
+        "D": "Tỉnh Nghệ An"
+      }
+    },
+    {
+      "qid": "D8-T29-MCQ-003",
+      "topic_id": "29",
+      "type": "MCQ",
+      "skill_tag": "C4",
+      "cognitive_level": "NB",
+      "difficulty": 1,
+      "prompt": "Câu 14. Mốc 0 - để xác định đường cơ sở nằm ở đâu?",
+      "answer_key": "A",
+      "explain": "[CORE FACT]: Dap an lay truc tiep tu tai lieu C1-C4 da gui. [DEEP DIVE]: Cau hoi duoc gan vao bong bong \"Dac diem tu nhien vung bien dao\" theo tu khoa va mach noi dung trong tai lieu. [PRO TIP]: Neu chua chac, mo lai phan A/B cua file goc de doi chieu.",
+      "source_file": "LOP_8_C4---07c2372b-3416-493e-887f-a0d331974bbf.docx",
+      "choices": {
+        "A": "Ranh giới phía Tây Nam của vùng nước lịch sử của nước Cộng hòa xã hội chủ nghĩa Việt Nam và Cộng hòa nhân dân Campuchia",
+        "B": "Hòn Nhạn, quần đảo Thổ Chu, tỉnh Kiên Giang",
+        "C": "Hòn Đá Lẻ ở Đông Nam Hòn Khoai, tỉnh Cà Mau",
+        "D": "Đảo Cồn Cỏ, tỉnh Quảng Trị"
+      }
+    },
+    {
+      "qid": "D8-T29-MCQ-004",
+      "topic_id": "29",
+      "type": "MCQ",
+      "skill_tag": "C4",
+      "cognitive_level": "NB",
+      "difficulty": 1,
+      "prompt": "Câu 22. Đặc điểm nào không đúng khi nói về biển Đông",
+      "answer_key": "D",
+      "explain": "[CORE FACT]: Dap an lay truc tiep tu tai lieu C1-C4 da gui. [DEEP DIVE]: Cau hoi duoc gan vao bong bong \"Dac diem tu nhien vung bien dao\" theo tu khoa va mach noi dung trong tai lieu. [PRO TIP]: Neu chua chac, mo lai phan A/B cua file goc de doi chieu.",
+      "source_file": "LOP_8_C4---07c2372b-3416-493e-887f-a0d331974bbf.docx",
+      "choices": {
+        "A": "tương đối kín.",
+        "B": "Đứng thứ 3 trong các biển thuộc Thái Bình Dương.",
+        "C": "Nằm trong khu vực nhiệt đới gió mùa Đông Nam Á.",
+        "D": "Là vùng biển nằm trong đới khí hậu ôn đới."
+      }
+    },
+    {
+      "qid": "D8-T29-MCQ-005",
+      "topic_id": "29",
+      "type": "MCQ",
+      "skill_tag": "C4",
+      "cognitive_level": "NB",
+      "difficulty": 1,
+      "prompt": "Câu 28. Thiên tai thường gặp ở vùng biển nước ta",
+      "answer_key": "C",
+      "explain": "[CORE FACT]: Dap an lay truc tiep tu tai lieu C1-C4 da gui. [DEEP DIVE]: Cau hoi duoc gan vao bong bong \"Dac diem tu nhien vung bien dao\" theo tu khoa va mach noi dung trong tai lieu. [PRO TIP]: Neu chua chac, mo lai phan A/B cua file goc de doi chieu.",
+      "source_file": "LOP_8_C4---07c2372b-3416-493e-887f-a0d331974bbf.docx",
+      "choices": {
+        "A": "lũ lụt",
+        "B": "hạn hán",
+        "C": "bão nhiệt đới",
+        "D": "núi lửa"
+      }
+    },
+    {
+      "qid": "D8-T29-MCQ-006",
+      "topic_id": "29",
+      "type": "MCQ",
+      "skill_tag": "C4",
+      "cognitive_level": "NB",
+      "difficulty": 1,
+      "prompt": "Câu 34. Ý nào không đúng khi nói về dòng biển nước ta ?",
+      "answer_key": "D",
+      "explain": "[CORE FACT]: Dap an lay truc tiep tu tai lieu C1-C4 da gui. [DEEP DIVE]: Cau hoi duoc gan vao bong bong \"Dac diem tu nhien vung bien dao\" theo tu khoa va mach noi dung trong tai lieu. [PRO TIP]: Neu chua chac, mo lai phan A/B cua file goc de doi chieu.",
+      "source_file": "LOP_8_C4---07c2372b-3416-493e-887f-a0d331974bbf.docx",
+      "choices": {
+        "A": "Có sự thay đổi theo mùa.",
+        "B": "Mùa đông, dòng biển có hướng đông bắc - tây nam.",
+        "C": "Mùa hạ, dòng biển có hướng tây nam - đông bắc.",
+        "D": "Dòng biển mùa hạ mạnh hơn dòng biển mùa đông."
+      }
+    },
+    {
+      "qid": "D8-T29-MCQ-007",
+      "topic_id": "29",
+      "type": "MCQ",
+      "skill_tag": "C4",
+      "cognitive_level": "NB",
+      "difficulty": 1,
+      "prompt": "Câu 40. Địa hình thềm lục địa hẹp và sâu ở vùng biển nào",
+      "answer_key": "C",
+      "explain": "[CORE FACT]: Dap an lay truc tiep tu tai lieu C1-C4 da gui. [DEEP DIVE]: Cau hoi duoc gan vao bong bong \"Dac diem tu nhien vung bien dao\" theo tu khoa va mach noi dung trong tai lieu. [PRO TIP]: Neu chua chac, mo lai phan A/B cua file goc de doi chieu.",
+      "source_file": "LOP_8_C4---07c2372b-3416-493e-887f-a0d331974bbf.docx",
+      "choices": {
+        "A": "phía Bắc.",
+        "B": "phía Nam",
+        "C": "miền Trung.",
+        "D": "cả nước."
+      }
+    },
+    {
+      "qid": "D8-T29-FILL-008",
+      "topic_id": "29",
+      "type": "FILL",
+      "skill_tag": "C4",
+      "cognitive_level": "NB",
+      "difficulty": 1,
+      "prompt": "Câu 6. Biển Đông có diện tích bao nhiêu? Lớn thứ mấy trên thế giới?",
+      "answer_key": "Câu 6. Biển Đông có diện tích khoảng 3,44 triệu km2, là biển lớn thứ 3 trong các biển trên thế giới.",
+      "explain": "[CORE FACT]: Dap an lay truc tiep tu tai lieu C1-C4 da gui. [DEEP DIVE]: Cau hoi duoc gan vao bong bong \"Dac diem tu nhien vung bien dao\" theo tu khoa va mach noi dung trong tai lieu. [PRO TIP]: Neu chua chac, mo lai phan A/B cua file goc de doi chieu.",
+      "source_file": "LOP_8_C4---07c2372b-3416-493e-887f-a0d331974bbf.docx"
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "topic_id": 9,
+  "label": "Luu vuc song va he thong song lon",
+  "status": "accepted",
+  "accepted_count": 4,
+  "questions": [
+    {
+      "qid": "D8-T09-MCQ-001",
+      "topic_id": "9",
+      "type": "MCQ",
+      "skill_tag": "C2",
+      "cognitive_level": "NB",
+      "difficulty": 1,
+      "prompt": "Câu 3. Độ ẩm không khí của nước ta là trên bao nhiêu %?",
+      "answer_key": "C",
+      "explain": "[CORE FACT]: Dap an lay truc tiep tu tai lieu C1-C4 da gui. [DEEP DIVE]: Cau hoi duoc gan vao bong bong \"Luu vuc song va he thong song lon\" theo tu khoa va mach noi dung trong tai lieu. [PRO TIP]: Neu chua chac, mo lai phan A/B cua file goc de doi chieu.",
+      "source_file": "LOP_8_C2---662f9dd8-7d10-4634-822b-a0cbf3ab2aea.docx",
+      "choices": {
+        "A": "60%",
+        "B": "70%",
+        "C": "80%",
+        "D": "90%"
+      }
+    },
+    {
+      "qid": "D8-T09-MCQ-002",
+      "topic_id": "9",
+      "type": "MCQ",
+      "skill_tag": "C2",
+      "cognitive_level": "NB",
+      "difficulty": 1,
+      "prompt": "Câu 15. Mạng lưới sông ngòi dày đặc như hình lông chim là đặc điểm của hệ thống sông nào?",
+      "answer_key": "D",
+      "explain": "[CORE FACT]: Dap an lay truc tiep tu tai lieu C1-C4 da gui. [DEEP DIVE]: Cau hoi duoc gan vao bong bong \"Luu vuc song va he thong song lon\" theo tu khoa va mach noi dung trong tai lieu. [PRO TIP]: Neu chua chac, mo lai phan A/B cua file goc de doi chieu.",
+      "source_file": "LOP_8_C2---662f9dd8-7d10-4634-822b-a0cbf3ab2aea.docx",
+      "choices": {
+        "A": "Sông Hồng",
+        "B": "Sông Thu Bồn",
+        "C": "Sông Đà",
+        "D": "Sông Mê Kông (Cửu Long)"
+      }
+    },
+    {
+      "qid": "D8-T09-MCQ-003",
+      "topic_id": "9",
+      "type": "MCQ",
+      "skill_tag": "C2",
+      "cognitive_level": "NB",
+      "difficulty": 1,
+      "prompt": "Câu 30. Hãy nêu vai trò của nước ngầm đối với ngành nông nghiệp?",
+      "answer_key": "A",
+      "explain": "[CORE FACT]: Dap an lay truc tiep tu tai lieu C1-C4 da gui. [DEEP DIVE]: Cau hoi duoc gan vao bong bong \"Luu vuc song va he thong song lon\" theo tu khoa va mach noi dung trong tai lieu. [PRO TIP]: Neu chua chac, mo lai phan A/B cua file goc de doi chieu.",
+      "source_file": "LOP_8_C2---662f9dd8-7d10-4634-822b-a0cbf3ab2aea.docx",
+      "choices": {
+        "A": "Cung cấp nước cho trồng trọt, chăn nuôi.",
+        "B": "Phát triển du lịch.",
+        "C": "Phát triển suối nước nóng.",
+        "D": "Sản xuất giấy viết."
+      }
+    },
+    {
+      "qid": "D8-T09-FILL-004",
+      "topic_id": "9",
+      "type": "FILL",
+      "skill_tag": "C2",
+      "cognitive_level": "NB",
+      "difficulty": 1,
+      "prompt": "Câu 8. Nêu một số hiện tượng thời tiết cực đoan thường gặp ở Việt Nam.",
+      "answer_key": "Câu 8. Bão, lũ lụt, hạn hán, rét đậm rét hại, nắng nóng kéo dài.",
+      "explain": "[CORE FACT]: Dap an lay truc tiep tu tai lieu C1-C4 da gui. [DEEP DIVE]: Cau hoi duoc gan vao bong bong \"Luu vuc song va he thong song lon\" theo tu khoa va mach noi dung trong tai lieu. [PRO TIP]: Neu chua chac, mo lai phan A/B cua file goc de doi chieu.",
+      "source_file": "LOP_8_C2---662f9dd8-7d10-4634-822b-a0cbf3ab2aea.docx"
+    }
+  ]
+}

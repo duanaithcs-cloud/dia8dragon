@@ -1,0 +1,74 @@
+{
+  "topic_id": 7,
+  "label": "Phan hoa dia hinh va tu nhien",
+  "status": "accepted",
+  "accepted_count": 4,
+  "questions": [
+    {
+      "qid": "D8-T07-MCQ-001",
+      "topic_id": "7",
+      "type": "MCQ",
+      "skill_tag": "C1",
+      "cognitive_level": "VD",
+      "difficulty": 3,
+      "prompt": "Câu 4. Đồng bằng sông Cửu Long có diện tích khoảng:",
+      "answer_key": "C",
+      "explain": "[CORE FACT]: Dap an lay truc tiep tu tai lieu C1-C4 da gui. [DEEP DIVE]: Cau hoi duoc gan vao bong bong \"Phan hoa dia hinh va tu nhien\" theo tu khoa va mach noi dung trong tai lieu. [PRO TIP]: Neu chua chac, mo lai phan A/B cua file goc de doi chieu.",
+      "source_file": "LOP_8_C1---d3c76b6e-82aa-48bd-abe3-8075329ed35f.docx",
+      "choices": {
+        "A": "10.000 km²",
+        "B": "25.000 km²",
+        "C": "40.000 km²",
+        "D": "50.000 km²"
+      }
+    },
+    {
+      "qid": "D8-T07-MCQ-002",
+      "topic_id": "7",
+      "type": "MCQ",
+      "skill_tag": "C1",
+      "cognitive_level": "VD",
+      "difficulty": 3,
+      "prompt": "Câu 11. Phát biểu nào sau đây không đúng với đặc điểm của Đồng bằng sông Cửu Long?",
+      "answer_key": "A",
+      "explain": "[CORE FACT]: Dap an lay truc tiep tu tai lieu C1-C4 da gui. [DEEP DIVE]: Cau hoi duoc gan vao bong bong \"Phan hoa dia hinh va tu nhien\" theo tu khoa va mach noi dung trong tai lieu. [PRO TIP]: Neu chua chac, mo lai phan A/B cua file goc de doi chieu.",
+      "source_file": "LOP_8_C1---d3c76b6e-82aa-48bd-abe3-8075329ed35f.docx",
+      "choices": {
+        "A": "có các cao nguyên ba dan xếp tầng",
+        "B": "là đồng bằng châu thổ rộng lớn",
+        "C": "có mạng lưới kênh rạch chằng chịt",
+        "D": "được bồi đắp phù sa của sông Cửu Long"
+      }
+    },
+    {
+      "qid": "D8-T07-MCQ-003",
+      "topic_id": "7",
+      "type": "MCQ",
+      "skill_tag": "C1",
+      "cognitive_level": "VD",
+      "difficulty": 3,
+      "prompt": "Câu 20. Nước ta có nguồn tài nguyên khoáng sản đa dạng là do:",
+      "answer_key": "B",
+      "explain": "[CORE FACT]: Dap an lay truc tiep tu tai lieu C1-C4 da gui. [DEEP DIVE]: Cau hoi duoc gan vao bong bong \"Phan hoa dia hinh va tu nhien\" theo tu khoa va mach noi dung trong tai lieu. [PRO TIP]: Neu chua chac, mo lai phan A/B cua file goc de doi chieu.",
+      "source_file": "LOP_8_C1---d3c76b6e-82aa-48bd-abe3-8075329ed35f.docx",
+      "choices": {
+        "A": "Nằm trên đường di cư của nhiều loài sinh vật.",
+        "B": "Nằm ở nơi giao nhau của 2 vành đai sinh khoáng lớn là Thái Bình Dương và Địa Trung Hải.",
+        "C": "Có khí hậu thuận lợi cho các tài nguyên khoáng sản tập trung.",
+        "D": "Có vị trí gần biển."
+      }
+    },
+    {
+      "qid": "D8-T07-FILL-004",
+      "topic_id": "7",
+      "type": "FILL",
+      "skill_tag": "C1",
+      "cognitive_level": "VD",
+      "difficulty": 3,
+      "prompt": "Câu 1. Cho biết các khu vực địa hình chủ yếu của nước ta",
+      "answer_key": "Câu 1. Đồi núi, đồng bằng, bờ biển, thềm lục địa",
+      "explain": "[CORE FACT]: Dap an lay truc tiep tu tai lieu C1-C4 da gui. [DEEP DIVE]: Cau hoi duoc gan vao bong bong \"Phan hoa dia hinh va tu nhien\" theo tu khoa va mach noi dung trong tai lieu. [PRO TIP]: Neu chua chac, mo lai phan A/B cua file goc de doi chieu.",
+      "source_file": "LOP_8_C1---d3c76b6e-82aa-48bd-abe3-8075329ed35f.docx"
+    }
+  ]
+}

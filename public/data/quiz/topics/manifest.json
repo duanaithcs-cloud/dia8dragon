@@ -1,0 +1,203 @@
+{
+  "schema": "dia8dragon-quiz-manifest.v1",
+  "topics": [
+    {
+      "topic_id": 1,
+      "label": "Vi tri dia li va pham vi lanh tho",
+      "path": "/data/quiz/topics/topic-01.json",
+      "accepted_count": 4
+    },
+    {
+      "topic_id": 2,
+      "label": "Anh huong vi tri dia li va pham vi lanh tho",
+      "path": "/data/quiz/topics/topic-02.json",
+      "accepted_count": 4
+    },
+    {
+      "topic_id": 3,
+      "label": "Dac diem dia hinh Viet Nam",
+      "path": "/data/quiz/topics/topic-03.json",
+      "accepted_count": 4
+    },
+    {
+      "topic_id": 4,
+      "label": "Cac khu vuc dia hinh",
+      "path": "/data/quiz/topics/topic-04.json",
+      "accepted_count": 6
+    },
+    {
+      "topic_id": 5,
+      "label": "Dac diem khoang san Viet Nam",
+      "path": "/data/quiz/topics/topic-05.json",
+      "accepted_count": 8
+    },
+    {
+      "topic_id": 6,
+      "label": "Phan bo va su dung khoang san",
+      "path": "/data/quiz/topics/topic-06.json",
+      "accepted_count": 5
+    },
+    {
+      "topic_id": 7,
+      "label": "Phan hoa dia hinh va tu nhien",
+      "path": "/data/quiz/topics/topic-07.json",
+      "accepted_count": 4
+    },
+    {
+      "topic_id": 8,
+      "label": "Khi hau nhiet doi am gio mua",
+      "path": "/data/quiz/topics/topic-08.json",
+      "accepted_count": 4
+    },
+    {
+      "topic_id": 9,
+      "label": "Luu vuc song va he thong song lon",
+      "path": "/data/quiz/topics/topic-09.json",
+      "accepted_count": 4
+    },
+    {
+      "topic_id": 10,
+      "label": "Phan hoa khi hau Viet Nam",
+      "path": "/data/quiz/topics/topic-10.json",
+      "accepted_count": 4
+    },
+    {
+      "topic_id": 11,
+      "label": "Tac dong bien doi khi hau toi khi hau va thuy van",
+      "path": "/data/quiz/topics/topic-11.json",
+      "accepted_count": 4
+    },
+    {
+      "topic_id": 12,
+      "label": "Khi hau va nong nghiep",
+      "path": "/data/quiz/topics/topic-12.json",
+      "accepted_count": 4
+    },
+    {
+      "topic_id": 13,
+      "label": "Phan tich mot he thong song",
+      "path": "/data/quiz/topics/topic-13.json",
+      "accepted_count": 4
+    },
+    {
+      "topic_id": 14,
+      "label": "Ho, dam va nuoc ngam",
+      "path": "/data/quiz/topics/topic-14.json",
+      "accepted_count": 5
+    },
+    {
+      "topic_id": 15,
+      "label": "Doc bieu do khi hau va tram khi tuong thuy van",
+      "path": "/data/quiz/topics/topic-15.json",
+      "accepted_count": 4
+    },
+    {
+      "topic_id": 16,
+      "label": "Ve va phan tich bieu do khi hau",
+      "path": "/data/quiz/topics/topic-16.json",
+      "accepted_count": 4
+    },
+    {
+      "topic_id": 17,
+      "label": "Vai tro khi hau doi voi du lich",
+      "path": "/data/quiz/topics/topic-17.json",
+      "accepted_count": 3
+    },
+    {
+      "topic_id": 18,
+      "label": "Ung pho voi bien doi khi hau",
+      "path": "/data/quiz/topics/topic-18.json",
+      "accepted_count": 4
+    },
+    {
+      "topic_id": 19,
+      "label": "Khai thac tong hop tai nguyen nuoc",
+      "path": "/data/quiz/topics/topic-19.json",
+      "accepted_count": 5
+    },
+    {
+      "topic_id": 20,
+      "label": "Tac dong bien doi khi hau toi tu nhien",
+      "path": "/data/quiz/topics/topic-20.json",
+      "accepted_count": 4
+    },
+    {
+      "topic_id": 21,
+      "label": "Ba nhom dat chinh",
+      "path": "/data/quiz/topics/topic-21.json",
+      "accepted_count": 3
+    },
+    {
+      "topic_id": 22,
+      "label": "Tinh chat nhiet doi gio mua cua tho nhuong",
+      "path": "/data/quiz/topics/topic-22.json",
+      "accepted_count": 8
+    },
+    {
+      "topic_id": 23,
+      "label": "Dat feralit va gia tri su dung",
+      "path": "/data/quiz/topics/topic-23.json",
+      "accepted_count": 2
+    },
+    {
+      "topic_id": 24,
+      "label": "Dat phu sa va gia tri su dung",
+      "path": "/data/quiz/topics/topic-24.json",
+      "accepted_count": 3
+    },
+    {
+      "topic_id": 25,
+      "label": "Su da dang sinh vat Viet Nam",
+      "path": "/data/quiz/topics/topic-25.json",
+      "accepted_count": 22
+    },
+    {
+      "topic_id": 26,
+      "label": "Chong thoai hoa dat",
+      "path": "/data/quiz/topics/topic-26.json",
+      "accepted_count": 4
+    },
+    {
+      "topic_id": 27,
+      "label": "Bao ton da dang sinh hoc",
+      "path": "/data/quiz/topics/topic-27.json",
+      "accepted_count": 4
+    },
+    {
+      "topic_id": 28,
+      "label": "Pham vi Bien Dong va vung bien Viet Nam",
+      "path": "/data/quiz/topics/topic-28.json",
+      "accepted_count": 7
+    },
+    {
+      "topic_id": 29,
+      "label": "Dac diem tu nhien vung bien dao",
+      "path": "/data/quiz/topics/topic-29.json",
+      "accepted_count": 8
+    },
+    {
+      "topic_id": 30,
+      "label": "Tai nguyen bien va them luc dia",
+      "path": "/data/quiz/topics/topic-30.json",
+      "accepted_count": 9
+    },
+    {
+      "topic_id": 31,
+      "label": "Moi truong bien dao Viet Nam",
+      "path": "/data/quiz/topics/topic-31.json",
+      "accepted_count": 9
+    },
+    {
+      "topic_id": 32,
+      "label": "Luat bien va cac vung bien Viet Nam",
+      "path": "/data/quiz/topics/topic-32.json",
+      "accepted_count": 9
+    },
+    {
+      "topic_id": 33,
+      "label": "Thuan loi, kho khan kinh te bien va bao ve chu quyen",
+      "path": "/data/quiz/topics/topic-33.json",
+      "accepted_count": 9
+    }
+  ]
+}

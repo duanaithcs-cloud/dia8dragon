@@ -1,0 +1,74 @@
+{
+  "topic_id": 11,
+  "label": "Tac dong bien doi khi hau toi khi hau va thuy van",
+  "status": "accepted",
+  "accepted_count": 4,
+  "questions": [
+    {
+      "qid": "D8-T11-MCQ-001",
+      "topic_id": "11",
+      "type": "MCQ",
+      "skill_tag": "C2",
+      "cognitive_level": "TH",
+      "difficulty": 2,
+      "prompt": "Câu 5. Gió mùa mùa hạ ở nước ta hoạt động từ tháng mấy đến tháng mấy?",
+      "answer_key": "A",
+      "explain": "[CORE FACT]: Dap an lay truc tiep tu tai lieu C1-C4 da gui. [DEEP DIVE]: Cau hoi duoc gan vao bong bong \"Tac dong bien doi khi hau toi khi hau va thuy van\" theo tu khoa va mach noi dung trong tai lieu. [PRO TIP]: Neu chua chac, mo lai phan A/B cua file goc de doi chieu.",
+      "source_file": "LOP_8_C2---662f9dd8-7d10-4634-822b-a0cbf3ab2aea.docx",
+      "choices": {
+        "A": "tháng 5 – 10",
+        "B": "tháng 6 – 10",
+        "C": "tháng 7 – 10",
+        "D": "tháng 8 – 10"
+      }
+    },
+    {
+      "qid": "D8-T11-MCQ-002",
+      "topic_id": "11",
+      "type": "MCQ",
+      "skill_tag": "C2",
+      "cognitive_level": "TH",
+      "difficulty": 2,
+      "prompt": "Câu 17. Chế độ nước của sông ngòi nước ta có hai mùa rõ rệt là do nguyên nhân:",
+      "answer_key": "C",
+      "explain": "[CORE FACT]: Dap an lay truc tiep tu tai lieu C1-C4 da gui. [DEEP DIVE]: Cau hoi duoc gan vao bong bong \"Tac dong bien doi khi hau toi khi hau va thuy van\" theo tu khoa va mach noi dung trong tai lieu. [PRO TIP]: Neu chua chac, mo lai phan A/B cua file goc de doi chieu.",
+      "source_file": "LOP_8_C2---662f9dd8-7d10-4634-822b-a0cbf3ab2aea.docx",
+      "choices": {
+        "A": "Do địa hình nhiều đồi núi phức tạp",
+        "B": "Do sông ngòi nước ta ngắn và dốc",
+        "C": "Do chế độ mưa theo mùa",
+        "D": "Do biến đổi khí hậu"
+      }
+    },
+    {
+      "qid": "D8-T11-MCQ-003",
+      "topic_id": "11",
+      "type": "MCQ",
+      "skill_tag": "C2",
+      "cognitive_level": "TH",
+      "difficulty": 2,
+      "prompt": "Câu 33. Nước ngầm có vai trò như thế nào trong sản xuất công nghiệp?",
+      "answer_key": "B",
+      "explain": "[CORE FACT]: Dap an lay truc tiep tu tai lieu C1-C4 da gui. [DEEP DIVE]: Cau hoi duoc gan vao bong bong \"Tac dong bien doi khi hau toi khi hau va thuy van\" theo tu khoa va mach noi dung trong tai lieu. [PRO TIP]: Neu chua chac, mo lai phan A/B cua file goc de doi chieu.",
+      "source_file": "LOP_8_C2---662f9dd8-7d10-4634-822b-a0cbf3ab2aea.docx",
+      "choices": {
+        "A": "Phục vụ ngành trồng trọt, chăn nuôi.",
+        "B": "Phục vụ các ngành như chế biến lương thực-thực phẩm, sản xuất giấy.",
+        "C": "Phục vụ các ngành nghỉ dưỡng, chữa bệnh.",
+        "D": "Phục vụ các ngành may mặc, buôn bán."
+      }
+    },
+    {
+      "qid": "D8-T11-FILL-004",
+      "topic_id": "11",
+      "type": "FILL",
+      "skill_tag": "C2",
+      "cognitive_level": "TH",
+      "difficulty": 2,
+      "prompt": "Câu 10. Khí hậu có ảnh hưởng như thế nào đến đời sống và sản xuất của người dân?",
+      "answer_key": "Câu 10. Ảnh hưởng đến thời vụ sản xuất nông nghiệp, nguồn nước sinh hoạt, và phòng chống thiên tai.",
+      "explain": "[CORE FACT]: Dap an lay truc tiep tu tai lieu C1-C4 da gui. [DEEP DIVE]: Cau hoi duoc gan vao bong bong \"Tac dong bien doi khi hau toi khi hau va thuy van\" theo tu khoa va mach noi dung trong tai lieu. [PRO TIP]: Neu chua chac, mo lai phan A/B cua file goc de doi chieu.",
+      "source_file": "LOP_8_C2---662f9dd8-7d10-4634-822b-a0cbf3ab2aea.docx"
+    }
+  ]
+}

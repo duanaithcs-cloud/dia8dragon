@@ -1,0 +1,146 @@
+{
+  "topic_id": 22,
+  "label": "Tinh chat nhiet doi gio mua cua tho nhuong",
+  "status": "accepted",
+  "accepted_count": 8,
+  "questions": [
+    {
+      "qid": "D8-T22-MCQ-001",
+      "topic_id": "22",
+      "type": "MCQ",
+      "skill_tag": "C3",
+      "cognitive_level": "TH",
+      "difficulty": 2,
+      "prompt": "Câu 2. Nhóm đất chiếm diện tích lớn nhất nước ta là:",
+      "answer_key": "B",
+      "explain": "[CORE FACT]: Dap an lay truc tiep tu tai lieu C1-C4 da gui. [DEEP DIVE]: Cau hoi duoc gan vao bong bong \"Tinh chat nhiet doi gio mua cua tho nhuong\" theo tu khoa va mach noi dung trong tai lieu. [PRO TIP]: Neu chua chac, mo lai phan A/B cua file goc de doi chieu.",
+      "source_file": "LOP_8_C3---c68ef26f-94b3-44a8-bb7f-e11f5ae96917.docx",
+      "choices": {
+        "A": "phù sa.",
+        "B": "feralit.",
+        "C": "mùn núi cao.",
+        "D": "đất xám."
+      }
+    },
+    {
+      "qid": "D8-T22-MCQ-002",
+      "topic_id": "22",
+      "type": "MCQ",
+      "skill_tag": "C3",
+      "cognitive_level": "TH",
+      "difficulty": 2,
+      "prompt": "Câu 3. Ở nước ta, đất feralit phát triển trên đá vôi phân bố chủ yếu ở miền",
+      "answer_key": "D",
+      "explain": "[CORE FACT]: Dap an lay truc tiep tu tai lieu C1-C4 da gui. [DEEP DIVE]: Cau hoi duoc gan vao bong bong \"Tinh chat nhiet doi gio mua cua tho nhuong\" theo tu khoa va mach noi dung trong tai lieu. [PRO TIP]: Neu chua chac, mo lai phan A/B cua file goc de doi chieu.",
+      "source_file": "LOP_8_C3---c68ef26f-94b3-44a8-bb7f-e11f5ae96917.docx",
+      "choices": {
+        "A": "nam",
+        "B": "trung.",
+        "C": "tây",
+        "D": "bắc."
+      }
+    },
+    {
+      "qid": "D8-T22-MCQ-003",
+      "topic_id": "22",
+      "type": "MCQ",
+      "skill_tag": "C3",
+      "cognitive_level": "TH",
+      "difficulty": 2,
+      "prompt": "Câu 4. Có màu nâu đỏ hoặc vàng, độ phì cao thích hợp với nhiều loại cây công nghiệp là đặc điểm của loại đất nào?",
+      "answer_key": "D",
+      "explain": "[CORE FACT]: Dap an lay truc tiep tu tai lieu C1-C4 da gui. [DEEP DIVE]: Cau hoi duoc gan vao bong bong \"Tinh chat nhiet doi gio mua cua tho nhuong\" theo tu khoa va mach noi dung trong tai lieu. [PRO TIP]: Neu chua chac, mo lai phan A/B cua file goc de doi chieu.",
+      "source_file": "LOP_8_C3---c68ef26f-94b3-44a8-bb7f-e11f5ae96917.docx",
+      "choices": {
+        "A": "đất phù sa",
+        "B": "đât mặn, đất phèn.",
+        "C": "đất mùn núi cao",
+        "D": "đất feralit."
+      }
+    },
+    {
+      "qid": "D8-T22-MCQ-004",
+      "topic_id": "22",
+      "type": "MCQ",
+      "skill_tag": "C3",
+      "cognitive_level": "TH",
+      "difficulty": 2,
+      "prompt": "Câu 6. Nhóm đất feralit chiếm bao nhiêu phần trăm diện tích đất tự nhiên?",
+      "answer_key": "C",
+      "explain": "[CORE FACT]: Dap an lay truc tiep tu tai lieu C1-C4 da gui. [DEEP DIVE]: Cau hoi duoc gan vao bong bong \"Tinh chat nhiet doi gio mua cua tho nhuong\" theo tu khoa va mach noi dung trong tai lieu. [PRO TIP]: Neu chua chac, mo lai phan A/B cua file goc de doi chieu.",
+      "source_file": "LOP_8_C3---c68ef26f-94b3-44a8-bb7f-e11f5ae96917.docx",
+      "choices": {
+        "A": "45%.",
+        "B": "55%.",
+        "C": "65%.",
+        "D": "75% ."
+      }
+    },
+    {
+      "qid": "D8-T22-MCQ-005",
+      "topic_id": "22",
+      "type": "MCQ",
+      "skill_tag": "C3",
+      "cognitive_level": "TH",
+      "difficulty": 2,
+      "prompt": "Câu 9. Đặc tính chung của đất feralit đồi núi thấp là",
+      "answer_key": "D",
+      "explain": "[CORE FACT]: Dap an lay truc tiep tu tai lieu C1-C4 da gui. [DEEP DIVE]: Cau hoi duoc gan vao bong bong \"Tinh chat nhiet doi gio mua cua tho nhuong\" theo tu khoa va mach noi dung trong tai lieu. [PRO TIP]: Neu chua chac, mo lai phan A/B cua file goc de doi chieu.",
+      "source_file": "LOP_8_C3---c68ef26f-94b3-44a8-bb7f-e11f5ae96917.docx",
+      "choices": {
+        "A": "nhiều sét, tơi xốp, ít chua.",
+        "B": "ít chua, nghèo mùn, nhiều sét.",
+        "C": "tơi xốp, ít chua, giàu mùn.",
+        "D": "chua, nghèo mùn, nhiều sét."
+      }
+    },
+    {
+      "qid": "D8-T22-MCQ-006",
+      "topic_id": "22",
+      "type": "MCQ",
+      "skill_tag": "C3",
+      "cognitive_level": "TH",
+      "difficulty": 2,
+      "prompt": "Câu 11: Hiện tượng sa mạc hóa đang xảy ra ở Việt Nam tại",
+      "answer_key": "C",
+      "explain": "[CORE FACT]: Dap an lay truc tiep tu tai lieu C1-C4 da gui. [DEEP DIVE]: Cau hoi duoc gan vao bong bong \"Tinh chat nhiet doi gio mua cua tho nhuong\" theo tu khoa va mach noi dung trong tai lieu. [PRO TIP]: Neu chua chac, mo lai phan A/B cua file goc de doi chieu.",
+      "source_file": "LOP_8_C3---c68ef26f-94b3-44a8-bb7f-e11f5ae96917.docx",
+      "choices": {
+        "A": "Các vùng đất ven biển",
+        "B": "Vùng đất cát Quảng Ninh.",
+        "C": "Các tỉnh cực Nam Trung Bộ.",
+        "D": "Vùng duyên hải Bắc Trung Bộ."
+      }
+    },
+    {
+      "qid": "D8-T22-MCQ-007",
+      "topic_id": "22",
+      "type": "MCQ",
+      "skill_tag": "C3",
+      "cognitive_level": "TH",
+      "difficulty": 2,
+      "prompt": "Câu 23. Tính chất nhiệt đới gió mùa của lớp phủ thổ nhưỡng ở nước ta thể hiện qua đặc điểm chủ yếu nào sau đây?",
+      "answer_key": "B",
+      "explain": "[CORE FACT]: Dap an lay truc tiep tu tai lieu C1-C4 da gui. [DEEP DIVE]: Cau hoi duoc gan vao bong bong \"Tinh chat nhiet doi gio mua cua tho nhuong\" theo tu khoa va mach noi dung trong tai lieu. [PRO TIP]: Neu chua chac, mo lai phan A/B cua file goc de doi chieu.",
+      "source_file": "LOP_8_C3---c68ef26f-94b3-44a8-bb7f-e11f5ae96917.docx",
+      "choices": {
+        "A": "Tốc độ phong hoá diễn ra chậm.",
+        "B": "Quá trình feralit là quá trình hình thành đất đặc trưng .",
+        "C": "Đất được bồi tụ thành các đồng bằng màu mỡ ở hạ lưu sông",
+        "D": "Có lớp phủ thổ nhưỡng mỏng"
+      }
+    },
+    {
+      "qid": "D8-T22-FILL-008",
+      "topic_id": "22",
+      "type": "FILL",
+      "skill_tag": "C3",
+      "cognitive_level": "TH",
+      "difficulty": 2,
+      "prompt": "Câu 2 Nhân tố nào tác động mạnh mẽ đến quá trình hình thành và đặc điểm của thổ nhưỡng nước ta?",
+      "answer_key": "Câu 2. Khí hậu.",
+      "explain": "[CORE FACT]: Dap an lay truc tiep tu tai lieu C1-C4 da gui. [DEEP DIVE]: Cau hoi duoc gan vao bong bong \"Tinh chat nhiet doi gio mua cua tho nhuong\" theo tu khoa va mach noi dung trong tai lieu. [PRO TIP]: Neu chua chac, mo lai phan A/B cua file goc de doi chieu.",
+      "source_file": "LOP_8_C3---c68ef26f-94b3-44a8-bb7f-e11f5ae96917.docx"
+    }
+  ]
+}

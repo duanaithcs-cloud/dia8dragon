@@ -1,0 +1,56 @@
+{
+  "topic_id": 17,
+  "label": "Vai tro khi hau doi voi du lich",
+  "status": "accepted",
+  "accepted_count": 3,
+  "questions": [
+    {
+      "qid": "D8-T17-MCQ-001",
+      "topic_id": "17",
+      "type": "MCQ",
+      "skill_tag": "C2",
+      "cognitive_level": "VD",
+      "difficulty": 3,
+      "prompt": "Câu 11. Sông Mê Công có bao nhiêu phụ lưu?",
+      "answer_key": "A",
+      "explain": "[CORE FACT]: Dap an lay truc tiep tu tai lieu C1-C4 da gui. [DEEP DIVE]: Cau hoi duoc gan vao bong bong \"Vai tro khi hau doi voi du lich\" theo tu khoa va mach noi dung trong tai lieu. [PRO TIP]: Neu chua chac, mo lai phan A/B cua file goc de doi chieu.",
+      "source_file": "LOP_8_C2---662f9dd8-7d10-4634-822b-a0cbf3ab2aea.docx",
+      "choices": {
+        "A": "286",
+        "B": "268",
+        "C": "628",
+        "D": "826"
+      }
+    },
+    {
+      "qid": "D8-T17-MCQ-002",
+      "topic_id": "17",
+      "type": "MCQ",
+      "skill_tag": "C2",
+      "cognitive_level": "VD",
+      "difficulty": 3,
+      "prompt": "Câu 25. Nguyên nhân nào làm cho nước ta có nhiều hồ đầm tự nhiên?",
+      "answer_key": "A",
+      "explain": "[CORE FACT]: Dap an lay truc tiep tu tai lieu C1-C4 da gui. [DEEP DIVE]: Cau hoi duoc gan vao bong bong \"Vai tro khi hau doi voi du lich\" theo tu khoa va mach noi dung trong tai lieu. [PRO TIP]: Neu chua chac, mo lai phan A/B cua file goc de doi chieu.",
+      "source_file": "LOP_8_C2---662f9dd8-7d10-4634-822b-a0cbf3ab2aea.docx",
+      "choices": {
+        "A": "Có lượng mưa lớn, nhiều vùng trũng có khả năng chứa nước.",
+        "B": "Địa hình nhiều đồi núi.",
+        "C": "Do tác động của con người",
+        "D": "Do vị trí nằm trong vùng nội chí tuyến Bắc bán cầu"
+      }
+    },
+    {
+      "qid": "D8-T17-FILL-003",
+      "topic_id": "17",
+      "type": "FILL",
+      "skill_tag": "C2",
+      "cognitive_level": "VD",
+      "difficulty": 3,
+      "prompt": "Câu 2. Nguyên nhân chính tạo nên tính chất nhiệt đới của khí hậu Việt Nam là gì?",
+      "answer_key": "Câu 2. Do Việt Nam nằm trong vùng nội chí tuyến, nhận nhiều ánh sáng Mặt Trời.",
+      "explain": "[CORE FACT]: Dap an lay truc tiep tu tai lieu C1-C4 da gui. [DEEP DIVE]: Cau hoi duoc gan vao bong bong \"Vai tro khi hau doi voi du lich\" theo tu khoa va mach noi dung trong tai lieu. [PRO TIP]: Neu chua chac, mo lai phan A/B cua file goc de doi chieu.",
+      "source_file": "LOP_8_C2---662f9dd8-7d10-4634-822b-a0cbf3ab2aea.docx"
+    }
+  ]
+}

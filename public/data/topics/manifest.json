@@ -1,0 +1,203 @@
+{
+  "schema": "dia8dragon-topic-manifest.v1",
+  "topics": [
+    {
+      "topic_id": 1,
+      "label": "Vi tri dia li va pham vi lanh tho",
+      "path": "/data/topics/topic-01.json",
+      "source_file": "LOP_8_C1---d3c76b6e-82aa-48bd-abe3-8075329ed35f.docx"
+    },
+    {
+      "topic_id": 2,
+      "label": "Anh huong vi tri dia li va pham vi lanh tho",
+      "path": "/data/topics/topic-02.json",
+      "source_file": "LOP_8_C1---d3c76b6e-82aa-48bd-abe3-8075329ed35f.docx"
+    },
+    {
+      "topic_id": 3,
+      "label": "Dac diem dia hinh Viet Nam",
+      "path": "/data/topics/topic-03.json",
+      "source_file": "LOP_8_C1---d3c76b6e-82aa-48bd-abe3-8075329ed35f.docx"
+    },
+    {
+      "topic_id": 4,
+      "label": "Cac khu vuc dia hinh",
+      "path": "/data/topics/topic-04.json",
+      "source_file": "LOP_8_C1---d3c76b6e-82aa-48bd-abe3-8075329ed35f.docx"
+    },
+    {
+      "topic_id": 5,
+      "label": "Dac diem khoang san Viet Nam",
+      "path": "/data/topics/topic-05.json",
+      "source_file": "LOP_8_C1---d3c76b6e-82aa-48bd-abe3-8075329ed35f.docx"
+    },
+    {
+      "topic_id": 6,
+      "label": "Phan bo va su dung khoang san",
+      "path": "/data/topics/topic-06.json",
+      "source_file": "LOP_8_C1---d3c76b6e-82aa-48bd-abe3-8075329ed35f.docx"
+    },
+    {
+      "topic_id": 7,
+      "label": "Phan hoa dia hinh va tu nhien",
+      "path": "/data/topics/topic-07.json",
+      "source_file": "LOP_8_C1---d3c76b6e-82aa-48bd-abe3-8075329ed35f.docx"
+    },
+    {
+      "topic_id": 8,
+      "label": "Khi hau nhiet doi am gio mua",
+      "path": "/data/topics/topic-08.json",
+      "source_file": "LOP_8_C2---662f9dd8-7d10-4634-822b-a0cbf3ab2aea.docx"
+    },
+    {
+      "topic_id": 9,
+      "label": "Luu vuc song va he thong song lon",
+      "path": "/data/topics/topic-09.json",
+      "source_file": "LOP_8_C2---662f9dd8-7d10-4634-822b-a0cbf3ab2aea.docx"
+    },
+    {
+      "topic_id": 10,
+      "label": "Phan hoa khi hau Viet Nam",
+      "path": "/data/topics/topic-10.json",
+      "source_file": "LOP_8_C2---662f9dd8-7d10-4634-822b-a0cbf3ab2aea.docx"
+    },
+    {
+      "topic_id": 11,
+      "label": "Tac dong bien doi khi hau toi khi hau va thuy van",
+      "path": "/data/topics/topic-11.json",
+      "source_file": "LOP_8_C2---662f9dd8-7d10-4634-822b-a0cbf3ab2aea.docx"
+    },
+    {
+      "topic_id": 12,
+      "label": "Khi hau va nong nghiep",
+      "path": "/data/topics/topic-12.json",
+      "source_file": "LOP_8_C2---662f9dd8-7d10-4634-822b-a0cbf3ab2aea.docx"
+    },
+    {
+      "topic_id": 13,
+      "label": "Phan tich mot he thong song",
+      "path": "/data/topics/topic-13.json",
+      "source_file": "LOP_8_C2---662f9dd8-7d10-4634-822b-a0cbf3ab2aea.docx"
+    },
+    {
+      "topic_id": 14,
+      "label": "Ho, dam va nuoc ngam",
+      "path": "/data/topics/topic-14.json",
+      "source_file": "LOP_8_C2---662f9dd8-7d10-4634-822b-a0cbf3ab2aea.docx"
+    },
+    {
+      "topic_id": 15,
+      "label": "Doc bieu do khi hau va tram khi tuong thuy van",
+      "path": "/data/topics/topic-15.json",
+      "source_file": "LOP_8_C2---662f9dd8-7d10-4634-822b-a0cbf3ab2aea.docx"
+    },
+    {
+      "topic_id": 16,
+      "label": "Ve va phan tich bieu do khi hau",
+      "path": "/data/topics/topic-16.json",
+      "source_file": "LOP_8_C2---662f9dd8-7d10-4634-822b-a0cbf3ab2aea.docx"
+    },
+    {
+      "topic_id": 17,
+      "label": "Vai tro khi hau doi voi du lich",
+      "path": "/data/topics/topic-17.json",
+      "source_file": "LOP_8_C2---662f9dd8-7d10-4634-822b-a0cbf3ab2aea.docx"
+    },
+    {
+      "topic_id": 18,
+      "label": "Ung pho voi bien doi khi hau",
+      "path": "/data/topics/topic-18.json",
+      "source_file": "LOP_8_C2---662f9dd8-7d10-4634-822b-a0cbf3ab2aea.docx"
+    },
+    {
+      "topic_id": 19,
+      "label": "Khai thac tong hop tai nguyen nuoc",
+      "path": "/data/topics/topic-19.json",
+      "source_file": "LOP_8_C2---662f9dd8-7d10-4634-822b-a0cbf3ab2aea.docx"
+    },
+    {
+      "topic_id": 20,
+      "label": "Tac dong bien doi khi hau toi tu nhien",
+      "path": "/data/topics/topic-20.json",
+      "source_file": "LOP_8_C2---662f9dd8-7d10-4634-822b-a0cbf3ab2aea.docx"
+    },
+    {
+      "topic_id": 21,
+      "label": "Ba nhom dat chinh",
+      "path": "/data/topics/topic-21.json",
+      "source_file": "LOP_8_C3---c68ef26f-94b3-44a8-bb7f-e11f5ae96917.docx"
+    },
+    {
+      "topic_id": 22,
+      "label": "Tinh chat nhiet doi gio mua cua tho nhuong",
+      "path": "/data/topics/topic-22.json",
+      "source_file": "LOP_8_C3---c68ef26f-94b3-44a8-bb7f-e11f5ae96917.docx"
+    },
+    {
+      "topic_id": 23,
+      "label": "Dat feralit va gia tri su dung",
+      "path": "/data/topics/topic-23.json",
+      "source_file": "LOP_8_C3---c68ef26f-94b3-44a8-bb7f-e11f5ae96917.docx"
+    },
+    {
+      "topic_id": 24,
+      "label": "Dat phu sa va gia tri su dung",
+      "path": "/data/topics/topic-24.json",
+      "source_file": "LOP_8_C3---c68ef26f-94b3-44a8-bb7f-e11f5ae96917.docx"
+    },
+    {
+      "topic_id": 25,
+      "label": "Su da dang sinh vat Viet Nam",
+      "path": "/data/topics/topic-25.json",
+      "source_file": "LOP_8_C3---c68ef26f-94b3-44a8-bb7f-e11f5ae96917.docx"
+    },
+    {
+      "topic_id": 26,
+      "label": "Chong thoai hoa dat",
+      "path": "/data/topics/topic-26.json",
+      "source_file": "LOP_8_C3---c68ef26f-94b3-44a8-bb7f-e11f5ae96917.docx"
+    },
+    {
+      "topic_id": 27,
+      "label": "Bao ton da dang sinh hoc",
+      "path": "/data/topics/topic-27.json",
+      "source_file": "LOP_8_C3---c68ef26f-94b3-44a8-bb7f-e11f5ae96917.docx"
+    },
+    {
+      "topic_id": 28,
+      "label": "Pham vi Bien Dong va vung bien Viet Nam",
+      "path": "/data/topics/topic-28.json",
+      "source_file": "LOP_8_C4---07c2372b-3416-493e-887f-a0d331974bbf.docx"
+    },
+    {
+      "topic_id": 29,
+      "label": "Dac diem tu nhien vung bien dao",
+      "path": "/data/topics/topic-29.json",
+      "source_file": "LOP_8_C4---07c2372b-3416-493e-887f-a0d331974bbf.docx"
+    },
+    {
+      "topic_id": 30,
+      "label": "Tai nguyen bien va them luc dia",
+      "path": "/data/topics/topic-30.json",
+      "source_file": "LOP_8_C4---07c2372b-3416-493e-887f-a0d331974bbf.docx"
+    },
+    {
+      "topic_id": 31,
+      "label": "Moi truong bien dao Viet Nam",
+      "path": "/data/topics/topic-31.json",
+      "source_file": "LOP_8_C4---07c2372b-3416-493e-887f-a0d331974bbf.docx"
+    },
+    {
+      "topic_id": 32,
+      "label": "Luat bien va cac vung bien Viet Nam",
+      "path": "/data/topics/topic-32.json",
+      "source_file": "LOP_8_C4---07c2372b-3416-493e-887f-a0d331974bbf.docx"
+    },
+    {
+      "topic_id": 33,
+      "label": "Thuan loi, kho khan kinh te bien va bao ve chu quyen",
+      "path": "/data/topics/topic-33.json",
+      "source_file": "LOP_8_C4---07c2372b-3416-493e-887f-a0d331974bbf.docx"
+    }
+  ]
+}

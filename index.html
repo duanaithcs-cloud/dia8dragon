@@ -4,14 +4,17 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Địa AI - HSG Canvas</title>
-    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&family=Space+Grotesk:wght@300..700&display=swap" rel="stylesheet" />
-    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet" />
+    <title>Dia8Dragon Mobile</title>
+    <meta name="theme-color" content="#07122d" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="apple-mobile-web-app-title" content="Dia8Dragon" />
+    <link rel="manifest" href="./manifest.webmanifest" />
+    <link rel="stylesheet" href="/assets/app-local.css" />
    
     <style>
         body { 
-            font-family: 'Lexend', sans-serif; 
+            font-family: 'Segoe UI', Arial, sans-serif; 
             margin: 0; 
             padding: 0; 
             transition: background-color 0.3s ease, color 0.3s ease;
@@ -20,8 +23,53 @@
         
         .no-scrollbar::-webkit-scrollbar { display: none; }
         .no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
+
+        button, [role="button"], .safe-text {
+            min-width: 0;
+            max-width: 100%;
+            letter-spacing: 0 !important;
+            overflow-wrap: anywhere;
+        }
+
+        button {
+            white-space: nowrap;
+        }
+
+        button > span:not(.material-symbols-outlined) {
+            min-width: 0;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+
+        .material-symbols-outlined {
+            flex-shrink: 0;
+            font-family: "Segoe UI Symbol", "Arial Unicode MS", Arial, sans-serif;
+            font-size: 1em !important;
+            width: 1.25em;
+            height: 1.25em;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            font-style: normal;
+            font-weight: 800;
+            line-height: 1;
+            speak: none;
+        }
+        .material-symbols-outlined::before { content: none !important; }
+        @media (prefers-reduced-motion: reduce) {
+            *, *::before, *::after {
+                animation-duration: 0.01ms !important;
+                animation-iteration-count: 1 !important;
+                scroll-behavior: auto !important;
+                transition-duration: 0.01ms !important;
+            }
+        }
+
+        [class*="tracking-"] {
+            letter-spacing: 0 !important;
+        }
         
-        /* HIỆU ỨNG RỒNG THẦN (SHENRON BACKGROUND) - FULL FRAME MODE */
+        /* Hiệu ứng nền */
         @keyframes ken-burns {
             0% { transform: scale(0.96); opacity: 0.8; }
             50% { transform: scale(1.04); opacity: 1; }
@@ -40,8 +88,8 @@
         .dragon-bg-image {
             position: absolute;
             inset: 0;
-            background-image: url('https://raw.githubusercontent.com/duanaithcs-cloud/rong/main/rongthan.jpg');
-            background-size: contain;
+            background-image: url('/assets/dragon-original.jpg');
+            background-size: cover;
             background-repeat: no-repeat;
             background-position: center;
             animation: ken-burns 40s ease-in-out infinite;
@@ -85,12 +133,37 @@
 
         /* CRYPTO BUBBLE STYLING - HYPER NEON */
         .neon-ring {
-            box-shadow: 0 0 25px -5px var(--neon-color), 
+            box-shadow: 0 0 25px -5px var(--neon-color),
                         inset 0 0 15px var(--neon-color),
                         0 0 50px -10px var(--neon-color);
             border: 2px solid rgba(255,255,255,0.3);
             transition: all 0.6s cubic-bezier(0.16, 1, 0.3, 1);
             will-change: box-shadow, transform, filter;
+        }
+
+        /* Independent halo keeps the original neon visible even when bubble opacity is lowered. */
+        .bubble-container { isolation: isolate; }
+        .bubble-neon-halo {
+            z-index: 0;
+            border: 1px solid rgba(255,255,255,.24);
+            border-color: color-mix(in srgb, var(--neon-color) 72%, white 28%);
+            box-shadow: 0 0 22px 1px var(--neon-color),
+                        0 0 48px -5px var(--neon-color),
+                        0 0 82px -22px var(--neon-color);
+            opacity: 0.92;
+            filter: saturate(1.22);
+            transition: box-shadow .6s cubic-bezier(.16,1,.3,1), opacity .4s ease, transform .6s cubic-bezier(.16,1,.3,1);
+            will-change: box-shadow, opacity, transform;
+        }
+        .bubble-container:hover .bubble-neon-halo {
+            opacity: 1;
+            transform: scale(1.08);
+            box-shadow: 0 0 38px 5px var(--neon-color),
+                        0 0 78px 0 var(--neon-color),
+                        0 0 128px -18px var(--neon-color);
+        }
+        .bubble-theme-original .bubble-neon-halo {
+            border-color: rgba(255,255,255,.26);
         }
 
         .bubble-container:hover .neon-ring {
@@ -103,12 +176,13 @@
         }
 
         .bubble-inner {
-            background: 
-                radial-gradient(circle at 30% 30%, rgba(255,255,255,0.4) 0%, transparent 20%),
+            background:
+                radial-gradient(circle at 30% 30%, var(--shell-tint, rgba(255,255,255,0.4)) 0%, transparent 20%),
                 radial-gradient(circle at 70% 70%, rgba(0,0,0,0.4) 0%, transparent 40%),
-                radial-gradient(circle at 50% 50%, var(--core-color) 0%, rgba(0, 0, 0, 0.95) 100%);
+                radial-gradient(circle at 50% 50%, var(--core-color) 0%, var(--core-color-2, rgba(0, 0, 0, 0.95)) 100%);
             border-radius: 50%;
             position: relative;
+            z-index: 1;
             display: flex;
             align-items: center;
             justify-content: center;
@@ -140,7 +214,7 @@
         .bubble-shimmer {
             position: absolute;
             top: -50%; left: -50%; width: 200%; height: 200%;
-            background: linear-gradient(90deg, transparent, rgba(255,255,255,0.4), transparent);
+            background: linear-gradient(90deg, transparent, var(--shimmer-color, rgba(255,255,255,0.4)), transparent);
             animation: shimmer-sweep 8s infinite cubic-bezier(0.4, 0, 0.2, 1);
             pointer-events: none;
             z-index: 4;
@@ -148,8 +222,20 @@
         }
 
         @keyframes breathing {
-            0%, 100% { transform: scale(1.0); filter: brightness(1) saturate(1); box-shadow: 0 0 20px -5px var(--neon-color); }
-            50% { transform: scale(1.04); filter: brightness(1.2) saturate(1.3); box-shadow: 0 0 40px -2px var(--neon-color); }
+            0%, 100% {
+                transform: scale(1.0);
+                filter: brightness(1) saturate(1);
+                box-shadow: 0 0 25px -5px var(--neon-color),
+                            inset 0 0 15px var(--neon-color),
+                            0 0 50px -10px var(--neon-color);
+            }
+            50% {
+                transform: scale(1.04);
+                filter: brightness(1.2) saturate(1.3);
+                box-shadow: 0 0 42px -2px var(--neon-color),
+                            inset 0 0 25px var(--neon-color),
+                            0 0 82px -8px var(--neon-color);
+            }
         }
         .animate-breathing { 
             animation: breathing var(--b-dur, 5s) cubic-bezier(0.45, 0, 0.55, 1) infinite; 
@@ -184,6 +270,51 @@
             will-change: transform, opacity;
         }
         .bubble-container:hover .hover-ripple { display: block; }
+
+        /* Never expose Material Symbols ligature words (map, bar_chart, factory...) inside bubbles. */
+        .bubble-container .material-symbols-outlined {
+            font-size: 0 !important;
+            width: 0 !important;
+            height: 0 !important;
+            overflow: hidden !important;
+            color: transparent !important;
+        }
+
+
+        /* DIA8 VISUAL SYSTEM — chuyển nguyên bản từ commit 4e4b2aa */
+        .bubble-visual-dia8 .neon-ring {
+            box-shadow: 0 0 15px -2px var(--neon-color),
+                        0 0 40px -8px var(--neon-color),
+                        inset 0 0 12px var(--neon-color);
+            border: 2px solid rgba(255,255,255,0.45);
+        }
+        /* Dia8 gốc không có lớp halo độc lập; ánh sáng nằm trực tiếp trên neon-ring. */
+        .bubble-visual-dia8 .bubble-neon-halo { display:none; }
+        .bubble-visual-dia8 .bubble-inner {
+            background:
+                radial-gradient(circle at 30% 30%, rgba(255,255,255,0.3) 0%, transparent 40%),
+                radial-gradient(circle at 50% 50%, var(--core-color) 0%, rgba(0,0,0,0.9) 100%);
+            box-shadow: inset 0 0 30px rgba(0,0,0,0.8);
+        }
+        .bubble-visual-dia8 .bubble-inner::before { display:none; }
+        @keyframes breathing-dia8 {
+            0%,100% { transform:scale(1); }
+            50% { transform:scale(var(--breath-scale,1.025)); }
+        }
+        .bubble-visual-dia8 .animate-breathing {
+            animation:breathing-dia8 3s ease-in-out infinite;
+            will-change:transform;
+        }
+        .bubble-visual-dia8:hover .neon-ring {
+            box-shadow: 0 0 15px -2px var(--neon-color),
+                        0 0 40px -8px var(--neon-color),
+                        inset 0 0 12px var(--neon-color);
+            transform:none;
+        }
+        .bubble-visual-dia8 .bubble-shimmer,
+        .bubble-visual-dia8 .hover-ripple { display:none!important; }
+        .bubble-theme-d8-dark .topic-bubble-icon,
+        .bubble-theme-d8-dark .text-halo { filter:drop-shadow(0 0 5px rgba(255,255,255,.35)); }
 
         .fill-1 { font-variation-settings: 'FILL' 1, 'wght' 700, 'GRAD' 0, 'opsz' 48; }
 
@@ -242,12 +373,28 @@
             z-index: 1000 !important;
             pointer-events: none;
         }
-    </style>
+    
+        /* VISUAL RESTORATION 1.6 */
+        .ai-mascot-speech { background: transparent !important; border: 0 !important; box-shadow: none !important; backdrop-filter: none !important; }
+        .dia8-canvas-settings-button {
+            background: rgba(8,18,38,.78);
+            border: 1px solid rgba(125,211,252,.38);
+            color: #d8f4ff;
+            box-shadow: 0 0 10px rgba(56,189,248,.18), 0 8px 26px rgba(0,0,0,.42);
+            backdrop-filter: blur(12px);
+        }
+        .dia8-canvas-settings-button:hover {
+            border-color: rgba(125,211,252,.62);
+            box-shadow: 0 0 16px rgba(56,189,248,.28), 0 10px 30px rgba(0,0,0,.5);
+        }
+</style>
 
+    <link rel="stylesheet" href="./mobile.css" />
 </head>
 <body>
   <div id="root"></div>
   <script type="module" src="/index.tsx"></script>
+    <script src="./mobile-runtime.js"></script>
 </body>
 
 </html>

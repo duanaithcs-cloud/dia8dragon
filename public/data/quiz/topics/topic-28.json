@@ -1,0 +1,128 @@
+{
+  "topic_id": 28,
+  "label": "Pham vi Bien Dong va vung bien Viet Nam",
+  "status": "accepted",
+  "accepted_count": 7,
+  "questions": [
+    {
+      "qid": "D8-T28-MCQ-001",
+      "topic_id": "28",
+      "type": "MCQ",
+      "skill_tag": "C4",
+      "cognitive_level": "NB",
+      "difficulty": 1,
+      "prompt": "Câu 6. Quần đảo Trường Sa thuộc tỉnh nào?",
+      "answer_key": "A",
+      "explain": "[CORE FACT]: Dap an lay truc tiep tu tai lieu C1-C4 da gui. [DEEP DIVE]: Cau hoi duoc gan vao bong bong \"Pham vi Bien Dong va vung bien Viet Nam\" theo tu khoa va mach noi dung trong tai lieu. [PRO TIP]: Neu chua chac, mo lai phan A/B cua file goc de doi chieu.",
+      "source_file": "LOP_8_C4---07c2372b-3416-493e-887f-a0d331974bbf.docx",
+      "choices": {
+        "A": "Khánh Hòa.",
+        "B": "Kiên Giang.",
+        "C": "Quảng Ninh.",
+        "D": "Hải Phòng"
+      }
+    },
+    {
+      "qid": "D8-T28-MCQ-002",
+      "topic_id": "28",
+      "type": "MCQ",
+      "skill_tag": "C4",
+      "cognitive_level": "NB",
+      "difficulty": 1,
+      "prompt": "Câu 13. Nội thuỷ là?",
+      "answer_key": "D",
+      "explain": "[CORE FACT]: Dap an lay truc tiep tu tai lieu C1-C4 da gui. [DEEP DIVE]: Cau hoi duoc gan vao bong bong \"Pham vi Bien Dong va vung bien Viet Nam\" theo tu khoa va mach noi dung trong tai lieu. [PRO TIP]: Neu chua chac, mo lai phan A/B cua file goc de doi chieu.",
+      "source_file": "LOP_8_C4---07c2372b-3416-493e-887f-a0d331974bbf.docx",
+      "choices": {
+        "A": "Vùng biển có chiều rộng 12 hải lí tính từ đường cơ sở ra phía biển",
+        "B": "Vùng biển tiếp liền và nằm ngoài lãnh hải Việt Nam, có chiều rộng 12 hải lí tính từ ranh giới ngoài của lãnh hải.",
+        "C": "Vùng biển tiếp liền và nằm ngoài lãnh hải Việt Nam, hợp với lãnh hải thành một vùng biển có chiều rộng 200 hải lí tính từ đường cơ sở.",
+        "D": "Vùng nước tiếp giáp với bờ biển, ở phía trong đường cơ sở và là bộ phận lãnh thổ của Việt Nam."
+      }
+    },
+    {
+      "qid": "D8-T28-MCQ-003",
+      "topic_id": "28",
+      "type": "MCQ",
+      "skill_tag": "C4",
+      "cognitive_level": "NB",
+      "difficulty": 1,
+      "prompt": "Câu 21. Các nước Đông Nam Á có phần biển chung với Việt Nam là :",
+      "answer_key": "C",
+      "explain": "[CORE FACT]: Dap an lay truc tiep tu tai lieu C1-C4 da gui. [DEEP DIVE]: Cau hoi duoc gan vao bong bong \"Pham vi Bien Dong va vung bien Viet Nam\" theo tu khoa va mach noi dung trong tai lieu. [PRO TIP]: Neu chua chac, mo lai phan A/B cua file goc de doi chieu.",
+      "source_file": "LOP_8_C4---07c2372b-3416-493e-887f-a0d331974bbf.docx",
+      "choices": {
+        "A": "Trung Quốc, Phi-lip-pin, Lào, Cam-pu-chia, Ma-lai-xi-a, Bru-nây, In-đô-nê-xi-a, Thái Lan.",
+        "B": "Bru-nây, In-đô-nê-xi-a, Xin-ga-po, Ma-lai-xi-a, Thái Lan, Mi-an-ma, Cam-pu-chia, Trung Quốc.",
+        "C": "Campuchia, Thái Lan, Ma-lai-xi-a, Xi-ga-po, In-đô-nê-xi-a, Bru-nây, Phi-lip-pin, Trung Quốc",
+        "D": "Mi-an-ma, Cam-pu-chia, Ma-lai-xi-a, Bru-nây, In-đô-nê-xi-a, Thái Lan."
+      }
+    },
+    {
+      "qid": "D8-T28-MCQ-004",
+      "topic_id": "28",
+      "type": "MCQ",
+      "skill_tag": "C4",
+      "cognitive_level": "NB",
+      "difficulty": 1,
+      "prompt": "Câu 27. Chế độ gió trên biển Đông",
+      "answer_key": "B",
+      "explain": "[CORE FACT]: Dap an lay truc tiep tu tai lieu C1-C4 da gui. [DEEP DIVE]: Cau hoi duoc gan vao bong bong \"Pham vi Bien Dong va vung bien Viet Nam\" theo tu khoa va mach noi dung trong tai lieu. [PRO TIP]: Neu chua chac, mo lai phan A/B cua file goc de doi chieu.",
+      "source_file": "LOP_8_C4---07c2372b-3416-493e-887f-a0d331974bbf.docx",
+      "choices": {
+        "A": "Quanh năm chung 1 chế độ gió.",
+        "B": "Mùa đông gió có hướng đông bắc; mùa hạ có hướng tây nam khu vực vịnh Bắc Bộ có hướng nam.",
+        "C": "Mùa đông gió có hướng tây nam; mùa hạ có hướng đông bắc khu vực vịnh Bắc Bộ có hướng nam.",
+        "D": "Mùa đông gió có hướng tây nam; mùa hạ có hướng nam."
+      }
+    },
+    {
+      "qid": "D8-T28-MCQ-005",
+      "topic_id": "28",
+      "type": "MCQ",
+      "skill_tag": "C4",
+      "cognitive_level": "NB",
+      "difficulty": 1,
+      "prompt": "Câu 33. Chế độ thủy triều trong 1 ngày đêm có 1 lần nước lên 1 lần nước xuống được gọi là:",
+      "answer_key": "A",
+      "explain": "[CORE FACT]: Dap an lay truc tiep tu tai lieu C1-C4 da gui. [DEEP DIVE]: Cau hoi duoc gan vao bong bong \"Pham vi Bien Dong va vung bien Viet Nam\" theo tu khoa va mach noi dung trong tai lieu. [PRO TIP]: Neu chua chac, mo lai phan A/B cua file goc de doi chieu.",
+      "source_file": "LOP_8_C4---07c2372b-3416-493e-887f-a0d331974bbf.docx",
+      "choices": {
+        "A": "Nhật triều đều.",
+        "B": "Bán nhật triều.",
+        "C": "Nhật triều không đều.",
+        "D": "Bán nhật triều không đều."
+      }
+    },
+    {
+      "qid": "D8-T28-MCQ-006",
+      "topic_id": "28",
+      "type": "MCQ",
+      "skill_tag": "C4",
+      "cognitive_level": "NB",
+      "difficulty": 1,
+      "prompt": "Câu 39. Đảo ven bờ có diện tích lớn nhất nước ta là",
+      "answer_key": "D",
+      "explain": "[CORE FACT]: Dap an lay truc tiep tu tai lieu C1-C4 da gui. [DEEP DIVE]: Cau hoi duoc gan vao bong bong \"Pham vi Bien Dong va vung bien Viet Nam\" theo tu khoa va mach noi dung trong tai lieu. [PRO TIP]: Neu chua chac, mo lai phan A/B cua file goc de doi chieu.",
+      "source_file": "LOP_8_C4---07c2372b-3416-493e-887f-a0d331974bbf.docx",
+      "choices": {
+        "A": "Cát Bà.",
+        "B": "Côn Đảo",
+        "C": "Lý Sơn.",
+        "D": "Phú Quốc."
+      }
+    },
+    {
+      "qid": "D8-T28-FILL-007",
+      "topic_id": "28",
+      "type": "FILL",
+      "skill_tag": "C4",
+      "cognitive_level": "NB",
+      "difficulty": 1,
+      "prompt": "Câu 5. Hãy kể tên 3 tài nguyên biển và thềm lục địa quan trọng của nước ta?",
+      "answer_key": "Câu 5. Titan, dầu mỏ và khí đốt…",
+      "explain": "[CORE FACT]: Dap an lay truc tiep tu tai lieu C1-C4 da gui. [DEEP DIVE]: Cau hoi duoc gan vao bong bong \"Pham vi Bien Dong va vung bien Viet Nam\" theo tu khoa va mach noi dung trong tai lieu. [PRO TIP]: Neu chua chac, mo lai phan A/B cua file goc de doi chieu.",
+      "source_file": "LOP_8_C4---07c2372b-3416-493e-887f-a0d331974bbf.docx"
+    }
+  ]
+}

@@ -1,6 +1,6 @@
-
-import React, { useState, useMemo, useRef } from 'react';
+import React, { useMemo, useRef, useState } from 'react';
 import { Topic, UserProfile } from '../types';
+import { useDialogFocus } from '../utils/accessibility';
 
 interface RankPanelProps {
   topics: Topic[];
@@ -13,12 +13,12 @@ interface RankPanelProps {
 type SortKey = 'name' | 'C1' | 'C2' | 'C3' | 'C4' | 'mastery' | 'rank' | 'day' | 'week' | 'month' | 'three_months';
 
 const RankPanel: React.FC<RankPanelProps> = ({ topics = [], isDemo, userProfile, onClose, onImportTopics }) => {
+  const dialogRef = useDialogFocus<HTMLDivElement>(onClose);
   const [sortKey, setSortKey] = useState<SortKey>('mastery');
   const [sortOrder, setSortOrder] = useState<'asc' | 'desc'>('desc');
   const fileInputRef = useRef<HTMLInputElement>(null);
 
   const hasRealData = useMemo(() => topics.some(t => t.mastery_percent > 0 || t.attempts_count > 0), [topics]);
-
   const stripBOM = (text: string) => text.replace(/^\ufeff/, '');
 
   const getMasteryColor = (percent: number) => {
@@ -35,16 +35,15 @@ const RankPanel: React.FC<RankPanelProps> = ({ topics = [], isDemo, userProfile,
     if (percent <= 50) return { label: 'Trung bình', weight: 2 };
     if (percent <= 75) return { label: 'Khá', weight: 3 };
     if (percent <= 95) return { label: 'Giỏi', weight: 4 };
-    return { label: 'Elite', weight: 5 };
+    return { label: 'Tinh anh', weight: 5 };
   };
 
   const sortedTopics = useMemo(() => {
     const list = Array.isArray(topics) ? [...topics] : [];
-    if (list.length === 0) return [];
-    
     list.sort((a, b) => {
-      let valA: any, valB: any;
-      
+      let valA: string | number = 0;
+      let valB: string | number = 0;
+
       switch (sortKey) {
         case 'name': valA = a.keyword_label; valB = b.keyword_label; break;
         case 'C1': valA = a.competency_scores?.C1 ?? 0; valB = b.competency_scores?.C1 ?? 0; break;
@@ -80,8 +79,8 @@ const RankPanel: React.FC<RankPanelProps> = ({ topics = [], isDemo, userProfile,
     if (sortedTopics.length === 0) return;
 
     const headers = [
-      'Họ và tên', 'Lớp', 'ID', 'Chuyên đề', 'Mastery (%)', 'C1 (%)', 'C2 (%)', 'C3 (%)', 'C4 (%)', 
-      'Xếp hạng', 'Tăng trưởng (Ngày)', 'Tăng trưởng (Tuần)'
+      'Họ tên', 'Lớp', 'ID', 'Chuyên đề', 'Nắm (%)', 'C1 (%)', 'C2 (%)', 'C3 (%)', 'C4 (%)',
+      'Hạng', 'Tăng ngày', 'Tăng tuần'
     ];
 
     const rows = sortedTopics.map(t => [
@@ -99,16 +98,12 @@ const RankPanel: React.FC<RankPanelProps> = ({ topics = [], isDemo, userProfile,
       t.history_mastery?.week ?? 0
     ]);
 
-    const csvContent = [
-      headers.join(','),
-      ...rows.map(r => r.join(','))
-    ].join('\n');
-
-    const blob = new Blob(["\ufeff" + csvContent], { type: 'text/csv;charset=utf-8;' });
+    const csvContent = [headers.join(','), ...rows.map(r => r.join(','))].join('\n');
+    const blob = new Blob(['\ufeff' + csvContent], { type: 'text/csv;charset=utf-8;' });
     const link = document.createElement('a');
     const url = URL.createObjectURL(blob);
     link.setAttribute('href', url);
-    link.setAttribute('download', `DiaAI_Rankings_${userProfile.fullName || 'Export'}_${new Date().toISOString().split('T')[0]}.csv`);
+    link.setAttribute('download', `DiaAI_Hang_${userProfile.fullName || 'Export'}_${new Date().toISOString().split('T')[0]}.csv`);
     link.style.visibility = 'hidden';
     document.body.appendChild(link);
     link.click();
@@ -135,23 +130,23 @@ const RankPanel: React.FC<RankPanelProps> = ({ topics = [], isDemo, userProfile,
 
         const parts = line.split(/,(?=(?:(?:[^"]*"){2})*[^"]*$)/);
         let topic_id, mastery_percent, c1, c2, c3, c4;
-        
+
         if (parts.length >= 12) {
-           topic_id = parseInt(parts[2]);
-           mastery_percent = parseFloat(parts[4]);
-           c1 = parseFloat(parts[5]);
-           c2 = parseFloat(parts[6]);
-           c3 = parseFloat(parts[7]);
-           c4 = parseFloat(parts[8]);
+          topic_id = parseInt(parts[2]);
+          mastery_percent = parseFloat(parts[4]);
+          c1 = parseFloat(parts[5]);
+          c2 = parseFloat(parts[6]);
+          c3 = parseFloat(parts[7]);
+          c4 = parseFloat(parts[8]);
         } else if (parts.length >= 7) {
-           topic_id = parseInt(parts[0]);
-           mastery_percent = parseFloat(parts[2]);
-           c1 = parseFloat(parts[3]);
-           c2 = parseFloat(parts[4]);
-           c3 = parseFloat(parts[5]);
-           c4 = parseFloat(parts[6]);
+          topic_id = parseInt(parts[0]);
+          mastery_percent = parseFloat(parts[2]);
+          c1 = parseFloat(parts[3]);
+          c2 = parseFloat(parts[4]);
+          c3 = parseFloat(parts[5]);
+          c4 = parseFloat(parts[6]);
         } else {
-           continue;
+          continue;
         }
 
         if (!isNaN(topic_id)) {
@@ -170,9 +165,9 @@ const RankPanel: React.FC<RankPanelProps> = ({ topics = [], isDemo, userProfile,
 
       if (importedData.length > 0) {
         onImportTopics(importedData);
-        alert(`Thành công! Đã đồng bộ dữ liệu của ${importedData.length} chuyên đề.`);
+        alert(`Đã đồng bộ ${importedData.length} chuyên đề.`);
       } else {
-        alert("Lỗi! Không tìm thấy dữ liệu hợp lệ trong file CSV. Vui lòng kiểm tra định dạng file xuất từ hệ thống.");
+        alert('CSV lỗi. Kiểm tra file xuất.');
       }
     };
     reader.readAsText(file);
@@ -180,8 +175,8 @@ const RankPanel: React.FC<RankPanelProps> = ({ topics = [], isDemo, userProfile,
   };
 
   const SortHeader = ({ label, k, align = 'center' }: { label: string, k: SortKey, align?: 'left' | 'center' | 'right' }) => (
-    <th 
-      onClick={() => toggleSort(k)} 
+    <th
+      onClick={() => toggleSort(k)}
       className={`px-2 py-4 text-[9px] font-black uppercase tracking-widest text-gray-500 cursor-pointer hover:text-primary transition-colors select-none ${align === 'center' ? 'text-center' : align === 'right' ? 'text-right' : 'text-left'}`}
     >
       <div className={`flex items-center gap-1 ${align === 'center' ? 'justify-center' : align === 'right' ? 'justify-end' : 'justify-start'}`}>
@@ -196,7 +191,7 @@ const RankPanel: React.FC<RankPanelProps> = ({ topics = [], isDemo, userProfile,
   );
 
   return (
-    <div className="fixed inset-0 z-[80] flex items-center justify-center p-2 sm:p-4">
+    <div ref={dialogRef} tabIndex={-1} role="dialog" aria-modal="true" aria-labelledby="rank-panel-title" className="fixed inset-0 z-[80] flex items-center justify-center p-2 sm:p-4">
       <div className="absolute inset-0 bg-black/80 backdrop-blur-2xl" onClick={onClose}></div>
       <div className="relative w-full max-w-[95vw] h-[92vh] bg-background-dark border border-white/10 rounded-3xl flex flex-col overflow-hidden shadow-[0_0_50px_rgba(0,0,0,0.8)] animate-fade-in text-white">
         <header className="p-4 sm:p-6 border-b border-white/10 flex items-center justify-between shrink-0 bg-white/5">
@@ -205,13 +200,13 @@ const RankPanel: React.FC<RankPanelProps> = ({ topics = [], isDemo, userProfile,
               <span className="material-symbols-outlined text-3xl sm:text-4xl">workspace_premium</span>
             </div>
             <div>
-              <h2 className="text-xl sm:text-2xl font-black tracking-tight leading-none uppercase">RANKINGS: CHUYÊN ĐỀ ĐỊA LÍ 8</h2>
+              <h2 id="rank-panel-title" className="text-xl sm:text-2xl font-black tracking-tight leading-none uppercase">Hạng Địa lí 8</h2>
               <div className="flex items-center gap-3 mt-2">
                 <span className={`px-2 py-0.5 border rounded text-[8px] font-black uppercase tracking-widest ${isDemo ? 'bg-white/5 text-gray-400 border-white/10' : 'bg-primary/10 text-primary border-primary/20'}`}>
-                  {isDemo ? 'CHẾ ĐỘ GIỚI THIỆU (DEMO)' : `Học sinh: ${userProfile.fullName || 'N/A'}`}
+                  {isDemo ? 'Demo' : `HS: ${userProfile.fullName || 'N/A'}`}
                 </span>
                 {!isDemo && (
-                   <span className="px-2 py-0.5 bg-white/5 text-gray-400 border border-white/10 rounded text-[8px] font-black uppercase tracking-widest">
+                  <span className="px-2 py-0.5 bg-white/5 text-gray-400 border border-white/10 rounded text-[8px] font-black uppercase tracking-widest">
                     Lớp: {userProfile.className || 'N/A'}
                   </span>
                 )}
@@ -219,21 +214,21 @@ const RankPanel: React.FC<RankPanelProps> = ({ topics = [], isDemo, userProfile,
             </div>
           </div>
           <div className="flex items-center gap-2">
-            <input 
-              type="file" 
-              accept=".csv" 
-              ref={fileInputRef} 
-              onChange={handleFileUpload} 
-              className="hidden" 
+            <input
+              type="file"
+              accept=".csv"
+              ref={fileInputRef}
+              onChange={handleFileUpload}
+              className="hidden"
             />
-            <button 
+            <button
               onClick={() => fileInputRef.current?.click()}
               className="px-4 py-2 bg-white/5 border border-white/10 rounded-xl flex items-center gap-2 text-[10px] font-black uppercase tracking-widest hover:bg-white/10 transition-all active:scale-95"
             >
               <span className="material-symbols-outlined text-sm">upload</span>
-              Tải lên CSV
+              Nạp CSV
             </button>
-            <button 
+            <button
               onClick={handleExportCSV}
               disabled={!hasRealData && !isDemo}
               className="px-4 py-2 bg-primary text-white border border-primary/20 rounded-xl flex items-center gap-2 text-[10px] font-black uppercase tracking-widest hover:brightness-110 transition-all active:scale-95 disabled:opacity-30"
@@ -249,21 +244,21 @@ const RankPanel: React.FC<RankPanelProps> = ({ topics = [], isDemo, userProfile,
 
         {(!isDemo && !hasRealData) ? (
           <div className="flex-1 flex flex-col items-center justify-center text-center p-12 opacity-50">
-             <span className="material-symbols-outlined text-7xl mb-6 text-primary">analytics</span>
-             <h3 className="text-xl font-black uppercase mb-2">Chưa có dữ liệu luyện tập</h3>
-             <p className="max-w-md text-sm text-gray-400 italic">Dữ liệu Rankings sẽ được tổng hợp ngay sau phiên luyện tập đầu tiên của bạn.</p>
-             <button 
-                onClick={() => fileInputRef.current?.click()}
-                className="mt-6 px-6 py-3 bg-primary/20 border border-primary/40 rounded-2xl text-primary text-[11px] font-black uppercase tracking-widest hover:bg-primary/30 transition-all"
-              >
-                Nhập dữ liệu từ file giáo viên
-             </button>
+            <span className="material-symbols-outlined text-7xl mb-6 text-primary">analytics</span>
+            <h3 className="text-xl font-black uppercase mb-2">Chưa có dữ liệu</h3>
+            <p className="max-w-md text-sm text-gray-400 italic">Dữ liệu sẽ có sau lượt luyện đầu.</p>
+            <button
+              onClick={() => fileInputRef.current?.click()}
+              className="mt-6 px-6 py-3 bg-primary/20 border border-primary/40 rounded-2xl text-primary text-[11px] font-black uppercase tracking-widest hover:bg-primary/30 transition-all"
+            >
+              Nhập từ GV
+            </button>
           </div>
         ) : (
           <div className="flex-1 overflow-auto no-scrollbar bg-slate-900/30">
             {isDemo && (
               <div className="sticky top-0 z-30 bg-primary p-2 text-center">
-                 <p className="text-[10px] font-black uppercase tracking-widest text-white">Kích hoạt hồ sơ học viên để xem bảng Rankings thực tế</p>
+                <p className="text-[10px] font-black uppercase tracking-widest text-white">Tạo hồ sơ để xem hạng thật</p>
               </div>
             )}
             <table className="w-full text-left border-collapse table-fixed min-w-[1100px]">
@@ -274,12 +269,12 @@ const RankPanel: React.FC<RankPanelProps> = ({ topics = [], isDemo, userProfile,
                   <SortHeader label="C2" k="C2" />
                   <SortHeader label="C3" k="C3" />
                   <SortHeader label="C4" k="C4" />
-                  <SortHeader label="Thành thạo" k="mastery" />
-                  <SortHeader label="Xếp hạng" k="rank" />
+                  <SortHeader label="Nắm" k="mastery" />
+                  <SortHeader label="Hạng" k="rank" />
                   <SortHeader label="Ngày" k="day" />
                   <SortHeader label="Tuần" k="week" />
                   <SortHeader label="Tháng" k="month" />
-                  <SortHeader label="3 Tháng" k="three_months" />
+                  <SortHeader label="3T" k="three_months" />
                 </tr>
               </thead>
               <tbody className="divide-y divide-white/5">
@@ -291,26 +286,13 @@ const RankPanel: React.FC<RankPanelProps> = ({ topics = [], isDemo, userProfile,
                         <span className="text-[11px] font-bold text-gray-300 group-hover:text-primary transition-colors line-clamp-1">{t.keyword_label}</span>
                       </div>
                     </td>
-                    <td className="px-1 py-3 text-center align-middle">
-                      <span className={`text-[10px] font-grotesk font-black ${isDemo ? 'text-gray-700' : getMasteryColor(t.competency_scores?.C1 ?? 0).split(' ')[0]}`}>
-                        {isDemo ? '—' : `${t.competency_scores?.C1 ?? 0}%`}
-                      </span>
-                    </td>
-                    <td className="px-1 py-3 text-center align-middle">
-                      <span className={`text-[10px] font-grotesk font-black ${isDemo ? 'text-gray-700' : getMasteryColor(t.competency_scores?.C2 ?? 0).split(' ')[0]}`}>
-                        {isDemo ? '—' : `${t.competency_scores?.C2 ?? 0}%`}
-                      </span>
-                    </td>
-                    <td className="px-1 py-3 text-center align-middle">
-                      <span className={`text-[10px] font-grotesk font-black ${isDemo ? 'text-gray-700' : getMasteryColor(t.competency_scores?.C3 ?? 0).split(' ')[0]}`}>
-                        {isDemo ? '—' : `${t.competency_scores?.C3 ?? 0}%`}
-                      </span>
-                    </td>
-                    <td className="px-1 py-3 text-center align-middle">
-                      <span className={`text-[10px] font-grotesk font-black ${isDemo ? 'text-gray-700' : getMasteryColor(t.competency_scores?.C4 ?? 0).split(' ')[0]}`}>
-                        {isDemo ? '—' : `${t.competency_scores?.C4 ?? 0}%`}
-                      </span>
-                    </td>
+                    {(['C1', 'C2', 'C3', 'C4'] as const).map(key => (
+                      <td key={key} className="px-1 py-3 text-center align-middle">
+                        <span className={`text-[10px] font-grotesk font-black ${isDemo ? 'text-gray-700' : getMasteryColor(t.competency_scores?.[key] ?? 0).split(' ')[0]}`}>
+                          {isDemo ? '-' : `${t.competency_scores?.[key] ?? 0}%`}
+                        </span>
+                      </td>
+                    ))}
                     <td className="px-1 py-3 text-center align-middle">
                       <span className={`text-[10px] font-black px-2 py-0.5 rounded-full ${isDemo ? 'text-gray-600 bg-gray-600/5' : getMasteryColor(t.mastery_percent ?? 0)}`}>
                         {isDemo ? '0%' : `${t.mastery_percent ?? 0}%`}
@@ -318,7 +300,7 @@ const RankPanel: React.FC<RankPanelProps> = ({ topics = [], isDemo, userProfile,
                     </td>
                     <td className="px-1 py-3 text-center align-middle">
                       <span className={`text-[8px] font-black uppercase tracking-tighter italic whitespace-nowrap ${isDemo ? 'text-gray-700' : getMasteryColor(t.mastery_percent ?? 0).split(' ')[0]}`}>
-                        {isDemo ? '—' : getRankLabel(t.mastery_percent ?? 0).label}
+                        {isDemo ? '-' : getRankLabel(t.mastery_percent ?? 0).label}
                       </span>
                     </td>
                     <td className="px-1 py-3 text-center align-middle">
@@ -339,15 +321,15 @@ const RankPanel: React.FC<RankPanelProps> = ({ topics = [], isDemo, userProfile,
             </table>
           </div>
         )}
-        
+
         <footer className="p-4 bg-white/5 border-t border-white/10 flex flex-col sm:flex-row justify-between items-center shrink-0 px-8 gap-2">
-           <p className="text-[9px] text-gray-500 font-bold uppercase tracking-widest italic text-center sm:text-left">
-              Dữ liệu 33 Chuyên đề Địa Lí 8 được khôi phục nguyên bản.
-           </p>
-           <div className="text-center sm:text-right">
-             <p className="text-[9px] text-gray-400 font-bold uppercase tracking-widest">Mastery & Skill Matrix Rankings</p>
-             <p className="text-[8px] text-gray-600 font-black uppercase tracking-widest mt-0.5">Sắp xếp theo Thành thạo | C1-C4 Audited</p>
-           </div>
+          <p className="text-[9px] text-gray-500 font-bold uppercase tracking-widest italic text-center sm:text-left">
+            Dữ liệu Địa lí 8 đã khôi phục.
+          </p>
+          <div className="text-center sm:text-right">
+            <p className="text-[9px] text-gray-400 font-bold uppercase tracking-widest">Ma trận năng lực</p>
+            <p className="text-[8px] text-gray-600 font-black uppercase tracking-widest mt-0.5">Sắp xếp theo C1-C4</p>
+          </div>
         </footer>
       </div>
     </div>
