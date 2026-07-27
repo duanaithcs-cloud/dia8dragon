@@ -120,6 +120,15 @@ const rgba = (hex: string, alpha: number) => {
   return `rgba(${r}, ${g}, ${b}, ${alpha})`;
 };
 const getThemeColor = (palette: string[], seed: number) => palette[Math.abs(seed) % palette.length];
+const seededRandom = (seed: number) => {
+  const value = Math.sin(seed * 9301 + 49297) * 233280;
+  return value - Math.floor(value);
+};
+const weightedRadiusVariance = (seed: number, range = 0.07) => 1 + (seededRandom(seed) - 0.5) * 2 * range;
+const getWeightedBubbleRadius = (topic: Topic, bubbleScale = 1) => {
+  const base = window.innerWidth < 640 ? 25 + topic.scale * 12 : 35 + topic.scale * 20;
+  return base * bubbleScale * weightedRadiusVariance(24000 + topic.topic_id);
+};
 const deriveBubbleVisual = (topic: Topic, theme: string): BubbleVisual => {
   const base = normalizeHex(topic.color || '#0d33f2');
   if (isDia8Theme(theme)) {
@@ -238,26 +247,34 @@ const BubbleCanvas: React.FC<BubbleCanvasProps> = ({
     const w = dimensions.w;
     const h = dimensions.h;
 
-    physicsRef.current = topics.map((t) => {
-      const baseR = (35 + t.scale * 20) * (preferences.bubbleScale || 1.0);
-      const angle = Math.random() * Math.PI * 2;
-      const orbit = Math.max(w, h) * 0.4;
-      const x = w / 2 + Math.cos(angle) * orbit;
-      const y = h / 2 + Math.sin(angle) * orbit;
+    const columns = Math.ceil(Math.sqrt(topics.length * (w / h)));
+    const rows = Math.ceil(topics.length / columns);
+    const cellW = w / columns;
+    const cellH = h / rows;
+
+    physicsRef.current = topics.map((t, index) => {
+      const seed = 24000 + t.topic_id;
+      const baseR = getWeightedBubbleRadius(t, preferences.bubbleScale || 1.0);
+      const col = index % columns;
+      const row = Math.floor(index / columns);
+      const jitterX = (seededRandom(seed) - 0.5) * cellW * 0.8;
+      const jitterY = (seededRandom(seed + 50) - 0.5) * cellH * 0.8;
+      const x = (col + 0.5) * cellW + jitterX;
+      const y = (row + 0.5) * cellH + jitterY;
 
       return {
         id: t.topic_id,
         x,
         y,
-        vx: reduceMotion ? 0 : (w / 2 - x) * 0.005 + (Math.random() - 0.5) * 2,
-        vy: reduceMotion ? 0 : (h / 2 - y) * 0.005 + (Math.random() - 0.5) * 2,
+        vx: reduceMotion ? 0 : (seededRandom(seed + 100) - 0.5) * 4,
+        vy: reduceMotion ? 0 : (seededRandom(seed + 200) - 0.5) * 4,
         r: baseR,
         targetR: baseR,
         color: t.color,
         icon: t.icon,
         mastery: t.mastery_percent,
         pulse_type: t.pulse_type,
-        seed: Math.random() * 1000,
+        seed: seed % 1000,
         isDragging: false,
         el: null
       };
@@ -464,7 +481,7 @@ const BubbleCanvas: React.FC<BubbleCanvasProps> = ({
         const focusClass = isGenerating ? 'animate-generating-focus' : '';
         const varietyDur = (5 + (topic.topic_id % 4)).toFixed(1) + 's';
         const masteryStyle = getMasteryStyle(topic.mastery_percent);
-        const currentR = b ? b.r : (35 + topic.scale * 20) * (preferences.bubbleScale || 1.0);
+        const currentR = b ? b.r : getWeightedBubbleRadius(topic, preferences.bubbleScale || 1.0);
         const supportedThemes = ['D8_ZALO', 'D8_NEON', 'D8_GROUPS', 'D8_AURORA', 'D8_SUNSET', 'D8_DARK', 'ORIGINAL', 'SOLAR_SYSTEM', 'CORAL_REEF', 'AURORA'];
         const activeTheme = supportedThemes.includes(preferences.theme) ? preferences.theme : 'D8_ZALO';
         const dia8Visual = isDia8Theme(activeTheme);
