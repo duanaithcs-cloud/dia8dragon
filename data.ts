@@ -90,5 +90,6 @@ export const MOCK_TOPICS: Topic[] = TOPIC_CATALOG.map((item) => ({
   color: item.color,
   source_file: `Học liệu Dia8Dragon - ${LOCALIZED_TOPIC_META[item.id]?.group || item.group}`,
   source_excerpt: item.text,
-  source_readable: true
+  source_readable: true,
+  infographic_url: `/hsg8-infographics/topic-original/${String(item.id).padStart(2, '0')}.jpg`
 }));

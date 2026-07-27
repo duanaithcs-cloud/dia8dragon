@@ -108,10 +108,11 @@
   "summary": "Nội dung trọng tâm được trích nguyên văn từ C4 / Phần A. Tổng hợp kiến thức cần nhớ / Mục 1.1-1.2, bám đúng bong bóng: Phạm vi Biển Đông và vùng biển Việt Nam.",
   "images": [
     {
-      "url": "/hsg8-infographics/overview-olympic-dia8.png",
-      "caption": "Infographic tổng ôn Olympic Địa lí 8 - tư liệu chung",
-      "width": 1080,
-      "height": 1920
+      "url": "/hsg8-infographics/topic-original/28.jpg",
+      "caption": "Infographic chuyên đề 28 từ app Dia8Dragon cũ - Phạm vi Biển Đông và vùng biển Việt Nam",
+      "width": 1376,
+      "height": 768,
+      "source": "https://raw.githubusercontent.com/duanaithcs-cloud/anh-infographic-33-bubbles/main/28.png"
     }
   ],
   "stats": {

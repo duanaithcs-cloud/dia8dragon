@@ -135,10 +135,11 @@
   "summary": "Nội dung trọng tâm được trích nguyên văn từ C4 / Phần A. Tổng hợp kiến thức cần nhớ / Mục 2.1, bám đúng bong bóng: Môi trường biển đảo Việt Nam.",
   "images": [
     {
-      "url": "/hsg8-infographics/overview-olympic-dia8.png",
-      "caption": "Infographic tổng ôn Olympic Địa lí 8 - tư liệu chung",
-      "width": 1080,
-      "height": 1920
+      "url": "/hsg8-infographics/topic-original/31.jpg",
+      "caption": "Infographic chuyên đề 31 từ app Dia8Dragon cũ - Môi trường biển đảo Việt Nam",
+      "width": 1376,
+      "height": 768,
+      "source": "https://raw.githubusercontent.com/duanaithcs-cloud/anh-infographic-33-bubbles/main/31.png"
     }
   ],
   "stats": {

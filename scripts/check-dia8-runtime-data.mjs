@@ -24,6 +24,7 @@ const emptyQuizFiles = [];
 const mojibakeTopicFiles = [];
 const badEssayFiles = [];
 const missingImageFiles = [];
+const missingOldTopicImages = [];
 const questionTypes = new Set();
 let matchingCount = 0;
 let essayItemCount = 0;
@@ -58,6 +59,10 @@ for (let id = 1; id <= 33; id += 1) {
       missingImageFiles.push(`topic-${suffix}.json:${image.url || 'missing-url'}`);
     }
   }
+  const expectedOldImage = `/hsg8-infographics/topic-original/${suffix}.jpg`;
+  if (topic.images?.[0]?.url !== expectedOldImage) {
+    missingOldTopicImages.push(`topic-${suffix}.json`);
+  }
   if (!quiz.questions?.length) emptyQuizFiles.push(`topic-${suffix}.json`);
   for (const question of quiz.questions || []) {
     questionTypes.add(question.type);
@@ -71,6 +76,7 @@ assert(badEssayFiles.length === 0, `Essay references are malformed: ${badEssayFi
 assert(essayItemCount >= 40, `Expected at least 40 topic-linked essay references, got ${essayItemCount}.`);
 assert(topicImageCount >= 33, `Expected every topic to expose at least one restored/reference image, got ${topicImageCount}.`);
 assert(missingImageFiles.length === 0, `Topic image files are missing or too small: ${missingImageFiles.join(', ')}`);
+assert(missingOldTopicImages.length === 0, `Missing restored old-app topic image as the first image: ${missingOldTopicImages.join(', ')}`);
 assert(emptyQuizFiles.length === 0, `Quiz topic files are empty: ${emptyQuizFiles.join(', ')}`);
 for (const type of ['MCQ', 'TF', 'FILL']) assert(questionTypes.has(type), `Missing question type ${type}.`);
 assert(matchingCount >= 8, `Expected at least 8 matching questions, got ${matchingCount}.`);

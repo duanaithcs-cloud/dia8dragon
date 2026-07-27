@@ -202,10 +202,11 @@
   "summary": "Nội dung trọng tâm được trích nguyên văn từ C2 / Phần A. Tổng hợp kiến thức cần nhớ / Mục 1.1-1.2, bám đúng bong bóng: Vẽ và phân tích biểu đồ khí hậu.",
   "images": [
     {
-      "url": "/hsg8-infographics/overview-olympic-dia8.png",
-      "caption": "Infographic tổng ôn Olympic Địa lí 8 - tư liệu chung",
-      "width": 1080,
-      "height": 1920
+      "url": "/hsg8-infographics/topic-original/16.jpg",
+      "caption": "Infographic chuyên đề 16 từ app Dia8Dragon cũ - Vẽ và phân tích biểu đồ khí hậu",
+      "width": 1376,
+      "height": 768,
+      "source": "https://raw.githubusercontent.com/duanaithcs-cloud/anh-infographic-33-bubbles/main/16.png"
     },
     {
       "url": "/hsg8-infographics/bieu-do-luu-luong-song-dia8.png",

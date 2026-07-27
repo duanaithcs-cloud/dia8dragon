@@ -224,10 +224,11 @@
   "summary": "Nội dung trọng tâm được trích nguyên văn từ C2 / Phần A. Tổng hợp kiến thức cần nhớ / Mục 1.1-1.2 và 2.1.a, bám đúng bong bóng: Đọc biểu đồ khí hậu và trạm khí tượng thuỷ văn.",
   "images": [
     {
-      "url": "/hsg8-infographics/overview-olympic-dia8.png",
-      "caption": "Infographic tổng ôn Olympic Địa lí 8 - tư liệu chung",
-      "width": 1080,
-      "height": 1920
+      "url": "/hsg8-infographics/topic-original/15.jpg",
+      "caption": "Infographic chuyên đề 15 từ app Dia8Dragon cũ - Đọc biểu đồ khí hậu",
+      "width": 1376,
+      "height": 768,
+      "source": "https://raw.githubusercontent.com/duanaithcs-cloud/anh-infographic-33-bubbles/main/15.png"
     },
     {
       "url": "/hsg8-infographics/bieu-do-luu-luong-song-dia8.png",

@@ -126,14 +126,8 @@ ESSAY_TOPIC_MAP = {
     },
 }
 
-COMMON_IMAGES = [
-    {
-        "url": "/hsg8-infographics/overview-olympic-dia8.png",
-        "caption": "Infographic tổng ôn Olympic Địa lí 8 - tư liệu chung",
-        "width": 1080,
-        "height": 1920,
-    }
-]
+OLD_APP_IMAGE_BASE = "/hsg8-infographics/topic-original"
+OLD_APP_IMAGE_SOURCE = "https://raw.githubusercontent.com/duanaithcs-cloud/anh-infographic-33-bubbles/main"
 
 TOPIC_IMAGES = {
     13: [
@@ -362,7 +356,16 @@ def collect_lines(source_lines: list[str], ranges: list[tuple[int, int]]) -> lis
 
 
 def topic_images(topic_id: int) -> list[dict]:
-    images = [dict(image) for image in COMMON_IMAGES]
+    title = TOPIC_META[topic_id][0]
+    images = [
+        {
+            "url": f"{OLD_APP_IMAGE_BASE}/{topic_id:02d}.jpg",
+            "caption": f"Infographic chuyên đề {topic_id:02d} từ app Dia8Dragon cũ - {title}",
+            "width": 1376,
+            "height": 768,
+            "source": f"{OLD_APP_IMAGE_SOURCE}/{topic_id}.png",
+        }
+    ]
     images.extend(dict(image) for image in TOPIC_IMAGES.get(topic_id, []))
     return images
 
