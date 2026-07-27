@@ -120,7 +120,7 @@ const rgba = (hex: string, alpha: number) => {
   return `rgba(${r}, ${g}, ${b}, ${alpha})`;
 };
 const getThemeColor = (palette: string[], seed: number) => palette[Math.abs(seed) % palette.length];
-const HSGDIA8_WEIGHTED_RADIUS_FACTOR = 0.5;
+const HALF_SIZE_WEIGHTED_TOPICS = new Set([1, 3, 8, 22]);
 const seededRandom = (seed: number) => {
   const value = Math.sin(seed * 9301 + 49297) * 233280;
   return value - Math.floor(value);
@@ -128,7 +128,8 @@ const seededRandom = (seed: number) => {
 const weightedRadiusVariance = (seed: number, range = 0.07) => 1 + (seededRandom(seed) - 0.5) * 2 * range;
 const getWeightedBubbleRadius = (topic: Topic, bubbleScale = 1) => {
   const base = window.innerWidth < 640 ? 25 + topic.scale * 12 : 35 + topic.scale * 20;
-  return base * HSGDIA8_WEIGHTED_RADIUS_FACTOR * bubbleScale * weightedRadiusVariance(24000 + topic.topic_id);
+  const topicFactor = HALF_SIZE_WEIGHTED_TOPICS.has(topic.topic_id) ? 0.5 : 1;
+  return base * topicFactor * bubbleScale * weightedRadiusVariance(24000 + topic.topic_id);
 };
 const deriveBubbleVisual = (topic: Topic, theme: string): BubbleVisual => {
   const base = normalizeHex(topic.color || '#0d33f2');
@@ -491,9 +492,8 @@ const BubbleCanvas: React.FC<BubbleCanvasProps> = ({
         const saturation = preferences.saturation ?? 65;
         const breathAmp = preferences.breathAmp ?? 5;
         const displayLabel = isGenerating ? 'AI NANO-MATRIX' : getBubbleDisplayLabel(topic);
-        const labelFontSize = Math.max(10, Math.min(28, (preferences.fontSize || 16) * (currentR / 55)));
-        const masteryFontSize = Math.max(9, Math.min(24, (preferences.fontSize || 16) * (currentR / 65)));
-        const iconFontSize = Math.max(16, Math.min(42, currentR * 0.28));
+        const labelFontSize = (preferences.fontSize || 16) * (currentR / 55);
+        const masteryFontSize = (preferences.fontSize || 16) * (currentR / 65);
 
         return (
           <button
@@ -568,7 +568,7 @@ const BubbleCanvas: React.FC<BubbleCanvasProps> = ({
                 <span
                   className="material-symbols-outlined text-white opacity-40 group-hover:opacity-100 transition-all duration-500 drop-shadow-[0_0_10px_rgba(255,255,255,0.4)]"
                   aria-hidden="true"
-                  style={{ fontSize: iconFontSize }}
+                  style={{ fontSize: currentR * 0.6 }}
                 >
                   {isGenerating ? 'refresh' : topic.icon}
                 </span>
