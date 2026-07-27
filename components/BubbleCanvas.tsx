@@ -49,44 +49,44 @@ const DIA8_THEME_COLORS: Record<string, string | 'TOPIC' | 'GROUPS'> = {
 const DIA8_THEMES = new Set(Object.keys(DIA8_THEME_COLORS));
 const isDia8Theme = (theme: string) => DIA8_THEMES.has(theme);
 
-const COMPACT_BUBBLE_LABELS: Record<number, string> = {
-  1: 'Vị trí',
-  2: 'Ảnh hưởng',
-  3: 'Địa hình',
-  4: 'Khu vực',
-  5: 'Khoáng sản',
-  6: 'Sử dụng KS',
-  7: 'Phân hoá ĐH',
-  8: 'Khí hậu',
-  9: 'Hệ thống sông',
-  10: 'Phân hoá KH',
-  11: 'Tác động BĐKH',
-  12: 'Nông nghiệp',
-  13: 'Phân tích sông',
-  14: 'Hồ đầm',
-  15: 'Đọc biểu đồ',
-  16: 'Vẽ biểu đồ',
-  17: 'Du lịch',
-  18: 'Ứng phó BĐKH',
-  19: 'Tài nguyên nước',
-  20: 'BĐKH tự nhiên',
-  21: 'Ba nhóm đất',
-  22: 'Thổ nhưỡng',
-  23: 'Đất feralit',
-  24: 'Đất phù sa',
-  25: 'Sinh vật',
-  26: 'Thoái hoá đất',
-  27: 'Bảo tồn',
-  28: 'Phạm vi biển',
-  29: 'Tự nhiên biển',
-  30: 'Tài nguyên biển',
-  31: 'Môi trường biển',
-  32: 'Luật biển',
-  33: 'Kinh tế biển',
+const OLD_APP_BUBBLE_LABELS: Record<number, string> = {
+  1: 'VTĐL-PVLT',
+  2: 'A/H VTĐL – PVLT',
+  3: 'ĐỊA HÌNH',
+  4: 'K.VỰC ĐH',
+  5: 'Đ2 K.SẢN',
+  6: 'P.BỐ SD KS',
+  7: 'P.HÓA ĐỊA HÌNH',
+  8: 'KH NĐAGM',
+  9: 'LƯU VỰC SÔNG',
+  10: 'P.HÓA KH',
+  11: 'T.Đ BĐKH KH+TV',
+  12: 'KH–N.NGHIỆP',
+  13: '1 HT SÔNG',
+  14: 'HỒ-ĐẦM-NN',
+  15: 'BĐ–TRẠM-KH',
+  16: 'VẼ P.T BĐ KH',
+  17: 'KH-DU.L',
+  18: 'Ư.PHÓ BĐKH',
+  19: 'K.THÁC TN NƯỚC',
+  20: 'T.Đ BĐKH TN',
+  21: '3 LOẠI ĐẤT',
+  22: 'THỔ.N NĐAGM',
+  23: 'ĐẤT FERALIT',
+  24: 'ĐẤT PHÙ SA',
+  25: 'SINH VẬT ĐA DẠNG',
+  26: 'CHỐNG THOÁI HÓA ĐẤT',
+  27: 'BẢO TỒN ĐA DẠNG SV',
+  28: 'PV BIỂN',
+  29: 'TỰ NHIÊN BIỂN',
+  30: 'TÀI NGUYÊN BIỂN',
+  31: 'MÔI TRƯỜNG BIỂN',
+  32: 'LUẬT BIỂN',
+  33: 'TL KK BIỂN',
 };
 
 const getBubbleDisplayLabel = (topic: Topic) => {
-  if (COMPACT_BUBBLE_LABELS[topic.topic_id]) return COMPACT_BUBBLE_LABELS[topic.topic_id];
+  if (OLD_APP_BUBBLE_LABELS[topic.topic_id]) return OLD_APP_BUBBLE_LABELS[topic.topic_id];
   const candidate = (topic.short_label || topic.keyword_label || `CD ${topic.topic_id}`).trim();
   if (candidate.length <= 18) return candidate;
   const words = candidate.split(/\s+/).filter(Boolean);
@@ -239,28 +239,19 @@ const BubbleCanvas: React.FC<BubbleCanvasProps> = ({
     const w = dimensions.w;
     const h = dimensions.h;
 
-    const columns = w < 520 ? 4 : Math.max(4, Math.ceil(Math.sqrt(topics.length * Math.max(1, w / Math.max(1, h)))));
-    const rows = Math.max(1, Math.ceil(topics.length / columns));
-    const cellW = w / columns;
-    const cellH = h / rows;
-
-    physicsRef.current = topics.map((t, index) => {
-      const responsiveScale = w < 520 ? 0.64 : w < 768 ? 0.76 : 1;
-      const baseR = (35 + t.scale * 20) * (preferences.bubbleScale || 1.0) * responsiveScale;
-      const gridX = (index % columns) * cellW + cellW / 2;
-      const gridY = Math.floor(index / columns) * cellH + cellH / 2;
-      const safeX = Math.max(8, Math.min(18, baseR * 0.22));
-      const safeTop = Math.max(8, Math.min(18, baseR * 0.22));
-      const safeBottom = Math.max(74, Math.min(96, baseR * 1.35));
-      const x = Math.max(baseR + safeX, Math.min(w - baseR - safeX, gridX));
-      const y = Math.max(baseR + safeTop, Math.min(h - baseR - safeBottom, gridY));
+    physicsRef.current = topics.map((t) => {
+      const baseR = (35 + t.scale * 20) * (preferences.bubbleScale || 1.0);
+      const angle = Math.random() * Math.PI * 2;
+      const orbit = Math.max(w, h) * 0.4;
+      const x = w / 2 + Math.cos(angle) * orbit;
+      const y = h / 2 + Math.sin(angle) * orbit;
 
       return {
         id: t.topic_id,
         x,
         y,
-        vx: reduceMotion ? 0 : (Math.random() - 0.5) * 0.9,
-        vy: reduceMotion ? 0 : (Math.random() - 0.5) * 0.9,
+        vx: reduceMotion ? 0 : (w / 2 - x) * 0.005 + (Math.random() - 0.5) * 2,
+        vy: reduceMotion ? 0 : (h / 2 - y) * 0.005 + (Math.random() - 0.5) * 2,
         r: baseR,
         targetR: baseR,
         color: t.color,
@@ -301,10 +292,10 @@ const BubbleCanvas: React.FC<BubbleCanvasProps> = ({
       // Công thức lực trôi/đẩy được chuyển nguyên bản từ Dia8, nhưng vẫn tương thích thanh cường độ Dia8.
       const driftSpeed = ((preferences.driftForce ?? 20) / 100) * 0.1 * intensity;
       const friction = 0.99;
-      const springStrength = ((preferences.repulsion ?? 80) / 80) * 0.06;
+      const springStrength = 0.06;
 
-      const w = dimensions.w;
-      const h = dimensions.h;
+    const w = dimensions.w;
+    const h = dimensions.h;
       const centerX = w / 2;
       const centerY = h / 2;
 
@@ -325,7 +316,7 @@ const BubbleCanvas: React.FC<BubbleCanvasProps> = ({
           const dx = b2.x - b1.x;
           const dy = b2.y - b1.y;
           const distSq = dx * dx + dy * dy;
-          const minDist = (b1.r + b2.r) * (0.85 + (preferences.repulsion ?? 80) / 200); 
+          const minDist = b1.r + b2.r + 10; 
           if (distSq < minDist * minDist) {
             const dist = Math.sqrt(distSq) || 0.1;
             const overlap = (minDist - dist);
@@ -353,11 +344,6 @@ const BubbleCanvas: React.FC<BubbleCanvasProps> = ({
           }
           b.vx *= friction; b.vy *= friction;
           b.x += b.vx; b.y += b.vy;
-          const safeX = Math.max(8, Math.min(18, b.r * 0.22));
-          const safeTop = Math.max(8, Math.min(18, b.r * 0.22));
-          const safeBottom = Math.max(74, Math.min(96, b.r * 1.35));
-          b.x = Math.max(b.r + safeX, Math.min(w - b.r - safeX, b.x));
-          b.y = Math.max(b.r + safeTop, Math.min(h - b.r - safeBottom, b.y));
         }
         if (b.el) {
           b.el.style.transform = `translate3d(${b.x - b.r}px, ${b.y - b.r}px, 0)`;
@@ -487,9 +473,9 @@ const BubbleCanvas: React.FC<BubbleCanvasProps> = ({
         const glowIntensity = preferences.glowIntensity ?? 55;
         const saturation = preferences.saturation ?? 65;
         const breathAmp = preferences.breathAmp ?? 5;
-        const displayLabel = isGenerating ? 'Đang nạp' : getBubbleDisplayLabel(topic);
-        const labelFontSize = Math.max(9.5, Math.min(12.5, currentR * 0.18));
-        const masteryFontSize = Math.max(9, Math.min(11.5, currentR * 0.16));
+        const displayLabel = isGenerating ? 'AI NANO-MATRIX' : getBubbleDisplayLabel(topic);
+        const labelFontSize = (preferences.fontSize || 16) * (currentR / 55);
+        const masteryFontSize = (preferences.fontSize || 16) * (currentR / 65);
 
         return (
           <button
@@ -576,7 +562,7 @@ const BubbleCanvas: React.FC<BubbleCanvasProps> = ({
                 </div>
                 
                 <span
-                  className="bubble-topic-label text-white font-black uppercase leading-tight text-halo text-center"
+                  className="bubble-topic-label text-white font-black uppercase tracking-tighter leading-tight whitespace-normal max-w-[95%] text-halo text-center"
                   title={topic.keyword_label}
                   style={{ fontSize: labelFontSize }}
                 >
@@ -590,7 +576,7 @@ const BubbleCanvas: React.FC<BubbleCanvasProps> = ({
                     fontSize: masteryFontSize 
                   }}
                 >
-                  {isGenerating ? 'Nạp...' : `${topic.mastery_percent}%`}
+                  {isGenerating ? 'LOADING...' : `${topic.mastery_percent}%`}
                 </span>
               </div>
             </div>
@@ -598,7 +584,7 @@ const BubbleCanvas: React.FC<BubbleCanvasProps> = ({
             {!isGenerating && (
               <div className="absolute -bottom-8 left-1/2 -translate-x-1/2 opacity-0 group-hover:opacity-100 transition-all duration-300 whitespace-nowrap z-50 transform group-hover:translate-y-[-5px]">
                  <span className="text-[9px] font-black text-white/80 bg-black/80 px-4 py-1.5 rounded-full border border-white/20 shadow-2xl backdrop-blur-xl uppercase">
-                   CĐ #{topic.topic_id}
+                   TOPIC #{topic.topic_id}
                  </span>
               </div>
             )}
