@@ -42,7 +42,7 @@ const PracticeHub: React.FC<PracticeHubProps> = ({ topics, onOpenTopic, onStartQ
                 disabled={!gamificationEnabled}
               >
                 <strong>Săn yêu quái</strong>
-                <span>Mở 20 chuyên đề yêu quái và bắt đầu từ chuyên đề đang chọn</span>
+                <span>Mở 33 chuyên đề yêu quái và bắt đầu từ chuyên đề đang chọn</span>
               </button>
               <button type="button" className="practice-adventure-launcher" onClick={onOpenAdventure} disabled={!gamificationEnabled}>
                 <strong>Hành trình Thất Ngọc</strong>

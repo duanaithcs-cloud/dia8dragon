@@ -89,7 +89,7 @@ const TeacherIntelligenceCommand: React.FC<TeacherIntelligenceCommandProps> = ({
       </header>
       {message && <div className="tic-message"><span>{message}</span><button type="button" onClick={() => setMessage('')}>×</button></div>}
       <div className="tic-scorecards">
-        <article><span>Yêu quái chưa phong ấn</span><strong>{Math.max(0, 20 - new Set(snapshot.monsterProgress.filter(item => item.status === 'SEALED').map(item => item.topicId)).size)}</strong></article>
+        <article><span>Yêu quái chưa phong ấn</span><strong>{Math.max(0, topics.length - new Set(snapshot.monsterProgress.filter(item => item.status === 'SEALED').map(item => item.topicId)).size)}</strong></article>
         <article><span>Lỗi mở</span><strong>{snapshot.errors.filter(item => item.status === 'OPEN').length}</strong></article>
         <article><span>Kỹ năng đến hạn</span><strong>{skillsDue.length}</strong></article>
         <article><span>Câu cần chú ý</span><strong>{suspicious.length}</strong></article>
@@ -99,7 +99,7 @@ const TeacherIntelligenceCommand: React.FC<TeacherIntelligenceCommandProps> = ({
 
       <div className="tic-grid">
         <article className="tic-panel">
-          <div className="tic-panel-head"><div><p>Bản đồ 20 chuyên đề</p><h3>Yêu quái lớp chưa phong ấn</h3></div><span>{sealedByTopic.size}/20</span></div>
+          <div className="tic-panel-head"><div><p>Bản đồ 33 chuyên đề</p><h3>Yêu quái lớp chưa phong ấn</h3></div><span>{sealedByTopic.size}/{topics.length}</span></div>
           <div className="tic-topic-grid">{topics.map(topic => <div key={topic.topic_id} className={sealedByTopic.has(topic.topic_id) ? 'is-sealed' : ''}><b>{topic.topic_id}</b><span>{topic.keyword_label}</span><strong>{sealedByTopic.has(topic.topic_id) ? 'Đã phong ấn' : 'Chưa đủ bằng chứng'}</strong></div>)}</div>
         </article>
 

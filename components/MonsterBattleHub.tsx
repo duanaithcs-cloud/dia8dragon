@@ -410,19 +410,19 @@ const MonsterBattleHub: React.FC<MonsterBattleHubProps> = ({
         <header className="monster-hub-header">
           <div>
             <button type="button" onClick={onBack} className="monster-back-button">← Luyện tập</button>
-            <p>Twenty Monsters Battle Core</p>
-            <h1 id="monster-hub-title">20 chuyên đề · 20 yêu quái nhận thức</h1>
+            <p>Thirty Three Monsters Battle Core</p>
+            <h1 id="monster-hub-title">33 chuyên đề · 33 yêu quái nhận thức</h1>
             <span>Mỗi trận kiểm tra kiến thức, kỹ năng và độ bền ghi nhớ. Không có vật phẩm trả tiền, không mất tiến độ khi nghỉ.</span>
           </div>
           <div className="monster-hub-summary">
-            <div><span>Đã phong ấn</span><strong>{sealedCount}/20</strong></div>
+            <div><span>Đã phong ấn</span><strong>{sealedCount}/{catalog.length}</strong></div>
             <div><span>Chờ kiểm chứng</span><strong>{awaitingCount}</strong></div>
             <div><span>Hoạt động offline</span><strong>100%</strong></div>
           </div>
         </header>
 
         <div className="monster-hub-layout">
-          <aside className="monster-roster" aria-label="Danh sách 20 yêu quái">
+          <aside className="monster-roster" aria-label="Danh sách 33 yêu quái">
             {catalog.map(monster => {
               const progress = progressMap[monster.topicId] || createDefaultMonsterProgress(learnerId, monster.topicId);
               const active = monster.topicId === selectedTopicId;

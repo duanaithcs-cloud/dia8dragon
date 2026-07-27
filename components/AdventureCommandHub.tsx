@@ -399,7 +399,7 @@ const AdventureCommandHub: React.FC<AdventureCommandHubProps> = ({
             <span>Game hóa có thể tắt; mạng có thể mất. Kiểm tra, chấm, vá lỗi, gợi ý học tiếp và lưu tiến độ vẫn hoạt động.</span>
           </div>
           <div className="adventure-command-summary">
-            <div><span>Yêu quái phong ấn</span><strong>{sealedCount}/20</strong></div>
+            <div><span>Yêu quái phong ấn</span><strong>{sealedCount}/{catalog.length}</strong></div>
             <div><span>Ngọc thu hồi</span><strong>{journey.collectedOrbIds.length}/7</strong></div>
             <div><span>La Bàn</span><strong>{journey.compassCalibration}%</strong></div>
           </div>

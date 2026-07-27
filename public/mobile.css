@@ -1770,7 +1770,7 @@ html[data-accessible-text="ON"] .material-symbols-outlined{line-height:1}
 .adaptive-repair-source summary{cursor:pointer;color:#93c5fd;font-size:11px;font-weight:900}.adaptive-repair-source p{margin:9px 0 5px;color:#dbeafe;font-size:11px;line-height:1.5}.adaptive-repair-source small{display:block;color:#94a3b8;font-size:9px;line-height:1.4}
 @media(max-width:640px){.adaptive-repair-answer-contrast{grid-template-columns:1fr}.adaptive-science-block{padding:11px}.adaptive-repair-action{margin-top:10px}}
 
-/* Dia8Dragon 3.3.0 — Twenty Monsters Battle Core */
+/* Dia8Dragon 3.3.0 — Thirty Three Monsters Battle Core */
 .practice-action-grid .practice-monster-entry{grid-column:1/-1;border-color:rgba(251,191,36,.28);background:linear-gradient(135deg,rgba(120,53,15,.25),rgba(30,41,59,.65))}
 .practice-action-grid .practice-monster-entry strong{color:#fde68a}
 .monster-hub,.monster-battle-screen,.monster-outcome-screen{position:absolute;inset:0;overflow:hidden;background:radial-gradient(circle at 75% 10%,rgba(37,99,235,.14),transparent 30%),linear-gradient(145deg,#05070a,#071226 58%,#05070a);color:#fff}
