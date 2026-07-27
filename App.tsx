@@ -664,7 +664,7 @@ const App: React.FC = () => {
                     title="Tùy chỉnh bong bóng và hình nền"
                     style={{
                       right: 'max(28px, env(safe-area-inset-right))',
-                      bottom: 'calc(max(16px, env(safe-area-inset-bottom)) + 10px)'
+                      bottom: 'calc(max(16px, env(safe-area-inset-bottom)) + 52px)'
                     } as React.CSSProperties}
                     >
                     <span className="material-symbols-outlined text-[30px] group-hover:rotate-90 transition-transform duration-500">settings</span>
@@ -737,4 +737,3 @@ const App: React.FC = () => {
   );
 };
 export default App;
-
