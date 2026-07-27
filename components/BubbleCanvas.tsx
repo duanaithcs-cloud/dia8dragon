@@ -120,7 +120,7 @@ const rgba = (hex: string, alpha: number) => {
   return `rgba(${r}, ${g}, ${b}, ${alpha})`;
 };
 const getThemeColor = (palette: string[], seed: number) => palette[Math.abs(seed) % palette.length];
-const HALF_SIZE_WEIGHTED_TOPICS = new Set([1, 3, 8, 22]);
+const HALF_SIZE_WEIGHTED_TOPICS = new Set([1, 3, 8]);
 const seededRandom = (seed: number) => {
   const value = Math.sin(seed * 9301 + 49297) * 233280;
   return value - Math.floor(value);
