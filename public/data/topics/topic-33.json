@@ -138,12 +138,36 @@
     "- Thuận lợi để xây dựng các cảng nước sâu, phát triển giao thông vận tải biển."
   ],
   "focus_source_section": "C4 / Phần A. Tổng hợp kiến thức cần nhớ / Mục 2.1.b và 2.2",
+  "essay_items": [
+    {
+      "id": "c4-tu-luan-03",
+      "source_no": 3,
+      "question": "Biển đảo có vai trò như thế nào đối với sự phát triển kinh tế - xã hội?",
+      "guide": "Biển đảo có vai trò quan trọng đối với sự phát triển kinh tế - xã hội:\n- Vùng ven biển và hải đảo là nơi cư trú và diễn ra các hoạt động sản xuất của dân cư nước ta.\n- Nhiều hoạt động kinh tế biển đã đóng góp đáng kể vào GDP của đất nước.\n- Hệ thống các đảo tiền tiêu có vị trí rất quan trọng trong sự nghiệp xây dựng và bảo vệ Tổ quốc.",
+      "source_section": "C4 / Phần B. Tổng hợp câu hỏi ôn tập / Dạng tự luận"
+    },
+    {
+      "id": "c4-tu-luan-05",
+      "source_no": 5,
+      "question": "Bản thân em là học sinh thì cần phải làm gì để bảo vệ môi trường biển đảo?",
+      "guide": "Là HS có thể làm để góp phần bảo vệ môi trường biển đảo:\n- Tham gia các hoạt động làm sạch bờ biển, giữ gìn môi trường sinh thái,... nhằm giảm thiểu sự suy thoái, ô nhiễm môi trường biển và trên các đảo.\n- Đấu tranh với các hoạt động khai thác, sử dụng tài nguyên biển đảo trái với quy định của pháp luật.\n- Rèn luyện kĩ năng để thích ứng với các thiên tai và sự cố xảy ra trong vùng biển đảo.",
+      "source_section": "C4 / Phần B. Tổng hợp câu hỏi ôn tập / Dạng tự luận"
+    }
+  ],
   "full_text": "b) Vấn đề bảo vệ môi trường biển đảo Việt Nam\n* Vai trò : biển đảo có vai trò phát triển kinh tế và bảo vệ tổ quốc.\n* Thực trạng :\n- Chất lượng nước ven bờ khá tốt.\n- Ô nhiễm môi trường xảy ra.\n* Giải pháp :\n- Xây dựng cơ chế chính sách, luật bảo vệ môi trường biển đảo;\n- Áp dụng các thành tựu khoa học công nghệ để kiểm soát và xử lí vấn đề môi trường biển đảo;\n- Tuyên truyền, nâng cao nhận thức của người dân về bảo vệ và cải thiện môi trường biển đảo,...\n2.2. Tài nguyên biển và thềm lục địa Việt Nam\nTài nguyên biển và thềm lục địa Việt Nam\nTài nguyên\nĐặc điểm\nSinh vật\n- Thực vật: Vùng triều ven bờ có nhiều loài rong biển (có hơn 600 loài rong biển, khoảng 400 loài tảo biển cùng nhiều loài cỏ biển có giá trị)\n- Động vật: có hơn 2000 loài cá, trong đó có khoảng 110 loài có giá trị kinh tế cao. Các loài động vật giáp xác, thân mềm, nhiều loài có giá trị dinh dưỡng cao: tôm, mực, hải sâm,...\nKhoáng sản và giao thông vận tải\n- Dầu mỏ và khí tự nhiên: tập trung ở các bể (bồn trũng) trong vùng thềm lục địa\n- Các khoáng sản khác: gồm 35, phân bố dọc vùng ven biển, sườn bờ và dưới đáy biển .Trong đó, có giá trị nhất là ti-tan, cát thuỷ tinh, muối,...\n- Thuận lợi để xây dựng các cảng nước sâu, phát triển giao thông vận tải biển.\nDu lịch\n- Bờ biển dài, có nhiều bãi cát, vịnh, hang động đẹp, hệ sinh thái biển phong phú, khung cảnh thiên nhiên các đảo đa dạng.\n- Các điểm du lịch nổi tiếng: vịnh Hạ Long (Quảng Ninh), Mỹ Khê (Đà Nẵng), Quy Nhơn (Bình Định cũ nay thuộc tỉnh Gia Lai), Nha Trang (Khánh Hoà), Mũi Né (Bình Thuận cũ nay thuộc tỉnh Lâm Đồng), Cát Bà (Hải Phòng), Côn Đảo (Bà Rịa - Vũng Tàu cũ nay thuộc Tp Hồ Chí Minh), Phú Quốc (Kiên Giang cũ nay thuộc tỉnh An Giang),...",
   "summary": "Nội dung trọng tâm được trích nguyên văn từ C4 / Phần A. Tổng hợp kiến thức cần nhớ / Mục 2.1.b và 2.2, bám đúng bong bóng: Thuận lợi, khó khăn kinh tế biển và bảo vệ chủ quyền.",
-  "images": [],
+  "images": [
+    {
+      "url": "/hsg8-infographics/overview-olympic-dia8.png",
+      "caption": "Infographic tổng ôn Olympic Địa lí 8 - tư liệu chung",
+      "width": 1080,
+      "height": 1920
+    }
+  ],
   "stats": {
     "chars": 1694,
     "blocks": 23,
-    "images": 0
+    "images": 1,
+    "essay_items": 2
   }
 }

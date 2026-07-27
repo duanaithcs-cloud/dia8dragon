@@ -97,12 +97,43 @@
     "- Chế độ thủy triều: nhật triều đều, nhật triều không đều, bán nhật triều và bán nhật triều không đều."
   ],
   "focus_source_section": "C4 / Phần A. Tổng hợp kiến thức cần nhớ / Mục 1.3",
+  "essay_items": [
+    {
+      "id": "c1-tu-luan-03",
+      "source_no": 3,
+      "question": "Vì sao thiên nhiên nước ta chịu ảnh hưởng sâu sắc của biển?",
+      "guide": "Phần đất liền Việt Nam hẹp ngang lại nằm kề Biển Đông là nguồn dự trữ ẩm dồi dào, các khối khí di chuyển qua biển ảnh hưởng sâu vào đất liền đã làm cho thiên nhiên nước ta chịu ảnh hưởng sâu sắc của biển.",
+      "source_section": "C1 / Phần B. Tổng hợp câu hỏi ôn tập / Dạng tự luận"
+    },
+    {
+      "id": "c4-tu-luan-07",
+      "source_no": 7,
+      "question": "Hãy kể tên 5 dạng địa hình ven biển nước ta?",
+      "guide": "Địa hình ven biển rất đa dạng:Vịnh cửa sông, bờ biển mài mòn, tam giác châu có bãi triều rộng, bãi cát, đàm phá, cồn cát, vũng vịnh, đảo ven bờ,….",
+      "source_section": "C4 / Phần B. Tổng hợp câu hỏi ôn tập / Dạng tự luận"
+    },
+    {
+      "id": "c4-tu-luan-08",
+      "source_no": 8,
+      "question": "Trình bày đặc điểm khí hậu vùng biển nước ta.",
+      "guide": "- Khí hậu vùng biển nước ta mang tính chất nhiệt đới gió mùa.\n- Nhiệt độ không khí trung bình năm của vùng biển dao động từ 230 C - 28°C. Biên độ nhiệt độ trung bình năm ở vùng biển đảo nhỏ hơn trên đất liền.\n- Hướng gió thay đổi theo mùa: từ tháng 10 đến tháng 4 năm sau, gió mùa mùa đông và Tín phong có hướng đông bác chiếm ưu thế; từ tháng 5 đến tháng 9, gió mùa hướng đông nam chiếm ưu thế. Gió trên biển mạnh hơn trên đất liền rõ rệt.\n- Lượng mưa trên biển thường nhỏ hơn trên đất liền, khoảng trên 1 100 mm/năm; các đảo có lượng mưa lớn hơn.\n- Vùng biển nước ta là nơi chịu nhiều thiên tai: bão, áp thấp nhiệt đới, lốc,... Trung bình mỗi năm có 3 - 4 cơn bão trực tiếp đổ bộ vào vùng biển Việt Nam.",
+      "source_section": "C4 / Phần B. Tổng hợp câu hỏi ôn tập / Dạng tự luận"
+    }
+  ],
   "full_text": "1.3. Đặc điểm tự nhiên của vùng biển đảo Việt Nam\na) Địa hình\n- Địa hình ven biển rất đa dạng, bao gồm: vịnh cửa sông, bờ biển mài mòn, tam giác châu, các bãi cát phẳng, cồn cát, đầm phá, vũng vịnh nước sâu,...\n- Vùng thềm lục địa rộng, bằng phẳng ở phía bắc và phía nam, hẹp và sâu ở miền Trung.\n- Có nhiểu đảo và quần đảo, trong đó có 2 quần đảo xa bờ là Hoàng Sa và Trường Sa.\nb) Khí hậu\n- Nhiệt độ: khá cao, trên 23°C, biên độ nhiệt nhỏ hơn đất liền.\n- Lượng mưa: nhỏ hơn trên đất liền khoảng trên 1100 mm/năm.\n- Gió trên Biển: thay đổi theo mùa và mạnh hơn trên đất liền.\n- Thiên tai: bão, lốc, áp thấp nhiệt đới,...\nc) Hải văn\n- Độ muối trung bình là 32 - 33%0.\n- Dòng biển: thay đổi theo mùa: mùa đông, dòng biển có hướng đông bắc - tây nam; mùa hạ, là tây nam - đông bắc.\n- Chế độ thủy triều: nhật triều đều, nhật triều không đều, bán nhật triều và bán nhật triều không đều.",
   "summary": "Nội dung trọng tâm được trích nguyên văn từ C4 / Phần A. Tổng hợp kiến thức cần nhớ / Mục 1.3, bám đúng bong bóng: Đặc điểm tự nhiên vùng biển đảo.",
-  "images": [],
+  "images": [
+    {
+      "url": "/hsg8-infographics/overview-olympic-dia8.png",
+      "caption": "Infographic tổng ôn Olympic Địa lí 8 - tư liệu chung",
+      "width": 1080,
+      "height": 1920
+    }
+  ],
   "stats": {
     "chars": 882,
     "blocks": 14,
-    "images": 0
+    "images": 1,
+    "essay_items": 3
   }
 }

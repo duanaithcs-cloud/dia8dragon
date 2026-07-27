@@ -134,12 +134,42 @@
     "+ Mùa lũ: từ tháng 10 - tháng 12, chiếm khoảng 65% tổng lượng nước cả năm."
   ],
   "focus_source_section": "C2 / Phần A. Tổng hợp kiến thức cần nhớ / Mục 2.1.b",
+  "essay_items": [
+    {
+      "id": "c2-tu-luan-03",
+      "source_no": 3,
+      "question": "Nêu đặc điểm chung của sông ngòi nước ta?",
+      "guide": "- Nước ta có mạng lưới sông ngòi dày đặc\n- Sông ngòi chảy theo 2 hướng chính tây bắc - đông nam và hướng vòng cung\n- Sông ngòi nước ta có hai mùa nước khác nhau rõ rệt\n- Sông ngòi nước ta có hàm lượng phù sa lớn",
+      "source_section": "C2 / Phần B. Tổng hợp câu hỏi ôn tập / Dạng tự luận"
+    },
+    {
+      "id": "c2-tu-luan-04",
+      "source_no": 4,
+      "question": "Vì sao nước ta có rất nhiều sông suối, song phần lớn lại là các sông nhỏ, ngắn và dốc ?",
+      "guide": "Vì:\n-Nước ta có lượng mưa lớn, trung bình 1500-2000mm/năm, mưa tập trung theo mùa.\n- Lãnh thổ kéo dài nhưng hẹp ngang\n- Địa hình đồi núi chiếm tới 80% diện tích lãnh thổ, ở nhiều vùng (thuộc Trung Bộ và Bắc Bộ) đồi núi chạy lan sát ra biển.",
+      "source_section": "C2 / Phần B. Tổng hợp câu hỏi ôn tập / Dạng tự luận"
+    }
+  ],
   "full_text": "b) Một số hệ thống sông\n* Hệ thống sông Hồng\n- Đặc điểm mạng lưới sông:\n+ Là hệ thống sông lớn thứ 2 cả nước.\n+ Tất cả các phụ lưu lớn hợp với dòng chính sông Hồng tạo thành một mạng lưới sông hình nan quạt.\n- Chế độ nước sông:\n+ Mùa lũ: từ tháng 6 - tháng 10, chiếm khoảng 75% tổng lượng nước cả năm.\n+ Mùa cạn: từ tháng 11 đến tháng 5 năm sau, chiếm khoảng 25% tổng lượng nước cả năm.\n* Hệ thống sông Thu Bồn\n- Đặc điểm mạng lưới sông:\n- Có 78 phụ lưu dài trên 10km.\n- Hệ thống sông thường ngắn, dốc, phân thành nhiều lưu vực nhỏ độc lập có dạng nan quạt.\n- Chế độ nước sông:\n+ Mùa lũ: từ tháng 10 - tháng 12, chiếm khoảng 65% tổng lượng nước cả năm.\n+ Mùa cạn: từ tháng 1 đến tháng 9, chiếm khoảng 35% tổng lượng nước cả năm.\n* Hệ thống sông Mê Công\n- Đặc điểm mạng lưới sông ngòi:\n+ Có 286 phụ lưu, mạng lưới sông có hình lông chim.\n+ Hệ thống kênh rạch chằng chịt.\n- Chế độ nước sông:\n+ Mùa lũ: từ tháng 7 - tháng 11, chiếm khoảng 80% tổng lượng nước cả năm.\n+ Mùa cạn: từ tháng 12 đến tháng 6 năm sau, chiếm khoảng 20% tổng lượng nước cả năm.",
   "summary": "Nội dung trọng tâm được trích nguyên văn từ C2 / Phần A. Tổng hợp kiến thức cần nhớ / Mục 2.1.b, bám đúng bong bóng: Phân tích một hệ thống sông.",
-  "images": [],
+  "images": [
+    {
+      "url": "/hsg8-infographics/overview-olympic-dia8.png",
+      "caption": "Infographic tổng ôn Olympic Địa lí 8 - tư liệu chung",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "url": "/hsg8-infographics/bieu-do-luu-luong-song-dia8.png",
+      "caption": "Tư liệu vẽ và nhận xét biểu đồ lưu lượng dòng chảy sông ngòi Địa lí 8",
+      "width": 1660,
+      "height": 2238
+    }
+  ],
   "stats": {
     "chars": 1048,
     "blocks": 22,
-    "images": 0
+    "images": 2,
+    "essay_items": 2
   }
 }

@@ -68,12 +68,36 @@
     "- Trong nông nghiệp: trồng các cây công nghiệp lâu năm (chè, cà phê, cao su,…), cây dược liệu (quế, hồi, sâm,…) và các loại cây ăn quả như: bưởi, cam, xoài…"
   ],
   "focus_source_section": "C3 / Phần A. Tổng hợp kiến thức cần nhớ / Mục 1.2.a",
+  "essay_items": [
+    {
+      "id": "c3-tu-luan-01",
+      "source_no": 1,
+      "question": "Hoàn thành bảng về giá trị sử dụng của đất feralit và đất phù sa?\nNhóm đất\nGiá trị sử dụng\nĐất feralit\nĐất phù sa",
+      "guide": "GIÁ TRỊ SỬ DỤNG CỦA ĐẤT FERALIT VÀ ĐẤT PHÙ SA Ở NƯỚC TA\nNhóm đất\nGiá trị sử dụng\nĐất feralit\n- Trong nông nghiệp: đất Feralit được khai thác và sử dụng chủ yếu để trồng các cây công nghiệp lâu năm, cây dược liệu; cây ăn quả,…\n- Trong lâm nghiệp: đất feralit thích hợp để phát triển rừng sản xuất và nhiều loại cây gỗ lớn,…\nĐất phù sa\n- Trong nông nghiệp: phù sa là nhóm đất phù hợp để sản xuất lương thực, cây công nghiệp hàng năm và cây ăn quả.\n- Trong thủy sản:\n+ Đất phù sa ở các cửa sông, ven biển có nhiều lợi thế để phát triển ngành thuỷ sản.\n+ Vùng đất phèn, đất mặn tạo điều kiện thuận lợi cho việc đánh bắt thuỷ sản.\n+ Ở các rừng ngập mặn ven biển, các bãi triều ngập nước và ở cửa sông lớn thuận lợi cho nuôi trồng nhiều loại thuỷ sản nước lợ và nước mặn.",
+      "source_section": "C3 / Phần B. Tổng hợp câu hỏi ôn tập / Dạng tự luận"
+    },
+    {
+      "id": "c3-tu-luan-02",
+      "source_no": 2,
+      "question": "Dựa vào sơ đồ sau hãy tóm tắt quá trình hình thành đất feralit trên vùng đồi núi nước ta.",
+      "guide": "- Khí hậu nhiệt đới gió mùa với lượng mưa lớn và mưa tập trung theo mùa làm cho quá trình rửa trôi các chất badơ dễ hòa tan trong đá mẹ giàu sắt và nhôm ở địa hình đồi núi nước ta xảy ra mạnh, dẫn đến tích lũy các ôxít sắt và ôxít nhôm, hình thành các loại đất feralit điển hình ở Việt Nam.",
+      "source_section": "C3 / Phần B. Tổng hợp câu hỏi ôn tập / Dạng tự luận"
+    }
+  ],
   "full_text": "a) Nhóm đất feralit\n- Chiếm tới 65% diện tích đất tự nhiên.\n- Phân bố ở các tỉnh trung du và miền núi, từ độ cao 1600 đến 1700m trở xuống.\n- Đặc điểm:\n+ Chứa nhiều oxít sắt và oxít nhôm tạo nên màu đỏ vàng.\n+ Có lớp vỏ phong hóa dày thoáng khí, dễ thoát nước, đất chua, nghèo các chất badơ và mùn.\n- Giá trị sử dụng:\n+ Trong lâm nghiệp: thích hợp phát triển rừng sản xuất với các loại cây như thông, bạch đàn, xà cừ,...\n- Trong nông nghiệp: trồng các cây công nghiệp lâu năm (chè, cà phê, cao su,…), cây dược liệu (quế, hồi, sâm,…) và các loại cây ăn quả như: bưởi, cam, xoài…",
   "summary": "Nội dung trọng tâm được trích nguyên văn từ C3 / Phần A. Tổng hợp kiến thức cần nhớ / Mục 1.2.a, bám đúng bong bóng: Đất feralit và giá trị sử dụng.",
-  "images": [],
+  "images": [
+    {
+      "url": "/hsg8-infographics/overview-olympic-dia8.png",
+      "caption": "Infographic tổng ôn Olympic Địa lí 8 - tư liệu chung",
+      "width": 1080,
+      "height": 1920
+    }
+  ],
   "stats": {
     "chars": 576,
     "blocks": 9,
-    "images": 0
+    "images": 1,
+    "essay_items": 2
   }
 }

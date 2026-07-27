@@ -60,12 +60,29 @@
     "- Các hệ sinh thái nhân tạo: hoạt động sản xuất nông nghiệp, lâm nghiệp và thuỷ sản của con người."
   ],
   "focus_source_section": "C3 / Phần A. Tổng hợp kiến thức cần nhớ / Mục 2.1",
+  "essay_items": [
+    {
+      "id": "c3-tu-luan-05",
+      "source_no": 5,
+      "question": "Vì sao sinh vật nước ta lại đa dạng và phong phú?",
+      "guide": "- Vị trí địa lí nằm trên đường di cư, di lưu của nhiều loài động vật.\n- Môi trường sống thuận lợi: ánh sáng dồi dào, nhiệt độ cao, đủ nước, tầng đất sâu dày, vụn bỡ,…\n- Ngoài các loài sinh vật bản địa chiếm khoảng 50%, nước ta còn là nơi tiếp xúc của nhiều luồng sinh vật di cư tới như Trung Quốc, Ấn Độ, Ma-lai-xi-a… chiếm khoảng 50%.",
+      "source_section": "C3 / Phần B. Tổng hợp câu hỏi ôn tập / Dạng tự luận"
+    }
+  ],
   "full_text": "2. SINH VẬT VIỆT NAM\n2.1. Sự đa dạng của sinh vật Việt Nam\n* Đa dạng về thành phần loài: Ở nước ta đã phát hiện hơn 50.000 loài sinh vật, trong đó nhiều loài thực vật quý hiếm (trầm hương, trắc, sâm Ngọc Linh, nghiến, gỗ gụ…) và động vật quý hiếm (Sao la, voi, bò tót, trĩ…).\n* Đa dạng về nguồn gen di truyền: số lượng các cá thể trong mỗi loài tương đối phong phú, tạo nên sự đa dạng về nguồn gen di truyền,…\n* Đa dạng về hệ sinh thái:\n- Hệ sinh thái tự nhiên trên cạn như rừng kín thường xanh, rừng thưa, rừng tre nứa, rừng trên núi đá vôi,...\n- Hệ sinh thái tự nhiên dưới nước: nước mặn, nước ngọt.\n- Các hệ sinh thái nhân tạo: hoạt động sản xuất nông nghiệp, lâm nghiệp và thuỷ sản của con người.",
   "summary": "Nội dung trọng tâm được trích nguyên văn từ C3 / Phần A. Tổng hợp kiến thức cần nhớ / Mục 2.1, bám đúng bong bóng: Sự đa dạng sinh vật Việt Nam.",
-  "images": [],
+  "images": [
+    {
+      "url": "/hsg8-infographics/overview-olympic-dia8.png",
+      "caption": "Infographic tổng ôn Olympic Địa lí 8 - tư liệu chung",
+      "width": 1080,
+      "height": 1920
+    }
+  ],
   "stats": {
     "chars": 700,
     "blocks": 8,
-    "images": 0
+    "images": 1,
+    "essay_items": 1
   }
 }

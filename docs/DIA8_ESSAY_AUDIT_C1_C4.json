@@ -1,0 +1,447 @@
+{
+  "schema": "dia8dragon-essay-audit.v1",
+  "essays": [
+    {
+      "essay_id": "c1-tu-luan-01",
+      "source_file": "LOP_8_C1---d3c76b6e-82aa-48bd-abe3-8075329ed35f.docx",
+      "source_section": "C1 / Phần B. Tổng hợp câu hỏi ôn tập / Dạng tự luận",
+      "source_no": 1,
+      "question": "Vị trí địa lí và lãnh thổ đã quy định đặc điểm cơ bản của thiên nhiên nước ta là?",
+      "guide_chars": 167,
+      "topic_ids": [
+        1,
+        2
+      ],
+      "topic_labels": [
+        "Vị trí địa lí và phạm vi lãnh thổ",
+        "Ảnh hưởng của vị trí địa lí và phạm vi lãnh thổ"
+      ]
+    },
+    {
+      "essay_id": "c1-tu-luan-02",
+      "source_file": "LOP_8_C1---d3c76b6e-82aa-48bd-abe3-8075329ed35f.docx",
+      "source_section": "C1 / Phần B. Tổng hợp câu hỏi ôn tập / Dạng tự luận",
+      "source_no": 2,
+      "question": "Vị trí địa lí và lãnh thổ ảnh hưởng đến sự phân hóa khí hậu nước ta như thế nào??",
+      "guide_chars": 226,
+      "topic_ids": [
+        2,
+        8,
+        10
+      ],
+      "topic_labels": [
+        "Ảnh hưởng của vị trí địa lí và phạm vi lãnh thổ",
+        "Khí hậu nhiệt đới ẩm gió mùa",
+        "Phân hoá khí hậu Việt Nam"
+      ]
+    },
+    {
+      "essay_id": "c1-tu-luan-03",
+      "source_file": "LOP_8_C1---d3c76b6e-82aa-48bd-abe3-8075329ed35f.docx",
+      "source_section": "C1 / Phần B. Tổng hợp câu hỏi ôn tập / Dạng tự luận",
+      "source_no": 3,
+      "question": "Vì sao thiên nhiên nước ta chịu ảnh hưởng sâu sắc của biển?",
+      "guide_chars": 204,
+      "topic_ids": [
+        2,
+        29
+      ],
+      "topic_labels": [
+        "Ảnh hưởng của vị trí địa lí và phạm vi lãnh thổ",
+        "Đặc điểm tự nhiên vùng biển đảo"
+      ]
+    },
+    {
+      "essay_id": "c1-tu-luan-04",
+      "source_file": "LOP_8_C1---d3c76b6e-82aa-48bd-abe3-8075329ed35f.docx",
+      "source_section": "C1 / Phần B. Tổng hợp câu hỏi ôn tập / Dạng tự luận",
+      "source_no": 4,
+      "question": "Vẽ sơ đồ thể hiện ảnh hưởng của vị trí địa lí và phạm vi lãnh thổ tới đặc điểm tự nhiên Việt Nam?",
+      "guide_chars": 0,
+      "topic_ids": [
+        1,
+        2
+      ],
+      "topic_labels": [
+        "Vị trí địa lí và phạm vi lãnh thổ",
+        "Ảnh hưởng của vị trí địa lí và phạm vi lãnh thổ"
+      ]
+    },
+    {
+      "essay_id": "c1-tu-luan-05",
+      "source_file": "LOP_8_C1---d3c76b6e-82aa-48bd-abe3-8075329ed35f.docx",
+      "source_section": "C1 / Phần B. Tổng hợp câu hỏi ôn tập / Dạng tự luận",
+      "source_no": 5,
+      "question": "Vì sao khoáng sản nước ta lại phong phú và đa dạng??",
+      "guide_chars": 222,
+      "topic_ids": [
+        5
+      ],
+      "topic_labels": [
+        "Đặc điểm khoáng sản Việt Nam"
+      ]
+    },
+    {
+      "essay_id": "c1-tu-luan-07",
+      "source_file": "LOP_8_C1---d3c76b6e-82aa-48bd-abe3-8075329ed35f.docx",
+      "source_section": "C1 / Phần B. Tổng hợp câu hỏi ôn tập / Dạng tự luận",
+      "source_no": 7,
+      "question": "Nguyên nhân nào dẫn đến việc khai thác và sử dụng tài nguyên khoáng sản chưa hợp lí??",
+      "guide_chars": 75,
+      "topic_ids": [
+        6
+      ],
+      "topic_labels": [
+        "Phân bố và sử dụng khoáng sản"
+      ]
+    },
+    {
+      "essay_id": "c1-tu-luan-08",
+      "source_file": "LOP_8_C1---d3c76b6e-82aa-48bd-abe3-8075329ed35f.docx",
+      "source_section": "C1 / Phần B. Tổng hợp câu hỏi ôn tập / Dạng tự luận",
+      "source_no": 8,
+      "question": "Hãy vẽ sơ đồ thể hiện sự đa dạng của tài nguyên khoáng sản Việt Nam.",
+      "guide_chars": 0,
+      "topic_ids": [
+        5
+      ],
+      "topic_labels": [
+        "Đặc điểm khoáng sản Việt Nam"
+      ]
+    },
+    {
+      "essay_id": "c2-tu-luan-01",
+      "source_file": "LOP_8_C2---662f9dd8-7d10-4634-822b-a0cbf3ab2aea.docx",
+      "source_section": "C2 / Phần B. Tổng hợp câu hỏi ôn tập / Dạng tự luận",
+      "source_no": 1,
+      "question": "Nguyên nhân nào tạo nên sự phân hóa bắc-nam, đông-tây, đai cao của khí hậu nước ta??",
+      "guide_chars": 781,
+      "topic_ids": [
+        10
+      ],
+      "topic_labels": [
+        "Phân hoá khí hậu Việt Nam"
+      ]
+    },
+    {
+      "essay_id": "c2-tu-luan-02",
+      "source_file": "LOP_8_C2---662f9dd8-7d10-4634-822b-a0cbf3ab2aea.docx",
+      "source_section": "C2 / Phần B. Tổng hợp câu hỏi ôn tập / Dạng tự luận",
+      "source_no": 2,
+      "question": "quan sát hình 4.2 trả lời các câu hỏi sau:\na) Trình bày sự phân hoá khí hậu ở trạm khí tượng Lào Cai?\nb) Trình bày sự phân hoá khí hậu ở trạm khí tượng Sa Pa?",
+      "guide_chars": 774,
+      "topic_ids": [
+        10,
+        15,
+        16
+      ],
+      "topic_labels": [
+        "Phân hoá khí hậu Việt Nam",
+        "Đọc biểu đồ khí hậu và trạm khí tượng thuỷ văn",
+        "Vẽ và phân tích biểu đồ khí hậu"
+      ]
+    },
+    {
+      "essay_id": "c2-tu-luan-03",
+      "source_file": "LOP_8_C2---662f9dd8-7d10-4634-822b-a0cbf3ab2aea.docx",
+      "source_section": "C2 / Phần B. Tổng hợp câu hỏi ôn tập / Dạng tự luận",
+      "source_no": 3,
+      "question": "Nêu đặc điểm chung của sông ngòi nước ta?",
+      "guide_chars": 211,
+      "topic_ids": [
+        9,
+        13
+      ],
+      "topic_labels": [
+        "Lưu vực sông và hệ thống sông lớn",
+        "Phân tích một hệ thống sông"
+      ]
+    },
+    {
+      "essay_id": "c2-tu-luan-04",
+      "source_file": "LOP_8_C2---662f9dd8-7d10-4634-822b-a0cbf3ab2aea.docx",
+      "source_section": "C2 / Phần B. Tổng hợp câu hỏi ôn tập / Dạng tự luận",
+      "source_no": 4,
+      "question": "Vì sao nước ta có rất nhiều sông suối, song phần lớn lại là các sông nhỏ, ngắn và dốc ?",
+      "guide_chars": 240,
+      "topic_ids": [
+        9,
+        13
+      ],
+      "topic_labels": [
+        "Lưu vực sông và hệ thống sông lớn",
+        "Phân tích một hệ thống sông"
+      ]
+    },
+    {
+      "essay_id": "c2-tu-luan-05",
+      "source_file": "LOP_8_C2---662f9dd8-7d10-4634-822b-a0cbf3ab2aea.docx",
+      "source_section": "C2 / Phần B. Tổng hợp câu hỏi ôn tập / Dạng tự luận",
+      "source_no": 5,
+      "question": "Hãy phân tích vai trò của nước ngầm đối với sản xuất và sinh hoạt ở nước ta?",
+      "guide_chars": 593,
+      "topic_ids": [
+        14,
+        19
+      ],
+      "topic_labels": [
+        "Hồ, đầm và nước ngầm",
+        "Khai thác tổng hợp tài nguyên nước"
+      ]
+    },
+    {
+      "essay_id": "c2-tu-luan-06",
+      "source_file": "LOP_8_C2---662f9dd8-7d10-4634-822b-a0cbf3ab2aea.docx",
+      "source_section": "C2 / Phần B. Tổng hợp câu hỏi ôn tập / Dạng tự luận",
+      "source_no": 6,
+      "question": "Nêu nguyên nhân gây ô nhiễm nguồn nước ngầm ở Việt Nam và đề xuất các giải pháp cho vấn đề sử dụng hợp lí và bảo vệ nguồn nước ngầm.",
+      "guide_chars": 479,
+      "topic_ids": [
+        14,
+        19
+      ],
+      "topic_labels": [
+        "Hồ, đầm và nước ngầm",
+        "Khai thác tổng hợp tài nguyên nước"
+      ]
+    },
+    {
+      "essay_id": "c2-tu-luan-07",
+      "source_file": "LOP_8_C2---662f9dd8-7d10-4634-822b-a0cbf3ab2aea.docx",
+      "source_section": "C2 / Phần B. Tổng hợp câu hỏi ôn tập / Dạng tự luận",
+      "source_no": 7,
+      "question": "Sự phân hoá khí hậu có ảnh hưởng như thế nào đến hoạt động du lịch nước ta?",
+      "guide_chars": 811,
+      "topic_ids": [
+        17
+      ],
+      "topic_labels": [
+        "Vai trò khí hậu đối với du lịch"
+      ]
+    },
+    {
+      "essay_id": "c2-tu-luan-08",
+      "source_file": "LOP_8_C2---662f9dd8-7d10-4634-822b-a0cbf3ab2aea.docx",
+      "source_section": "C2 / Phần B. Tổng hợp câu hỏi ôn tập / Dạng tự luận",
+      "source_no": 8,
+      "question": "Dựa vào thông tin mục 2, các hình 7.3 7.4 và hiểu biết cá nhân, lấy ví dụ để phân tích vai trò của khí hậu đối với sự phát triển du lịch ở một số điểm du lịch nổi tiếng ở nước ta",
+      "guide_chars": 462,
+      "topic_ids": [
+        17,
+        16
+      ],
+      "topic_labels": [
+        "Vai trò khí hậu đối với du lịch",
+        "Vẽ và phân tích biểu đồ khí hậu"
+      ]
+    },
+    {
+      "essay_id": "c3-tu-luan-01",
+      "source_file": "LOP_8_C3---c68ef26f-94b3-44a8-bb7f-e11f5ae96917.docx",
+      "source_section": "C3 / Phần B. Tổng hợp câu hỏi ôn tập / Dạng tự luận",
+      "source_no": 1,
+      "question": "Hoàn thành bảng về giá trị sử dụng của đất feralit và đất phù sa?\nNhóm đất\nGiá trị sử dụng\nĐất feralit\nĐất phù sa",
+      "guide_chars": 765,
+      "topic_ids": [
+        21,
+        23,
+        24
+      ],
+      "topic_labels": [
+        "Ba nhóm đất chính",
+        "Đất feralit và giá trị sử dụng",
+        "Đất phù sa và giá trị sử dụng"
+      ]
+    },
+    {
+      "essay_id": "c3-tu-luan-02",
+      "source_file": "LOP_8_C3---c68ef26f-94b3-44a8-bb7f-e11f5ae96917.docx",
+      "source_section": "C3 / Phần B. Tổng hợp câu hỏi ôn tập / Dạng tự luận",
+      "source_no": 2,
+      "question": "Dựa vào sơ đồ sau hãy tóm tắt quá trình hình thành đất feralit trên vùng đồi núi nước ta.",
+      "guide_chars": 290,
+      "topic_ids": [
+        22,
+        23
+      ],
+      "topic_labels": [
+        "Tính chất nhiệt đới gió mùa của thổ nhưỡng",
+        "Đất feralit và giá trị sử dụng"
+      ]
+    },
+    {
+      "essay_id": "c3-tu-luan-03",
+      "source_file": "LOP_8_C3---c68ef26f-94b3-44a8-bb7f-e11f5ae96917.docx",
+      "source_section": "C3 / Phần B. Tổng hợp câu hỏi ôn tập / Dạng tự luận",
+      "source_no": 3,
+      "question": "Vì sao thổ nhưỡng nước ta mang tính chất nhiệt đới gió mùa?",
+      "guide_chars": 233,
+      "topic_ids": [
+        22
+      ],
+      "topic_labels": [
+        "Tính chất nhiệt đới gió mùa của thổ nhưỡng"
+      ]
+    },
+    {
+      "essay_id": "c3-tu-luan-04",
+      "source_file": "LOP_8_C3---c68ef26f-94b3-44a8-bb7f-e11f5ae96917.docx",
+      "source_section": "C3 / Phần B. Tổng hợp câu hỏi ôn tập / Dạng tự luận",
+      "source_no": 4,
+      "question": "Phân tích giá giá trị sử dụng của nhóm đất phù sa trong sản xuất nông nghiệp, thủy sản.",
+      "guide_chars": 426,
+      "topic_ids": [
+        24
+      ],
+      "topic_labels": [
+        "Đất phù sa và giá trị sử dụng"
+      ]
+    },
+    {
+      "essay_id": "c3-tu-luan-05",
+      "source_file": "LOP_8_C3---c68ef26f-94b3-44a8-bb7f-e11f5ae96917.docx",
+      "source_section": "C3 / Phần B. Tổng hợp câu hỏi ôn tập / Dạng tự luận",
+      "source_no": 5,
+      "question": "Vì sao sinh vật nước ta lại đa dạng và phong phú?",
+      "guide_chars": 335,
+      "topic_ids": [
+        25
+      ],
+      "topic_labels": [
+        "Sự đa dạng sinh vật Việt Nam"
+      ]
+    },
+    {
+      "essay_id": "c3-tu-luan-06",
+      "source_file": "LOP_8_C3---c68ef26f-94b3-44a8-bb7f-e11f5ae96917.docx",
+      "source_section": "C3 / Phần B. Tổng hợp câu hỏi ôn tập / Dạng tự luận",
+      "source_no": 6,
+      "question": "Nguyên nhân nào gây suy giảm đa dạng sinh học ở nước ta?",
+      "guide_chars": 153,
+      "topic_ids": [
+        27
+      ],
+      "topic_labels": [
+        "Bảo tồn đa dạng sinh học"
+      ]
+    },
+    {
+      "essay_id": "c4-tu-luan-01",
+      "source_file": "LOP_8_C4---07c2372b-3416-493e-887f-a0d331974bbf.docx",
+      "source_section": "C4 / Phần B. Tổng hợp câu hỏi ôn tập / Dạng tự luận",
+      "source_no": 1,
+      "question": "Nêu căn cứ xác định vùng biển nước ta?",
+      "guide_chars": 142,
+      "topic_ids": [
+        28,
+        32
+      ],
+      "topic_labels": [
+        "Phạm vi Biển Đông và vùng biển Việt Nam",
+        "Luật biển và các vùng biển Việt Nam"
+      ]
+    },
+    {
+      "essay_id": "c4-tu-luan-02",
+      "source_file": "LOP_8_C4---07c2372b-3416-493e-887f-a0d331974bbf.docx",
+      "source_section": "C4 / Phần B. Tổng hợp câu hỏi ôn tập / Dạng tự luận",
+      "source_no": 2,
+      "question": "Nội thủy và lãnh hải khác nhau như thế nào?",
+      "guide_chars": 265,
+      "topic_ids": [
+        32
+      ],
+      "topic_labels": [
+        "Luật biển và các vùng biển Việt Nam"
+      ]
+    },
+    {
+      "essay_id": "c4-tu-luan-03",
+      "source_file": "LOP_8_C4---07c2372b-3416-493e-887f-a0d331974bbf.docx",
+      "source_section": "C4 / Phần B. Tổng hợp câu hỏi ôn tập / Dạng tự luận",
+      "source_no": 3,
+      "question": "Biển đảo có vai trò như thế nào đối với sự phát triển kinh tế - xã hội?",
+      "guide_chars": 336,
+      "topic_ids": [
+        30,
+        33
+      ],
+      "topic_labels": [
+        "Tài nguyên biển và thềm lục địa",
+        "Thuận lợi, khó khăn kinh tế biển và bảo vệ chủ quyền"
+      ]
+    },
+    {
+      "essay_id": "c4-tu-luan-04",
+      "source_file": "LOP_8_C4---07c2372b-3416-493e-887f-a0d331974bbf.docx",
+      "source_section": "C4 / Phần B. Tổng hợp câu hỏi ôn tập / Dạng tự luận",
+      "source_no": 4,
+      "question": "Ô nhiễm môi trường biển gây ra những hậu quả gì?",
+      "guide_chars": 151,
+      "topic_ids": [
+        31
+      ],
+      "topic_labels": [
+        "Môi trường biển đảo Việt Nam"
+      ]
+    },
+    {
+      "essay_id": "c4-tu-luan-05",
+      "source_file": "LOP_8_C4---07c2372b-3416-493e-887f-a0d331974bbf.docx",
+      "source_section": "C4 / Phần B. Tổng hợp câu hỏi ôn tập / Dạng tự luận",
+      "source_no": 5,
+      "question": "Bản thân em là học sinh thì cần phải làm gì để bảo vệ môi trường biển đảo?",
+      "guide_chars": 393,
+      "topic_ids": [
+        31,
+        33
+      ],
+      "topic_labels": [
+        "Môi trường biển đảo Việt Nam",
+        "Thuận lợi, khó khăn kinh tế biển và bảo vệ chủ quyền"
+      ]
+    },
+    {
+      "essay_id": "c4-tu-luan-06",
+      "source_file": "LOP_8_C4---07c2372b-3416-493e-887f-a0d331974bbf.docx",
+      "source_section": "C4 / Phần B. Tổng hợp câu hỏi ôn tập / Dạng tự luận",
+      "source_no": 6,
+      "question": "Nêu các biện pháp bảo vệ môi trường biển đảo nước ta?",
+      "guide_chars": 314,
+      "topic_ids": [
+        31
+      ],
+      "topic_labels": [
+        "Môi trường biển đảo Việt Nam"
+      ]
+    },
+    {
+      "essay_id": "c4-tu-luan-07",
+      "source_file": "LOP_8_C4---07c2372b-3416-493e-887f-a0d331974bbf.docx",
+      "source_section": "C4 / Phần B. Tổng hợp câu hỏi ôn tập / Dạng tự luận",
+      "source_no": 7,
+      "question": "Hãy kể tên 5 dạng địa hình ven biển nước ta?",
+      "guide_chars": 146,
+      "topic_ids": [
+        29
+      ],
+      "topic_labels": [
+        "Đặc điểm tự nhiên vùng biển đảo"
+      ]
+    },
+    {
+      "essay_id": "c4-tu-luan-08",
+      "source_file": "LOP_8_C4---07c2372b-3416-493e-887f-a0d331974bbf.docx",
+      "source_section": "C4 / Phần B. Tổng hợp câu hỏi ôn tập / Dạng tự luận",
+      "source_no": 8,
+      "question": "Trình bày đặc điểm khí hậu vùng biển nước ta.",
+      "guide_chars": 705,
+      "topic_ids": [
+        29
+      ],
+      "topic_labels": [
+        "Đặc điểm tự nhiên vùng biển đảo"
+      ]
+    }
+  ]
+}

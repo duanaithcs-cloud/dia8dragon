@@ -43,12 +43,36 @@
     "- Khó khăn: Các hiện tượng thời tiết như mưa lớn, bão,... là trở ngại đối với hoạt động du lịch ngoài trời."
   ],
   "focus_source_section": "C2 / Phần A. Tổng hợp kiến thức cần nhớ / Mục 3.2",
+  "essay_items": [
+    {
+      "id": "c2-tu-luan-07",
+      "source_no": 7,
+      "question": "Sự phân hoá khí hậu có ảnh hưởng như thế nào đến hoạt động du lịch nước ta?",
+      "guide": "Khí hậu nhiệt đới ẩm gió mùa, có sự phân hóa theo mùa và theo đai cao ở nước ta đã tác động trực tiếp đến sự hình thành các điểm du lịch, loại hình du lịch, mùa vụ du lịch…\n+ Ở các khu vực đồi núi, sự phân hoá khí hậu theo độ cao tạo điều kiện phát triển các loại hình du lịch như nghỉ dưỡng, tham quan… Các vùng núi cao có khí hậu mát mẻ quanh năm, không khí trong lành là cơ sở để tạo nên các điểm du lịch, như: Sa Pa (Lào Cai), Tam Đảo (Vĩnh Phúc nay là tỉnh Phú Thọ), Bà Nà (Đà Nẵng), Đà Lạt (Lâm Đồng),…\n+ Sự phân hoá của khí hậu giữa miền Bắc và miền Nam ảnh hưởng đến mùa vụ du lịch của hai miền. Các hoạt động du lịch biển ở miền Bắc hầu như chỉ diễn ra vào mùa hạ còn ở miền Nam có thể diễn ra quanh năm.\n- Các hiện tượng thời tiết như mưa lớn, bão,... là trở ngại đối với hoạt động du lịch ngoài trời.",
+      "source_section": "C2 / Phần B. Tổng hợp câu hỏi ôn tập / Dạng tự luận"
+    },
+    {
+      "id": "c2-tu-luan-08",
+      "source_no": 8,
+      "question": "Dựa vào thông tin mục 2, các hình 7.3 7.4 và hiểu biết cá nhân, lấy ví dụ để phân tích vai trò của khí hậu đối với sự phát triển du lịch ở một số điểm du lịch nổi tiếng ở nước ta",
+      "guide": "* Tham khảo: Vai trò của khí hậu đối với sự phát triển du lịch Đà Lạt\nĐà Lạt nằm ở khu vực cao nguyên nên nhiệt độ nơi đây ở ngưỡng trung bình xấp xỉ khoảng 18 độ C đến 19 độ C; không khí trong lành, mát mẻ. Do địa hình cao và được bao phủ bởi núi rừng nên Đà Lạt thường xuyên có sương mù.\n=> Với những đặc điểm khí hậu thú vị như vậy, nên các hoạt động du lịch nghỉ dưỡng rất phát triển ở Đà Lạt, thu hút du khách trong và ngoài nước đến tham quan, trải nghiệm.",
+      "source_section": "C2 / Phần B. Tổng hợp câu hỏi ôn tập / Dạng tự luận"
+    }
+  ],
   "full_text": "3.2. Ảnh hưởng của khí hậu đối với hoạt động du lịch\n- Thuận lợi:\n+ Điều kiện khí hậu có ảnh hưởng đến một số loại hình du lịch như du lịch biển, du lịch nghỉ dưỡng, du lịch khám phá tự nhiên,...\n+ Khí hậu nhiệt đới ẩm gió mùa, có sự phân hóa theo mùa và theo đai cao ở nước ta đã tác động trực tiếp đến sự hình thành các điểm du lịch, loại hình du lịch, mùa vụ du lịch…\n- Khó khăn: Các hiện tượng thời tiết như mưa lớn, bão,... là trở ngại đối với hoạt động du lịch ngoài trời.",
   "summary": "Nội dung trọng tâm được trích nguyên văn từ C2 / Phần A. Tổng hợp kiến thức cần nhớ / Mục 3.2, bám đúng bong bóng: Vai trò khí hậu đối với du lịch.",
-  "images": [],
+  "images": [
+    {
+      "url": "/hsg8-infographics/overview-olympic-dia8.png",
+      "caption": "Infographic tổng ôn Olympic Địa lí 8 - tư liệu chung",
+      "width": 1080,
+      "height": 1920
+    }
+  ],
   "stats": {
     "chars": 478,
     "blocks": 5,
-    "images": 0
+    "images": 1,
+    "essay_items": 2
   }
 }

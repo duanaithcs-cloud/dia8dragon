@@ -84,12 +84,36 @@
     "+ Đất feralit thường bị rửa trôi, xói mòn mạnh."
   ],
   "focus_source_section": "C3 / Phần A. Tổng hợp kiến thức cần nhớ / Mục 1.1",
+  "essay_items": [
+    {
+      "id": "c3-tu-luan-02",
+      "source_no": 2,
+      "question": "Dựa vào sơ đồ sau hãy tóm tắt quá trình hình thành đất feralit trên vùng đồi núi nước ta.",
+      "guide": "- Khí hậu nhiệt đới gió mùa với lượng mưa lớn và mưa tập trung theo mùa làm cho quá trình rửa trôi các chất badơ dễ hòa tan trong đá mẹ giàu sắt và nhôm ở địa hình đồi núi nước ta xảy ra mạnh, dẫn đến tích lũy các ôxít sắt và ôxít nhôm, hình thành các loại đất feralit điển hình ở Việt Nam.",
+      "source_section": "C3 / Phần B. Tổng hợp câu hỏi ôn tập / Dạng tự luận"
+    },
+    {
+      "id": "c3-tu-luan-03",
+      "source_no": 3,
+      "question": "Vì sao thổ nhưỡng nước ta mang tính chất nhiệt đới gió mùa?",
+      "guide": "Nguyên nhân:\n- Ở khu vực nhiệt đới ẩm gió mùa, quá trình phong hoá diễn ra với cường độ mạnh.\n- Lượng mưa tập trung theo mùa rửa trôi các chất badơ dễ tan đồng thời tích tụ oxit sắt và oxit nhôm.\n- Một số nơi mất đi lớp phủ thực vật.",
+      "source_section": "C3 / Phần B. Tổng hợp câu hỏi ôn tập / Dạng tự luận"
+    }
+  ],
   "full_text": "1. THỔ NHƯỠNG VIỆT NAM\n1.1. Tính chất nhiệt đới gió mùa của lớp phủ thổ nhưỡng\n- Thổ nhưỡng là lớp vật chất mỏng, vụn bở, bao phủ trên bề mặt các lục địa và đảo, được đặc trưng bởi độ phì.\n- Các nhân tố hình thành đất ở nước ta: đá mẹ, khí hậu, sinh vật, địa hình, thời gian, con người.\n- Nguyên nhân:\n+ Ở khu vực nhiệt đới ẩm gió mùa, quá trình phong hoá diễn ra với cường độ mạnh.\n+ Lượng mưa tập trung theo mùa rửa trôi các chất badơ dễ tan đồng thời tích tụ oxit sắt và oxit nhôm.\n+ Một số nơi mất đi lớp phủ thực vật.\n- Biểu hiện:\n+ Lớp phủ thổ nhưỡng dày.\n+ Quá trình feralit là quá trình hình thành đất đặc trưng của nước ta.\n+ Đất feralit thường bị rửa trôi, xói mòn mạnh.",
   "summary": "Nội dung trọng tâm được trích nguyên văn từ C3 / Phần A. Tổng hợp kiến thức cần nhớ / Mục 1.1, bám đúng bong bóng: Tính chất nhiệt đới gió mùa của thổ nhưỡng.",
-  "images": [],
+  "images": [
+    {
+      "url": "/hsg8-infographics/overview-olympic-dia8.png",
+      "caption": "Infographic tổng ôn Olympic Địa lí 8 - tư liệu chung",
+      "width": 1080,
+      "height": 1920
+    }
+  ],
   "stats": {
     "chars": 680,
     "blocks": 12,
-    "images": 0
+    "images": 1,
+    "essay_items": 2
   }
 }

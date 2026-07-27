@@ -142,12 +142,29 @@
     "+ Ở miền Bắc: nửa đầu mùa đông thời tiết lạnh khô, nửa sau mùa đông thời tiết lạnh ẩm, có mưa phùn."
   ],
   "focus_source_section": "C2 / Phần A. Tổng hợp kiến thức cần nhớ / Mục 1.1",
+  "essay_items": [
+    {
+      "id": "c1-tu-luan-02",
+      "source_no": 2,
+      "question": "Vị trí địa lí và lãnh thổ ảnh hưởng đến sự phân hóa khí hậu nước ta như thế nào??",
+      "guide": "- Việt Nam nằm hoàn toàn trong đới nóng của bán cầu Bắc, trong vùng gió mùa châu Á, một năm có hai mùa rõ rệt.\n- Nước ta nằm trong khu vực chịu nhiều ảnh hưởng của các cơn bão đến từ khu vực biển nhiệt đới Tây Thái Bình Dương.",
+      "source_section": "C1 / Phần B. Tổng hợp câu hỏi ôn tập / Dạng tự luận"
+    }
+  ],
   "full_text": "1. KHÍ HẬU VIỆT NAM\n1.1. Khí hậu nhiệt đới ẩm gió mùa\na) Tính chất nhiệt đới\n- Nhiệt độ trung bình năm trên 200C (trừ vùng núi cao) và tăng dần từ Bắc vào Nam.\n- Số giờ nắng nhiều, đạt từ 1400 - 3000 giờ/năm.\n- Cán cân bức xạ từ 70-100 kcal/cm2/năm.\nb) Tính chất ẩm\n- Lượng mưa trung bình năm lớn: từ 1500 - 2000 mm/năm.\n- Độ ẩm không khí cao, trên 80%.\nc) Tính chất gió mùa\n* Gió mùa mùa đông:\n- Thời gian: từ tháng 11 – 4 năm sau\n- Nguồn gốc: áp cao Xi-bia.\n- Hướng gió: Đông Bắc\n- Đặc điểm:\n+ Ở miền Bắc: nửa đầu mùa đông thời tiết lạnh khô, nửa sau mùa đông thời tiết lạnh ẩm, có mưa phùn.\n+ Ở miền Nam, Tín phong chiếm ưu thế đem đến mùa khô cho Nan Bộ và Tây Nguyên, gây mưa cho vùng biển Nam Trung Bộ.\n* Gió mùa mùa hạ:\n- Thời gian: từ tháng 5 – 10\n- Nguồn gốc: áp cao Bắc Ấn Độ Dương và áp cao cận chí tuyến Nam bán cầu.\n- Hướng gió: tây nam, đối với miền Bắc là đông nam.\n- Đặc điểm:\n+ Đầu mùa hạ: gây mưa cho Nam Bộ, Tây Nguyên nhưng gây khô nóng cho phía đông Trường Sơn, Tây Bắc.\n+ Giữa và cuối mùa hạ: nóng ẩm, mưa nhiều cả nước.",
   "summary": "Nội dung trọng tâm được trích nguyên văn từ C2 / Phần A. Tổng hợp kiến thức cần nhớ / Mục 1.1, bám đúng bong bóng: Khí hậu nhiệt đới ẩm gió mùa.",
-  "images": [],
+  "images": [
+    {
+      "url": "/hsg8-infographics/overview-olympic-dia8.png",
+      "caption": "Infographic tổng ôn Olympic Địa lí 8 - tư liệu chung",
+      "width": 1080,
+      "height": 1920
+    }
+  ],
   "stats": {
     "chars": 1042,
     "blocks": 24,
-    "images": 0
+    "images": 1,
+    "essay_items": 1
   }
 }

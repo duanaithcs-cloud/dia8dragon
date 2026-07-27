@@ -1,12 +1,15 @@
 import json
 import re
+import unicodedata
 import zipfile
+from collections import defaultdict
 from pathlib import Path
 from xml.etree import ElementTree as ET
 
 ROOT = Path(__file__).resolve().parents[1]
 DOC_DIR = ROOT / "public" / "documents" / "learning-library" / "files"
 OUT_DIR = ROOT / "public" / "data" / "topics"
+DOCS_DIR = ROOT / "docs"
 
 NS = {"w": "http://schemas.openxmlformats.org/wordprocessingml/2006/main"}
 
@@ -83,6 +86,94 @@ TOPIC_META = {
     33: ("Thuận lợi, khó khăn kinh tế biển và bảo vệ chủ quyền", "Kinh tế biển", "Biển đảo Việt Nam"),
 }
 
+ESSAY_TOPIC_MAP = {
+    "C1": {
+        1: [1, 2],
+        2: [2, 8, 10],
+        3: [2, 29],
+        4: [1, 2],
+        5: [5],
+        7: [6],
+        8: [5],
+    },
+    "C2": {
+        1: [10],
+        2: [10, 15, 16],
+        3: [9, 13],
+        4: [9, 13],
+        5: [14, 19],
+        6: [14, 19],
+        7: [17],
+        8: [17, 16],
+    },
+    "C3": {
+        1: [21, 23, 24],
+        2: [22, 23],
+        3: [22],
+        4: [24],
+        5: [25],
+        6: [27],
+    },
+    "C4": {
+        1: [28, 32],
+        2: [32],
+        3: [30, 33],
+        4: [31],
+        5: [31, 33],
+        6: [31],
+        7: [29],
+        8: [29],
+    },
+}
+
+COMMON_IMAGES = [
+    {
+        "url": "/hsg8-infographics/overview-olympic-dia8.png",
+        "caption": "Infographic tổng ôn Olympic Địa lí 8 - tư liệu chung",
+        "width": 1080,
+        "height": 1920,
+    }
+]
+
+TOPIC_IMAGES = {
+    13: [
+        {
+            "url": "/hsg8-infographics/bieu-do-luu-luong-song-dia8.png",
+            "caption": "Tư liệu vẽ và nhận xét biểu đồ lưu lượng dòng chảy sông ngòi Địa lí 8",
+            "width": 1660,
+            "height": 2238,
+        }
+    ],
+    15: [
+        {
+            "url": "/hsg8-infographics/bieu-do-luu-luong-song-dia8.png",
+            "caption": "Tư liệu đọc và nhận xét biểu đồ lưu lượng dòng chảy theo tháng",
+            "width": 1660,
+            "height": 2238,
+        }
+    ],
+    16: [
+        {
+            "url": "/hsg8-infographics/bieu-do-luu-luong-song-dia8.png",
+            "caption": "Mẫu trình bày biểu đồ đường và nhận xét số liệu thuỷ văn",
+            "width": 1660,
+            "height": 2238,
+        }
+    ],
+    19: [
+        {
+            "url": "/hsg8-infographics/bieu-do-luu-luong-song-dia8.png",
+            "caption": "Bài luyện khai thác số liệu tài nguyên nước và chế độ dòng chảy",
+            "width": 1660,
+            "height": 2238,
+        }
+    ],
+}
+
+
+def clean_text(text: str) -> str:
+    return unicodedata.normalize("NFC", re.sub(r"\s+", " ", text).strip())
+
 
 def doc_key(path: Path) -> str:
     name = path.name.upper()
@@ -92,17 +183,107 @@ def doc_key(path: Path) -> str:
     return f"C{match.group(1)}"
 
 
-def extract_paragraphs(path: Path) -> list[str]:
+def extract_all_paragraphs(path: Path) -> list[str]:
     with zipfile.ZipFile(path) as archive:
         root = ET.fromstring(archive.read("word/document.xml"))
 
     paragraphs: list[str] = []
     for paragraph in root.findall(".//w:p", NS):
-        text = "".join(node.text or "" for node in paragraph.findall(".//w:t", NS)).strip()
-        if text:
-            paragraphs.append(re.sub(r"\s+", " ", text))
+        text = "".join(node.text or "" for node in paragraph.findall(".//w:t", NS))
+        if text.strip():
+            paragraphs.append(clean_text(text))
+    return paragraphs
+
+
+def extract_part_a(path: Path) -> list[str]:
+    paragraphs = extract_all_paragraphs(path)
     stop = next((idx for idx, line in enumerate(paragraphs) if line.startswith("B. ")), len(paragraphs))
     return paragraphs[:stop]
+
+
+def parse_essay_items(key: str, path: Path) -> list[dict]:
+    paragraphs = extract_all_paragraphs(path)
+    start = next((idx for idx, line in enumerate(paragraphs) if "Tự luận" in line), None)
+    if start is None:
+        raise SystemExit(f"Cannot find essay section in {path.name}")
+
+    items: list[dict] = []
+    current: dict | None = None
+    mode = "question"
+
+    for line in paragraphs[start + 1 :]:
+        question_match = re.match(r"^Câu\s+(\d+)[\.:]\s*(.*)", line, re.I)
+        if question_match:
+            if current:
+                items.append(finalize_essay_item(key, current))
+            current = {
+                "source_no": int(question_match.group(1)),
+                "question_lines": [question_match.group(2).strip()],
+                "guide_lines": [],
+            }
+            mode = "question"
+            continue
+
+        if current is None:
+            continue
+
+        if line.startswith("✅ Đáp án"):
+            mode = "guide"
+            after_colon = line.split(":", 1)[1].strip() if ":" in line else ""
+            if after_colon:
+                current["guide_lines"].append(after_colon)
+            continue
+
+        if mode == "question":
+            current["question_lines"].append(line)
+        else:
+            current["guide_lines"].append(line)
+
+    if current:
+        items.append(finalize_essay_item(key, current))
+    return items
+
+
+def finalize_essay_item(key: str, raw: dict) -> dict:
+    source_no = raw["source_no"]
+    question = "\n".join(line for line in raw["question_lines"] if line).strip()
+    guide = "\n".join(line for line in raw["guide_lines"] if line).strip()
+    return {
+        "id": f"{key.lower()}-tu-luan-{source_no:02d}",
+        "source_no": source_no,
+        "question": question,
+        "guide": guide,
+        "source_section": f"{key} / Phần B. Tổng hợp câu hỏi ôn tập / Dạng tự luận",
+    }
+
+
+def distribute_essay_items(docs: dict[str, tuple[Path, list[str]]]) -> tuple[dict[int, list[dict]], list[dict]]:
+    essay_by_topic: dict[int, list[dict]] = defaultdict(list)
+    audit: list[dict] = []
+
+    for key, (source_path, _) in docs.items():
+        for item in parse_essay_items(key, source_path):
+            topic_ids = ESSAY_TOPIC_MAP.get(key, {}).get(item["source_no"], [])
+            if not topic_ids:
+                raise SystemExit(f"No topic mapping for {item['id']}")
+            for topic_id in topic_ids:
+                essay_by_topic[topic_id].append(item)
+            audit.append(
+                {
+                    "essay_id": item["id"],
+                    "source_file": source_path.name,
+                    "source_section": item["source_section"],
+                    "source_no": item["source_no"],
+                    "question": item["question"],
+                    "guide_chars": len(item["guide"]),
+                    "topic_ids": topic_ids,
+                    "topic_labels": [TOPICS[topic_id][0] for topic_id in topic_ids],
+                }
+            )
+
+    for topic_id in range(1, 34):
+        essay_by_topic[topic_id].sort(key=lambda item: (item["id"], item["source_no"]))
+    return essay_by_topic, audit
 
 
 def is_heading(text: str) -> bool:
@@ -113,11 +294,7 @@ def is_heading(text: str) -> bool:
 
 
 def make_blocks(lines: list[str]) -> list[dict]:
-    blocks = []
-    for line in lines:
-        block_type = "heading" if is_heading(line) else "paragraph"
-        blocks.append({"type": block_type, "text": line})
-    return blocks
+    return [{"type": "heading" if is_heading(line) else "paragraph", "text": line} for line in lines]
 
 
 def make_focus_points(lines: list[str]) -> list[str]:
@@ -184,12 +361,21 @@ def collect_lines(source_lines: list[str], ranges: list[tuple[int, int]]) -> lis
     return collected
 
 
+def topic_images(topic_id: int) -> list[dict]:
+    images = [dict(image) for image in COMMON_IMAGES]
+    images.extend(dict(image) for image in TOPIC_IMAGES.get(topic_id, []))
+    return images
+
+
 def main() -> None:
-    docs = {doc_key(path): (path, extract_paragraphs(path)) for path in DOC_DIR.glob("LOP_8_C*.docx")}
+    docs = {doc_key(path): (path, extract_part_a(path)) for path in DOC_DIR.glob("LOP_8_C*.docx")}
     if set(docs) != {"C1", "C2", "C3", "C4"}:
         raise SystemExit(f"Expected C1-C4 documents, found: {sorted(docs)}")
 
+    essay_by_topic, essay_audit = distribute_essay_items(docs)
+
     OUT_DIR.mkdir(parents=True, exist_ok=True)
+    DOCS_DIR.mkdir(parents=True, exist_ok=True)
     manifest = {"schema": "dia8dragon-topic-manifest.v2", "topics": []}
     audit = []
     resources: dict[int, dict] = {}
@@ -203,6 +389,8 @@ def main() -> None:
 
         source_scope = f"{key} / Phần A. Tổng hợp kiến thức cần nhớ / {scope_label}"
         full_text = "\n".join(lines)
+        essays = essay_by_topic.get(topic_id, [])
+        images = topic_images(topic_id)
         resource = {
             "topic_id": topic_id,
             "label": label,
@@ -214,40 +402,68 @@ def main() -> None:
             "key_points": make_key_points(lines),
             "focus_points": make_focus_points(lines),
             "focus_source_section": source_scope,
+            "essay_items": essays,
             "full_text": full_text,
             "summary": f"Nội dung trọng tâm được trích nguyên văn từ {source_scope}, bám đúng bong bóng: {label}.",
-            "images": [],
+            "images": images,
             "stats": {
                 "chars": len(full_text),
                 "blocks": len(lines),
-                "images": 0
-            }
+                "images": len(images),
+                "essay_items": len(essays),
+            },
         }
         resources[topic_id] = resource
         out_path = OUT_DIR / f"topic-{topic_id:02d}.json"
         out_path.write_text(json.dumps(resource, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
-        manifest["topics"].append({
-            "topic_id": topic_id,
-            "label": label,
-            "path": f"/data/topics/topic-{topic_id:02d}.json",
-            "source_file": source_path.name,
-            "source_scope": source_scope
-        })
-        audit.append({
-            "topic_id": topic_id,
-            "label": label,
-            "source_scope": source_scope,
-            "blocks": len(lines),
-            "chars": len(full_text)
-        })
+        manifest["topics"].append(
+            {
+                "topic_id": topic_id,
+                "label": label,
+                "path": f"/data/topics/topic-{topic_id:02d}.json",
+                "source_file": source_path.name,
+                "source_scope": source_scope,
+                "essay_items": len(essays),
+                "images": len(images),
+            }
+        )
+        audit.append(
+            {
+                "topic_id": topic_id,
+                "label": label,
+                "source_scope": source_scope,
+                "blocks": len(lines),
+                "chars": len(full_text),
+                "essay_items": len(essays),
+                "images": len(images),
+            }
+        )
 
     (OUT_DIR / "manifest.json").write_text(json.dumps(manifest, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
-    (ROOT / "docs" / "DIA8_TOPIC_RESOURCE_AUDIT_C1_C4.json").write_text(
-        json.dumps({"schema": "dia8dragon-topic-resource-audit.v1", "topics": audit}, ensure_ascii=False, indent=2) + "\n",
+    (DOCS_DIR / "DIA8_TOPIC_RESOURCE_AUDIT_C1_C4.json").write_text(
+        json.dumps({"schema": "dia8dragon-topic-resource-audit.v2", "topics": audit}, ensure_ascii=False, indent=2) + "\n",
+        encoding="utf-8",
+    )
+    (DOCS_DIR / "DIA8_ESSAY_AUDIT_C1_C4.json").write_text(
+        json.dumps({"schema": "dia8dragon-essay-audit.v1", "essays": essay_audit}, ensure_ascii=False, indent=2) + "\n",
         encoding="utf-8",
     )
     update_data_ts(resources)
-    print(json.dumps({"ok": True, "topics": len(audit), "min_blocks": min(item["blocks"] for item in audit), "data_ts": "updated"}, ensure_ascii=False, indent=2))
+    print(
+        json.dumps(
+            {
+                "ok": True,
+                "topics": len(audit),
+                "essay_source_items": len(essay_audit),
+                "topic_essay_links": sum(len(items) for items in essay_by_topic.values()),
+                "topics_with_essays": sum(1 for items in essay_by_topic.values() if items),
+                "images_total": sum(item["images"] for item in audit),
+                "data_ts": "updated",
+            },
+            ensure_ascii=False,
+            indent=2,
+        )
+    )
 
 
 if __name__ == "__main__":

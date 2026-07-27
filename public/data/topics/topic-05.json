@@ -64,12 +64,36 @@
     "- Khoáng sản phi kim loại (a-pa-tit, đá vôi,...)."
   ],
   "focus_source_section": "C1 / Phần A. Tổng hợp kiến thức cần nhớ / Mục 3.1",
+  "essay_items": [
+    {
+      "id": "c1-tu-luan-05",
+      "source_no": 5,
+      "question": "Vì sao khoáng sản nước ta lại phong phú và đa dạng??",
+      "guide": "Sự phong phú, đa dạng của khoáng sản do Việt Nam ở vị trí giao nhau giữa hai vành đai sinh khoáng Thái Bình Dương và Địa Trung Hải, đồng thời có lịch sử phát triển địa chất lâu dài và phức tạp nên có nhiều loại khoáng sản.",
+      "source_section": "C1 / Phần B. Tổng hợp câu hỏi ôn tập / Dạng tự luận"
+    },
+    {
+      "id": "c1-tu-luan-08",
+      "source_no": 8,
+      "question": "Hãy vẽ sơ đồ thể hiện sự đa dạng của tài nguyên khoáng sản Việt Nam.",
+      "guide": "",
+      "source_section": "C1 / Phần B. Tổng hợp câu hỏi ôn tập / Dạng tự luận"
+    }
+  ],
   "full_text": "3. KHOÁNG SẢN VIỆT NAM\n3.1 Đặc điểm chung của khoáng sản Việt Nam\n- Cơ cấu: Khoáng sản nước ta khá phong phú và đa dạng. Trên lãnh thổ Việt Nam đã thăm dò được hơn 60 loại khoáng sản khác nhau như khoáng sản: năng lượng, kim loại, phi kim loại.\n- Quy mô: phần lớn mỏ khoáng sản có trữ lượng trung bình và nhỏ.\n- Phân bố: Khoáng sản nước ta phân bố ở nhiều nơi, nhưng tập trung chủ yếu ở miền Bắc, miền Trung và Tây Nguyên.\nKhoáng sản nước ta chia làm 3 nhóm:\n- Khoáng sản năng lượng (than đá, dầu mỏ, khí tự nhiên,…).\n- Khoáng sản kim loại (sắt, đồng, bô-xit, man-gan, đất hiếm,..).\n- Khoáng sản phi kim loại (a-pa-tit, đá vôi,...).",
   "summary": "Nội dung trọng tâm được trích nguyên văn từ C1 / Phần A. Tổng hợp kiến thức cần nhớ / Mục 3.1, bám đúng bong bóng: Đặc điểm khoáng sản Việt Nam.",
-  "images": [],
+  "images": [
+    {
+      "url": "/hsg8-infographics/overview-olympic-dia8.png",
+      "caption": "Infographic tổng ôn Olympic Địa lí 8 - tư liệu chung",
+      "width": 1080,
+      "height": 1920
+    }
+  ],
   "stats": {
     "chars": 632,
     "blocks": 9,
-    "images": 0
+    "images": 1,
+    "essay_items": 2
   }
 }

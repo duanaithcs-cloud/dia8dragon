@@ -86,12 +86,36 @@
     "- Giá trị sử dụng: thích hợp trồng rừng phòng hộ đầu nguồn."
   ],
   "focus_source_section": "C3 / Phần A. Tổng hợp kiến thức cần nhớ / Mục 1.2.b-c",
+  "essay_items": [
+    {
+      "id": "c3-tu-luan-01",
+      "source_no": 1,
+      "question": "Hoàn thành bảng về giá trị sử dụng của đất feralit và đất phù sa?\nNhóm đất\nGiá trị sử dụng\nĐất feralit\nĐất phù sa",
+      "guide": "GIÁ TRỊ SỬ DỤNG CỦA ĐẤT FERALIT VÀ ĐẤT PHÙ SA Ở NƯỚC TA\nNhóm đất\nGiá trị sử dụng\nĐất feralit\n- Trong nông nghiệp: đất Feralit được khai thác và sử dụng chủ yếu để trồng các cây công nghiệp lâu năm, cây dược liệu; cây ăn quả,…\n- Trong lâm nghiệp: đất feralit thích hợp để phát triển rừng sản xuất và nhiều loại cây gỗ lớn,…\nĐất phù sa\n- Trong nông nghiệp: phù sa là nhóm đất phù hợp để sản xuất lương thực, cây công nghiệp hàng năm và cây ăn quả.\n- Trong thủy sản:\n+ Đất phù sa ở các cửa sông, ven biển có nhiều lợi thế để phát triển ngành thuỷ sản.\n+ Vùng đất phèn, đất mặn tạo điều kiện thuận lợi cho việc đánh bắt thuỷ sản.\n+ Ở các rừng ngập mặn ven biển, các bãi triều ngập nước và ở cửa sông lớn thuận lợi cho nuôi trồng nhiều loại thuỷ sản nước lợ và nước mặn.",
+      "source_section": "C3 / Phần B. Tổng hợp câu hỏi ôn tập / Dạng tự luận"
+    },
+    {
+      "id": "c3-tu-luan-04",
+      "source_no": 4,
+      "question": "Phân tích giá giá trị sử dụng của nhóm đất phù sa trong sản xuất nông nghiệp, thủy sản.",
+      "guide": "- Trong nông nghiệp: phù sa là nhóm đất phù hợp để sản xuất lương thực, cây công nghiệp hàng năm và cây ăn quả.\n- Trong thủy sản: đất phù sa ở các cửa sông, ven biển có nhiều lợi thế để phát triển ngành thuỷ sản. Vùng đất phèn, đất mặn tạo điều kiện thuận lợi cho việc đ ánh bắt thuỷ sản. Ở các rừng ngập mặn ven biển, các bãi triều ngập nước và ở cửa sông lớn thuận lợi cho nuôi trồng nhiều loại thuỷ sản nước lợ và nước mặn.",
+      "source_section": "C3 / Phần B. Tổng hợp câu hỏi ôn tập / Dạng tự luận"
+    }
+  ],
   "full_text": "b) Nhóm đất phù sa\n- Chiếm khoảng 24% diện tích đất tự nhiên.\n- Phân bố chủ yếu ở đồng bằng sông Hồng, đồng bằng sông Cửu Long và các đồng bằng duyên hải miền Trung.\n- Đặc điểm: có độ phì cao, rất giàu dinh dưỡng.\n- Giá trị sử dụng:\n+ Trong nông nghiệp: sản xuất lương thực, cây công nghiệp hàng năm và cây ăn quả.\n+ Trong thủy sản: vùng đất phèn, đất mặn tạo điều kiện thuận lợi cho việc đánh bắt thuỷ sản. Ở các rừng ngập mặn ven biển, các bãi triều ngập nước và ở cửa sông lớn thuận lợi cho nuôi trồng thủy sản.\nc) Nhóm đất mùn trên núi\n- Chiếm khoảng 11% diện tích đất tự nhiên.\n- Phân bố rải rác ở các khu vực núi có độ cao từ 1600 - 1700 m trở lên.\n- Đặc điểm: đất giàu mùn, tầng đất mỏng.\n- Giá trị sử dụng: thích hợp trồng rừng phòng hộ đầu nguồn.",
   "summary": "Nội dung trọng tâm được trích nguyên văn từ C3 / Phần A. Tổng hợp kiến thức cần nhớ / Mục 1.2.b-c, bám đúng bong bóng: Đất phù sa và giá trị sử dụng.",
-  "images": [],
+  "images": [
+    {
+      "url": "/hsg8-infographics/overview-olympic-dia8.png",
+      "caption": "Infographic tổng ôn Olympic Địa lí 8 - tư liệu chung",
+      "width": 1080,
+      "height": 1920
+    }
+  ],
   "stats": {
     "chars": 755,
     "blocks": 12,
-    "images": 0
+    "images": 1,
+    "essay_items": 2
   }
 }

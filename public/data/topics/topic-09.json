@@ -54,12 +54,36 @@
     "- Sông ngòi nước ta nhiều nước (hơn 800 tỉ m3/năm) và lượng phù sa khá lớn (khoảng 200 triệu tấn/năm)."
   ],
   "focus_source_section": "C2 / Phần A. Tổng hợp kiến thức cần nhớ / Mục 2.1.a",
+  "essay_items": [
+    {
+      "id": "c2-tu-luan-03",
+      "source_no": 3,
+      "question": "Nêu đặc điểm chung của sông ngòi nước ta?",
+      "guide": "- Nước ta có mạng lưới sông ngòi dày đặc\n- Sông ngòi chảy theo 2 hướng chính tây bắc - đông nam và hướng vòng cung\n- Sông ngòi nước ta có hai mùa nước khác nhau rõ rệt\n- Sông ngòi nước ta có hàm lượng phù sa lớn",
+      "source_section": "C2 / Phần B. Tổng hợp câu hỏi ôn tập / Dạng tự luận"
+    },
+    {
+      "id": "c2-tu-luan-04",
+      "source_no": 4,
+      "question": "Vì sao nước ta có rất nhiều sông suối, song phần lớn lại là các sông nhỏ, ngắn và dốc ?",
+      "guide": "Vì:\n-Nước ta có lượng mưa lớn, trung bình 1500-2000mm/năm, mưa tập trung theo mùa.\n- Lãnh thổ kéo dài nhưng hẹp ngang\n- Địa hình đồi núi chiếm tới 80% diện tích lãnh thổ, ở nhiều vùng (thuộc Trung Bộ và Bắc Bộ) đồi núi chạy lan sát ra biển.",
+      "source_section": "C2 / Phần B. Tổng hợp câu hỏi ôn tập / Dạng tự luận"
+    }
+  ],
   "full_text": "2. THUỶ VĂN VIỆT NAM\n2.1. Sông ngòi\na) Đặc điểm chung\n- Mạng lưới sông ngòi dày đặc phân bố rộng khắp trên cả nước: Nước ta có 2360 con sông dài trên 10km.\n- Sông chảy theo hai hướng chính là tây bắc - đông nam và vòng cung.\n- Chế độ dòng chảy phân 2 mùa rất rõ rệt: mùa lũ và mùa cạn.\n- Sông ngòi nước ta nhiều nước (hơn 800 tỉ m3/năm) và lượng phù sa khá lớn (khoảng 200 triệu tấn/năm).",
   "summary": "Nội dung trọng tâm được trích nguyên văn từ C2 / Phần A. Tổng hợp kiến thức cần nhớ / Mục 2.1.a, bám đúng bong bóng: Lưu vực sông và hệ thống sông lớn.",
-  "images": [],
+  "images": [
+    {
+      "url": "/hsg8-infographics/overview-olympic-dia8.png",
+      "caption": "Infographic tổng ôn Olympic Địa lí 8 - tư liệu chung",
+      "width": 1080,
+      "height": 1920
+    }
+  ],
   "stats": {
     "chars": 388,
     "blocks": 7,
-    "images": 0
+    "images": 1,
+    "essay_items": 2
   }
 }

@@ -1,236 +1,302 @@
 {
-  "schema": "dia8dragon-topic-resource-audit.v1",
+  "schema": "dia8dragon-topic-resource-audit.v2",
   "topics": [
     {
       "topic_id": 1,
       "label": "Vị trí địa lí và phạm vi lãnh thổ",
       "source_scope": "C1 / Phần A. Tổng hợp kiến thức cần nhớ / Mục 1.1-1.2",
       "blocks": 24,
-      "chars": 2094
+      "chars": 2094,
+      "essay_items": 2,
+      "images": 1
     },
     {
       "topic_id": 2,
       "label": "Ảnh hưởng của vị trí địa lí và phạm vi lãnh thổ",
       "source_scope": "C1 / Phần A. Tổng hợp kiến thức cần nhớ / Mục 1.3",
       "blocks": 7,
-      "chars": 585
+      "chars": 585,
+      "essay_items": 4,
+      "images": 1
     },
     {
       "topic_id": 3,
       "label": "Đặc điểm địa hình Việt Nam",
       "source_scope": "C1 / Phần A. Tổng hợp kiến thức cần nhớ / Mục 2.1",
       "blocks": 18,
-      "chars": 1011
+      "chars": 1011,
+      "essay_items": 0,
+      "images": 1
     },
     {
       "topic_id": 4,
       "label": "Các khu vực địa hình",
       "source_scope": "C1 / Phần A. Tổng hợp kiến thức cần nhớ / Mục 2.2",
       "blocks": 34,
-      "chars": 1970
+      "chars": 1970,
+      "essay_items": 0,
+      "images": 1
     },
     {
       "topic_id": 5,
       "label": "Đặc điểm khoáng sản Việt Nam",
       "source_scope": "C1 / Phần A. Tổng hợp kiến thức cần nhớ / Mục 3.1",
       "blocks": 9,
-      "chars": 632
+      "chars": 632,
+      "essay_items": 2,
+      "images": 1
     },
     {
       "topic_id": 6,
       "label": "Phân bố và sử dụng khoáng sản",
       "source_scope": "C1 / Phần A. Tổng hợp kiến thức cần nhớ / Mục 3.2-3.3",
       "blocks": 18,
-      "chars": 1128
+      "chars": 1128,
+      "essay_items": 1,
+      "images": 1
     },
     {
       "topic_id": 7,
       "label": "Phân hoá địa hình và tự nhiên",
       "source_scope": "C1 / Phần A. Tổng hợp kiến thức cần nhớ / Mục 2.3",
       "blocks": 22,
-      "chars": 1541
+      "chars": 1541,
+      "essay_items": 0,
+      "images": 1
     },
     {
       "topic_id": 8,
       "label": "Khí hậu nhiệt đới ẩm gió mùa",
       "source_scope": "C2 / Phần A. Tổng hợp kiến thức cần nhớ / Mục 1.1",
       "blocks": 24,
-      "chars": 1042
+      "chars": 1042,
+      "essay_items": 1,
+      "images": 1
     },
     {
       "topic_id": 9,
       "label": "Lưu vực sông và hệ thống sông lớn",
       "source_scope": "C2 / Phần A. Tổng hợp kiến thức cần nhớ / Mục 2.1.a",
       "blocks": 7,
-      "chars": 388
+      "chars": 388,
+      "essay_items": 2,
+      "images": 1
     },
     {
       "topic_id": 10,
       "label": "Phân hoá khí hậu Việt Nam",
       "source_scope": "C2 / Phần A. Tổng hợp kiến thức cần nhớ / Mục 1.2",
       "blocks": 10,
-      "chars": 693
+      "chars": 693,
+      "essay_items": 3,
+      "images": 1
     },
     {
       "topic_id": 11,
       "label": "Tác động biến đổi khí hậu tới khí hậu và thuỷ văn",
       "source_scope": "C2 / Phần A. Tổng hợp kiến thức cần nhớ / Mục 4.1-4.2",
       "blocks": 8,
-      "chars": 604
+      "chars": 604,
+      "essay_items": 0,
+      "images": 1
     },
     {
       "topic_id": 12,
       "label": "Khí hậu và nông nghiệp",
       "source_scope": "C2 / Phần A. Tổng hợp kiến thức cần nhớ / Mục 3.1",
       "blocks": 9,
-      "chars": 741
+      "chars": 741,
+      "essay_items": 0,
+      "images": 1
     },
     {
       "topic_id": 13,
       "label": "Phân tích một hệ thống sông",
       "source_scope": "C2 / Phần A. Tổng hợp kiến thức cần nhớ / Mục 2.1.b",
       "blocks": 22,
-      "chars": 1048
+      "chars": 1048,
+      "essay_items": 2,
+      "images": 2
     },
     {
       "topic_id": 14,
       "label": "Hồ, đầm và nước ngầm",
       "source_scope": "C2 / Phần A. Tổng hợp kiến thức cần nhớ / Mục 2.2-2.3",
       "blocks": 14,
-      "chars": 808
+      "chars": 808,
+      "essay_items": 2,
+      "images": 1
     },
     {
       "topic_id": 15,
       "label": "Đọc biểu đồ khí hậu và trạm khí tượng thuỷ văn",
       "source_scope": "C2 / Phần A. Tổng hợp kiến thức cần nhớ / Mục 1.1-1.2 và 2.1.a",
       "blocks": 41,
-      "chars": 2125
+      "chars": 2125,
+      "essay_items": 1,
+      "images": 2
     },
     {
       "topic_id": 16,
       "label": "Vẽ và phân tích biểu đồ khí hậu",
       "source_scope": "C2 / Phần A. Tổng hợp kiến thức cần nhớ / Mục 1.1-1.2",
       "blocks": 34,
-      "chars": 1736
+      "chars": 1736,
+      "essay_items": 2,
+      "images": 2
     },
     {
       "topic_id": 17,
       "label": "Vai trò khí hậu đối với du lịch",
       "source_scope": "C2 / Phần A. Tổng hợp kiến thức cần nhớ / Mục 3.2",
       "blocks": 5,
-      "chars": 478
+      "chars": 478,
+      "essay_items": 2,
+      "images": 1
     },
     {
       "topic_id": 18,
       "label": "Ứng phó với biến đổi khí hậu",
       "source_scope": "C2 / Phần A. Tổng hợp kiến thức cần nhớ / Mục 4.3",
       "blocks": 12,
-      "chars": 782
+      "chars": 782,
+      "essay_items": 0,
+      "images": 1
     },
     {
       "topic_id": 19,
       "label": "Khai thác tổng hợp tài nguyên nước",
       "source_scope": "C2 / Phần A. Tổng hợp kiến thức cần nhớ / Mục 3.3",
       "blocks": 5,
-      "chars": 352
+      "chars": 352,
+      "essay_items": 2,
+      "images": 2
     },
     {
       "topic_id": 20,
       "label": "Tác động biến đổi khí hậu tới tự nhiên",
       "source_scope": "C2 / Phần A. Tổng hợp kiến thức cần nhớ / Mục 4.1-4.2",
       "blocks": 8,
-      "chars": 604
+      "chars": 604,
+      "essay_items": 0,
+      "images": 1
     },
     {
       "topic_id": 21,
       "label": "Ba nhóm đất chính",
       "source_scope": "C3 / Phần A. Tổng hợp kiến thức cần nhớ / Mục 1.2",
       "blocks": 22,
-      "chars": 1355
+      "chars": 1355,
+      "essay_items": 1,
+      "images": 1
     },
     {
       "topic_id": 22,
       "label": "Tính chất nhiệt đới gió mùa của thổ nhưỡng",
       "source_scope": "C3 / Phần A. Tổng hợp kiến thức cần nhớ / Mục 1.1",
       "blocks": 12,
-      "chars": 680
+      "chars": 680,
+      "essay_items": 2,
+      "images": 1
     },
     {
       "topic_id": 23,
       "label": "Đất feralit và giá trị sử dụng",
       "source_scope": "C3 / Phần A. Tổng hợp kiến thức cần nhớ / Mục 1.2.a",
       "blocks": 9,
-      "chars": 576
+      "chars": 576,
+      "essay_items": 2,
+      "images": 1
     },
     {
       "topic_id": 24,
       "label": "Đất phù sa và giá trị sử dụng",
       "source_scope": "C3 / Phần A. Tổng hợp kiến thức cần nhớ / Mục 1.2.b-c",
       "blocks": 12,
-      "chars": 755
+      "chars": 755,
+      "essay_items": 2,
+      "images": 1
     },
     {
       "topic_id": 25,
       "label": "Sự đa dạng sinh vật Việt Nam",
       "source_scope": "C3 / Phần A. Tổng hợp kiến thức cần nhớ / Mục 2.1",
       "blocks": 8,
-      "chars": 700
+      "chars": 700,
+      "essay_items": 1,
+      "images": 1
     },
     {
       "topic_id": 26,
       "label": "Chống thoái hoá đất",
       "source_scope": "C3 / Phần A. Tổng hợp kiến thức cần nhớ / Mục 1.3",
       "blocks": 8,
-      "chars": 562
+      "chars": 562,
+      "essay_items": 0,
+      "images": 1
     },
     {
       "topic_id": 27,
       "label": "Bảo tồn đa dạng sinh học",
       "source_scope": "C3 / Phần A. Tổng hợp kiến thức cần nhớ / Mục 2.2",
       "blocks": 14,
-      "chars": 791
+      "chars": 791,
+      "essay_items": 1,
+      "images": 1
     },
     {
       "topic_id": 28,
       "label": "Phạm vi Biển Đông và vùng biển Việt Nam",
       "source_scope": "C4 / Phần A. Tổng hợp kiến thức cần nhớ / Mục 1.1-1.2",
       "blocks": 14,
-      "chars": 1622
+      "chars": 1622,
+      "essay_items": 1,
+      "images": 1
     },
     {
       "topic_id": 29,
       "label": "Đặc điểm tự nhiên vùng biển đảo",
       "source_scope": "C4 / Phần A. Tổng hợp kiến thức cần nhớ / Mục 1.3",
       "blocks": 14,
-      "chars": 882
+      "chars": 882,
+      "essay_items": 3,
+      "images": 1
     },
     {
       "topic_id": 30,
       "label": "Tài nguyên biển và thềm lục địa",
       "source_scope": "C4 / Phần A. Tổng hợp kiến thức cần nhớ / Mục 2.2",
       "blocks": 14,
-      "chars": 1234
+      "chars": 1234,
+      "essay_items": 1,
+      "images": 1
     },
     {
       "topic_id": 31,
       "label": "Môi trường biển đảo Việt Nam",
       "source_scope": "C4 / Phần A. Tổng hợp kiến thức cần nhớ / Mục 2.1",
       "blocks": 16,
-      "chars": 949
+      "chars": 949,
+      "essay_items": 3,
+      "images": 1
     },
     {
       "topic_id": 32,
       "label": "Luật biển và các vùng biển Việt Nam",
       "source_scope": "C4 / Phần A. Tổng hợp kiến thức cần nhớ / Mục 1.2",
       "blocks": 9,
-      "chars": 1146
+      "chars": 1146,
+      "essay_items": 2,
+      "images": 1
     },
     {
       "topic_id": 33,
       "label": "Thuận lợi, khó khăn kinh tế biển và bảo vệ chủ quyền",
       "source_scope": "C4 / Phần A. Tổng hợp kiến thức cần nhớ / Mục 2.1.b và 2.2",
       "blocks": 23,
-      "chars": 1694
+      "chars": 1694,
+      "essay_items": 2,
+      "images": 1
     }
   ]
 }

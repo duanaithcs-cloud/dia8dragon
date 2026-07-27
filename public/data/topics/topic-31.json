@@ -108,12 +108,43 @@
     "- Tuyên truyền, nâng cao nhận thức của người dân về bảo vệ và cải thiện môi trường biển đảo,..."
   ],
   "focus_source_section": "C4 / Phần A. Tổng hợp kiến thức cần nhớ / Mục 2.1",
+  "essay_items": [
+    {
+      "id": "c4-tu-luan-04",
+      "source_no": 4,
+      "question": "Ô nhiễm môi trường biển gây ra những hậu quả gì?",
+      "guide": "Hậu quả: Phá hoại môi trường sống của sinh vật, làm tuyệt chủng một số loại hản sản, sinh vật gần bờ. Gây mất mỹ quan, ảnh hưởng lớn đến ngành du lịch.",
+      "source_section": "C4 / Phần B. Tổng hợp câu hỏi ôn tập / Dạng tự luận"
+    },
+    {
+      "id": "c4-tu-luan-05",
+      "source_no": 5,
+      "question": "Bản thân em là học sinh thì cần phải làm gì để bảo vệ môi trường biển đảo?",
+      "guide": "Là HS có thể làm để góp phần bảo vệ môi trường biển đảo:\n- Tham gia các hoạt động làm sạch bờ biển, giữ gìn môi trường sinh thái,... nhằm giảm thiểu sự suy thoái, ô nhiễm môi trường biển và trên các đảo.\n- Đấu tranh với các hoạt động khai thác, sử dụng tài nguyên biển đảo trái với quy định của pháp luật.\n- Rèn luyện kĩ năng để thích ứng với các thiên tai và sự cố xảy ra trong vùng biển đảo.",
+      "source_section": "C4 / Phần B. Tổng hợp câu hỏi ôn tập / Dạng tự luận"
+    },
+    {
+      "id": "c4-tu-luan-06",
+      "source_no": 6,
+      "question": "Nêu các biện pháp bảo vệ môi trường biển đảo nước ta?",
+      "guide": "Để bảo vệ môi trường biển đảo cần kết hợp nhiều giải pháp như:\n- Xây dựng cơ chế chính sách, luật bảo vệ môi trường biển đảo;\n- Áp dụng các thành tựu khoa học công nghệ để kiểm soát và xử lí vấn đề môi trường biển đảo;\n- Tuyên truyền, nâng cao nhận thức của người dân về bảo vệ và cải thiện môi trường biển đảo,...",
+      "source_section": "C4 / Phần B. Tổng hợp câu hỏi ôn tập / Dạng tự luận"
+    }
+  ],
   "full_text": "2. MÔI TRƯỜNG VÀ TÀI NGUYÊN BIỂN ĐẢO VIỆT NAM\n2.1. Môi trường biển đảo Việt Nam\na) Đặc điêm môi trường biển đảo\n- Môi trường biển đảo là một bộ phận của môi trường sống.\n- Đặc điểm :\n+ Môi trường biển là không chia cắt được. Vì vậy, khi một vùng biển bị ô nhiễm sẽ gây thiệt hại cho cả vùng bờ biển, vùng nước và cả các đảo xung quanh.\n+ Môi trường đảo do có sự biệt lập với đất liền, lại có diện tích nhỏ nên rất nhạy cảm trước tác động của con người, dễ bị suy thoái hơn so với đất liền.\nb) Vấn đề bảo vệ môi trường biển đảo Việt Nam\n* Vai trò : biển đảo có vai trò phát triển kinh tế và bảo vệ tổ quốc.\n* Thực trạng :\n- Chất lượng nước ven bờ khá tốt.\n- Ô nhiễm môi trường xảy ra.\n* Giải pháp :\n- Xây dựng cơ chế chính sách, luật bảo vệ môi trường biển đảo;\n- Áp dụng các thành tựu khoa học công nghệ để kiểm soát và xử lí vấn đề môi trường biển đảo;\n- Tuyên truyền, nâng cao nhận thức của người dân về bảo vệ và cải thiện môi trường biển đảo,...",
   "summary": "Nội dung trọng tâm được trích nguyên văn từ C4 / Phần A. Tổng hợp kiến thức cần nhớ / Mục 2.1, bám đúng bong bóng: Môi trường biển đảo Việt Nam.",
-  "images": [],
+  "images": [
+    {
+      "url": "/hsg8-infographics/overview-olympic-dia8.png",
+      "caption": "Infographic tổng ôn Olympic Địa lí 8 - tư liệu chung",
+      "width": 1080,
+      "height": 1920
+    }
+  ],
   "stats": {
     "chars": 949,
     "blocks": 16,
-    "images": 0
+    "images": 1,
+    "essay_items": 3
   }
 }

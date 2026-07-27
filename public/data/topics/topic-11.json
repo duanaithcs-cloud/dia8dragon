@@ -59,12 +59,21 @@
     "- Sự chênh lệch lưu lượng nước giữa mùa lũ và mùa cạn gia tăng."
   ],
   "focus_source_section": "C2 / Phần A. Tổng hợp kiến thức cần nhớ / Mục 4.1-4.2",
+  "essay_items": [],
   "full_text": "4. TÁC ĐỘNG CỦA BIẾN ĐỔI KHÍ HẬU ĐỐI VỚI KHÍ HẬU VÀ THUỶ VĂN VIỆT NAM\n4.1. Tác động của biến đổi khí hậu đối với khí hậu\n- Biến đổi về nhiệt độ: nhiệt độ trung bình năm có xu thế tăng trên phạm vi cả nước là 0,890C trong thời kì từ 1958 - 2018.\n- Biến đổi về lượng mưa: tổng lượng mưa có tính biến động trên phạm vi cả nước.\n- Gia tăng các hiện tượng thời tiết cực đoan như: mưa lớn, bão, rét đậm, rét hại…\n4.2. Tác động của biến đổi khí hậu đối với thuỷ văn\n- Lượng mưa trung bình năm biến động làm lưu lượng nước sông cũng biến động theo.\n- Sự chênh lệch lưu lượng nước giữa mùa lũ và mùa cạn gia tăng.",
   "summary": "Nội dung trọng tâm được trích nguyên văn từ C2 / Phần A. Tổng hợp kiến thức cần nhớ / Mục 4.1-4.2, bám đúng bong bóng: Tác động biến đổi khí hậu tới khí hậu và thuỷ văn.",
-  "images": [],
+  "images": [
+    {
+      "url": "/hsg8-infographics/overview-olympic-dia8.png",
+      "caption": "Infographic tổng ôn Olympic Địa lí 8 - tư liệu chung",
+      "width": 1080,
+      "height": 1920
+    }
+  ],
   "stats": {
     "chars": 604,
     "blocks": 8,
-    "images": 0
+    "images": 1,
+    "essay_items": 0
   }
 }

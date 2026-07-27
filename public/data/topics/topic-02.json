@@ -55,12 +55,50 @@
     "+ Sinh vật và đất ở nước ta phong phú, đa dạng."
   ],
   "focus_source_section": "C1 / Phần A. Tổng hợp kiến thức cần nhớ / Mục 1.3",
+  "essay_items": [
+    {
+      "id": "c1-tu-luan-01",
+      "source_no": 1,
+      "question": "Vị trí địa lí và lãnh thổ đã quy định đặc điểm cơ bản của thiên nhiên nước ta là?",
+      "guide": "Vị trí địa lí và lãnh thổ đã quy định đặc điểm cơ bản của thiên nhiên nước ta mang tính chất nhiệt đới ẩm gió mùa, chịu ảnh hưởng sâu sắc của biển và phân hóa đa dạng.",
+      "source_section": "C1 / Phần B. Tổng hợp câu hỏi ôn tập / Dạng tự luận"
+    },
+    {
+      "id": "c1-tu-luan-02",
+      "source_no": 2,
+      "question": "Vị trí địa lí và lãnh thổ ảnh hưởng đến sự phân hóa khí hậu nước ta như thế nào??",
+      "guide": "- Việt Nam nằm hoàn toàn trong đới nóng của bán cầu Bắc, trong vùng gió mùa châu Á, một năm có hai mùa rõ rệt.\n- Nước ta nằm trong khu vực chịu nhiều ảnh hưởng của các cơn bão đến từ khu vực biển nhiệt đới Tây Thái Bình Dương.",
+      "source_section": "C1 / Phần B. Tổng hợp câu hỏi ôn tập / Dạng tự luận"
+    },
+    {
+      "id": "c1-tu-luan-03",
+      "source_no": 3,
+      "question": "Vì sao thiên nhiên nước ta chịu ảnh hưởng sâu sắc của biển?",
+      "guide": "Phần đất liền Việt Nam hẹp ngang lại nằm kề Biển Đông là nguồn dự trữ ẩm dồi dào, các khối khí di chuyển qua biển ảnh hưởng sâu vào đất liền đã làm cho thiên nhiên nước ta chịu ảnh hưởng sâu sắc của biển.",
+      "source_section": "C1 / Phần B. Tổng hợp câu hỏi ôn tập / Dạng tự luận"
+    },
+    {
+      "id": "c1-tu-luan-04",
+      "source_no": 4,
+      "question": "Vẽ sơ đồ thể hiện ảnh hưởng của vị trí địa lí và phạm vi lãnh thổ tới đặc điểm tự nhiên Việt Nam?",
+      "guide": "",
+      "source_section": "C1 / Phần B. Tổng hợp câu hỏi ôn tập / Dạng tự luận"
+    }
+  ],
   "full_text": "1.3 Ảnh hưởng của vị trí địa lí và phạm vi lãnh thổ đối với sự hình thành đặc điểm địa lí tự nhiên Việt Nam\n* Vị trí địa lí và lãnh thổ đã quy định đặc điểm cơ bản của thiên nhiên nước ta mang tính chất nhiệt đới ẩm gió mùa, chịu ảnh hưởng sâu sắc của biển và phân hóa đa dạng:\n- Khí hậu: một năm có 2 mùa rõ rệt, chịu ảnh hưởng của các cơn bão lớn.\n- Sinh vật và đất: hệ sinh thái rừng nhiệt đới gió mùa phát triển trên đất feralit là cảnh quan tiêu biểu.\n- Thiên nhiên phân hóa đa dạng:\n+ Khí hậu phân hóa theo chiều bắc-nam, đông-tây.\n+ Sinh vật và đất ở nước ta phong phú, đa dạng.",
   "summary": "Nội dung trọng tâm được trích nguyên văn từ C1 / Phần A. Tổng hợp kiến thức cần nhớ / Mục 1.3, bám đúng bong bóng: Ảnh hưởng của vị trí địa lí và phạm vi lãnh thổ.",
-  "images": [],
+  "images": [
+    {
+      "url": "/hsg8-infographics/overview-olympic-dia8.png",
+      "caption": "Infographic tổng ôn Olympic Địa lí 8 - tư liệu chung",
+      "width": 1080,
+      "height": 1920
+    }
+  ],
   "stats": {
     "chars": 585,
     "blocks": 7,
-    "images": 0
+    "images": 1,
+    "essay_items": 4
   }
 }

@@ -67,12 +67,36 @@
     "- Đường phân định vịnh Bắc Bộ giữa Việt Nam và Trung Quốc được xác định bằng 21 điểm có tọa độ xác định, nối tuần tự với nhau bằng các đoạn thẳng."
   ],
   "focus_source_section": "C4 / Phần A. Tổng hợp kiến thức cần nhớ / Mục 1.2",
+  "essay_items": [
+    {
+      "id": "c4-tu-luan-01",
+      "source_no": 1,
+      "question": "Nêu căn cứ xác định vùng biển nước ta?",
+      "guide": "Căn cứ theo Pháp luật VN, điều ước quốc tế về biên giới lãnh thổ mà nước ta là thành viên và Công ước của Liên hợp quốc về Luật biển năm 1982.",
+      "source_section": "C4 / Phần B. Tổng hợp câu hỏi ôn tập / Dạng tự luận"
+    },
+    {
+      "id": "c4-tu-luan-02",
+      "source_no": 2,
+      "question": "Nội thủy và lãnh hải khác nhau như thế nào?",
+      "guide": "- Nội thuỷ là vùng nước tiếp giáp với bờ biển, ở phía trong đường cơ sở và là bộ phận lãnh thổ của Việt Nam.\n- Lãnh hải là vùng biển có chiều rộng 12 hải lí tính từ đường cơ sở ra phía biển. Ranh giới ngoài của lãnh hải là biên giới quốc gia trên biển của Việt Nam.",
+      "source_section": "C4 / Phần B. Tổng hợp câu hỏi ôn tập / Dạng tự luận"
+    }
+  ],
   "full_text": "1.2. Các vùng biển của Việt Nam ở Biển Đông\n- Đường cơ sở để tính chiều rộng lãnh hải VN là đường thẳng gãy khúc, nối liền các điểm từ 0 – A11.\n- Vùng biển nước ta có diện tích khoàng 1 triệu km2.\n- Nội thuỷ là vùng nước tiếp giáp với bờ biển, ở phía trong đường cơ sở và là bộ phận lãnh thổ của Việt Nam.\n- Lãnh hải là vùng biển có chiều rộng 12 hải lí tính từ đường cơ sở ra phía biển. Ranh giới ngoài của lãnh hải là biên giới quốc gia trên biển của Việt Nam.\n- Vùng tiếp giáp lãnh hải là vùng biển tiếp liền và nằm ngoài lãnh hải Việt Nam, có chiều rộng 12 hải lí tính từ ranh giới ngoài của lãnh hải.\n- Vùng đặc quyền kinh tế là vùng biển tiếp liền và nằm ngoài lãnh hải Việt Nam, hợp với lãnh hải thành một vùng biển có chiều rộng 200 hải lí tính từ đường cơ sở.\n- Thềm lục địa Việt Nam là đáy biển và lòng đất dưới đáy biển, tiếp liền và nằm ngoài lãnh hải Việt Nam, trên toàn bộ phần kéo dài tự nhiên của lãnh thổ đất liền, các đảo và quần đảo của Việt Nam cho đến mép ngoài của rìa lục địa.\n- Đường phân định vịnh Bắc Bộ giữa Việt Nam và Trung Quốc được xác định bằng 21 điểm có tọa độ xác định, nối tuần tự với nhau bằng các đoạn thẳng.",
   "summary": "Nội dung trọng tâm được trích nguyên văn từ C4 / Phần A. Tổng hợp kiến thức cần nhớ / Mục 1.2, bám đúng bong bóng: Luật biển và các vùng biển Việt Nam.",
-  "images": [],
+  "images": [
+    {
+      "url": "/hsg8-infographics/overview-olympic-dia8.png",
+      "caption": "Infographic tổng ôn Olympic Địa lí 8 - tư liệu chung",
+      "width": 1080,
+      "height": 1920
+    }
+  ],
   "stats": {
     "chars": 1146,
     "blocks": 9,
-    "images": 0
+    "images": 1,
+    "essay_items": 2
   }
 }

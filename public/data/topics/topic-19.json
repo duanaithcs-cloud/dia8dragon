@@ -43,12 +43,42 @@
     "- Góp phần phòng chống thiên tai bão, lũ."
   ],
   "focus_source_section": "C2 / Phần A. Tổng hợp kiến thức cần nhớ / Mục 3.3",
+  "essay_items": [
+    {
+      "id": "c2-tu-luan-05",
+      "source_no": 5,
+      "question": "Hãy phân tích vai trò của nước ngầm đối với sản xuất và sinh hoạt ở nước ta?",
+      "guide": "- Vai trò của nước ngầm đối với sản xuất:\n+ Nông nghiệp: Nước ngầm cung cấp nước cho sản xuất nông nghiệp (trồng trọt, chăn nuôi, nuôi trồng thuỷ sản,...) đặc biệt với các vùng khan hiếm nước mặt như Tây Nguyên, duyên hải Nam Trung Bộ.\n+ Công nghiệp: Nước ngầm được sử dụng trong nhiều ngành công nghiệp như: chế biến lương thực - thực phẩm, sản xuất giấy,...\n+ Dịch vụ: Một số nguồn nước nóng, nước khoáng được khai thác để chữa bệnh và phát triển du lịch nghỉ dưỡng.\n- Vai trò của nước ngầm đối với sinh hoạt: Nước ngầm là nguồn nước quan trọng phục vụ cho sinh hoạt của người dân ở nước ta.",
+      "source_section": "C2 / Phần B. Tổng hợp câu hỏi ôn tập / Dạng tự luận"
+    },
+    {
+      "id": "c2-tu-luan-06",
+      "source_no": 6,
+      "question": "Nêu nguyên nhân gây ô nhiễm nguồn nước ngầm ở Việt Nam và đề xuất các giải pháp cho vấn đề sử dụng hợp lí và bảo vệ nguồn nước ngầm.",
+      "guide": "- Nguyên nhân gây ô nhiễm nguồn nước ngầm ở Việt Nam:\n+ Hệ thống vệ sinh tại chỗ, nước thải và bùn thải không được xử lí.\n+ Sử dụng nhiều phân bón và thuốc trừ sâu.\n+ Rò rỉ kim loại và khai thác khoáng sản phục vụ công nghiệp,…\n- Các giải pháp cho vấn đề sử dụng hợp lí và bảo vệ nguồn nước ngầm.\n+ Tiết kiệm nước trong sinh hoạt và sản xuất.\n+ Khai thác và sử dụng có quy hoạch.\n+ Xử lí rác thải công nghiệp, nông nghiệp, sinh hoạt đúng quy trình.\n+ Trồng cây xanh, trồng rừng,…",
+      "source_section": "C2 / Phần B. Tổng hợp câu hỏi ôn tập / Dạng tự luận"
+    }
+  ],
   "full_text": "3.3. Tầm quan trọng của việc sử dụng tổng hợp tài nguyên nước ở một lưu vực sông\n- Có vai trò quan trọng trong sản xuất và sinh hoạt.\n- Mang lại hiệu quả kinh tế cao, đáp ứng được nhu cầu sử dụng nước của các ngành kinh tế.\n- Hạn chế lãng phí nước và bảo vệ tài nguyên nước, bảo vệ hệ sinh thái ở lưu vực sông.\n- Góp phần phòng chống thiên tai bão, lũ.",
   "summary": "Nội dung trọng tâm được trích nguyên văn từ C2 / Phần A. Tổng hợp kiến thức cần nhớ / Mục 3.3, bám đúng bong bóng: Khai thác tổng hợp tài nguyên nước.",
-  "images": [],
+  "images": [
+    {
+      "url": "/hsg8-infographics/overview-olympic-dia8.png",
+      "caption": "Infographic tổng ôn Olympic Địa lí 8 - tư liệu chung",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "url": "/hsg8-infographics/bieu-do-luu-luong-song-dia8.png",
+      "caption": "Bài luyện khai thác số liệu tài nguyên nước và chế độ dòng chảy",
+      "width": 1660,
+      "height": 2238
+    }
+  ],
   "stats": {
     "chars": 352,
     "blocks": 5,
-    "images": 0
+    "images": 2,
+    "essay_items": 2
   }
 }

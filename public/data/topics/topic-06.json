@@ -118,12 +118,29 @@
     "+ Phát triển công nghiệp chế biến."
   ],
   "focus_source_section": "C1 / Phần A. Tổng hợp kiến thức cần nhớ / Mục 3.2-3.3",
+  "essay_items": [
+    {
+      "id": "c1-tu-luan-07",
+      "source_no": 7,
+      "question": "Nguyên nhân nào dẫn đến việc khai thác và sử dụng tài nguyên khoáng sản chưa hợp lí??",
+      "guide": "- Khai thác quá mức, bừa bãi, trái phép.\n- Công nghệ khai thác còn lạc hậu.",
+      "source_section": "C1 / Phần B. Tổng hợp câu hỏi ôn tập / Dạng tự luận"
+    }
+  ],
   "full_text": "3.2 Đặc điểm phân bố các loại khoáng sản chủ yếu\n- Than đá: ở bể than Quảng Ninh.\n- Dầu mỏ và khí tự nhiên: ở vùng thềm lục địa phía đông nam.\n- Bô-xít: ở Tây Nguyên (Lâm Đồng, Gia Lai, Kon Tum,...), ngoài ra còn có ở một số tỉnh phía bắc như Lạng Sơn, Cao Bằng, Hà Giang (nay thuộc Tuyên Quang),....\n- Sắt: ở khu vực Đông Bắc (Thái Nguyên, Lào Cai, Hà Giang),... và Bắc Trung Bộ (Hà Tĩnh).\n- A-pa-tít: ở Lào Cai.\n- Ti-tan: ở ven biển từ Quảng Ninh đến Bà Rịa - Vũng Tàu( nay thuộc Hồ Chí Minh)\n- Đá vôi: ở vùng núi phía Bắc và Bắc Trung Bộ.\n3.3 Vấn đề sử dụng hợp lí tài nguyên khoáng sản\n- Hiện trạng: việc khai thác và sử dụng còn chưa hợp lí.\n- Nguyên nhân: khai thác trái phép, công nghệ lạc hậu,...\n- Hậu quả: gây lãng phí, cạn kiệt, ảnh hưởng xấu đến môi trường và phát triển bền vững.\n- Giải pháp:\n+ Phát triển các hoạt động điều tra, thăm dò; khai thác, chế biến.\n+ Đẩy mạnh đầu tư với công nghệ tiên tiến, thiết bị hiện đại.\n+ Phát triển công nghiệp chế biến.\n+ Bảo vệ khoáng sản chưa khai thác và sử dụng tiết kiệm.\n+ Tổ chức tuyên truyền, phổ biến, giáo dục pháp luật trong hoạt động khai thác và sử dụng khoáng sản.",
   "summary": "Nội dung trọng tâm được trích nguyên văn từ C1 / Phần A. Tổng hợp kiến thức cần nhớ / Mục 3.2-3.3, bám đúng bong bóng: Phân bố và sử dụng khoáng sản.",
-  "images": [],
+  "images": [
+    {
+      "url": "/hsg8-infographics/overview-olympic-dia8.png",
+      "caption": "Infographic tổng ôn Olympic Địa lí 8 - tư liệu chung",
+      "width": 1080,
+      "height": 1920
+    }
+  ],
   "stats": {
     "chars": 1128,
     "blocks": 18,
-    "images": 0
+    "images": 1,
+    "essay_items": 1
   }
 }

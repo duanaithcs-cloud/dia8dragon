@@ -97,12 +97,29 @@
     "- Nâng cao ý thức người dân."
   ],
   "focus_source_section": "C3 / Phần A. Tổng hợp kiến thức cần nhớ / Mục 2.2",
+  "essay_items": [
+    {
+      "id": "c3-tu-luan-06",
+      "source_no": 6,
+      "question": "Nguyên nhân nào gây suy giảm đa dạng sinh học ở nước ta?",
+      "guide": "- Các yếu tố tự nhiên: bão, lũ lụt, hạn hán, cháy rừng…\n- Con người: khai thác lâm sản, đốt rừng, du canh du cư, đánh bắt quá mức, ô nhiễm môi trường,...",
+      "source_section": "C3 / Phần B. Tổng hợp câu hỏi ôn tập / Dạng tự luận"
+    }
+  ],
   "full_text": "2.2. Tính cấp thiết của vấn đề bảo tồn đa dạng sinh học ở Việt Nam\n* Đa dạng sinh học ở nước ta đang bị suy giảm\n- Suy giảm số lượng cá thể, loài sinh vật: nhiều loài động, thực vật có nguy cơ bị tuyệt chủng.\n- Suy giảm về hệ sinh thái: các hệ sinh thái rừng nguyên sinh bị phá hoại gần hết.\n- Suy giảm về nguồn gen.\n* Nguyên nhân gây suy giảm đa dạng sinh học\n- Các yếu tố tự nhiên: bão, lũ lụt, hạn hán, cháy rừng…\n- Con người: khai thác lâm sản, đốt rừng, du canh du cư, đánh bắt quá mức, ô nhiễm môi trường,...\n* Một số biện pháp bảo vệ đa dạng sinh học ở nước ta\n- Xây dựng các khu bảo tồn thiên nhiên và vườn quốc gia.\n- Trồng và bảo vệ rừng.\n- Ngăn chặn nạn phá rừng, săn bắt động vật hoang dã.\n- Xử lí các chất thải công nghiệp, nông nghiệp và sinh hoạt.\n- Nâng cao ý thức người dân.",
   "summary": "Nội dung trọng tâm được trích nguyên văn từ C3 / Phần A. Tổng hợp kiến thức cần nhớ / Mục 2.2, bám đúng bong bóng: Bảo tồn đa dạng sinh học.",
-  "images": [],
+  "images": [
+    {
+      "url": "/hsg8-infographics/overview-olympic-dia8.png",
+      "caption": "Infographic tổng ôn Olympic Địa lí 8 - tư liệu chung",
+      "width": 1080,
+      "height": 1920
+    }
+  ],
   "stats": {
     "chars": 791,
     "blocks": 14,
-    "images": 0
+    "images": 1,
+    "essay_items": 1
   }
 }
