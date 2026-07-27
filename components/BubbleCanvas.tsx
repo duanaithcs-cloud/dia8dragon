@@ -1,7 +1,6 @@
 
 import React, { useEffect, useRef, useState } from 'react';
 import { Topic, UIPreferences, ArenaStats } from '../types';
-import TopicIcon from './TopicIcon';
 
 interface PhysicsState {
   id: number;
@@ -547,19 +546,13 @@ const BubbleCanvas: React.FC<BubbleCanvasProps> = ({
               )}
 
               <div className="flex flex-col items-center justify-center p-2 text-center relative z-20 transition-transform group-hover:scale-105 duration-500 w-full">
-                <div
-                  className="topic-bubble-icon text-white opacity-55 group-hover:opacity-100 transition-all duration-500 drop-shadow-[0_0_10px_rgba(255,255,255,0.4)]"
+                <span
+                  className="material-symbols-outlined text-white opacity-40 group-hover:opacity-100 transition-all duration-500 drop-shadow-[0_0_10px_rgba(255,255,255,0.4)]"
                   aria-hidden="true"
+                  style={{ fontSize: currentR * 0.6 }}
                 >
-                  {isGenerating ? (
-                    <svg viewBox="0 0 24 24" width={currentR * 0.58} height={currentR * 0.58} fill="none" stroke="currentColor" strokeWidth="1.9" strokeLinecap="round" strokeLinejoin="round" className="animate-spin">
-                      <path d="M20 11a8 8 0 1 0-2.3 5.7" />
-                      <path d="M20 5v6h-6" />
-                    </svg>
-                  ) : (
-                    <TopicIcon name={topic.icon} topicId={topic.topic_id} size={currentR * 0.58} title={topic.keyword_label} />
-                  )}
-                </div>
+                  {isGenerating ? 'refresh' : topic.icon}
+                </span>
                 
                 <span
                   className="bubble-topic-label text-white font-black uppercase tracking-tighter leading-tight whitespace-normal max-w-[95%] text-halo text-center"

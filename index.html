@@ -11,6 +11,7 @@
     <meta name="apple-mobile-web-app-title" content="Dia8Dragon" />
     <link rel="manifest" href="./manifest.webmanifest" />
     <link rel="stylesheet" href="/assets/app-local.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet" />
    
     <style>
         body { 
@@ -43,8 +44,7 @@
 
         .material-symbols-outlined {
             flex-shrink: 0;
-            font-family: "Segoe UI Symbol", "Arial Unicode MS", Arial, sans-serif;
-            font-size: 1em !important;
+            font-family: "Material Symbols Outlined", "Segoe UI Symbol", "Arial Unicode MS", Arial, sans-serif;
             width: 1.25em;
             height: 1.25em;
             display: inline-flex;
@@ -54,6 +54,7 @@
             font-weight: 800;
             line-height: 1;
             speak: none;
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
         }
         .material-symbols-outlined::before { content: none !important; }
         @media (prefers-reduced-motion: reduce) {
@@ -270,16 +271,6 @@
             will-change: transform, opacity;
         }
         .bubble-container:hover .hover-ripple { display: block; }
-
-        /* Never expose Material Symbols ligature words (map, bar_chart, factory...) inside bubbles. */
-        .bubble-container .material-symbols-outlined {
-            font-size: 0 !important;
-            width: 0 !important;
-            height: 0 !important;
-            overflow: hidden !important;
-            color: transparent !important;
-        }
-
 
         /* DIA8 VISUAL SYSTEM — chuyển nguyên bản từ commit 4e4b2aa */
         .bubble-visual-dia8 .neon-ring {
