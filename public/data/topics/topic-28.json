@@ -1,13 +1,13 @@
 {
   "topic_id": 28,
-  "label": "Pham vi Bien Dong va vung bien Viet Nam",
+  "label": "Phạm vi Biển Đông và vùng biển Việt Nam",
   "source_file": "LOP_8_C4---07c2372b-3416-493e-887f-a0d331974bbf.docx",
   "source_readable": true,
+  "source_scope": "C4 / Phần A. Tổng hợp kiến thức cần nhớ / Mục 1.1-1.2",
+  "source_ranges": [
+    "1-14"
+  ],
   "blocks": [
-    {
-      "type": "heading",
-      "text": "CHỦ ĐỀ 4: BIỂN ĐẢO VIỆT NAM"
-    },
     {
       "type": "heading",
       "text": "1. PHẠM VI BIỂN ĐÔNG. VÙNG BIỂN ĐẢO VÀ ĐẶC ĐIỂM TỰ NHIÊN VÙNG BIỂN ĐẢO VIỆT NAM"
@@ -63,30 +63,44 @@
     {
       "type": "paragraph",
       "text": "- Đường phân định vịnh Bắc Bộ giữa Việt Nam và Trung Quốc được xác định bằng 21 điểm có tọa độ xác định, nối tuần tự với nhau bằng các đoạn thẳng."
-    },
-    {
-      "type": "heading",
-      "text": "1.3. Đặc điểm tự nhiên của vùng biển đảo Việt Nam"
-    },
-    {
-      "type": "paragraph",
-      "text": "a) Địa hình"
-    },
-    {
-      "type": "paragraph",
-      "text": "- Địa hình ven biển rất đa dạng, bao gồm: vịnh cửa sông, bờ biển mài mòn, tam giác châu, các bãi cát phẳng, cồn cát, đầm phá, vũng vịnh nước sâu,..."
     }
   ],
   "key_points": [
-    "CHỦ ĐỀ 4: BIỂN ĐẢO VIỆT NAM",
     "1. PHẠM VI BIỂN ĐÔNG. VÙNG BIỂN ĐẢO VÀ ĐẶC ĐIỂM TỰ NHIÊN VÙNG BIỂN ĐẢO VIỆT NAM",
     "1.1. Khái quát về phạm vi Biển Đông",
     "- Biển Đông thuộc Thái Bình Dương, có diện tích khoảng 3,44 triệu km2, trải rộng từ vĩ độ 30N đến vĩ độ 260B và từ kinh độ 1000 Đ đến 1210Đ.",
     "- Vùng biển VN là một phần của Biển Đông, có diện tích khoảng 1 triệu km2.",
     "- Các nước có chung Biển Đông với Việt Nam là: Trung Quốc, Phi-lip-pin, In-đô-nê-xia, Bờ-ru-nây, Ma-lay-xia, Xing-ga-po, Thái Lan, Cam-pu-chia.",
     "1.2. Các vùng biển của Việt Nam ở Biển Đông",
-    "- Đường cơ sở để tính chiều rộng lãnh hải VN là đường thẳng gãy khúc, nối liền các điểm từ 0 – A11."
+    "- Đường cơ sở để tính chiều rộng lãnh hải VN là đường thẳng gãy khúc, nối liền các điểm từ 0 – A11.",
+    "- Vùng biển nước ta có diện tích khoàng 1 triệu km2.",
+    "- Nội thuỷ là vùng nước tiếp giáp với bờ biển, ở phía trong đường cơ sở và là bộ phận lãnh thổ của Việt Nam.",
+    "- Lãnh hải là vùng biển có chiều rộng 12 hải lí tính từ đường cơ sở ra phía biển. Ranh giới ngoài của lãnh hải là biên giới quốc gia trên biển của Việt Nam.",
+    "- Vùng tiếp giáp lãnh hải là vùng biển tiếp liền và nằm ngoài lãnh hải Việt Nam, có chiều rộng 12 hải lí tính từ ranh giới ngoài của lãnh hải.",
+    "- Vùng đặc quyền kinh tế là vùng biển tiếp liền và nằm ngoài lãnh hải Việt Nam, hợp với lãnh hải thành một vùng biển có chiều rộng 200 hải lí tính từ đường cơ sở.",
+    "- Thềm lục địa Việt Nam là đáy biển và lòng đất dưới đáy biển, tiếp liền và nằm ngoài lãnh hải Việt Nam, trên toàn bộ phần kéo dài tự nhiên của lãnh thổ đất liền, các đảo và quần đảo của Việt Nam cho đến mép ngoài của rìa lục địa.",
+    "- Đường phân định vịnh Bắc Bộ giữa Việt Nam và Trung Quốc được xác định bằng 21 điểm có tọa độ xác định, nối tuần tự với nhau bằng các đoạn thẳng."
   ],
-  "summary": "Noi dung duoc tach tu phan A cua file C4, bam theo bong bong: Pham vi Bien Dong va vung bien Viet Nam.",
-  "source_scope": "C4 / Phan A. Tong hop kien thuc can nho"
+  "focus_points": [
+    "- Biển Đông thuộc Thái Bình Dương, có diện tích khoảng 3,44 triệu km2, trải rộng từ vĩ độ 30N đến vĩ độ 260B và từ kinh độ 1000 Đ đến 1210Đ.",
+    "- Vùng biển VN là một phần của Biển Đông, có diện tích khoảng 1 triệu km2.",
+    "- Các nước có chung Biển Đông với Việt Nam là: Trung Quốc, Phi-lip-pin, In-đô-nê-xia, Bờ-ru-nây, Ma-lay-xia, Xing-ga-po, Thái Lan, Cam-pu-chia.",
+    "- Đường cơ sở để tính chiều rộng lãnh hải VN là đường thẳng gãy khúc, nối liền các điểm từ 0 – A11.",
+    "- Vùng biển nước ta có diện tích khoàng 1 triệu km2.",
+    "- Nội thuỷ là vùng nước tiếp giáp với bờ biển, ở phía trong đường cơ sở và là bộ phận lãnh thổ của Việt Nam.",
+    "- Lãnh hải là vùng biển có chiều rộng 12 hải lí tính từ đường cơ sở ra phía biển. Ranh giới ngoài của lãnh hải là biên giới quốc gia trên biển của Việt Nam.",
+    "- Vùng tiếp giáp lãnh hải là vùng biển tiếp liền và nằm ngoài lãnh hải Việt Nam, có chiều rộng 12 hải lí tính từ ranh giới ngoài của lãnh hải.",
+    "- Vùng đặc quyền kinh tế là vùng biển tiếp liền và nằm ngoài lãnh hải Việt Nam, hợp với lãnh hải thành một vùng biển có chiều rộng 200 hải lí tính từ đường cơ sở.",
+    "- Thềm lục địa Việt Nam là đáy biển và lòng đất dưới đáy biển, tiếp liền và nằm ngoài lãnh hải Việt Nam, trên toàn bộ phần kéo dài tự nhiên của lãnh thổ đất liền, các đảo và quần đảo của Việt Nam cho đến mép ngoài của rìa lục địa.",
+    "- Đường phân định vịnh Bắc Bộ giữa Việt Nam và Trung Quốc được xác định bằng 21 điểm có tọa độ xác định, nối tuần tự với nhau bằng các đoạn thẳng."
+  ],
+  "focus_source_section": "C4 / Phần A. Tổng hợp kiến thức cần nhớ / Mục 1.1-1.2",
+  "full_text": "1. PHẠM VI BIỂN ĐÔNG. VÙNG BIỂN ĐẢO VÀ ĐẶC ĐIỂM TỰ NHIÊN VÙNG BIỂN ĐẢO VIỆT NAM\n1.1. Khái quát về phạm vi Biển Đông\n- Biển Đông thuộc Thái Bình Dương, có diện tích khoảng 3,44 triệu km2, trải rộng từ vĩ độ 30N đến vĩ độ 260B và từ kinh độ 1000 Đ đến 1210Đ.\n- Vùng biển VN là một phần của Biển Đông, có diện tích khoảng 1 triệu km2.\n- Các nước có chung Biển Đông với Việt Nam là: Trung Quốc, Phi-lip-pin, In-đô-nê-xia, Bờ-ru-nây, Ma-lay-xia, Xing-ga-po, Thái Lan, Cam-pu-chia.\n1.2. Các vùng biển của Việt Nam ở Biển Đông\n- Đường cơ sở để tính chiều rộng lãnh hải VN là đường thẳng gãy khúc, nối liền các điểm từ 0 – A11.\n- Vùng biển nước ta có diện tích khoàng 1 triệu km2.\n- Nội thuỷ là vùng nước tiếp giáp với bờ biển, ở phía trong đường cơ sở và là bộ phận lãnh thổ của Việt Nam.\n- Lãnh hải là vùng biển có chiều rộng 12 hải lí tính từ đường cơ sở ra phía biển. Ranh giới ngoài của lãnh hải là biên giới quốc gia trên biển của Việt Nam.\n- Vùng tiếp giáp lãnh hải là vùng biển tiếp liền và nằm ngoài lãnh hải Việt Nam, có chiều rộng 12 hải lí tính từ ranh giới ngoài của lãnh hải.\n- Vùng đặc quyền kinh tế là vùng biển tiếp liền và nằm ngoài lãnh hải Việt Nam, hợp với lãnh hải thành một vùng biển có chiều rộng 200 hải lí tính từ đường cơ sở.\n- Thềm lục địa Việt Nam là đáy biển và lòng đất dưới đáy biển, tiếp liền và nằm ngoài lãnh hải Việt Nam, trên toàn bộ phần kéo dài tự nhiên của lãnh thổ đất liền, các đảo và quần đảo của Việt Nam cho đến mép ngoài của rìa lục địa.\n- Đường phân định vịnh Bắc Bộ giữa Việt Nam và Trung Quốc được xác định bằng 21 điểm có tọa độ xác định, nối tuần tự với nhau bằng các đoạn thẳng.",
+  "summary": "Nội dung trọng tâm được trích nguyên văn từ C4 / Phần A. Tổng hợp kiến thức cần nhớ / Mục 1.1-1.2, bám đúng bong bóng: Phạm vi Biển Đông và vùng biển Việt Nam.",
+  "images": [],
+  "stats": {
+    "chars": 1622,
+    "blocks": 14,
+    "images": 0
+  }
 }

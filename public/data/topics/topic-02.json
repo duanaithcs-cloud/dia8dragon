@@ -1,92 +1,66 @@
 {
   "topic_id": 2,
-  "label": "Anh huong vi tri dia li va pham vi lanh tho",
+  "label": "Ảnh hưởng của vị trí địa lí và phạm vi lãnh thổ",
   "source_file": "LOP_8_C1---d3c76b6e-82aa-48bd-abe3-8075329ed35f.docx",
   "source_readable": true,
+  "source_scope": "C1 / Phần A. Tổng hợp kiến thức cần nhớ / Mục 1.3",
+  "source_ranges": [
+    "26-32"
+  ],
   "blocks": [
     {
       "type": "heading",
-      "text": "CHỦ ĐỀ 1: VỊ TRÍ ĐỊA LÍ VÀ PHẠM VI LÃNH THỔ, ĐỊA HÌNH VÀ KHOÁNG SẢN VIỆT NAM"
+      "text": "1.3 Ảnh hưởng của vị trí địa lí và phạm vi lãnh thổ đối với sự hình thành đặc điểm địa lí tự nhiên Việt Nam"
     },
     {
       "type": "heading",
-      "text": "1. VỊ TRÍ ĐỊA LÍ VÀ PHẠM VI LÃNH THỔ VIỆT NAM"
-    },
-    {
-      "type": "heading",
-      "text": "1.1 Vị trí địa lí"
+      "text": "* Vị trí địa lí và lãnh thổ đã quy định đặc điểm cơ bản của thiên nhiên nước ta mang tính chất nhiệt đới ẩm gió mùa, chịu ảnh hưởng sâu sắc của biển và phân hóa đa dạng:"
     },
     {
       "type": "paragraph",
-      "text": "Vị trí:"
+      "text": "- Khí hậu: một năm có 2 mùa rõ rệt, chịu ảnh hưởng của các cơn bão lớn."
     },
     {
       "type": "paragraph",
-      "text": "+ Việt Nam nằm ở rìa phía đông của bán đảo Đông Dương, gần trung tâm khu vực Đông Nam Á."
+      "text": "- Sinh vật và đất: hệ sinh thái rừng nhiệt đới gió mùa phát triển trên đất feralit là cảnh quan tiêu biểu."
     },
     {
       "type": "paragraph",
-      "text": "+ Nước ta nằm ở vị trí nội chí tuyến bán cầu Bắc; trong khu vực châu Á gió mùa; nơi tiếp giáp giữa đất liền và đại dương, liền kề với các vành đai sinh khoáng."
+      "text": "- Thiên nhiên phân hóa đa dạng:"
     },
     {
       "type": "paragraph",
-      "text": "- Hệ tọa độ:"
+      "text": "+ Khí hậu phân hóa theo chiều bắc-nam, đông-tây."
     },
     {
       "type": "paragraph",
-      "text": "+ Trên đất liền: theo chiều bắc - nam từ 23°23′B đến 8°34′B, theo chiều đông - tây từ 109°28 ′Đ đến 102°09′Đ."
-    },
-    {
-      "type": "paragraph",
-      "text": "- Trên vùng biển: nước ta kéo dài tới khoảng vĩ độ 6°50'B (ở phía nam) và từ kinh độ 101°Đ (ở phía tây) đến trên 117°20’Đ (ở phía đông)."
-    },
-    {
-      "type": "paragraph",
-      "text": "- Tiếp giáp:"
-    },
-    {
-      "type": "paragraph",
-      "text": "+ Phía bắc giáp: Trung Quốc."
-    },
-    {
-      "type": "paragraph",
-      "text": "+ Phía tây giáp Lào và Campuchia."
-    },
-    {
-      "type": "paragraph",
-      "text": "+ Phía đông và nam giáp Biển Đông."
-    },
-    {
-      "type": "heading",
-      "text": "1.2 Phạm vi lãnh thổ"
-    },
-    {
-      "type": "paragraph",
-      "text": "Bao gồm: vùng đất, vùng biển và vùng trời."
-    },
-    {
-      "type": "paragraph",
-      "text": "- Vùng đất: diện tích 331212km2 gồm toàn bộ phần đất liền và các hải đảo với tổng diện tích 331 344 km2 (theo tổng cục thống kê năm 2021); đường biên giới trên đất liền dài hơn 4600km"
-    },
-    {
-      "type": "paragraph",
-      "text": "Hàng nghìn hòn đảo lớn nhỏ, trong đó Hoàng Sa và Trường Sa là hai quần đảo lớn nhất của Việt Nam"
-    },
-    {
-      "type": "paragraph",
-      "text": "- Vùng biển: Việt Nam có diện tích khoảng 1 triệu km2, gấp hơn 3 lần diện tích đất liền. Đường bờ biển nước ta dài 3260km, có 28/63 tỉnh giáp biển (hiện nay có 21/34 tỉnh, thành phố giáp biển)"
+      "text": "+ Sinh vật và đất ở nước ta phong phú, đa dạng."
     }
   ],
   "key_points": [
-    "CHỦ ĐỀ 1: VỊ TRÍ ĐỊA LÍ VÀ PHẠM VI LÃNH THỔ, ĐỊA HÌNH VÀ KHOÁNG SẢN VIỆT NAM",
-    "1. VỊ TRÍ ĐỊA LÍ VÀ PHẠM VI LÃNH THỔ VIỆT NAM",
-    "+ Việt Nam nằm ở rìa phía đông của bán đảo Đông Dương, gần trung tâm khu vực Đông Nam Á.",
-    "+ Nước ta nằm ở vị trí nội chí tuyến bán cầu Bắc; trong khu vực châu Á gió mùa; nơi tiếp giáp giữa đất liền và đại dương, liền kề với các vành đai sinh khoáng.",
-    "+ Trên đất liền: theo chiều bắc - nam từ 23°23′B đến 8°34′B, theo chiều đông - tây từ 109°28 ′Đ đến 102°09′Đ.",
-    "- Trên vùng biển: nước ta kéo dài tới khoảng vĩ độ 6°50'B (ở phía nam) và từ kinh độ 101°Đ (ở phía tây) đến trên 117°20’Đ (ở phía đông).",
-    "+ Phía bắc giáp: Trung Quốc.",
-    "+ Phía tây giáp Lào và Campuchia."
+    "1.3 Ảnh hưởng của vị trí địa lí và phạm vi lãnh thổ đối với sự hình thành đặc điểm địa lí tự nhiên Việt Nam",
+    "* Vị trí địa lí và lãnh thổ đã quy định đặc điểm cơ bản của thiên nhiên nước ta mang tính chất nhiệt đới ẩm gió mùa, chịu ảnh hưởng sâu sắc của biển và phân hóa đa dạng:",
+    "- Khí hậu: một năm có 2 mùa rõ rệt, chịu ảnh hưởng của các cơn bão lớn.",
+    "- Sinh vật và đất: hệ sinh thái rừng nhiệt đới gió mùa phát triển trên đất feralit là cảnh quan tiêu biểu.",
+    "- Thiên nhiên phân hóa đa dạng:",
+    "+ Khí hậu phân hóa theo chiều bắc-nam, đông-tây.",
+    "+ Sinh vật và đất ở nước ta phong phú, đa dạng."
   ],
-  "summary": "Noi dung duoc tach tu phan A cua file C1, bam theo bong bong: Anh huong vi tri dia li va pham vi lanh tho.",
-  "source_scope": "C1 / Phan A. Tong hop kien thuc can nho"
+  "focus_points": [
+    "* Vị trí địa lí và lãnh thổ đã quy định đặc điểm cơ bản của thiên nhiên nước ta mang tính chất nhiệt đới ẩm gió mùa, chịu ảnh hưởng sâu sắc của biển và phân hóa đa dạng:",
+    "- Khí hậu: một năm có 2 mùa rõ rệt, chịu ảnh hưởng của các cơn bão lớn.",
+    "- Sinh vật và đất: hệ sinh thái rừng nhiệt đới gió mùa phát triển trên đất feralit là cảnh quan tiêu biểu.",
+    "- Thiên nhiên phân hóa đa dạng:",
+    "+ Khí hậu phân hóa theo chiều bắc-nam, đông-tây.",
+    "+ Sinh vật và đất ở nước ta phong phú, đa dạng."
+  ],
+  "focus_source_section": "C1 / Phần A. Tổng hợp kiến thức cần nhớ / Mục 1.3",
+  "full_text": "1.3 Ảnh hưởng của vị trí địa lí và phạm vi lãnh thổ đối với sự hình thành đặc điểm địa lí tự nhiên Việt Nam\n* Vị trí địa lí và lãnh thổ đã quy định đặc điểm cơ bản của thiên nhiên nước ta mang tính chất nhiệt đới ẩm gió mùa, chịu ảnh hưởng sâu sắc của biển và phân hóa đa dạng:\n- Khí hậu: một năm có 2 mùa rõ rệt, chịu ảnh hưởng của các cơn bão lớn.\n- Sinh vật và đất: hệ sinh thái rừng nhiệt đới gió mùa phát triển trên đất feralit là cảnh quan tiêu biểu.\n- Thiên nhiên phân hóa đa dạng:\n+ Khí hậu phân hóa theo chiều bắc-nam, đông-tây.\n+ Sinh vật và đất ở nước ta phong phú, đa dạng.",
+  "summary": "Nội dung trọng tâm được trích nguyên văn từ C1 / Phần A. Tổng hợp kiến thức cần nhớ / Mục 1.3, bám đúng bong bóng: Ảnh hưởng của vị trí địa lí và phạm vi lãnh thổ.",
+  "images": [],
+  "stats": {
+    "chars": 585,
+    "blocks": 7,
+    "images": 0
+  }
 }

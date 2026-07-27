@@ -1,92 +1,128 @@
 {
   "topic_id": 3,
-  "label": "Dac diem dia hinh Viet Nam",
+  "label": "Đặc điểm địa hình Việt Nam",
   "source_file": "LOP_8_C1---d3c76b6e-82aa-48bd-abe3-8075329ed35f.docx",
   "source_readable": true,
+  "source_scope": "C1 / Phần A. Tổng hợp kiến thức cần nhớ / Mục 2.1",
+  "source_ranges": [
+    "33-50"
+  ],
   "blocks": [
     {
       "type": "heading",
-      "text": "CHỦ ĐỀ 1: VỊ TRÍ ĐỊA LÍ VÀ PHẠM VI LÃNH THỔ, ĐỊA HÌNH VÀ KHOÁNG SẢN VIỆT NAM"
+      "text": "2. ĐỊA HÌNH VIỆT NAM"
     },
     {
       "type": "heading",
-      "text": "1. VỊ TRÍ ĐỊA LÍ VÀ PHẠM VI LÃNH THỔ VIỆT NAM"
+      "text": "2.1 Đặc điểm chung của địa hình"
     },
     {
       "type": "heading",
-      "text": "1.1 Vị trí địa lí"
+      "text": "a) Địa hình đồi núi chiếm ưu thế"
     },
     {
       "type": "paragraph",
-      "text": "Vị trí:"
+      "text": "- Đồi núi chiếm 3/4 diện tích lãnh thổ."
     },
     {
       "type": "paragraph",
-      "text": "+ Việt Nam nằm ở rìa phía đông của bán đảo Đông Dương, gần trung tâm khu vực Đông Nam Á."
-    },
-    {
-      "type": "paragraph",
-      "text": "+ Nước ta nằm ở vị trí nội chí tuyến bán cầu Bắc; trong khu vực châu Á gió mùa; nơi tiếp giáp giữa đất liền và đại dương, liền kề với các vành đai sinh khoáng."
-    },
-    {
-      "type": "paragraph",
-      "text": "- Hệ tọa độ:"
-    },
-    {
-      "type": "paragraph",
-      "text": "+ Trên đất liền: theo chiều bắc - nam từ 23°23′B đến 8°34′B, theo chiều đông - tây từ 109°28 ′Đ đến 102°09′Đ."
-    },
-    {
-      "type": "paragraph",
-      "text": "- Trên vùng biển: nước ta kéo dài tới khoảng vĩ độ 6°50'B (ở phía nam) và từ kinh độ 101°Đ (ở phía tây) đến trên 117°20’Đ (ở phía đông)."
-    },
-    {
-      "type": "paragraph",
-      "text": "- Tiếp giáp:"
-    },
-    {
-      "type": "paragraph",
-      "text": "+ Phía bắc giáp: Trung Quốc."
-    },
-    {
-      "type": "paragraph",
-      "text": "+ Phía tây giáp Lào và Campuchia."
-    },
-    {
-      "type": "paragraph",
-      "text": "+ Phía đông và nam giáp Biển Đông."
+      "text": "- Đồng bằng chiếm 1/4 diện tích lãnh thổ."
     },
     {
       "type": "heading",
-      "text": "1.2 Phạm vi lãnh thổ"
+      "text": "b) Địa hình có hai hướng chính là tây bắc-đông nam và hướng vòng cung"
     },
     {
       "type": "paragraph",
-      "text": "Bao gồm: vùng đất, vùng biển và vùng trời."
+      "text": "- Hướng tây bắc- đông nam như Con Voi, Hoàng Liên Sơn, Trường Sơn Bắc,..."
     },
     {
       "type": "paragraph",
-      "text": "- Vùng đất: diện tích 331212km2 gồm toàn bộ phần đất liền và các hải đảo với tổng diện tích 331 344 km2 (theo tổng cục thống kê năm 2021); đường biên giới trên đất liền dài hơn 4600km"
+      "text": "- Hướng vòng cung: thể hiện rõ nhất ở vùng núi Đông Bắc."
+    },
+    {
+      "type": "heading",
+      "text": "c) Địa hình có tính chất phân bậc khá rõ rệt"
     },
     {
       "type": "paragraph",
-      "text": "Hàng nghìn hòn đảo lớn nhỏ, trong đó Hoàng Sa và Trường Sa là hai quần đảo lớn nhất của Việt Nam"
+      "text": "- Nguyên nhân: quá trình địa chất lâu dài, vận động tạo núi Hi-ma-lay-a."
     },
     {
       "type": "paragraph",
-      "text": "- Vùng biển: Việt Nam có diện tích khoảng 1 triệu km2, gấp hơn 3 lần diện tích đất liền. Đường bờ biển nước ta dài 3260km, có 28/63 tỉnh giáp biển (hiện nay có 21/34 tỉnh, thành phố giáp biển)"
+      "text": "Từ tây sang đông địa hình nước ta phân thành nhiều bậc kế tiếp nhau: núi đồi, đồng bằng, bờ biển, thềm lục địa."
+    },
+    {
+      "type": "heading",
+      "text": "d) Địa hình chịu tác động của khí hậu nhiệt đới ẩm gió mùa và con người"
+    },
+    {
+      "type": "heading",
+      "text": "* Địa hình chịu tác động của khí hậu nhiệt đới ẩm gió mùa:"
+    },
+    {
+      "type": "paragraph",
+      "text": "- Nguyên nhân: nhiệt độ cao, lượng mưa lớn tập trung theo mùa, nước mưa hòa tan đá vôi."
+    },
+    {
+      "type": "paragraph",
+      "text": "- Biểu hiện:"
+    },
+    {
+      "type": "paragraph",
+      "text": "+ Quá trình xâm thực, xói mòn mạnh, địa hình bị chia cắt."
+    },
+    {
+      "type": "paragraph",
+      "text": "+ Nhiều hang động rộng lớn."
+    },
+    {
+      "type": "heading",
+      "text": "* Địa hình chịu tác động của con người: các dạng địa hình nhân tạo: đô thị, hầm mỏ, đê, đập..."
     }
   ],
   "key_points": [
-    "CHỦ ĐỀ 1: VỊ TRÍ ĐỊA LÍ VÀ PHẠM VI LÃNH THỔ, ĐỊA HÌNH VÀ KHOÁNG SẢN VIỆT NAM",
-    "1. VỊ TRÍ ĐỊA LÍ VÀ PHẠM VI LÃNH THỔ VIỆT NAM",
-    "+ Việt Nam nằm ở rìa phía đông của bán đảo Đông Dương, gần trung tâm khu vực Đông Nam Á.",
-    "+ Nước ta nằm ở vị trí nội chí tuyến bán cầu Bắc; trong khu vực châu Á gió mùa; nơi tiếp giáp giữa đất liền và đại dương, liền kề với các vành đai sinh khoáng.",
-    "+ Trên đất liền: theo chiều bắc - nam từ 23°23′B đến 8°34′B, theo chiều đông - tây từ 109°28 ′Đ đến 102°09′Đ.",
-    "- Trên vùng biển: nước ta kéo dài tới khoảng vĩ độ 6°50'B (ở phía nam) và từ kinh độ 101°Đ (ở phía tây) đến trên 117°20’Đ (ở phía đông).",
-    "+ Phía bắc giáp: Trung Quốc.",
-    "+ Phía tây giáp Lào và Campuchia."
+    "2. ĐỊA HÌNH VIỆT NAM",
+    "2.1 Đặc điểm chung của địa hình",
+    "a) Địa hình đồi núi chiếm ưu thế",
+    "- Đồi núi chiếm 3/4 diện tích lãnh thổ.",
+    "- Đồng bằng chiếm 1/4 diện tích lãnh thổ.",
+    "b) Địa hình có hai hướng chính là tây bắc-đông nam và hướng vòng cung",
+    "- Hướng tây bắc- đông nam như Con Voi, Hoàng Liên Sơn, Trường Sơn Bắc,...",
+    "- Hướng vòng cung: thể hiện rõ nhất ở vùng núi Đông Bắc.",
+    "c) Địa hình có tính chất phân bậc khá rõ rệt",
+    "- Nguyên nhân: quá trình địa chất lâu dài, vận động tạo núi Hi-ma-lay-a.",
+    "d) Địa hình chịu tác động của khí hậu nhiệt đới ẩm gió mùa và con người",
+    "* Địa hình chịu tác động của khí hậu nhiệt đới ẩm gió mùa:",
+    "- Nguyên nhân: nhiệt độ cao, lượng mưa lớn tập trung theo mùa, nước mưa hòa tan đá vôi.",
+    "- Biểu hiện:",
+    "+ Quá trình xâm thực, xói mòn mạnh, địa hình bị chia cắt.",
+    "+ Nhiều hang động rộng lớn.",
+    "* Địa hình chịu tác động của con người: các dạng địa hình nhân tạo: đô thị, hầm mỏ, đê, đập..."
   ],
-  "summary": "Noi dung duoc tach tu phan A cua file C1, bam theo bong bong: Dac diem dia hinh Viet Nam.",
-  "source_scope": "C1 / Phan A. Tong hop kien thuc can nho"
+  "focus_points": [
+    "a) Địa hình đồi núi chiếm ưu thế",
+    "- Đồi núi chiếm 3/4 diện tích lãnh thổ.",
+    "- Đồng bằng chiếm 1/4 diện tích lãnh thổ.",
+    "b) Địa hình có hai hướng chính là tây bắc-đông nam và hướng vòng cung",
+    "- Hướng tây bắc- đông nam như Con Voi, Hoàng Liên Sơn, Trường Sơn Bắc,...",
+    "- Hướng vòng cung: thể hiện rõ nhất ở vùng núi Đông Bắc.",
+    "c) Địa hình có tính chất phân bậc khá rõ rệt",
+    "- Nguyên nhân: quá trình địa chất lâu dài, vận động tạo núi Hi-ma-lay-a.",
+    "d) Địa hình chịu tác động của khí hậu nhiệt đới ẩm gió mùa và con người",
+    "* Địa hình chịu tác động của khí hậu nhiệt đới ẩm gió mùa:",
+    "- Nguyên nhân: nhiệt độ cao, lượng mưa lớn tập trung theo mùa, nước mưa hòa tan đá vôi.",
+    "- Biểu hiện:",
+    "+ Quá trình xâm thực, xói mòn mạnh, địa hình bị chia cắt.",
+    "+ Nhiều hang động rộng lớn."
+  ],
+  "focus_source_section": "C1 / Phần A. Tổng hợp kiến thức cần nhớ / Mục 2.1",
+  "full_text": "2. ĐỊA HÌNH VIỆT NAM\n2.1 Đặc điểm chung của địa hình\na) Địa hình đồi núi chiếm ưu thế\n- Đồi núi chiếm 3/4 diện tích lãnh thổ.\n- Đồng bằng chiếm 1/4 diện tích lãnh thổ.\nb) Địa hình có hai hướng chính là tây bắc-đông nam và hướng vòng cung\n- Hướng tây bắc- đông nam như Con Voi, Hoàng Liên Sơn, Trường Sơn Bắc,...\n- Hướng vòng cung: thể hiện rõ nhất ở vùng núi Đông Bắc.\nc) Địa hình có tính chất phân bậc khá rõ rệt\n- Nguyên nhân: quá trình địa chất lâu dài, vận động tạo núi Hi-ma-lay-a.\nTừ tây sang đông địa hình nước ta phân thành nhiều bậc kế tiếp nhau: núi đồi, đồng bằng, bờ biển, thềm lục địa.\nd) Địa hình chịu tác động của khí hậu nhiệt đới ẩm gió mùa và con người\n* Địa hình chịu tác động của khí hậu nhiệt đới ẩm gió mùa:\n- Nguyên nhân: nhiệt độ cao, lượng mưa lớn tập trung theo mùa, nước mưa hòa tan đá vôi.\n- Biểu hiện:\n+ Quá trình xâm thực, xói mòn mạnh, địa hình bị chia cắt.\n+ Nhiều hang động rộng lớn.\n* Địa hình chịu tác động của con người: các dạng địa hình nhân tạo: đô thị, hầm mỏ, đê, đập...",
+  "summary": "Nội dung trọng tâm được trích nguyên văn từ C1 / Phần A. Tổng hợp kiến thức cần nhớ / Mục 2.1, bám đúng bong bóng: Đặc điểm địa hình Việt Nam.",
+  "images": [],
+  "stats": {
+    "chars": 1011,
+    "blocks": 18,
+    "images": 0
+  }
 }

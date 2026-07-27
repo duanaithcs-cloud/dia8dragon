@@ -1,92 +1,107 @@
 {
   "topic_id": 14,
-  "label": "Ho, dam va nuoc ngam",
+  "label": "Hồ, đầm và nước ngầm",
   "source_file": "LOP_8_C2---662f9dd8-7d10-4634-822b-a0cbf3ab2aea.docx",
   "source_readable": true,
+  "source_scope": "C2 / Phần A. Tổng hợp kiến thức cần nhớ / Mục 2.2-2.3",
+  "source_ranges": [
+    "64-77"
+  ],
   "blocks": [
     {
       "type": "heading",
-      "text": "CHỦ ĐỀ 2: KHÍ HẬU VÀ THUỶ VĂN VIỆT NAM"
+      "text": "2.2. Hồ, đầm"
+    },
+    {
+      "type": "paragraph",
+      "text": "- Vai trò đối với sản xuất:"
+    },
+    {
+      "type": "paragraph",
+      "text": "+ Nông nghiệp: cung cấp nước cho trồng trọt và chăn nuôi, nuôi trồng, đánh bắt thuỷ sản."
+    },
+    {
+      "type": "paragraph",
+      "text": "+ Công nghiệp: phát triển thuỷ điện, cung cấp nước cho các ngành công nghiệp."
+    },
+    {
+      "type": "paragraph",
+      "text": "+ Dịch vụ: có giá trị về giao thông, phát triển du lịch."
+    },
+    {
+      "type": "paragraph",
+      "text": "- Đối với sinh hoạt:"
+    },
+    {
+      "type": "paragraph",
+      "text": "+ Phục vụ nhu cầu nước trong sinh hoạt."
+    },
+    {
+      "type": "paragraph",
+      "text": "+ Đảm bảo an ninh nguồn nước."
     },
     {
       "type": "heading",
-      "text": "1. KHÍ HẬU VIỆT NAM"
-    },
-    {
-      "type": "heading",
-      "text": "1.1. Khí hậu nhiệt đới ẩm gió mùa"
+      "text": "2.3. Nước ngầm"
     },
     {
       "type": "paragraph",
-      "text": "a) Tính chất nhiệt đới"
+      "text": "- Vai trò đối với sản xuất:"
     },
     {
       "type": "paragraph",
-      "text": "- Nhiệt độ trung bình năm trên 200C (trừ vùng núi cao) và tăng dần từ Bắc vào Nam."
+      "text": "+ Nông nghiệp: cung cấp nước cho sản xuất nông nghiệp (trồng trọt, chăn nuôi, nuôi trồng thuỷ sản,...)."
     },
     {
       "type": "paragraph",
-      "text": "- Số giờ nắng nhiều, đạt từ 1400 - 3000 giờ/năm."
+      "text": "+ Công nghiệp: được sử dụng trong nhiều ngành công nghiệp như: chế biến lương thực - thực phẩm, sản xuất giấy,..."
     },
     {
       "type": "paragraph",
-      "text": "- Cán cân bức xạ từ 70-100 kcal/cm2/năm."
+      "text": "+ Dịch vụ: Một số nguồn nước nóng, nước khoáng được khai thác để chữa bệnh và phát triển du lịch nghỉ dưỡng."
     },
     {
       "type": "paragraph",
-      "text": "- Đặc điểm:"
-    },
-    {
-      "type": "paragraph",
-      "text": "+ Ở miền Bắc: nửa đầu mùa đông thời tiết lạnh khô, nửa sau mùa đông thời tiết lạnh ẩm, có mưa phùn."
-    },
-    {
-      "type": "paragraph",
-      "text": "+ Ở miền Nam, Tín phong chiếm ưu thế đem đến mùa khô cho Nan Bộ và Tây Nguyên, gây mưa cho vùng biển Nam Trung Bộ."
-    },
-    {
-      "type": "paragraph",
-      "text": "* Gió mùa mùa hạ:"
-    },
-    {
-      "type": "paragraph",
-      "text": "- Thời gian: từ tháng 5 – 10"
-    },
-    {
-      "type": "paragraph",
-      "text": "- Nguồn gốc: áp cao Bắc Ấn Độ Dương và áp cao cận chí tuyến Nam bán cầu."
-    },
-    {
-      "type": "paragraph",
-      "text": "- Hướng gió: tây nam, đối với miền Bắc là đông nam."
-    },
-    {
-      "type": "paragraph",
-      "text": "+ Đầu mùa hạ: gây mưa cho Nam Bộ, Tây Nguyên nhưng gây khô nóng cho phía đông Trường Sơn, Tây Bắc."
-    },
-    {
-      "type": "paragraph",
-      "text": "+ Giữa và cuối mùa hạ: nóng ẩm, mưa nhiều cả nước."
-    },
-    {
-      "type": "heading",
-      "text": "1.2. Sự phân hoá đa dạng của khí hậu Việt Nam"
-    },
-    {
-      "type": "paragraph",
-      "text": "a) Phân hoá theo chiều bắc-nam"
+      "text": "- Đối với sinh hoạt: là nguồn nước quan trọng phục vụ cho sinh hoạt của người dân."
     }
   ],
   "key_points": [
-    "CHỦ ĐỀ 2: KHÍ HẬU VÀ THUỶ VĂN VIỆT NAM",
-    "1.1. Khí hậu nhiệt đới ẩm gió mùa",
-    "a) Tính chất nhiệt đới",
-    "- Nhiệt độ trung bình năm trên 200C (trừ vùng núi cao) và tăng dần từ Bắc vào Nam.",
-    "- Số giờ nắng nhiều, đạt từ 1400 - 3000 giờ/năm.",
-    "- Cán cân bức xạ từ 70-100 kcal/cm2/năm.",
-    "+ Ở miền Bắc: nửa đầu mùa đông thời tiết lạnh khô, nửa sau mùa đông thời tiết lạnh ẩm, có mưa phùn.",
-    "+ Ở miền Nam, Tín phong chiếm ưu thế đem đến mùa khô cho Nan Bộ và Tây Nguyên, gây mưa cho vùng biển Nam Trung Bộ."
+    "2.2. Hồ, đầm",
+    "- Vai trò đối với sản xuất:",
+    "+ Nông nghiệp: cung cấp nước cho trồng trọt và chăn nuôi, nuôi trồng, đánh bắt thuỷ sản.",
+    "+ Công nghiệp: phát triển thuỷ điện, cung cấp nước cho các ngành công nghiệp.",
+    "+ Dịch vụ: có giá trị về giao thông, phát triển du lịch.",
+    "- Đối với sinh hoạt:",
+    "+ Phục vụ nhu cầu nước trong sinh hoạt.",
+    "+ Đảm bảo an ninh nguồn nước.",
+    "2.3. Nước ngầm",
+    "- Vai trò đối với sản xuất:",
+    "+ Nông nghiệp: cung cấp nước cho sản xuất nông nghiệp (trồng trọt, chăn nuôi, nuôi trồng thuỷ sản,...).",
+    "+ Công nghiệp: được sử dụng trong nhiều ngành công nghiệp như: chế biến lương thực - thực phẩm, sản xuất giấy,...",
+    "+ Dịch vụ: Một số nguồn nước nóng, nước khoáng được khai thác để chữa bệnh và phát triển du lịch nghỉ dưỡng.",
+    "- Đối với sinh hoạt: là nguồn nước quan trọng phục vụ cho sinh hoạt của người dân."
   ],
-  "summary": "Noi dung duoc tach tu phan A cua file C2, bam theo bong bong: Ho, dam va nuoc ngam.",
-  "source_scope": "C2 / Phan A. Tong hop kien thuc can nho"
+  "focus_points": [
+    "- Vai trò đối với sản xuất:",
+    "+ Nông nghiệp: cung cấp nước cho trồng trọt và chăn nuôi, nuôi trồng, đánh bắt thuỷ sản.",
+    "+ Công nghiệp: phát triển thuỷ điện, cung cấp nước cho các ngành công nghiệp.",
+    "+ Dịch vụ: có giá trị về giao thông, phát triển du lịch.",
+    "- Đối với sinh hoạt:",
+    "+ Phục vụ nhu cầu nước trong sinh hoạt.",
+    "+ Đảm bảo an ninh nguồn nước.",
+    "- Vai trò đối với sản xuất:",
+    "+ Nông nghiệp: cung cấp nước cho sản xuất nông nghiệp (trồng trọt, chăn nuôi, nuôi trồng thuỷ sản,...).",
+    "+ Công nghiệp: được sử dụng trong nhiều ngành công nghiệp như: chế biến lương thực - thực phẩm, sản xuất giấy,...",
+    "+ Dịch vụ: Một số nguồn nước nóng, nước khoáng được khai thác để chữa bệnh và phát triển du lịch nghỉ dưỡng.",
+    "- Đối với sinh hoạt: là nguồn nước quan trọng phục vụ cho sinh hoạt của người dân."
+  ],
+  "focus_source_section": "C2 / Phần A. Tổng hợp kiến thức cần nhớ / Mục 2.2-2.3",
+  "full_text": "2.2. Hồ, đầm\n- Vai trò đối với sản xuất:\n+ Nông nghiệp: cung cấp nước cho trồng trọt và chăn nuôi, nuôi trồng, đánh bắt thuỷ sản.\n+ Công nghiệp: phát triển thuỷ điện, cung cấp nước cho các ngành công nghiệp.\n+ Dịch vụ: có giá trị về giao thông, phát triển du lịch.\n- Đối với sinh hoạt:\n+ Phục vụ nhu cầu nước trong sinh hoạt.\n+ Đảm bảo an ninh nguồn nước.\n2.3. Nước ngầm\n- Vai trò đối với sản xuất:\n+ Nông nghiệp: cung cấp nước cho sản xuất nông nghiệp (trồng trọt, chăn nuôi, nuôi trồng thuỷ sản,...).\n+ Công nghiệp: được sử dụng trong nhiều ngành công nghiệp như: chế biến lương thực - thực phẩm, sản xuất giấy,...\n+ Dịch vụ: Một số nguồn nước nóng, nước khoáng được khai thác để chữa bệnh và phát triển du lịch nghỉ dưỡng.\n- Đối với sinh hoạt: là nguồn nước quan trọng phục vụ cho sinh hoạt của người dân.",
+  "summary": "Nội dung trọng tâm được trích nguyên văn từ C2 / Phần A. Tổng hợp kiến thức cần nhớ / Mục 2.2-2.3, bám đúng bong bóng: Hồ, đầm và nước ngầm.",
+  "images": [],
+  "stats": {
+    "chars": 808,
+    "blocks": 14,
+    "images": 0
+  }
 }

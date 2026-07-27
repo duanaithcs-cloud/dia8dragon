@@ -1,92 +1,129 @@
 {
   "topic_id": 6,
-  "label": "Phan bo va su dung khoang san",
+  "label": "Phân bố và sử dụng khoáng sản",
   "source_file": "LOP_8_C1---d3c76b6e-82aa-48bd-abe3-8075329ed35f.docx",
   "source_readable": true,
+  "source_scope": "C1 / Phần A. Tổng hợp kiến thức cần nhớ / Mục 3.2-3.3",
+  "source_ranges": [
+    "116-133"
+  ],
   "blocks": [
     {
       "type": "heading",
-      "text": "CHỦ ĐỀ 1: VỊ TRÍ ĐỊA LÍ VÀ PHẠM VI LÃNH THỔ, ĐỊA HÌNH VÀ KHOÁNG SẢN VIỆT NAM"
+      "text": "3.2 Đặc điểm phân bố các loại khoáng sản chủ yếu"
+    },
+    {
+      "type": "paragraph",
+      "text": "- Than đá: ở bể than Quảng Ninh."
+    },
+    {
+      "type": "paragraph",
+      "text": "- Dầu mỏ và khí tự nhiên: ở vùng thềm lục địa phía đông nam."
+    },
+    {
+      "type": "paragraph",
+      "text": "- Bô-xít: ở Tây Nguyên (Lâm Đồng, Gia Lai, Kon Tum,...), ngoài ra còn có ở một số tỉnh phía bắc như Lạng Sơn, Cao Bằng, Hà Giang (nay thuộc Tuyên Quang),...."
+    },
+    {
+      "type": "paragraph",
+      "text": "- Sắt: ở khu vực Đông Bắc (Thái Nguyên, Lào Cai, Hà Giang),... và Bắc Trung Bộ (Hà Tĩnh)."
+    },
+    {
+      "type": "paragraph",
+      "text": "- A-pa-tít: ở Lào Cai."
+    },
+    {
+      "type": "paragraph",
+      "text": "- Ti-tan: ở ven biển từ Quảng Ninh đến Bà Rịa - Vũng Tàu( nay thuộc Hồ Chí Minh)"
+    },
+    {
+      "type": "paragraph",
+      "text": "- Đá vôi: ở vùng núi phía Bắc và Bắc Trung Bộ."
     },
     {
       "type": "heading",
-      "text": "1. VỊ TRÍ ĐỊA LÍ VÀ PHẠM VI LÃNH THỔ VIỆT NAM"
-    },
-    {
-      "type": "heading",
-      "text": "1.1 Vị trí địa lí"
+      "text": "3.3 Vấn đề sử dụng hợp lí tài nguyên khoáng sản"
     },
     {
       "type": "paragraph",
-      "text": "Vị trí:"
+      "text": "- Hiện trạng: việc khai thác và sử dụng còn chưa hợp lí."
     },
     {
       "type": "paragraph",
-      "text": "+ Việt Nam nằm ở rìa phía đông của bán đảo Đông Dương, gần trung tâm khu vực Đông Nam Á."
+      "text": "- Nguyên nhân: khai thác trái phép, công nghệ lạc hậu,..."
     },
     {
       "type": "paragraph",
-      "text": "+ Nước ta nằm ở vị trí nội chí tuyến bán cầu Bắc; trong khu vực châu Á gió mùa; nơi tiếp giáp giữa đất liền và đại dương, liền kề với các vành đai sinh khoáng."
+      "text": "- Hậu quả: gây lãng phí, cạn kiệt, ảnh hưởng xấu đến môi trường và phát triển bền vững."
     },
     {
       "type": "paragraph",
-      "text": "- Hệ tọa độ:"
+      "text": "- Giải pháp:"
     },
     {
       "type": "paragraph",
-      "text": "+ Trên đất liền: theo chiều bắc - nam từ 23°23′B đến 8°34′B, theo chiều đông - tây từ 109°28 ′Đ đến 102°09′Đ."
+      "text": "+ Phát triển các hoạt động điều tra, thăm dò; khai thác, chế biến."
     },
     {
       "type": "paragraph",
-      "text": "- Trên vùng biển: nước ta kéo dài tới khoảng vĩ độ 6°50'B (ở phía nam) và từ kinh độ 101°Đ (ở phía tây) đến trên 117°20’Đ (ở phía đông)."
+      "text": "+ Đẩy mạnh đầu tư với công nghệ tiên tiến, thiết bị hiện đại."
     },
     {
       "type": "paragraph",
-      "text": "- Tiếp giáp:"
+      "text": "+ Phát triển công nghiệp chế biến."
     },
     {
       "type": "paragraph",
-      "text": "+ Phía bắc giáp: Trung Quốc."
+      "text": "+ Bảo vệ khoáng sản chưa khai thác và sử dụng tiết kiệm."
     },
     {
       "type": "paragraph",
-      "text": "+ Phía tây giáp Lào và Campuchia."
-    },
-    {
-      "type": "paragraph",
-      "text": "+ Phía đông và nam giáp Biển Đông."
-    },
-    {
-      "type": "heading",
-      "text": "1.2 Phạm vi lãnh thổ"
-    },
-    {
-      "type": "paragraph",
-      "text": "Bao gồm: vùng đất, vùng biển và vùng trời."
-    },
-    {
-      "type": "paragraph",
-      "text": "- Vùng đất: diện tích 331212km2 gồm toàn bộ phần đất liền và các hải đảo với tổng diện tích 331 344 km2 (theo tổng cục thống kê năm 2021); đường biên giới trên đất liền dài hơn 4600km"
-    },
-    {
-      "type": "paragraph",
-      "text": "Hàng nghìn hòn đảo lớn nhỏ, trong đó Hoàng Sa và Trường Sa là hai quần đảo lớn nhất của Việt Nam"
-    },
-    {
-      "type": "paragraph",
-      "text": "- Vùng biển: Việt Nam có diện tích khoảng 1 triệu km2, gấp hơn 3 lần diện tích đất liền. Đường bờ biển nước ta dài 3260km, có 28/63 tỉnh giáp biển (hiện nay có 21/34 tỉnh, thành phố giáp biển)"
+      "text": "+ Tổ chức tuyên truyền, phổ biến, giáo dục pháp luật trong hoạt động khai thác và sử dụng khoáng sản."
     }
   ],
   "key_points": [
-    "CHỦ ĐỀ 1: VỊ TRÍ ĐỊA LÍ VÀ PHẠM VI LÃNH THỔ, ĐỊA HÌNH VÀ KHOÁNG SẢN VIỆT NAM",
-    "1. VỊ TRÍ ĐỊA LÍ VÀ PHẠM VI LÃNH THỔ VIỆT NAM",
-    "+ Việt Nam nằm ở rìa phía đông của bán đảo Đông Dương, gần trung tâm khu vực Đông Nam Á.",
-    "+ Nước ta nằm ở vị trí nội chí tuyến bán cầu Bắc; trong khu vực châu Á gió mùa; nơi tiếp giáp giữa đất liền và đại dương, liền kề với các vành đai sinh khoáng.",
-    "+ Trên đất liền: theo chiều bắc - nam từ 23°23′B đến 8°34′B, theo chiều đông - tây từ 109°28 ′Đ đến 102°09′Đ.",
-    "- Trên vùng biển: nước ta kéo dài tới khoảng vĩ độ 6°50'B (ở phía nam) và từ kinh độ 101°Đ (ở phía tây) đến trên 117°20’Đ (ở phía đông).",
-    "+ Phía bắc giáp: Trung Quốc.",
-    "+ Phía tây giáp Lào và Campuchia."
+    "3.2 Đặc điểm phân bố các loại khoáng sản chủ yếu",
+    "- Than đá: ở bể than Quảng Ninh.",
+    "- Dầu mỏ và khí tự nhiên: ở vùng thềm lục địa phía đông nam.",
+    "- Bô-xít: ở Tây Nguyên (Lâm Đồng, Gia Lai, Kon Tum,...), ngoài ra còn có ở một số tỉnh phía bắc như Lạng Sơn, Cao Bằng, Hà Giang (nay thuộc Tuyên Quang),....",
+    "- Sắt: ở khu vực Đông Bắc (Thái Nguyên, Lào Cai, Hà Giang),... và Bắc Trung Bộ (Hà Tĩnh).",
+    "- A-pa-tít: ở Lào Cai.",
+    "- Ti-tan: ở ven biển từ Quảng Ninh đến Bà Rịa - Vũng Tàu( nay thuộc Hồ Chí Minh)",
+    "- Đá vôi: ở vùng núi phía Bắc và Bắc Trung Bộ.",
+    "3.3 Vấn đề sử dụng hợp lí tài nguyên khoáng sản",
+    "- Hiện trạng: việc khai thác và sử dụng còn chưa hợp lí.",
+    "- Nguyên nhân: khai thác trái phép, công nghệ lạc hậu,...",
+    "- Hậu quả: gây lãng phí, cạn kiệt, ảnh hưởng xấu đến môi trường và phát triển bền vững.",
+    "- Giải pháp:",
+    "+ Phát triển các hoạt động điều tra, thăm dò; khai thác, chế biến.",
+    "+ Đẩy mạnh đầu tư với công nghệ tiên tiến, thiết bị hiện đại.",
+    "+ Phát triển công nghiệp chế biến.",
+    "+ Bảo vệ khoáng sản chưa khai thác và sử dụng tiết kiệm.",
+    "+ Tổ chức tuyên truyền, phổ biến, giáo dục pháp luật trong hoạt động khai thác và sử dụng khoáng sản."
   ],
-  "summary": "Noi dung duoc tach tu phan A cua file C1, bam theo bong bong: Phan bo va su dung khoang san.",
-  "source_scope": "C1 / Phan A. Tong hop kien thuc can nho"
+  "focus_points": [
+    "- Than đá: ở bể than Quảng Ninh.",
+    "- Dầu mỏ và khí tự nhiên: ở vùng thềm lục địa phía đông nam.",
+    "- Bô-xít: ở Tây Nguyên (Lâm Đồng, Gia Lai, Kon Tum,...), ngoài ra còn có ở một số tỉnh phía bắc như Lạng Sơn, Cao Bằng, Hà Giang (nay thuộc Tuyên Quang),....",
+    "- Sắt: ở khu vực Đông Bắc (Thái Nguyên, Lào Cai, Hà Giang),... và Bắc Trung Bộ (Hà Tĩnh).",
+    "- A-pa-tít: ở Lào Cai.",
+    "- Ti-tan: ở ven biển từ Quảng Ninh đến Bà Rịa - Vũng Tàu( nay thuộc Hồ Chí Minh)",
+    "- Đá vôi: ở vùng núi phía Bắc và Bắc Trung Bộ.",
+    "- Hiện trạng: việc khai thác và sử dụng còn chưa hợp lí.",
+    "- Nguyên nhân: khai thác trái phép, công nghệ lạc hậu,...",
+    "- Hậu quả: gây lãng phí, cạn kiệt, ảnh hưởng xấu đến môi trường và phát triển bền vững.",
+    "- Giải pháp:",
+    "+ Phát triển các hoạt động điều tra, thăm dò; khai thác, chế biến.",
+    "+ Đẩy mạnh đầu tư với công nghệ tiên tiến, thiết bị hiện đại.",
+    "+ Phát triển công nghiệp chế biến."
+  ],
+  "focus_source_section": "C1 / Phần A. Tổng hợp kiến thức cần nhớ / Mục 3.2-3.3",
+  "full_text": "3.2 Đặc điểm phân bố các loại khoáng sản chủ yếu\n- Than đá: ở bể than Quảng Ninh.\n- Dầu mỏ và khí tự nhiên: ở vùng thềm lục địa phía đông nam.\n- Bô-xít: ở Tây Nguyên (Lâm Đồng, Gia Lai, Kon Tum,...), ngoài ra còn có ở một số tỉnh phía bắc như Lạng Sơn, Cao Bằng, Hà Giang (nay thuộc Tuyên Quang),....\n- Sắt: ở khu vực Đông Bắc (Thái Nguyên, Lào Cai, Hà Giang),... và Bắc Trung Bộ (Hà Tĩnh).\n- A-pa-tít: ở Lào Cai.\n- Ti-tan: ở ven biển từ Quảng Ninh đến Bà Rịa - Vũng Tàu( nay thuộc Hồ Chí Minh)\n- Đá vôi: ở vùng núi phía Bắc và Bắc Trung Bộ.\n3.3 Vấn đề sử dụng hợp lí tài nguyên khoáng sản\n- Hiện trạng: việc khai thác và sử dụng còn chưa hợp lí.\n- Nguyên nhân: khai thác trái phép, công nghệ lạc hậu,...\n- Hậu quả: gây lãng phí, cạn kiệt, ảnh hưởng xấu đến môi trường và phát triển bền vững.\n- Giải pháp:\n+ Phát triển các hoạt động điều tra, thăm dò; khai thác, chế biến.\n+ Đẩy mạnh đầu tư với công nghệ tiên tiến, thiết bị hiện đại.\n+ Phát triển công nghiệp chế biến.\n+ Bảo vệ khoáng sản chưa khai thác và sử dụng tiết kiệm.\n+ Tổ chức tuyên truyền, phổ biến, giáo dục pháp luật trong hoạt động khai thác và sử dụng khoáng sản.",
+  "summary": "Nội dung trọng tâm được trích nguyên văn từ C1 / Phần A. Tổng hợp kiến thức cần nhớ / Mục 3.2-3.3, bám đúng bong bóng: Phân bố và sử dụng khoáng sản.",
+  "images": [],
+  "stats": {
+    "chars": 1128,
+    "blocks": 18,
+    "images": 0
+  }
 }

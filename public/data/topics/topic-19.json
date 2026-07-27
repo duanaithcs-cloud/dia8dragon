@@ -1,92 +1,54 @@
 {
   "topic_id": 19,
-  "label": "Khai thac tong hop tai nguyen nuoc",
+  "label": "Khai thác tổng hợp tài nguyên nước",
   "source_file": "LOP_8_C2---662f9dd8-7d10-4634-822b-a0cbf3ab2aea.docx",
   "source_readable": true,
+  "source_scope": "C2 / Phần A. Tổng hợp kiến thức cần nhớ / Mục 3.3",
+  "source_ranges": [
+    "92-96"
+  ],
   "blocks": [
     {
-      "type": "paragraph",
-      "text": "+ Ở miền Bắc: nửa đầu mùa đông thời tiết lạnh khô, nửa sau mùa đông thời tiết lạnh ẩm, có mưa phùn."
-    },
-    {
-      "type": "paragraph",
-      "text": "+ Ở miền Nam, Tín phong chiếm ưu thế đem đến mùa khô cho Nan Bộ và Tây Nguyên, gây mưa cho vùng biển Nam Trung Bộ."
-    },
-    {
-      "type": "paragraph",
-      "text": "* Gió mùa mùa hạ:"
-    },
-    {
-      "type": "paragraph",
-      "text": "- Thời gian: từ tháng 5 – 10"
-    },
-    {
-      "type": "paragraph",
-      "text": "- Đặc điểm:"
-    },
-    {
-      "type": "paragraph",
-      "text": "+ Đầu mùa hạ: gây mưa cho Nam Bộ, Tây Nguyên nhưng gây khô nóng cho phía đông Trường Sơn, Tây Bắc."
-    },
-    {
-      "type": "paragraph",
-      "text": "+ Giữa và cuối mùa hạ: nóng ẩm, mưa nhiều cả nước."
-    },
-    {
       "type": "heading",
-      "text": "1.2. Sự phân hoá đa dạng của khí hậu Việt Nam"
+      "text": "3.3. Tầm quan trọng của việc sử dụng tổng hợp tài nguyên nước ở một lưu vực sông"
     },
     {
       "type": "paragraph",
-      "text": "a) Phân hoá theo chiều bắc-nam"
+      "text": "- Có vai trò quan trọng trong sản xuất và sinh hoạt."
     },
     {
       "type": "paragraph",
-      "text": "a) Đặc điểm chung"
+      "text": "- Mang lại hiệu quả kinh tế cao, đáp ứng được nhu cầu sử dụng nước của các ngành kinh tế."
     },
     {
       "type": "paragraph",
-      "text": "- Mạng lưới sông ngòi dày đặc phân bố rộng khắp trên cả nước: Nước ta có 2360 con sông dài trên 10km."
+      "text": "- Hạn chế lãng phí nước và bảo vệ tài nguyên nước, bảo vệ hệ sinh thái ở lưu vực sông."
     },
     {
       "type": "paragraph",
-      "text": "- Sông chảy theo hai hướng chính là tây bắc - đông nam và vòng cung."
-    },
-    {
-      "type": "paragraph",
-      "text": "- Chế độ dòng chảy phân 2 mùa rất rõ rệt: mùa lũ và mùa cạn."
-    },
-    {
-      "type": "paragraph",
-      "text": "- Sông ngòi nước ta nhiều nước (hơn 800 tỉ m3/năm) và lượng phù sa khá lớn (khoảng 200 triệu tấn/năm)."
-    },
-    {
-      "type": "paragraph",
-      "text": "b) Một số hệ thống sông"
-    },
-    {
-      "type": "paragraph",
-      "text": "* Hệ thống sông Hồng"
-    },
-    {
-      "type": "paragraph",
-      "text": "- Đặc điểm mạng lưới sông:"
-    },
-    {
-      "type": "paragraph",
-      "text": "+ Là hệ thống sông lớn thứ 2 cả nước."
+      "text": "- Góp phần phòng chống thiên tai bão, lũ."
     }
   ],
   "key_points": [
-    "+ Ở miền Bắc: nửa đầu mùa đông thời tiết lạnh khô, nửa sau mùa đông thời tiết lạnh ẩm, có mưa phùn.",
-    "+ Ở miền Nam, Tín phong chiếm ưu thế đem đến mùa khô cho Nan Bộ và Tây Nguyên, gây mưa cho vùng biển Nam Trung Bộ.",
-    "- Thời gian: từ tháng 5 – 10",
-    "+ Đầu mùa hạ: gây mưa cho Nam Bộ, Tây Nguyên nhưng gây khô nóng cho phía đông Trường Sơn, Tây Bắc.",
-    "+ Giữa và cuối mùa hạ: nóng ẩm, mưa nhiều cả nước.",
-    "1.2. Sự phân hoá đa dạng của khí hậu Việt Nam",
-    "a) Phân hoá theo chiều bắc-nam",
-    "- Mạng lưới sông ngòi dày đặc phân bố rộng khắp trên cả nước: Nước ta có 2360 con sông dài trên 10km."
+    "3.3. Tầm quan trọng của việc sử dụng tổng hợp tài nguyên nước ở một lưu vực sông",
+    "- Có vai trò quan trọng trong sản xuất và sinh hoạt.",
+    "- Mang lại hiệu quả kinh tế cao, đáp ứng được nhu cầu sử dụng nước của các ngành kinh tế.",
+    "- Hạn chế lãng phí nước và bảo vệ tài nguyên nước, bảo vệ hệ sinh thái ở lưu vực sông.",
+    "- Góp phần phòng chống thiên tai bão, lũ."
   ],
-  "summary": "Noi dung duoc tach tu phan A cua file C2, bam theo bong bong: Khai thac tong hop tai nguyen nuoc.",
-  "source_scope": "C2 / Phan A. Tong hop kien thuc can nho"
+  "focus_points": [
+    "- Có vai trò quan trọng trong sản xuất và sinh hoạt.",
+    "- Mang lại hiệu quả kinh tế cao, đáp ứng được nhu cầu sử dụng nước của các ngành kinh tế.",
+    "- Hạn chế lãng phí nước và bảo vệ tài nguyên nước, bảo vệ hệ sinh thái ở lưu vực sông.",
+    "- Góp phần phòng chống thiên tai bão, lũ."
+  ],
+  "focus_source_section": "C2 / Phần A. Tổng hợp kiến thức cần nhớ / Mục 3.3",
+  "full_text": "3.3. Tầm quan trọng của việc sử dụng tổng hợp tài nguyên nước ở một lưu vực sông\n- Có vai trò quan trọng trong sản xuất và sinh hoạt.\n- Mang lại hiệu quả kinh tế cao, đáp ứng được nhu cầu sử dụng nước của các ngành kinh tế.\n- Hạn chế lãng phí nước và bảo vệ tài nguyên nước, bảo vệ hệ sinh thái ở lưu vực sông.\n- Góp phần phòng chống thiên tai bão, lũ.",
+  "summary": "Nội dung trọng tâm được trích nguyên văn từ C2 / Phần A. Tổng hợp kiến thức cần nhớ / Mục 3.3, bám đúng bong bóng: Khai thác tổng hợp tài nguyên nước.",
+  "images": [],
+  "stats": {
+    "chars": 352,
+    "blocks": 5,
+    "images": 0
+  }
 }

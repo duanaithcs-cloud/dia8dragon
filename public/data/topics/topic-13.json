@@ -1,92 +1,145 @@
 {
   "topic_id": 13,
-  "label": "Phan tich mot he thong song",
+  "label": "Phân tích một hệ thống sông",
   "source_file": "LOP_8_C2---662f9dd8-7d10-4634-822b-a0cbf3ab2aea.docx",
   "source_readable": true,
+  "source_scope": "C2 / Phần A. Tổng hợp kiến thức cần nhớ / Mục 2.1.b",
+  "source_ranges": [
+    "42-63"
+  ],
   "blocks": [
     {
-      "type": "paragraph",
-      "text": "+ Ở miền Bắc: nửa đầu mùa đông thời tiết lạnh khô, nửa sau mùa đông thời tiết lạnh ẩm, có mưa phùn."
-    },
-    {
-      "type": "paragraph",
-      "text": "+ Ở miền Nam, Tín phong chiếm ưu thế đem đến mùa khô cho Nan Bộ và Tây Nguyên, gây mưa cho vùng biển Nam Trung Bộ."
-    },
-    {
-      "type": "paragraph",
-      "text": "* Gió mùa mùa hạ:"
-    },
-    {
-      "type": "paragraph",
-      "text": "- Thời gian: từ tháng 5 – 10"
-    },
-    {
-      "type": "paragraph",
-      "text": "+ Giữa và cuối mùa hạ: nóng ẩm, mưa nhiều cả nước."
+      "type": "heading",
+      "text": "b) Một số hệ thống sông"
     },
     {
       "type": "heading",
-      "text": "1.2. Sự phân hoá đa dạng của khí hậu Việt Nam"
+      "text": "* Hệ thống sông Hồng"
     },
     {
       "type": "paragraph",
-      "text": "a) Phân hoá theo chiều bắc-nam"
+      "text": "- Đặc điểm mạng lưới sông:"
     },
     {
       "type": "paragraph",
-      "text": "- Miền khí hậu phía Bắc: nhiệt độ trung bình năm trên 200C, có mùa đông lạnh, ít mưa; mùa hạ nóng, ẩm và mưa nhiều."
+      "text": "+ Là hệ thống sông lớn thứ 2 cả nước."
     },
     {
       "type": "paragraph",
-      "text": "- Miền khí hậu phía Nam: nhiệt độ trung bình năm trên 250C, có 2 mùa mưa, khô phân hóa rõ rệt."
+      "text": "+ Tất cả các phụ lưu lớn hợp với dòng chính sông Hồng tạo thành một mạng lưới sông hình nan quạt."
     },
     {
       "type": "paragraph",
-      "text": "b) Phân hoá theo chiều đông-tây"
+      "text": "- Chế độ nước sông:"
     },
     {
       "type": "paragraph",
-      "text": "- Vùng biển và thềm lục địa có khí hậu ôn hoà hơn trong đất liền."
+      "text": "+ Mùa lũ: từ tháng 6 - tháng 10, chiếm khoảng 75% tổng lượng nước cả năm."
     },
     {
       "type": "paragraph",
-      "text": "- Vùng đồng bằng ven biển có khí hậu nhiệt đới ẩm gió mùa."
-    },
-    {
-      "type": "paragraph",
-      "text": "- Vùng đồi núi phía tây khí hậu phân hóa phức tạp do tác động của gió mùa và hướng của các dãy núi."
-    },
-    {
-      "type": "paragraph",
-      "text": "c) Phân hoá theo độ cao"
-    },
-    {
-      "type": "paragraph",
-      "text": "Khí hậu Việt Nam phân hóa thành 3 đai cao gồm: nhiệt đới gió mùa; cận nhiệt đới gió mùa trên núi và ôn đới gió mùa trên núi."
+      "text": "+ Mùa cạn: từ tháng 11 đến tháng 5 năm sau, chiếm khoảng 25% tổng lượng nước cả năm."
     },
     {
       "type": "heading",
-      "text": "2. THUỶ VĂN VIỆT NAM"
-    },
-    {
-      "type": "heading",
-      "text": "2.1. Sông ngòi"
+      "text": "* Hệ thống sông Thu Bồn"
     },
     {
       "type": "paragraph",
-      "text": "a) Đặc điểm chung"
+      "text": "- Đặc điểm mạng lưới sông:"
+    },
+    {
+      "type": "paragraph",
+      "text": "- Có 78 phụ lưu dài trên 10km."
+    },
+    {
+      "type": "paragraph",
+      "text": "- Hệ thống sông thường ngắn, dốc, phân thành nhiều lưu vực nhỏ độc lập có dạng nan quạt."
+    },
+    {
+      "type": "paragraph",
+      "text": "- Chế độ nước sông:"
+    },
+    {
+      "type": "paragraph",
+      "text": "+ Mùa lũ: từ tháng 10 - tháng 12, chiếm khoảng 65% tổng lượng nước cả năm."
+    },
+    {
+      "type": "paragraph",
+      "text": "+ Mùa cạn: từ tháng 1 đến tháng 9, chiếm khoảng 35% tổng lượng nước cả năm."
+    },
+    {
+      "type": "heading",
+      "text": "* Hệ thống sông Mê Công"
+    },
+    {
+      "type": "paragraph",
+      "text": "- Đặc điểm mạng lưới sông ngòi:"
+    },
+    {
+      "type": "paragraph",
+      "text": "+ Có 286 phụ lưu, mạng lưới sông có hình lông chim."
+    },
+    {
+      "type": "paragraph",
+      "text": "+ Hệ thống kênh rạch chằng chịt."
+    },
+    {
+      "type": "paragraph",
+      "text": "- Chế độ nước sông:"
+    },
+    {
+      "type": "paragraph",
+      "text": "+ Mùa lũ: từ tháng 7 - tháng 11, chiếm khoảng 80% tổng lượng nước cả năm."
+    },
+    {
+      "type": "paragraph",
+      "text": "+ Mùa cạn: từ tháng 12 đến tháng 6 năm sau, chiếm khoảng 20% tổng lượng nước cả năm."
     }
   ],
   "key_points": [
-    "+ Ở miền Bắc: nửa đầu mùa đông thời tiết lạnh khô, nửa sau mùa đông thời tiết lạnh ẩm, có mưa phùn.",
-    "+ Ở miền Nam, Tín phong chiếm ưu thế đem đến mùa khô cho Nan Bộ và Tây Nguyên, gây mưa cho vùng biển Nam Trung Bộ.",
-    "- Thời gian: từ tháng 5 – 10",
-    "+ Giữa và cuối mùa hạ: nóng ẩm, mưa nhiều cả nước.",
-    "1.2. Sự phân hoá đa dạng của khí hậu Việt Nam",
-    "a) Phân hoá theo chiều bắc-nam",
-    "- Miền khí hậu phía Bắc: nhiệt độ trung bình năm trên 200C, có mùa đông lạnh, ít mưa; mùa hạ nóng, ẩm và mưa nhiều.",
-    "- Miền khí hậu phía Nam: nhiệt độ trung bình năm trên 250C, có 2 mùa mưa, khô phân hóa rõ rệt."
+    "b) Một số hệ thống sông",
+    "* Hệ thống sông Hồng",
+    "- Đặc điểm mạng lưới sông:",
+    "+ Là hệ thống sông lớn thứ 2 cả nước.",
+    "+ Tất cả các phụ lưu lớn hợp với dòng chính sông Hồng tạo thành một mạng lưới sông hình nan quạt.",
+    "- Chế độ nước sông:",
+    "+ Mùa lũ: từ tháng 6 - tháng 10, chiếm khoảng 75% tổng lượng nước cả năm.",
+    "+ Mùa cạn: từ tháng 11 đến tháng 5 năm sau, chiếm khoảng 25% tổng lượng nước cả năm.",
+    "* Hệ thống sông Thu Bồn",
+    "- Đặc điểm mạng lưới sông:",
+    "- Có 78 phụ lưu dài trên 10km.",
+    "- Hệ thống sông thường ngắn, dốc, phân thành nhiều lưu vực nhỏ độc lập có dạng nan quạt.",
+    "- Chế độ nước sông:",
+    "+ Mùa lũ: từ tháng 10 - tháng 12, chiếm khoảng 65% tổng lượng nước cả năm.",
+    "+ Mùa cạn: từ tháng 1 đến tháng 9, chiếm khoảng 35% tổng lượng nước cả năm.",
+    "* Hệ thống sông Mê Công",
+    "- Đặc điểm mạng lưới sông ngòi:",
+    "+ Có 286 phụ lưu, mạng lưới sông có hình lông chim."
   ],
-  "summary": "Noi dung duoc tach tu phan A cua file C2, bam theo bong bong: Phan tich mot he thong song.",
-  "source_scope": "C2 / Phan A. Tong hop kien thuc can nho"
+  "focus_points": [
+    "b) Một số hệ thống sông",
+    "* Hệ thống sông Hồng",
+    "- Đặc điểm mạng lưới sông:",
+    "+ Là hệ thống sông lớn thứ 2 cả nước.",
+    "+ Tất cả các phụ lưu lớn hợp với dòng chính sông Hồng tạo thành một mạng lưới sông hình nan quạt.",
+    "- Chế độ nước sông:",
+    "+ Mùa lũ: từ tháng 6 - tháng 10, chiếm khoảng 75% tổng lượng nước cả năm.",
+    "+ Mùa cạn: từ tháng 11 đến tháng 5 năm sau, chiếm khoảng 25% tổng lượng nước cả năm.",
+    "* Hệ thống sông Thu Bồn",
+    "- Đặc điểm mạng lưới sông:",
+    "- Có 78 phụ lưu dài trên 10km.",
+    "- Hệ thống sông thường ngắn, dốc, phân thành nhiều lưu vực nhỏ độc lập có dạng nan quạt.",
+    "- Chế độ nước sông:",
+    "+ Mùa lũ: từ tháng 10 - tháng 12, chiếm khoảng 65% tổng lượng nước cả năm."
+  ],
+  "focus_source_section": "C2 / Phần A. Tổng hợp kiến thức cần nhớ / Mục 2.1.b",
+  "full_text": "b) Một số hệ thống sông\n* Hệ thống sông Hồng\n- Đặc điểm mạng lưới sông:\n+ Là hệ thống sông lớn thứ 2 cả nước.\n+ Tất cả các phụ lưu lớn hợp với dòng chính sông Hồng tạo thành một mạng lưới sông hình nan quạt.\n- Chế độ nước sông:\n+ Mùa lũ: từ tháng 6 - tháng 10, chiếm khoảng 75% tổng lượng nước cả năm.\n+ Mùa cạn: từ tháng 11 đến tháng 5 năm sau, chiếm khoảng 25% tổng lượng nước cả năm.\n* Hệ thống sông Thu Bồn\n- Đặc điểm mạng lưới sông:\n- Có 78 phụ lưu dài trên 10km.\n- Hệ thống sông thường ngắn, dốc, phân thành nhiều lưu vực nhỏ độc lập có dạng nan quạt.\n- Chế độ nước sông:\n+ Mùa lũ: từ tháng 10 - tháng 12, chiếm khoảng 65% tổng lượng nước cả năm.\n+ Mùa cạn: từ tháng 1 đến tháng 9, chiếm khoảng 35% tổng lượng nước cả năm.\n* Hệ thống sông Mê Công\n- Đặc điểm mạng lưới sông ngòi:\n+ Có 286 phụ lưu, mạng lưới sông có hình lông chim.\n+ Hệ thống kênh rạch chằng chịt.\n- Chế độ nước sông:\n+ Mùa lũ: từ tháng 7 - tháng 11, chiếm khoảng 80% tổng lượng nước cả năm.\n+ Mùa cạn: từ tháng 12 đến tháng 6 năm sau, chiếm khoảng 20% tổng lượng nước cả năm.",
+  "summary": "Nội dung trọng tâm được trích nguyên văn từ C2 / Phần A. Tổng hợp kiến thức cần nhớ / Mục 2.1.b, bám đúng bong bóng: Phân tích một hệ thống sông.",
+  "images": [],
+  "stats": {
+    "chars": 1048,
+    "blocks": 22,
+    "images": 0
+  }
 }

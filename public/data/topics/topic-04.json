@@ -1,92 +1,193 @@
 {
   "topic_id": 4,
-  "label": "Cac khu vuc dia hinh",
+  "label": "Các khu vực địa hình",
   "source_file": "LOP_8_C1---d3c76b6e-82aa-48bd-abe3-8075329ed35f.docx",
   "source_readable": true,
+  "source_scope": "C1 / Phần A. Tổng hợp kiến thức cần nhớ / Mục 2.2",
+  "source_ranges": [
+    "51-84"
+  ],
   "blocks": [
     {
       "type": "heading",
-      "text": "CHỦ ĐỀ 1: VỊ TRÍ ĐỊA LÍ VÀ PHẠM VI LÃNH THỔ, ĐỊA HÌNH VÀ KHOÁNG SẢN VIỆT NAM"
+      "text": "2.2 Các khu vực địa hình"
     },
     {
       "type": "heading",
-      "text": "1. VỊ TRÍ ĐỊA LÍ VÀ PHẠM VI LÃNH THỔ VIỆT NAM"
+      "text": "a) Địa hình đồi núi"
+    },
+    {
+      "type": "paragraph",
+      "text": "- Khu vực Đông Bắc"
+    },
+    {
+      "type": "paragraph",
+      "text": "+ Phạm vi: Nằm ở tả ngạn sông Hồng."
+    },
+    {
+      "type": "paragraph",
+      "text": "+ Đặc điểm hình thái: chủ yếu là đồi núi thấp, có các cánh cung lớn (Sông Gâm, Ngân Sơn, Bắc Sơn, Đông Triều) chụm lại ở Tam Đảo, đồi núi phát triển mở rộng, địa hình các- xtơ khá phổ biến"
+    },
+    {
+      "type": "paragraph",
+      "text": "- Khu vực Tây Bắc"
+    },
+    {
+      "type": "paragraph",
+      "text": "+ Phạm vi: Từ hữu ngạn sông Hồng đến sông Cả."
+    },
+    {
+      "type": "paragraph",
+      "text": "+ Đặc điểm hình thái: địa hình cao nhất nước ta, bị chia cắt mạnh, độ cao trung bình 1000-2000m (đỉnh Phan-xi-păng 3147m), với các dãy núi lớn có hướng TB-ĐN như Hoàng Liên Sơn, Pu Đen Đinh, Pu Sam Sao."
+    },
+    {
+      "type": "paragraph",
+      "text": "- Khu vực Trường Sơn Bắc"
+    },
+    {
+      "type": "paragraph",
+      "text": "+ Phạm vi: từ phía nam sông Cả đến dãy Bạch Mã."
+    },
+    {
+      "type": "paragraph",
+      "text": "+ Đặc điểm hình thái: hướng núi TB- ĐN, có nhiều nhánh núi đâm ngang ra biển chia cắt đồng bằng duyên hải miền Trung."
+    },
+    {
+      "type": "paragraph",
+      "text": "- Khu vực Trường Sơn Nam"
+    },
+    {
+      "type": "paragraph",
+      "text": "+ Phạm vi: từ phía nam dãy Bạch Mã đến Đông Nam Bộ."
+    },
+    {
+      "type": "paragraph",
+      "text": "+ Đặc điểm hình thái: địa hình có hướng vòng cung, gồm các khối núi cổ và nhiều cao nguyên xếp tầng."
     },
     {
       "type": "heading",
-      "text": "1.1 Vị trí địa lí"
+      "text": "b) Địa hình đồng bằng"
     },
     {
       "type": "paragraph",
-      "text": "Vị trí:"
+      "text": "- Đồng bằng sông Hồng"
     },
     {
       "type": "paragraph",
-      "text": "+ Việt Nam nằm ở rìa phía đông của bán đảo Đông Dương, gần trung tâm khu vực Đông Nam Á."
+      "text": "+ Diện tích: khoảng 15 000km2."
     },
     {
       "type": "paragraph",
-      "text": "+ Nước ta nằm ở vị trí nội chí tuyến bán cầu Bắc; trong khu vực châu Á gió mùa; nơi tiếp giáp giữa đất liền và đại dương, liền kề với các vành đai sinh khoáng."
+      "text": "+ Nguồn gốc hình thành: chủ yếu do phù sa hệ thống sông Hồng bồi đắp."
     },
     {
       "type": "paragraph",
-      "text": "- Hệ tọa độ:"
+      "text": "+ Đặc điểm: Có hệ thống đê chống lũ khiến đồng bằng bị chia cắt, tạo thành những ô trũng, khu vực trong đê không được bồi đắp phù sa."
     },
     {
       "type": "paragraph",
-      "text": "+ Trên đất liền: theo chiều bắc - nam từ 23°23′B đến 8°34′B, theo chiều đông - tây từ 109°28 ′Đ đến 102°09′Đ."
+      "text": "- Đồng bằng sông Cửu Long"
     },
     {
       "type": "paragraph",
-      "text": "Bao gồm: vùng đất, vùng biển và vùng trời."
+      "text": "+ Diện tích: khoảng 40 000 km2."
     },
     {
       "type": "paragraph",
-      "text": "- Vùng đất: diện tích 331212km2 gồm toàn bộ phần đất liền và các hải đảo với tổng diện tích 331 344 km2 (theo tổng cục thống kê năm 2021); đường biên giới trên đất liền dài hơn 4600km"
+      "text": "+ Nguồn gốc hình thành: do phù sa của hệ thống sông Mê Công bồi đắp."
     },
     {
       "type": "paragraph",
-      "text": "Hàng nghìn hòn đảo lớn nhỏ, trong đó Hoàng Sa và Trường Sa là hai quần đảo lớn nhất của Việt Nam"
+      "text": "+ Đặc điểm: Không có đê ngăn lũ, có hệ thống kênh rạch dày đặc. Nhiều vùng trũng lớn: Đồng Tháp Mười, Tứ giác Long Xuyên."
     },
     {
       "type": "paragraph",
-      "text": "- Vùng biển: Việt Nam có diện tích khoảng 1 triệu km2, gấp hơn 3 lần diện tích đất liền. Đường bờ biển nước ta dài 3260km, có 28/63 tỉnh giáp biển (hiện nay có 21/34 tỉnh, thành phố giáp biển)"
+      "text": "- Đồng bằng ven biển miền Trung"
     },
     {
       "type": "paragraph",
-      "text": "+ Vùng đặc quyền kinh tế là vùng biển tiếp liền và nằm ngoài lãnh hải Việt Nam, hợp với lãnh hải thành một vùng biển có chiều rộng 200 hải lí tính từ đường cơ sở."
+      "text": "+ Diện tích: khoảng 15 000 km2."
     },
     {
       "type": "paragraph",
-      "text": "+ Thềm lục địa Việt Nam là đáy biển và lòng đất dưới đáy biển, tiếp liền và nằm ngoài lãnh hải Việt Nam, trên toàn bộ phần kéo dài tự nhiên của lãnh thổ đất liền, các đảo và quần đảo của Việt Nam cho đến mép ngoài của rìa lục địa."
+      "text": "+ Nguồn gốc hình thành: được bồi đắp bởi phù sa sông và phù sa biển"
     },
     {
       "type": "paragraph",
-      "text": "- Vùng trời: là khoảng không gian bao trùm lên lãnh thổ nước ta."
+      "text": "+ Đặc điểm: Nhiều đồng bằng nhỏ hẹp, có nhiều cồn cát."
     },
     {
       "type": "heading",
-      "text": "1.3 Ảnh hưởng của vị trí địa lí và phạm vi lãnh thổ đối với sự hình thành đặc điểm địa lí tự nhiên Việt Nam"
+      "text": "c) Địa hình bờ biển và thềm lục địa"
     },
     {
       "type": "paragraph",
-      "text": "* Vị trí địa lí và lãnh thổ đã quy định đặc điểm cơ bản của thiên nhiên nước ta mang tính chất nhiệt đới ẩm gió mùa, chịu ảnh hưởng sâu sắc của biển và phân hóa đa dạng:"
+      "text": "- Bờ biển có 2 dạng địa hình chính:"
     },
     {
       "type": "paragraph",
-      "text": "- Khí hậu: một năm có 2 mùa rõ rệt, chịu ảnh hưởng của các cơn bão lớn."
+      "text": "+ Bờ biển bồi tụ có nhiều bãi bùn rộng, rừng cây ngập mặn phát triển."
+    },
+    {
+      "type": "paragraph",
+      "text": "+ Bờ biển mài mòn rất khúc khuỷu, có nhiều vũng, vịnh nước sâu, kín gió, nhiều bãi cát."
+    },
+    {
+      "type": "paragraph",
+      "text": "- Thềm lục địa:"
+    },
+    {
+      "type": "paragraph",
+      "text": "+ Mở rộng tại các vùng biển Bắc Bộ và Nam Bộ."
+    },
+    {
+      "type": "paragraph",
+      "text": "+ Vùng biển miền Trung sâu và hẹp hơn."
     }
   ],
   "key_points": [
-    "CHỦ ĐỀ 1: VỊ TRÍ ĐỊA LÍ VÀ PHẠM VI LÃNH THỔ, ĐỊA HÌNH VÀ KHOÁNG SẢN VIỆT NAM",
-    "1. VỊ TRÍ ĐỊA LÍ VÀ PHẠM VI LÃNH THỔ VIỆT NAM",
-    "+ Việt Nam nằm ở rìa phía đông của bán đảo Đông Dương, gần trung tâm khu vực Đông Nam Á.",
-    "+ Nước ta nằm ở vị trí nội chí tuyến bán cầu Bắc; trong khu vực châu Á gió mùa; nơi tiếp giáp giữa đất liền và đại dương, liền kề với các vành đai sinh khoáng.",
-    "+ Trên đất liền: theo chiều bắc - nam từ 23°23′B đến 8°34′B, theo chiều đông - tây từ 109°28 ′Đ đến 102°09′Đ.",
-    "Bao gồm: vùng đất, vùng biển và vùng trời.",
-    "- Vùng đất: diện tích 331212km2 gồm toàn bộ phần đất liền và các hải đảo với tổng diện tích 331 344 km2 (theo tổng cục thống kê năm 2021); đường biên giới trên đất liền dài hơn 4600km",
-    "Hàng nghìn hòn đảo lớn nhỏ, trong đó Hoàng Sa và Trường Sa là hai quần đảo lớn nhất của Việt Nam"
+    "2.2 Các khu vực địa hình",
+    "a) Địa hình đồi núi",
+    "- Khu vực Đông Bắc",
+    "+ Phạm vi: Nằm ở tả ngạn sông Hồng.",
+    "+ Đặc điểm hình thái: chủ yếu là đồi núi thấp, có các cánh cung lớn (Sông Gâm, Ngân Sơn, Bắc Sơn, Đông Triều) chụm lại ở Tam Đảo, đồi núi phát triển mở rộng, địa hình các- xtơ khá phổ biến",
+    "- Khu vực Tây Bắc",
+    "+ Phạm vi: Từ hữu ngạn sông Hồng đến sông Cả.",
+    "+ Đặc điểm hình thái: địa hình cao nhất nước ta, bị chia cắt mạnh, độ cao trung bình 1000-2000m (đỉnh Phan-xi-păng 3147m), với các dãy núi lớn có hướng TB-ĐN như Hoàng Liên Sơn, Pu Đen Đinh, Pu Sam Sao.",
+    "- Khu vực Trường Sơn Bắc",
+    "+ Phạm vi: từ phía nam sông Cả đến dãy Bạch Mã.",
+    "+ Đặc điểm hình thái: hướng núi TB- ĐN, có nhiều nhánh núi đâm ngang ra biển chia cắt đồng bằng duyên hải miền Trung.",
+    "- Khu vực Trường Sơn Nam",
+    "+ Phạm vi: từ phía nam dãy Bạch Mã đến Đông Nam Bộ.",
+    "+ Đặc điểm hình thái: địa hình có hướng vòng cung, gồm các khối núi cổ và nhiều cao nguyên xếp tầng.",
+    "b) Địa hình đồng bằng",
+    "- Đồng bằng sông Hồng",
+    "+ Diện tích: khoảng 15 000km2.",
+    "+ Nguồn gốc hình thành: chủ yếu do phù sa hệ thống sông Hồng bồi đắp."
   ],
-  "summary": "Noi dung duoc tach tu phan A cua file C1, bam theo bong bong: Cac khu vuc dia hinh.",
-  "source_scope": "C1 / Phan A. Tong hop kien thuc can nho"
+  "focus_points": [
+    "a) Địa hình đồi núi",
+    "- Khu vực Đông Bắc",
+    "+ Phạm vi: Nằm ở tả ngạn sông Hồng.",
+    "+ Đặc điểm hình thái: chủ yếu là đồi núi thấp, có các cánh cung lớn (Sông Gâm, Ngân Sơn, Bắc Sơn, Đông Triều) chụm lại ở Tam Đảo, đồi núi phát triển mở rộng, địa hình các- xtơ khá phổ biến",
+    "- Khu vực Tây Bắc",
+    "+ Phạm vi: Từ hữu ngạn sông Hồng đến sông Cả.",
+    "+ Đặc điểm hình thái: địa hình cao nhất nước ta, bị chia cắt mạnh, độ cao trung bình 1000-2000m (đỉnh Phan-xi-păng 3147m), với các dãy núi lớn có hướng TB-ĐN như Hoàng Liên Sơn, Pu Đen Đinh, Pu Sam Sao.",
+    "- Khu vực Trường Sơn Bắc",
+    "+ Phạm vi: từ phía nam sông Cả đến dãy Bạch Mã.",
+    "+ Đặc điểm hình thái: hướng núi TB- ĐN, có nhiều nhánh núi đâm ngang ra biển chia cắt đồng bằng duyên hải miền Trung.",
+    "- Khu vực Trường Sơn Nam",
+    "+ Phạm vi: từ phía nam dãy Bạch Mã đến Đông Nam Bộ.",
+    "+ Đặc điểm hình thái: địa hình có hướng vòng cung, gồm các khối núi cổ và nhiều cao nguyên xếp tầng.",
+    "b) Địa hình đồng bằng"
+  ],
+  "focus_source_section": "C1 / Phần A. Tổng hợp kiến thức cần nhớ / Mục 2.2",
+  "full_text": "2.2 Các khu vực địa hình\na) Địa hình đồi núi\n- Khu vực Đông Bắc\n+ Phạm vi: Nằm ở tả ngạn sông Hồng.\n+ Đặc điểm hình thái: chủ yếu là đồi núi thấp, có các cánh cung lớn (Sông Gâm, Ngân Sơn, Bắc Sơn, Đông Triều) chụm lại ở Tam Đảo, đồi núi phát triển mở rộng, địa hình các- xtơ khá phổ biến\n- Khu vực Tây Bắc\n+ Phạm vi: Từ hữu ngạn sông Hồng đến sông Cả.\n+ Đặc điểm hình thái: địa hình cao nhất nước ta, bị chia cắt mạnh, độ cao trung bình 1000-2000m (đỉnh Phan-xi-păng 3147m), với các dãy núi lớn có hướng TB-ĐN như Hoàng Liên Sơn, Pu Đen Đinh, Pu Sam Sao.\n- Khu vực Trường Sơn Bắc\n+ Phạm vi: từ phía nam sông Cả đến dãy Bạch Mã.\n+ Đặc điểm hình thái: hướng núi TB- ĐN, có nhiều nhánh núi đâm ngang ra biển chia cắt đồng bằng duyên hải miền Trung.\n- Khu vực Trường Sơn Nam\n+ Phạm vi: từ phía nam dãy Bạch Mã đến Đông Nam Bộ.\n+ Đặc điểm hình thái: địa hình có hướng vòng cung, gồm các khối núi cổ và nhiều cao nguyên xếp tầng.\nb) Địa hình đồng bằng\n- Đồng bằng sông Hồng\n+ Diện tích: khoảng 15 000km2.\n+ Nguồn gốc hình thành: chủ yếu do phù sa hệ thống sông Hồng bồi đắp.\n+ Đặc điểm: Có hệ thống đê chống lũ khiến đồng bằng bị chia cắt, tạo thành những ô trũng, khu vực trong đê không được bồi đắp phù sa.\n- Đồng bằng sông Cửu Long\n+ Diện tích: khoảng 40 000 km2.\n+ Nguồn gốc hình thành: do phù sa của hệ thống sông Mê Công bồi đắp.\n+ Đặc điểm: Không có đê ngăn lũ, có hệ thống kênh rạch dày đặc. Nhiều vùng trũng lớn: Đồng Tháp Mười, Tứ giác Long Xuyên.\n- Đồng bằng ven biển miền Trung\n+ Diện tích: khoảng 15 000 km2.\n+ Nguồn gốc hình thành: được bồi đắp bởi phù sa sông và phù sa biển\n+ Đặc điểm: Nhiều đồng bằng nhỏ hẹp, có nhiều cồn cát.\nc) Địa hình bờ biển và thềm lục địa\n- Bờ biển có 2 dạng địa hình chính:\n+ Bờ biển bồi tụ có nhiều bãi bùn rộng, rừng cây ngập mặn phát triển.\n+ Bờ biển mài mòn rất khúc khuỷu, có nhiều vũng, vịnh nước sâu, kín gió, nhiều bãi cát.\n- Thềm lục địa:\n+ Mở rộng tại các vùng biển Bắc Bộ và Nam Bộ.\n+ Vùng biển miền Trung sâu và hẹp hơn.",
+  "summary": "Nội dung trọng tâm được trích nguyên văn từ C1 / Phần A. Tổng hợp kiến thức cần nhớ / Mục 2.2, bám đúng bong bóng: Các khu vực địa hình.",
+  "images": [],
+  "stats": {
+    "chars": 1970,
+    "blocks": 34,
+    "images": 0
+  }
 }

@@ -1,13 +1,13 @@
 {
   "topic_id": 22,
-  "label": "Tinh chat nhiet doi gio mua cua tho nhuong",
+  "label": "Tính chất nhiệt đới gió mùa của thổ nhưỡng",
   "source_file": "LOP_8_C3---c68ef26f-94b3-44a8-bb7f-e11f5ae96917.docx",
   "source_readable": true,
+  "source_scope": "C3 / Phần A. Tổng hợp kiến thức cần nhớ / Mục 1.1",
+  "source_ranges": [
+    "1-12"
+  ],
   "blocks": [
-    {
-      "type": "heading",
-      "text": "CHỦ ĐỀ 3: THỔ NHƯỠNG VÀ SINH VẬT VIỆT NAM"
-    },
     {
       "type": "heading",
       "text": "1. THỔ NHƯỠNG VIỆT NAM"
@@ -55,38 +55,41 @@
     {
       "type": "paragraph",
       "text": "+ Đất feralit thường bị rửa trôi, xói mòn mạnh."
-    },
-    {
-      "type": "heading",
-      "text": "1.2. Ba nhóm đất chính"
-    },
-    {
-      "type": "paragraph",
-      "text": "a) Nhóm đất feralit"
-    },
-    {
-      "type": "paragraph",
-      "text": "- Chiếm tới 65% diện tích đất tự nhiên."
-    },
-    {
-      "type": "paragraph",
-      "text": "- Phân bố ở các tỉnh trung du và miền núi, từ độ cao 1600 đến 1700m trở xuống."
-    },
-    {
-      "type": "paragraph",
-      "text": "- Đặc điểm:"
     }
   ],
   "key_points": [
-    "CHỦ ĐỀ 3: THỔ NHƯỠNG VÀ SINH VẬT VIỆT NAM",
     "1. THỔ NHƯỠNG VIỆT NAM",
     "1.1. Tính chất nhiệt đới gió mùa của lớp phủ thổ nhưỡng",
     "- Thổ nhưỡng là lớp vật chất mỏng, vụn bở, bao phủ trên bề mặt các lục địa và đảo, được đặc trưng bởi độ phì.",
     "- Các nhân tố hình thành đất ở nước ta: đá mẹ, khí hậu, sinh vật, địa hình, thời gian, con người.",
+    "- Nguyên nhân:",
     "+ Ở khu vực nhiệt đới ẩm gió mùa, quá trình phong hoá diễn ra với cường độ mạnh.",
     "+ Lượng mưa tập trung theo mùa rửa trôi các chất badơ dễ tan đồng thời tích tụ oxit sắt và oxit nhôm.",
-    "+ Một số nơi mất đi lớp phủ thực vật."
+    "+ Một số nơi mất đi lớp phủ thực vật.",
+    "- Biểu hiện:",
+    "+ Lớp phủ thổ nhưỡng dày.",
+    "+ Quá trình feralit là quá trình hình thành đất đặc trưng của nước ta.",
+    "+ Đất feralit thường bị rửa trôi, xói mòn mạnh."
   ],
-  "summary": "Noi dung duoc tach tu phan A cua file C3, bam theo bong bong: Tinh chat nhiet doi gio mua cua tho nhuong.",
-  "source_scope": "C3 / Phan A. Tong hop kien thuc can nho"
+  "focus_points": [
+    "- Thổ nhưỡng là lớp vật chất mỏng, vụn bở, bao phủ trên bề mặt các lục địa và đảo, được đặc trưng bởi độ phì.",
+    "- Các nhân tố hình thành đất ở nước ta: đá mẹ, khí hậu, sinh vật, địa hình, thời gian, con người.",
+    "- Nguyên nhân:",
+    "+ Ở khu vực nhiệt đới ẩm gió mùa, quá trình phong hoá diễn ra với cường độ mạnh.",
+    "+ Lượng mưa tập trung theo mùa rửa trôi các chất badơ dễ tan đồng thời tích tụ oxit sắt và oxit nhôm.",
+    "+ Một số nơi mất đi lớp phủ thực vật.",
+    "- Biểu hiện:",
+    "+ Lớp phủ thổ nhưỡng dày.",
+    "+ Quá trình feralit là quá trình hình thành đất đặc trưng của nước ta.",
+    "+ Đất feralit thường bị rửa trôi, xói mòn mạnh."
+  ],
+  "focus_source_section": "C3 / Phần A. Tổng hợp kiến thức cần nhớ / Mục 1.1",
+  "full_text": "1. THỔ NHƯỠNG VIỆT NAM\n1.1. Tính chất nhiệt đới gió mùa của lớp phủ thổ nhưỡng\n- Thổ nhưỡng là lớp vật chất mỏng, vụn bở, bao phủ trên bề mặt các lục địa và đảo, được đặc trưng bởi độ phì.\n- Các nhân tố hình thành đất ở nước ta: đá mẹ, khí hậu, sinh vật, địa hình, thời gian, con người.\n- Nguyên nhân:\n+ Ở khu vực nhiệt đới ẩm gió mùa, quá trình phong hoá diễn ra với cường độ mạnh.\n+ Lượng mưa tập trung theo mùa rửa trôi các chất badơ dễ tan đồng thời tích tụ oxit sắt và oxit nhôm.\n+ Một số nơi mất đi lớp phủ thực vật.\n- Biểu hiện:\n+ Lớp phủ thổ nhưỡng dày.\n+ Quá trình feralit là quá trình hình thành đất đặc trưng của nước ta.\n+ Đất feralit thường bị rửa trôi, xói mòn mạnh.",
+  "summary": "Nội dung trọng tâm được trích nguyên văn từ C3 / Phần A. Tổng hợp kiến thức cần nhớ / Mục 1.1, bám đúng bong bóng: Tính chất nhiệt đới gió mùa của thổ nhưỡng.",
+  "images": [],
+  "stats": {
+    "chars": 680,
+    "blocks": 12,
+    "images": 0
+  }
 }

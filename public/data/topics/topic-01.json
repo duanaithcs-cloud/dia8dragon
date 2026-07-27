@@ -1,13 +1,13 @@
 {
   "topic_id": 1,
-  "label": "Vi tri dia li va pham vi lanh tho",
+  "label": "Vị trí địa lí và phạm vi lãnh thổ",
   "source_file": "LOP_8_C1---d3c76b6e-82aa-48bd-abe3-8075329ed35f.docx",
   "source_readable": true,
+  "source_scope": "C1 / Phần A. Tổng hợp kiến thức cần nhớ / Mục 1.1-1.2",
+  "source_ranges": [
+    "2-25"
+  ],
   "blocks": [
-    {
-      "type": "heading",
-      "text": "CHỦ ĐỀ 1: VỊ TRÍ ĐỊA LÍ VÀ PHẠM VI LÃNH THỔ, ĐỊA HÌNH VÀ KHOÁNG SẢN VIỆT NAM"
-    },
     {
       "type": "heading",
       "text": "1. VỊ TRÍ ĐỊA LÍ VÀ PHẠM VI LÃNH THỔ VIỆT NAM"
@@ -75,18 +75,79 @@
     {
       "type": "paragraph",
       "text": "- Vùng biển: Việt Nam có diện tích khoảng 1 triệu km2, gấp hơn 3 lần diện tích đất liền. Đường bờ biển nước ta dài 3260km, có 28/63 tỉnh giáp biển (hiện nay có 21/34 tỉnh, thành phố giáp biển)"
+    },
+    {
+      "type": "paragraph",
+      "text": "Vùng biển Việt Nam gồm 5 bộ phận:"
+    },
+    {
+      "type": "paragraph",
+      "text": "+ Nội thuỷ là vùng nước tiếp giáp với bờ biển, ở phía trong đường cơ sở và là bộ phận lãnh thổ của Việt Nam."
+    },
+    {
+      "type": "paragraph",
+      "text": "+ Lãnh hải là vùng biển có chiều rộng 12 hải lí tính từ đường cơ sở ra phía biển. Ranh giới ngoài của lãnh hải là biên giới quốc gia trên biển của Việt Nam."
+    },
+    {
+      "type": "paragraph",
+      "text": "+ Vùng tiếp giáp lãnh hải là vùng biển tiếp liền và nằm ngoài lãnh hải Việt Nam, có chiều rộng 12 hải lí."
+    },
+    {
+      "type": "paragraph",
+      "text": "+ Vùng đặc quyền kinh tế là vùng biển tiếp liền và nằm ngoài lãnh hải Việt Nam, hợp với lãnh hải thành một vùng biển có chiều rộng 200 hải lí tính từ đường cơ sở."
+    },
+    {
+      "type": "paragraph",
+      "text": "+ Thềm lục địa Việt Nam là đáy biển và lòng đất dưới đáy biển, tiếp liền và nằm ngoài lãnh hải Việt Nam, trên toàn bộ phần kéo dài tự nhiên của lãnh thổ đất liền, các đảo và quần đảo của Việt Nam cho đến mép ngoài của rìa lục địa."
+    },
+    {
+      "type": "paragraph",
+      "text": "- Vùng trời: là khoảng không gian bao trùm lên lãnh thổ nước ta."
     }
   ],
   "key_points": [
-    "CHỦ ĐỀ 1: VỊ TRÍ ĐỊA LÍ VÀ PHẠM VI LÃNH THỔ, ĐỊA HÌNH VÀ KHOÁNG SẢN VIỆT NAM",
     "1. VỊ TRÍ ĐỊA LÍ VÀ PHẠM VI LÃNH THỔ VIỆT NAM",
+    "1.1 Vị trí địa lí",
     "+ Việt Nam nằm ở rìa phía đông của bán đảo Đông Dương, gần trung tâm khu vực Đông Nam Á.",
     "+ Nước ta nằm ở vị trí nội chí tuyến bán cầu Bắc; trong khu vực châu Á gió mùa; nơi tiếp giáp giữa đất liền và đại dương, liền kề với các vành đai sinh khoáng.",
+    "- Hệ tọa độ:",
     "+ Trên đất liền: theo chiều bắc - nam từ 23°23′B đến 8°34′B, theo chiều đông - tây từ 109°28 ′Đ đến 102°09′Đ.",
     "- Trên vùng biển: nước ta kéo dài tới khoảng vĩ độ 6°50'B (ở phía nam) và từ kinh độ 101°Đ (ở phía tây) đến trên 117°20’Đ (ở phía đông).",
+    "- Tiếp giáp:",
     "+ Phía bắc giáp: Trung Quốc.",
-    "+ Phía tây giáp Lào và Campuchia."
+    "+ Phía tây giáp Lào và Campuchia.",
+    "+ Phía đông và nam giáp Biển Đông.",
+    "1.2 Phạm vi lãnh thổ",
+    "- Vùng đất: diện tích 331212km2 gồm toàn bộ phần đất liền và các hải đảo với tổng diện tích 331 344 km2 (theo tổng cục thống kê năm 2021); đường biên giới trên đất liền dài hơn 4600km",
+    "- Vùng biển: Việt Nam có diện tích khoảng 1 triệu km2, gấp hơn 3 lần diện tích đất liền. Đường bờ biển nước ta dài 3260km, có 28/63 tỉnh giáp biển (hiện nay có 21/34 tỉnh, thành phố giáp biển)",
+    "+ Nội thuỷ là vùng nước tiếp giáp với bờ biển, ở phía trong đường cơ sở và là bộ phận lãnh thổ của Việt Nam.",
+    "+ Lãnh hải là vùng biển có chiều rộng 12 hải lí tính từ đường cơ sở ra phía biển. Ranh giới ngoài của lãnh hải là biên giới quốc gia trên biển của Việt Nam.",
+    "+ Vùng tiếp giáp lãnh hải là vùng biển tiếp liền và nằm ngoài lãnh hải Việt Nam, có chiều rộng 12 hải lí.",
+    "+ Vùng đặc quyền kinh tế là vùng biển tiếp liền và nằm ngoài lãnh hải Việt Nam, hợp với lãnh hải thành một vùng biển có chiều rộng 200 hải lí tính từ đường cơ sở."
   ],
-  "summary": "Noi dung duoc tach tu phan A cua file C1, bam theo bong bong: Vi tri dia li va pham vi lanh tho.",
-  "source_scope": "C1 / Phan A. Tong hop kien thuc can nho"
+  "focus_points": [
+    "+ Việt Nam nằm ở rìa phía đông của bán đảo Đông Dương, gần trung tâm khu vực Đông Nam Á.",
+    "+ Nước ta nằm ở vị trí nội chí tuyến bán cầu Bắc; trong khu vực châu Á gió mùa; nơi tiếp giáp giữa đất liền và đại dương, liền kề với các vành đai sinh khoáng.",
+    "- Hệ tọa độ:",
+    "+ Trên đất liền: theo chiều bắc - nam từ 23°23′B đến 8°34′B, theo chiều đông - tây từ 109°28 ′Đ đến 102°09′Đ.",
+    "- Trên vùng biển: nước ta kéo dài tới khoảng vĩ độ 6°50'B (ở phía nam) và từ kinh độ 101°Đ (ở phía tây) đến trên 117°20’Đ (ở phía đông).",
+    "- Tiếp giáp:",
+    "+ Phía bắc giáp: Trung Quốc.",
+    "+ Phía tây giáp Lào và Campuchia.",
+    "+ Phía đông và nam giáp Biển Đông.",
+    "- Vùng đất: diện tích 331212km2 gồm toàn bộ phần đất liền và các hải đảo với tổng diện tích 331 344 km2 (theo tổng cục thống kê năm 2021); đường biên giới trên đất liền dài hơn 4600km",
+    "- Vùng biển: Việt Nam có diện tích khoảng 1 triệu km2, gấp hơn 3 lần diện tích đất liền. Đường bờ biển nước ta dài 3260km, có 28/63 tỉnh giáp biển (hiện nay có 21/34 tỉnh, thành phố giáp biển)",
+    "+ Nội thuỷ là vùng nước tiếp giáp với bờ biển, ở phía trong đường cơ sở và là bộ phận lãnh thổ của Việt Nam.",
+    "+ Lãnh hải là vùng biển có chiều rộng 12 hải lí tính từ đường cơ sở ra phía biển. Ranh giới ngoài của lãnh hải là biên giới quốc gia trên biển của Việt Nam.",
+    "+ Vùng tiếp giáp lãnh hải là vùng biển tiếp liền và nằm ngoài lãnh hải Việt Nam, có chiều rộng 12 hải lí."
+  ],
+  "focus_source_section": "C1 / Phần A. Tổng hợp kiến thức cần nhớ / Mục 1.1-1.2",
+  "full_text": "1. VỊ TRÍ ĐỊA LÍ VÀ PHẠM VI LÃNH THỔ VIỆT NAM\n1.1 Vị trí địa lí\nVị trí:\n+ Việt Nam nằm ở rìa phía đông của bán đảo Đông Dương, gần trung tâm khu vực Đông Nam Á.\n+ Nước ta nằm ở vị trí nội chí tuyến bán cầu Bắc; trong khu vực châu Á gió mùa; nơi tiếp giáp giữa đất liền và đại dương, liền kề với các vành đai sinh khoáng.\n- Hệ tọa độ:\n+ Trên đất liền: theo chiều bắc - nam từ 23°23′B đến 8°34′B, theo chiều đông - tây từ 109°28 ′Đ đến 102°09′Đ.\n- Trên vùng biển: nước ta kéo dài tới khoảng vĩ độ 6°50'B (ở phía nam) và từ kinh độ 101°Đ (ở phía tây) đến trên 117°20’Đ (ở phía đông).\n- Tiếp giáp:\n+ Phía bắc giáp: Trung Quốc.\n+ Phía tây giáp Lào và Campuchia.\n+ Phía đông và nam giáp Biển Đông.\n1.2 Phạm vi lãnh thổ\nBao gồm: vùng đất, vùng biển và vùng trời.\n- Vùng đất: diện tích 331212km2 gồm toàn bộ phần đất liền và các hải đảo với tổng diện tích 331 344 km2 (theo tổng cục thống kê năm 2021); đường biên giới trên đất liền dài hơn 4600km\nHàng nghìn hòn đảo lớn nhỏ, trong đó Hoàng Sa và Trường Sa là hai quần đảo lớn nhất của Việt Nam\n- Vùng biển: Việt Nam có diện tích khoảng 1 triệu km2, gấp hơn 3 lần diện tích đất liền. Đường bờ biển nước ta dài 3260km, có 28/63 tỉnh giáp biển (hiện nay có 21/34 tỉnh, thành phố giáp biển)\nVùng biển Việt Nam gồm 5 bộ phận:\n+ Nội thuỷ là vùng nước tiếp giáp với bờ biển, ở phía trong đường cơ sở và là bộ phận lãnh thổ của Việt Nam.\n+ Lãnh hải là vùng biển có chiều rộng 12 hải lí tính từ đường cơ sở ra phía biển. Ranh giới ngoài của lãnh hải là biên giới quốc gia trên biển của Việt Nam.\n+ Vùng tiếp giáp lãnh hải là vùng biển tiếp liền và nằm ngoài lãnh hải Việt Nam, có chiều rộng 12 hải lí.\n+ Vùng đặc quyền kinh tế là vùng biển tiếp liền và nằm ngoài lãnh hải Việt Nam, hợp với lãnh hải thành một vùng biển có chiều rộng 200 hải lí tính từ đường cơ sở.\n+ Thềm lục địa Việt Nam là đáy biển và lòng đất dưới đáy biển, tiếp liền và nằm ngoài lãnh hải Việt Nam, trên toàn bộ phần kéo dài tự nhiên của lãnh thổ đất liền, các đảo và quần đảo của Việt Nam cho đến mép ngoài của rìa lục địa.\n- Vùng trời: là khoảng không gian bao trùm lên lãnh thổ nước ta.",
+  "summary": "Nội dung trọng tâm được trích nguyên văn từ C1 / Phần A. Tổng hợp kiến thức cần nhớ / Mục 1.1-1.2, bám đúng bong bóng: Vị trí địa lí và phạm vi lãnh thổ.",
+  "images": [],
+  "stats": {
+    "chars": 2094,
+    "blocks": 24,
+    "images": 0
+  }
 }

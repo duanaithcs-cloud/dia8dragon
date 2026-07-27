@@ -1,92 +1,108 @@
 {
   "topic_id": 27,
-  "label": "Bao ton da dang sinh hoc",
+  "label": "Bảo tồn đa dạng sinh học",
   "source_file": "LOP_8_C3---c68ef26f-94b3-44a8-bb7f-e11f5ae96917.docx",
   "source_readable": true,
+  "source_scope": "C3 / Phần A. Tổng hợp kiến thức cần nhớ / Mục 2.2",
+  "source_ranges": [
+    "51-64"
+  ],
   "blocks": [
     {
       "type": "heading",
-      "text": "CHỦ ĐỀ 3: THỔ NHƯỠNG VÀ SINH VẬT VIỆT NAM"
+      "text": "2.2. Tính cấp thiết của vấn đề bảo tồn đa dạng sinh học ở Việt Nam"
     },
     {
       "type": "heading",
-      "text": "1. THỔ NHƯỠNG VIỆT NAM"
+      "text": "* Đa dạng sinh học ở nước ta đang bị suy giảm"
+    },
+    {
+      "type": "paragraph",
+      "text": "- Suy giảm số lượng cá thể, loài sinh vật: nhiều loài động, thực vật có nguy cơ bị tuyệt chủng."
+    },
+    {
+      "type": "paragraph",
+      "text": "- Suy giảm về hệ sinh thái: các hệ sinh thái rừng nguyên sinh bị phá hoại gần hết."
+    },
+    {
+      "type": "paragraph",
+      "text": "- Suy giảm về nguồn gen."
     },
     {
       "type": "heading",
-      "text": "1.1. Tính chất nhiệt đới gió mùa của lớp phủ thổ nhưỡng"
+      "text": "* Nguyên nhân gây suy giảm đa dạng sinh học"
     },
     {
       "type": "paragraph",
-      "text": "- Thổ nhưỡng là lớp vật chất mỏng, vụn bở, bao phủ trên bề mặt các lục địa và đảo, được đặc trưng bởi độ phì."
+      "text": "- Các yếu tố tự nhiên: bão, lũ lụt, hạn hán, cháy rừng…"
     },
     {
       "type": "paragraph",
-      "text": "- Các nhân tố hình thành đất ở nước ta: đá mẹ, khí hậu, sinh vật, địa hình, thời gian, con người."
+      "text": "- Con người: khai thác lâm sản, đốt rừng, du canh du cư, đánh bắt quá mức, ô nhiễm môi trường,..."
+    },
+    {
+      "type": "heading",
+      "text": "* Một số biện pháp bảo vệ đa dạng sinh học ở nước ta"
     },
     {
       "type": "paragraph",
-      "text": "- Nguyên nhân:"
+      "text": "- Xây dựng các khu bảo tồn thiên nhiên và vườn quốc gia."
     },
     {
       "type": "paragraph",
-      "text": "+ Ở khu vực nhiệt đới ẩm gió mùa, quá trình phong hoá diễn ra với cường độ mạnh."
+      "text": "- Trồng và bảo vệ rừng."
     },
     {
       "type": "paragraph",
-      "text": "- Biểu hiện:"
+      "text": "- Ngăn chặn nạn phá rừng, săn bắt động vật hoang dã."
     },
     {
       "type": "paragraph",
-      "text": "+ Lớp phủ thổ nhưỡng dày."
+      "text": "- Xử lí các chất thải công nghiệp, nông nghiệp và sinh hoạt."
     },
     {
       "type": "paragraph",
-      "text": "+ Quá trình feralit là quá trình hình thành đất đặc trưng của nước ta."
-    },
-    {
-      "type": "paragraph",
-      "text": "+ Đất feralit thường bị rửa trôi, xói mòn mạnh."
-    },
-    {
-      "type": "paragraph",
-      "text": "+ Chứa nhiều oxít sắt và oxít nhôm tạo nên màu đỏ vàng."
-    },
-    {
-      "type": "paragraph",
-      "text": "+ Có lớp vỏ phong hóa dày thoáng khí, dễ thoát nước, đất chua, nghèo các chất badơ và mùn."
-    },
-    {
-      "type": "paragraph",
-      "text": "- Giá trị sử dụng:"
-    },
-    {
-      "type": "paragraph",
-      "text": "+ Trong lâm nghiệp: thích hợp phát triển rừng sản xuất với các loại cây như thông, bạch đàn, xà cừ,..."
-    },
-    {
-      "type": "paragraph",
-      "text": "- Biện pháp:"
-    },
-    {
-      "type": "paragraph",
-      "text": "+ Bảo vệ rừng và trồng rừng.."
-    },
-    {
-      "type": "paragraph",
-      "text": "+ Củng cố và hoàn thiện hệ thống đê biển, hệ thống công trình thủy lợi."
+      "text": "- Nâng cao ý thức người dân."
     }
   ],
   "key_points": [
-    "CHỦ ĐỀ 3: THỔ NHƯỠNG VÀ SINH VẬT VIỆT NAM",
-    "1. THỔ NHƯỠNG VIỆT NAM",
-    "1.1. Tính chất nhiệt đới gió mùa của lớp phủ thổ nhưỡng",
-    "- Thổ nhưỡng là lớp vật chất mỏng, vụn bở, bao phủ trên bề mặt các lục địa và đảo, được đặc trưng bởi độ phì.",
-    "- Các nhân tố hình thành đất ở nước ta: đá mẹ, khí hậu, sinh vật, địa hình, thời gian, con người.",
-    "+ Ở khu vực nhiệt đới ẩm gió mùa, quá trình phong hoá diễn ra với cường độ mạnh.",
-    "+ Lớp phủ thổ nhưỡng dày.",
-    "+ Quá trình feralit là quá trình hình thành đất đặc trưng của nước ta."
+    "2.2. Tính cấp thiết của vấn đề bảo tồn đa dạng sinh học ở Việt Nam",
+    "* Đa dạng sinh học ở nước ta đang bị suy giảm",
+    "- Suy giảm số lượng cá thể, loài sinh vật: nhiều loài động, thực vật có nguy cơ bị tuyệt chủng.",
+    "- Suy giảm về hệ sinh thái: các hệ sinh thái rừng nguyên sinh bị phá hoại gần hết.",
+    "- Suy giảm về nguồn gen.",
+    "* Nguyên nhân gây suy giảm đa dạng sinh học",
+    "- Các yếu tố tự nhiên: bão, lũ lụt, hạn hán, cháy rừng…",
+    "- Con người: khai thác lâm sản, đốt rừng, du canh du cư, đánh bắt quá mức, ô nhiễm môi trường,...",
+    "* Một số biện pháp bảo vệ đa dạng sinh học ở nước ta",
+    "- Xây dựng các khu bảo tồn thiên nhiên và vườn quốc gia.",
+    "- Trồng và bảo vệ rừng.",
+    "- Ngăn chặn nạn phá rừng, săn bắt động vật hoang dã.",
+    "- Xử lí các chất thải công nghiệp, nông nghiệp và sinh hoạt.",
+    "- Nâng cao ý thức người dân."
   ],
-  "summary": "Noi dung duoc tach tu phan A cua file C3, bam theo bong bong: Bao ton da dang sinh hoc.",
-  "source_scope": "C3 / Phan A. Tong hop kien thuc can nho"
+  "focus_points": [
+    "* Đa dạng sinh học ở nước ta đang bị suy giảm",
+    "- Suy giảm số lượng cá thể, loài sinh vật: nhiều loài động, thực vật có nguy cơ bị tuyệt chủng.",
+    "- Suy giảm về hệ sinh thái: các hệ sinh thái rừng nguyên sinh bị phá hoại gần hết.",
+    "- Suy giảm về nguồn gen.",
+    "* Nguyên nhân gây suy giảm đa dạng sinh học",
+    "- Các yếu tố tự nhiên: bão, lũ lụt, hạn hán, cháy rừng…",
+    "- Con người: khai thác lâm sản, đốt rừng, du canh du cư, đánh bắt quá mức, ô nhiễm môi trường,...",
+    "* Một số biện pháp bảo vệ đa dạng sinh học ở nước ta",
+    "- Xây dựng các khu bảo tồn thiên nhiên và vườn quốc gia.",
+    "- Trồng và bảo vệ rừng.",
+    "- Ngăn chặn nạn phá rừng, săn bắt động vật hoang dã.",
+    "- Xử lí các chất thải công nghiệp, nông nghiệp và sinh hoạt.",
+    "- Nâng cao ý thức người dân."
+  ],
+  "focus_source_section": "C3 / Phần A. Tổng hợp kiến thức cần nhớ / Mục 2.2",
+  "full_text": "2.2. Tính cấp thiết của vấn đề bảo tồn đa dạng sinh học ở Việt Nam\n* Đa dạng sinh học ở nước ta đang bị suy giảm\n- Suy giảm số lượng cá thể, loài sinh vật: nhiều loài động, thực vật có nguy cơ bị tuyệt chủng.\n- Suy giảm về hệ sinh thái: các hệ sinh thái rừng nguyên sinh bị phá hoại gần hết.\n- Suy giảm về nguồn gen.\n* Nguyên nhân gây suy giảm đa dạng sinh học\n- Các yếu tố tự nhiên: bão, lũ lụt, hạn hán, cháy rừng…\n- Con người: khai thác lâm sản, đốt rừng, du canh du cư, đánh bắt quá mức, ô nhiễm môi trường,...\n* Một số biện pháp bảo vệ đa dạng sinh học ở nước ta\n- Xây dựng các khu bảo tồn thiên nhiên và vườn quốc gia.\n- Trồng và bảo vệ rừng.\n- Ngăn chặn nạn phá rừng, săn bắt động vật hoang dã.\n- Xử lí các chất thải công nghiệp, nông nghiệp và sinh hoạt.\n- Nâng cao ý thức người dân.",
+  "summary": "Nội dung trọng tâm được trích nguyên văn từ C3 / Phần A. Tổng hợp kiến thức cần nhớ / Mục 2.2, bám đúng bong bóng: Bảo tồn đa dạng sinh học.",
+  "images": [],
+  "stats": {
+    "chars": 791,
+    "blocks": 14,
+    "images": 0
+  }
 }

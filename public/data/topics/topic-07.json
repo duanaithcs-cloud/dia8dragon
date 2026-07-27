@@ -1,92 +1,145 @@
 {
   "topic_id": 7,
-  "label": "Phan hoa dia hinh va tu nhien",
+  "label": "Phân hoá địa hình và tự nhiên",
   "source_file": "LOP_8_C1---d3c76b6e-82aa-48bd-abe3-8075329ed35f.docx",
   "source_readable": true,
+  "source_scope": "C1 / Phần A. Tổng hợp kiến thức cần nhớ / Mục 2.3",
+  "source_ranges": [
+    "85-106"
+  ],
   "blocks": [
     {
       "type": "heading",
-      "text": "CHỦ ĐỀ 1: VỊ TRÍ ĐỊA LÍ VÀ PHẠM VI LÃNH THỔ, ĐỊA HÌNH VÀ KHOÁNG SẢN VIỆT NAM"
+      "text": "2.3 Ảnh hưởng của sự phân hoá địa hình đối với sự phân hoá tự nhiên và khai thác kinh tế"
     },
     {
       "type": "heading",
-      "text": "1. VỊ TRÍ ĐỊA LÍ VÀ PHẠM VI LÃNH THỔ VIỆT NAM"
+      "text": "a) Đối với phân hoá tự nhiên"
+    },
+    {
+      "type": "paragraph",
+      "text": "- Theo độ cao: chia thành 3 vòng đai: nhiệt đới gió mùa, cận nhiệt đới gió mùa trên núi, ôn đới gió mùa trên núi."
+    },
+    {
+      "type": "paragraph",
+      "text": "- Theo hướng sườn:"
+    },
+    {
+      "type": "paragraph",
+      "text": "+ Dãy Hoàng Liên Sơn làm suy yếu tác động của gió mùa đông bắc => mùa đông ở Tây Bắc ngắn hơn và nền nhiệt cao hơn Đông Bắc."
+    },
+    {
+      "type": "paragraph",
+      "text": "+ Dãy Trường Sơn gây hiệu ứng phơn tạo sự khác biệt về mùa mưa giữa 2 sườn núi."
+    },
+    {
+      "type": "paragraph",
+      "text": "+ Dãy Bạch Mã ngăn ảnh hưởng của gió mùa đông bắc vào phía nam => ranh giới tự nhiên giữa 2 miền khí hậu."
     },
     {
       "type": "heading",
-      "text": "1.1 Vị trí địa lí"
-    },
-    {
-      "type": "paragraph",
-      "text": "Vị trí:"
-    },
-    {
-      "type": "paragraph",
-      "text": "+ Việt Nam nằm ở rìa phía đông của bán đảo Đông Dương, gần trung tâm khu vực Đông Nam Á."
-    },
-    {
-      "type": "paragraph",
-      "text": "+ Nước ta nằm ở vị trí nội chí tuyến bán cầu Bắc; trong khu vực châu Á gió mùa; nơi tiếp giáp giữa đất liền và đại dương, liền kề với các vành đai sinh khoáng."
-    },
-    {
-      "type": "paragraph",
-      "text": "- Hệ tọa độ:"
-    },
-    {
-      "type": "paragraph",
-      "text": "+ Trên đất liền: theo chiều bắc - nam từ 23°23′B đến 8°34′B, theo chiều đông - tây từ 109°28 ′Đ đến 102°09′Đ."
-    },
-    {
-      "type": "paragraph",
-      "text": "- Trên vùng biển: nước ta kéo dài tới khoảng vĩ độ 6°50'B (ở phía nam) và từ kinh độ 101°Đ (ở phía tây) đến trên 117°20’Đ (ở phía đông)."
-    },
-    {
-      "type": "paragraph",
-      "text": "- Tiếp giáp:"
-    },
-    {
-      "type": "paragraph",
-      "text": "+ Phía bắc giáp: Trung Quốc."
-    },
-    {
-      "type": "paragraph",
-      "text": "+ Phía tây giáp Lào và Campuchia."
-    },
-    {
-      "type": "paragraph",
-      "text": "+ Phía đông và nam giáp Biển Đông."
+      "text": "b) Đối với khai thác kinh tế"
     },
     {
       "type": "heading",
-      "text": "1.2 Phạm vi lãnh thổ"
+      "text": "* Khai thác kinh tế ở khu vực đồi núi"
     },
     {
       "type": "paragraph",
-      "text": "Bao gồm: vùng đất, vùng biển và vùng trời."
+      "text": "- Thế mạnh:"
     },
     {
       "type": "paragraph",
-      "text": "- Vùng đất: diện tích 331212km2 gồm toàn bộ phần đất liền và các hải đảo với tổng diện tích 331 344 km2 (theo tổng cục thống kê năm 2021); đường biên giới trên đất liền dài hơn 4600km"
+      "text": "+ Đối với nông nghiệp, lâm nghiệp: trồng rừng, cây công nghiệp, cây ăn quả, chăn nuôi gia súc."
     },
     {
       "type": "paragraph",
-      "text": "Hàng nghìn hòn đảo lớn nhỏ, trong đó Hoàng Sa và Trường Sa là hai quần đảo lớn nhất của Việt Nam"
+      "text": "+ Đối với công nghiệp: phát triển khai thác khoáng sản, luyện kim, thủy điện,..."
     },
     {
       "type": "paragraph",
-      "text": "- Vùng biển: Việt Nam có diện tích khoảng 1 triệu km2, gấp hơn 3 lần diện tích đất liền. Đường bờ biển nước ta dài 3260km, có 28/63 tỉnh giáp biển (hiện nay có 21/34 tỉnh, thành phố giáp biển)"
+      "text": "+ Đối với du lịch: Khu vực đồi núi có khí hậu mát mẻ, cảnh quan đa dạng, đặc sắc là cơ sở hình thành các điểm du lịch có giá trị."
+    },
+    {
+      "type": "paragraph",
+      "text": "- Hạn chế: địa hình bị chia cắt, lũ quét, sạt lở,…"
+    },
+    {
+      "type": "heading",
+      "text": "* Khai thác kinh tế ở khu vực đồng bằng"
+    },
+    {
+      "type": "paragraph",
+      "text": "- Thế mạnh:"
+    },
+    {
+      "type": "paragraph",
+      "text": "+ Đối với nông lâm sản: trồng cây lương thực thực phẩm, chăn nuôi gia súc nhỏ, gia cầm, đánh bắt và nuôi trồng thủy sản."
+    },
+    {
+      "type": "paragraph",
+      "text": "+ Xây dựng cơ sở hạ tầng và cư trú."
+    },
+    {
+      "type": "paragraph",
+      "text": "- Hạn chế: Tài nguyên bị khai thác quá mức, môi trường bị suy thoái."
+    },
+    {
+      "type": "heading",
+      "text": "* Khai thác kinh tế ở vùng biển và thềm lục địa"
+    },
+    {
+      "type": "paragraph",
+      "text": "- Thế mạnh: phát triển các hoạt động kinh tế biển: khai thác và nuôi trồng thủy sản, làm muối, giao thông vận tải biển, khai thác năng lượng, du lịch biển."
+    },
+    {
+      "type": "paragraph",
+      "text": "- Hạn chế: bão, cạn kiệt tài nguyên, ô nhiễm môi trường biển."
     }
   ],
   "key_points": [
-    "CHỦ ĐỀ 1: VỊ TRÍ ĐỊA LÍ VÀ PHẠM VI LÃNH THỔ, ĐỊA HÌNH VÀ KHOÁNG SẢN VIỆT NAM",
-    "1. VỊ TRÍ ĐỊA LÍ VÀ PHẠM VI LÃNH THỔ VIỆT NAM",
-    "+ Việt Nam nằm ở rìa phía đông của bán đảo Đông Dương, gần trung tâm khu vực Đông Nam Á.",
-    "+ Nước ta nằm ở vị trí nội chí tuyến bán cầu Bắc; trong khu vực châu Á gió mùa; nơi tiếp giáp giữa đất liền và đại dương, liền kề với các vành đai sinh khoáng.",
-    "+ Trên đất liền: theo chiều bắc - nam từ 23°23′B đến 8°34′B, theo chiều đông - tây từ 109°28 ′Đ đến 102°09′Đ.",
-    "- Trên vùng biển: nước ta kéo dài tới khoảng vĩ độ 6°50'B (ở phía nam) và từ kinh độ 101°Đ (ở phía tây) đến trên 117°20’Đ (ở phía đông).",
-    "+ Phía bắc giáp: Trung Quốc.",
-    "+ Phía tây giáp Lào và Campuchia."
+    "2.3 Ảnh hưởng của sự phân hoá địa hình đối với sự phân hoá tự nhiên và khai thác kinh tế",
+    "a) Đối với phân hoá tự nhiên",
+    "- Theo độ cao: chia thành 3 vòng đai: nhiệt đới gió mùa, cận nhiệt đới gió mùa trên núi, ôn đới gió mùa trên núi.",
+    "- Theo hướng sườn:",
+    "+ Dãy Hoàng Liên Sơn làm suy yếu tác động của gió mùa đông bắc => mùa đông ở Tây Bắc ngắn hơn và nền nhiệt cao hơn Đông Bắc.",
+    "+ Dãy Trường Sơn gây hiệu ứng phơn tạo sự khác biệt về mùa mưa giữa 2 sườn núi.",
+    "+ Dãy Bạch Mã ngăn ảnh hưởng của gió mùa đông bắc vào phía nam => ranh giới tự nhiên giữa 2 miền khí hậu.",
+    "b) Đối với khai thác kinh tế",
+    "* Khai thác kinh tế ở khu vực đồi núi",
+    "- Thế mạnh:",
+    "+ Đối với nông nghiệp, lâm nghiệp: trồng rừng, cây công nghiệp, cây ăn quả, chăn nuôi gia súc.",
+    "+ Đối với công nghiệp: phát triển khai thác khoáng sản, luyện kim, thủy điện,...",
+    "+ Đối với du lịch: Khu vực đồi núi có khí hậu mát mẻ, cảnh quan đa dạng, đặc sắc là cơ sở hình thành các điểm du lịch có giá trị.",
+    "- Hạn chế: địa hình bị chia cắt, lũ quét, sạt lở,…",
+    "* Khai thác kinh tế ở khu vực đồng bằng",
+    "- Thế mạnh:",
+    "+ Đối với nông lâm sản: trồng cây lương thực thực phẩm, chăn nuôi gia súc nhỏ, gia cầm, đánh bắt và nuôi trồng thủy sản.",
+    "+ Xây dựng cơ sở hạ tầng và cư trú."
   ],
-  "summary": "Noi dung duoc tach tu phan A cua file C1, bam theo bong bong: Phan hoa dia hinh va tu nhien.",
-  "source_scope": "C1 / Phan A. Tong hop kien thuc can nho"
+  "focus_points": [
+    "a) Đối với phân hoá tự nhiên",
+    "- Theo độ cao: chia thành 3 vòng đai: nhiệt đới gió mùa, cận nhiệt đới gió mùa trên núi, ôn đới gió mùa trên núi.",
+    "- Theo hướng sườn:",
+    "+ Dãy Hoàng Liên Sơn làm suy yếu tác động của gió mùa đông bắc => mùa đông ở Tây Bắc ngắn hơn và nền nhiệt cao hơn Đông Bắc.",
+    "+ Dãy Trường Sơn gây hiệu ứng phơn tạo sự khác biệt về mùa mưa giữa 2 sườn núi.",
+    "+ Dãy Bạch Mã ngăn ảnh hưởng của gió mùa đông bắc vào phía nam => ranh giới tự nhiên giữa 2 miền khí hậu.",
+    "b) Đối với khai thác kinh tế",
+    "* Khai thác kinh tế ở khu vực đồi núi",
+    "- Thế mạnh:",
+    "+ Đối với nông nghiệp, lâm nghiệp: trồng rừng, cây công nghiệp, cây ăn quả, chăn nuôi gia súc.",
+    "+ Đối với công nghiệp: phát triển khai thác khoáng sản, luyện kim, thủy điện,...",
+    "+ Đối với du lịch: Khu vực đồi núi có khí hậu mát mẻ, cảnh quan đa dạng, đặc sắc là cơ sở hình thành các điểm du lịch có giá trị.",
+    "- Hạn chế: địa hình bị chia cắt, lũ quét, sạt lở,…",
+    "* Khai thác kinh tế ở khu vực đồng bằng"
+  ],
+  "focus_source_section": "C1 / Phần A. Tổng hợp kiến thức cần nhớ / Mục 2.3",
+  "full_text": "2.3 Ảnh hưởng của sự phân hoá địa hình đối với sự phân hoá tự nhiên và khai thác kinh tế\na) Đối với phân hoá tự nhiên\n- Theo độ cao: chia thành 3 vòng đai: nhiệt đới gió mùa, cận nhiệt đới gió mùa trên núi, ôn đới gió mùa trên núi.\n- Theo hướng sườn:\n+ Dãy Hoàng Liên Sơn làm suy yếu tác động của gió mùa đông bắc => mùa đông ở Tây Bắc ngắn hơn và nền nhiệt cao hơn Đông Bắc.\n+ Dãy Trường Sơn gây hiệu ứng phơn tạo sự khác biệt về mùa mưa giữa 2 sườn núi.\n+ Dãy Bạch Mã ngăn ảnh hưởng của gió mùa đông bắc vào phía nam => ranh giới tự nhiên giữa 2 miền khí hậu.\nb) Đối với khai thác kinh tế\n* Khai thác kinh tế ở khu vực đồi núi\n- Thế mạnh:\n+ Đối với nông nghiệp, lâm nghiệp: trồng rừng, cây công nghiệp, cây ăn quả, chăn nuôi gia súc.\n+ Đối với công nghiệp: phát triển khai thác khoáng sản, luyện kim, thủy điện,...\n+ Đối với du lịch: Khu vực đồi núi có khí hậu mát mẻ, cảnh quan đa dạng, đặc sắc là cơ sở hình thành các điểm du lịch có giá trị.\n- Hạn chế: địa hình bị chia cắt, lũ quét, sạt lở,…\n* Khai thác kinh tế ở khu vực đồng bằng\n- Thế mạnh:\n+ Đối với nông lâm sản: trồng cây lương thực thực phẩm, chăn nuôi gia súc nhỏ, gia cầm, đánh bắt và nuôi trồng thủy sản.\n+ Xây dựng cơ sở hạ tầng và cư trú.\n- Hạn chế: Tài nguyên bị khai thác quá mức, môi trường bị suy thoái.\n* Khai thác kinh tế ở vùng biển và thềm lục địa\n- Thế mạnh: phát triển các hoạt động kinh tế biển: khai thác và nuôi trồng thủy sản, làm muối, giao thông vận tải biển, khai thác năng lượng, du lịch biển.\n- Hạn chế: bão, cạn kiệt tài nguyên, ô nhiễm môi trường biển.",
+  "summary": "Nội dung trọng tâm được trích nguyên văn từ C1 / Phần A. Tổng hợp kiến thức cần nhớ / Mục 2.3, bám đúng bong bóng: Phân hoá địa hình và tự nhiên.",
+  "images": [],
+  "stats": {
+    "chars": 1541,
+    "blocks": 22,
+    "images": 0
+  }
 }

@@ -1,13 +1,13 @@
 {
   "topic_id": 8,
-  "label": "Khi hau nhiet doi am gio mua",
+  "label": "Khí hậu nhiệt đới ẩm gió mùa",
   "source_file": "LOP_8_C2---662f9dd8-7d10-4634-822b-a0cbf3ab2aea.docx",
   "source_readable": true,
+  "source_scope": "C2 / Phần A. Tổng hợp kiến thức cần nhớ / Mục 1.1",
+  "source_ranges": [
+    "1-24"
+  ],
   "blocks": [
-    {
-      "type": "heading",
-      "text": "CHỦ ĐỀ 2: KHÍ HẬU VÀ THUỶ VĂN VIỆT NAM"
-    },
     {
       "type": "heading",
       "text": "1. KHÍ HẬU VIỆT NAM"
@@ -17,7 +17,7 @@
       "text": "1.1. Khí hậu nhiệt đới ẩm gió mùa"
     },
     {
-      "type": "paragraph",
+      "type": "heading",
       "text": "a) Tính chất nhiệt đới"
     },
     {
@@ -33,7 +33,7 @@
       "text": "- Cán cân bức xạ từ 70-100 kcal/cm2/năm."
     },
     {
-      "type": "paragraph",
+      "type": "heading",
       "text": "b) Tính chất ẩm"
     },
     {
@@ -45,11 +45,11 @@
       "text": "- Độ ẩm không khí cao, trên 80%."
     },
     {
-      "type": "paragraph",
+      "type": "heading",
       "text": "c) Tính chất gió mùa"
     },
     {
-      "type": "paragraph",
+      "type": "heading",
       "text": "* Gió mùa mùa đông:"
     },
     {
@@ -75,18 +75,79 @@
     {
       "type": "paragraph",
       "text": "+ Ở miền Nam, Tín phong chiếm ưu thế đem đến mùa khô cho Nan Bộ và Tây Nguyên, gây mưa cho vùng biển Nam Trung Bộ."
+    },
+    {
+      "type": "heading",
+      "text": "* Gió mùa mùa hạ:"
+    },
+    {
+      "type": "paragraph",
+      "text": "- Thời gian: từ tháng 5 – 10"
+    },
+    {
+      "type": "paragraph",
+      "text": "- Nguồn gốc: áp cao Bắc Ấn Độ Dương và áp cao cận chí tuyến Nam bán cầu."
+    },
+    {
+      "type": "paragraph",
+      "text": "- Hướng gió: tây nam, đối với miền Bắc là đông nam."
+    },
+    {
+      "type": "paragraph",
+      "text": "- Đặc điểm:"
+    },
+    {
+      "type": "paragraph",
+      "text": "+ Đầu mùa hạ: gây mưa cho Nam Bộ, Tây Nguyên nhưng gây khô nóng cho phía đông Trường Sơn, Tây Bắc."
+    },
+    {
+      "type": "paragraph",
+      "text": "+ Giữa và cuối mùa hạ: nóng ẩm, mưa nhiều cả nước."
     }
   ],
   "key_points": [
-    "CHỦ ĐỀ 2: KHÍ HẬU VÀ THUỶ VĂN VIỆT NAM",
+    "1. KHÍ HẬU VIỆT NAM",
     "1.1. Khí hậu nhiệt đới ẩm gió mùa",
     "a) Tính chất nhiệt đới",
     "- Nhiệt độ trung bình năm trên 200C (trừ vùng núi cao) và tăng dần từ Bắc vào Nam.",
     "- Số giờ nắng nhiều, đạt từ 1400 - 3000 giờ/năm.",
     "- Cán cân bức xạ từ 70-100 kcal/cm2/năm.",
+    "b) Tính chất ẩm",
     "- Lượng mưa trung bình năm lớn: từ 1500 - 2000 mm/năm.",
-    "- Độ ẩm không khí cao, trên 80%."
+    "- Độ ẩm không khí cao, trên 80%.",
+    "c) Tính chất gió mùa",
+    "* Gió mùa mùa đông:",
+    "- Thời gian: từ tháng 11 – 4 năm sau",
+    "- Nguồn gốc: áp cao Xi-bia.",
+    "- Hướng gió: Đông Bắc",
+    "- Đặc điểm:",
+    "+ Ở miền Bắc: nửa đầu mùa đông thời tiết lạnh khô, nửa sau mùa đông thời tiết lạnh ẩm, có mưa phùn.",
+    "+ Ở miền Nam, Tín phong chiếm ưu thế đem đến mùa khô cho Nan Bộ và Tây Nguyên, gây mưa cho vùng biển Nam Trung Bộ.",
+    "* Gió mùa mùa hạ:"
   ],
-  "summary": "Noi dung duoc tach tu phan A cua file C2, bam theo bong bong: Khi hau nhiet doi am gio mua.",
-  "source_scope": "C2 / Phan A. Tong hop kien thuc can nho"
+  "focus_points": [
+    "a) Tính chất nhiệt đới",
+    "- Nhiệt độ trung bình năm trên 200C (trừ vùng núi cao) và tăng dần từ Bắc vào Nam.",
+    "- Số giờ nắng nhiều, đạt từ 1400 - 3000 giờ/năm.",
+    "- Cán cân bức xạ từ 70-100 kcal/cm2/năm.",
+    "b) Tính chất ẩm",
+    "- Lượng mưa trung bình năm lớn: từ 1500 - 2000 mm/năm.",
+    "- Độ ẩm không khí cao, trên 80%.",
+    "c) Tính chất gió mùa",
+    "* Gió mùa mùa đông:",
+    "- Thời gian: từ tháng 11 – 4 năm sau",
+    "- Nguồn gốc: áp cao Xi-bia.",
+    "- Hướng gió: Đông Bắc",
+    "- Đặc điểm:",
+    "+ Ở miền Bắc: nửa đầu mùa đông thời tiết lạnh khô, nửa sau mùa đông thời tiết lạnh ẩm, có mưa phùn."
+  ],
+  "focus_source_section": "C2 / Phần A. Tổng hợp kiến thức cần nhớ / Mục 1.1",
+  "full_text": "1. KHÍ HẬU VIỆT NAM\n1.1. Khí hậu nhiệt đới ẩm gió mùa\na) Tính chất nhiệt đới\n- Nhiệt độ trung bình năm trên 200C (trừ vùng núi cao) và tăng dần từ Bắc vào Nam.\n- Số giờ nắng nhiều, đạt từ 1400 - 3000 giờ/năm.\n- Cán cân bức xạ từ 70-100 kcal/cm2/năm.\nb) Tính chất ẩm\n- Lượng mưa trung bình năm lớn: từ 1500 - 2000 mm/năm.\n- Độ ẩm không khí cao, trên 80%.\nc) Tính chất gió mùa\n* Gió mùa mùa đông:\n- Thời gian: từ tháng 11 – 4 năm sau\n- Nguồn gốc: áp cao Xi-bia.\n- Hướng gió: Đông Bắc\n- Đặc điểm:\n+ Ở miền Bắc: nửa đầu mùa đông thời tiết lạnh khô, nửa sau mùa đông thời tiết lạnh ẩm, có mưa phùn.\n+ Ở miền Nam, Tín phong chiếm ưu thế đem đến mùa khô cho Nan Bộ và Tây Nguyên, gây mưa cho vùng biển Nam Trung Bộ.\n* Gió mùa mùa hạ:\n- Thời gian: từ tháng 5 – 10\n- Nguồn gốc: áp cao Bắc Ấn Độ Dương và áp cao cận chí tuyến Nam bán cầu.\n- Hướng gió: tây nam, đối với miền Bắc là đông nam.\n- Đặc điểm:\n+ Đầu mùa hạ: gây mưa cho Nam Bộ, Tây Nguyên nhưng gây khô nóng cho phía đông Trường Sơn, Tây Bắc.\n+ Giữa và cuối mùa hạ: nóng ẩm, mưa nhiều cả nước.",
+  "summary": "Nội dung trọng tâm được trích nguyên văn từ C2 / Phần A. Tổng hợp kiến thức cần nhớ / Mục 1.1, bám đúng bong bóng: Khí hậu nhiệt đới ẩm gió mùa.",
+  "images": [],
+  "stats": {
+    "chars": 1042,
+    "blocks": 24,
+    "images": 0
+  }
 }

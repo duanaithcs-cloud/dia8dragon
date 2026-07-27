@@ -1,92 +1,65 @@
 {
   "topic_id": 9,
-  "label": "Luu vuc song va he thong song lon",
+  "label": "Lưu vực sông và hệ thống sông lớn",
   "source_file": "LOP_8_C2---662f9dd8-7d10-4634-822b-a0cbf3ab2aea.docx",
   "source_readable": true,
+  "source_scope": "C2 / Phần A. Tổng hợp kiến thức cần nhớ / Mục 2.1.a",
+  "source_ranges": [
+    "35-41"
+  ],
   "blocks": [
     {
       "type": "heading",
-      "text": "CHỦ ĐỀ 2: KHÍ HẬU VÀ THUỶ VĂN VIỆT NAM"
+      "text": "2. THUỶ VĂN VIỆT NAM"
     },
     {
       "type": "heading",
-      "text": "1. KHÍ HẬU VIỆT NAM"
+      "text": "2.1. Sông ngòi"
     },
     {
       "type": "heading",
-      "text": "1.1. Khí hậu nhiệt đới ẩm gió mùa"
+      "text": "a) Đặc điểm chung"
     },
     {
       "type": "paragraph",
-      "text": "a) Tính chất nhiệt đới"
+      "text": "- Mạng lưới sông ngòi dày đặc phân bố rộng khắp trên cả nước: Nước ta có 2360 con sông dài trên 10km."
     },
     {
       "type": "paragraph",
-      "text": "- Nhiệt độ trung bình năm trên 200C (trừ vùng núi cao) và tăng dần từ Bắc vào Nam."
+      "text": "- Sông chảy theo hai hướng chính là tây bắc - đông nam và vòng cung."
     },
     {
       "type": "paragraph",
-      "text": "- Số giờ nắng nhiều, đạt từ 1400 - 3000 giờ/năm."
+      "text": "- Chế độ dòng chảy phân 2 mùa rất rõ rệt: mùa lũ và mùa cạn."
     },
     {
       "type": "paragraph",
-      "text": "- Cán cân bức xạ từ 70-100 kcal/cm2/năm."
-    },
-    {
-      "type": "paragraph",
-      "text": "b) Tính chất ẩm"
-    },
-    {
-      "type": "paragraph",
-      "text": "- Lượng mưa trung bình năm lớn: từ 1500 - 2000 mm/năm."
-    },
-    {
-      "type": "paragraph",
-      "text": "- Độ ẩm không khí cao, trên 80%."
-    },
-    {
-      "type": "paragraph",
-      "text": "c) Tính chất gió mùa"
-    },
-    {
-      "type": "paragraph",
-      "text": "+ Ở miền Bắc: nửa đầu mùa đông thời tiết lạnh khô, nửa sau mùa đông thời tiết lạnh ẩm, có mưa phùn."
-    },
-    {
-      "type": "paragraph",
-      "text": "+ Ở miền Nam, Tín phong chiếm ưu thế đem đến mùa khô cho Nan Bộ và Tây Nguyên, gây mưa cho vùng biển Nam Trung Bộ."
-    },
-    {
-      "type": "paragraph",
-      "text": "* Gió mùa mùa hạ:"
-    },
-    {
-      "type": "paragraph",
-      "text": "- Thời gian: từ tháng 5 – 10"
-    },
-    {
-      "type": "paragraph",
-      "text": "- Nguồn gốc: áp cao Bắc Ấn Độ Dương và áp cao cận chí tuyến Nam bán cầu."
-    },
-    {
-      "type": "paragraph",
-      "text": "- Hướng gió: tây nam, đối với miền Bắc là đông nam."
-    },
-    {
-      "type": "paragraph",
-      "text": "- Đặc điểm:"
+      "text": "- Sông ngòi nước ta nhiều nước (hơn 800 tỉ m3/năm) và lượng phù sa khá lớn (khoảng 200 triệu tấn/năm)."
     }
   ],
   "key_points": [
-    "CHỦ ĐỀ 2: KHÍ HẬU VÀ THUỶ VĂN VIỆT NAM",
-    "1.1. Khí hậu nhiệt đới ẩm gió mùa",
-    "a) Tính chất nhiệt đới",
-    "- Nhiệt độ trung bình năm trên 200C (trừ vùng núi cao) và tăng dần từ Bắc vào Nam.",
-    "- Số giờ nắng nhiều, đạt từ 1400 - 3000 giờ/năm.",
-    "- Cán cân bức xạ từ 70-100 kcal/cm2/năm.",
-    "- Lượng mưa trung bình năm lớn: từ 1500 - 2000 mm/năm.",
-    "- Độ ẩm không khí cao, trên 80%."
+    "2. THUỶ VĂN VIỆT NAM",
+    "2.1. Sông ngòi",
+    "a) Đặc điểm chung",
+    "- Mạng lưới sông ngòi dày đặc phân bố rộng khắp trên cả nước: Nước ta có 2360 con sông dài trên 10km.",
+    "- Sông chảy theo hai hướng chính là tây bắc - đông nam và vòng cung.",
+    "- Chế độ dòng chảy phân 2 mùa rất rõ rệt: mùa lũ và mùa cạn.",
+    "- Sông ngòi nước ta nhiều nước (hơn 800 tỉ m3/năm) và lượng phù sa khá lớn (khoảng 200 triệu tấn/năm)."
   ],
-  "summary": "Noi dung duoc tach tu phan A cua file C2, bam theo bong bong: Luu vuc song va he thong song lon.",
-  "source_scope": "C2 / Phan A. Tong hop kien thuc can nho"
+  "focus_points": [
+    "a) Đặc điểm chung",
+    "- Mạng lưới sông ngòi dày đặc phân bố rộng khắp trên cả nước: Nước ta có 2360 con sông dài trên 10km.",
+    "- Sông chảy theo hai hướng chính là tây bắc - đông nam và vòng cung.",
+    "- Chế độ dòng chảy phân 2 mùa rất rõ rệt: mùa lũ và mùa cạn.",
+    "- Sông ngòi nước ta nhiều nước (hơn 800 tỉ m3/năm) và lượng phù sa khá lớn (khoảng 200 triệu tấn/năm)."
+  ],
+  "focus_source_section": "C2 / Phần A. Tổng hợp kiến thức cần nhớ / Mục 2.1.a",
+  "full_text": "2. THUỶ VĂN VIỆT NAM\n2.1. Sông ngòi\na) Đặc điểm chung\n- Mạng lưới sông ngòi dày đặc phân bố rộng khắp trên cả nước: Nước ta có 2360 con sông dài trên 10km.\n- Sông chảy theo hai hướng chính là tây bắc - đông nam và vòng cung.\n- Chế độ dòng chảy phân 2 mùa rất rõ rệt: mùa lũ và mùa cạn.\n- Sông ngòi nước ta nhiều nước (hơn 800 tỉ m3/năm) và lượng phù sa khá lớn (khoảng 200 triệu tấn/năm).",
+  "summary": "Nội dung trọng tâm được trích nguyên văn từ C2 / Phần A. Tổng hợp kiến thức cần nhớ / Mục 2.1.a, bám đúng bong bóng: Lưu vực sông và hệ thống sông lớn.",
+  "images": [],
+  "stats": {
+    "chars": 388,
+    "blocks": 7,
+    "images": 0
+  }
 }
