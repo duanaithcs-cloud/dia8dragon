@@ -288,6 +288,16 @@
             box-shadow: inset 0 0 30px rgba(0,0,0,0.8);
         }
         .bubble-visual-dia8 .bubble-inner::before { display:none; }
+        @keyframes orb-drift-dia8 {
+            0%,100% { translate:0 0; rotate:0deg; }
+            25% { translate:var(--float-x, 4px) var(--float-y, -3px); rotate:var(--float-rotate, .5deg); }
+            50% { translate:calc(var(--float-x, 4px) * -.45) calc(var(--float-y, -3px) * .8); rotate:calc(var(--float-rotate, .5deg) * -.65); }
+            75% { translate:calc(var(--float-x, 4px) * .35) calc(var(--float-y, -3px) * -1); rotate:calc(var(--float-rotate, .5deg) * .45); }
+        }
+        .bubble-container.animate-orb-drift {
+            animation:orb-drift-dia8 var(--float-dur, 7s) ease-in-out infinite;
+            animation-delay:var(--float-delay, 0s);
+        }
         @keyframes breathing-dia8 {
             0%,100% { transform:scale(1); }
             50% { transform:scale(var(--breath-scale,1.025)); }

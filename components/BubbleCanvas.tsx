@@ -494,6 +494,13 @@ const BubbleCanvas: React.FC<BubbleCanvasProps> = ({
         const displayLabel = isGenerating ? 'AI NANO-MATRIX' : getBubbleDisplayLabel(topic);
         const labelFontSize = (preferences.fontSize || 16) * (currentR / 55);
         const masteryFontSize = (preferences.fontSize || 16) * (currentR / 65);
+        const floatSeed = 91000 + topic.topic_id;
+        const floatX = ((seededRandom(floatSeed) - 0.5) * 10).toFixed(2) + 'px';
+        const floatY = ((seededRandom(floatSeed + 17) - 0.5) * 8).toFixed(2) + 'px';
+        const floatRotate = ((seededRandom(floatSeed + 31) - 0.5) * 1.2).toFixed(2) + 'deg';
+        const floatDuration = (6.2 + seededRandom(floatSeed + 53) * 3.8).toFixed(2) + 's';
+        const floatDelay = (-seededRandom(floatSeed + 71) * 8).toFixed(2) + 's';
+        const driftClass = preferences.showDrifting && !reduceMotion && !isGenerating ? 'animate-orb-drift' : '';
 
         return (
           <button
@@ -504,7 +511,7 @@ const BubbleCanvas: React.FC<BubbleCanvasProps> = ({
             onKeyDown={(event) => handleBubbleKeyDown(topicIndex, topic.topic_id, event)}
             aria-label={`Chuyên đề ${topic.topic_id}: ${topic.keyword_label}. Mức nắm vững ${Math.round(topic.mastery_percent)} phần trăm.`}
             aria-describedby="bubble-canvas-instructions"
-            className={`bubble-container bubble-theme-${activeTheme.toLowerCase().replaceAll('_', '-')} ${dia8Visual ? 'bubble-visual-dia8' : 'bubble-visual-dia8'} absolute will-change-transform cursor-pointer group ${focusClass}`}
+            className={`bubble-container bubble-theme-${activeTheme.toLowerCase().replaceAll('_', '-')} ${dia8Visual ? 'bubble-visual-dia8' : 'bubble-visual-dia8'} absolute will-change-transform cursor-pointer group ${focusClass} ${driftClass}`}
             style={{ 
               width: currentR * 2, 
               height: currentR * 2,
@@ -516,6 +523,11 @@ const BubbleCanvas: React.FC<BubbleCanvasProps> = ({
               ['--ripple-color' as any]: bubbleVisual.rippleColor,
               ['--b-dur' as any]: varietyDur,
               ['--breath-scale' as any]: 1 + (breathAmp / 200),
+              ['--float-x' as any]: floatX,
+              ['--float-y' as any]: floatY,
+              ['--float-rotate' as any]: floatRotate,
+              ['--float-dur' as any]: floatDuration,
+              ['--float-delay' as any]: floatDelay,
               ['--dia8-glow' as any]: glowIntensity / 55,
               ['--dia8-saturation' as any]: saturation / 65,
               zIndex: isGenerating ? 1000 : (isCelebrating ? 100 : 10),
