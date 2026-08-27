@@ -34,6 +34,17 @@
   // Prevent double-tap zoom on controls while preserving pinch zoom in long-form reading areas.
   let last=0; document.addEventListener('touchend',e=>{if(!e.target.closest('button,[role="button"]'))return;const now=Date.now();if(now-last<300)e.preventDefault();last=now;},{passive:false});
   if('serviceWorker'in navigator && (location.protocol==='https:'||location.hostname==='localhost'||location.hostname==='127.0.0.1')){
-    addEventListener('load',()=>navigator.serviceWorker.register('./sw.js').catch(()=>{}));
+    addEventListener('load',async()=>{
+      if(isMobile()){
+        navigator.serviceWorker.register('./sw.js?v=3.5.0.6').catch(()=>{});
+        return;
+      }
+      const registrations=await navigator.serviceWorker.getRegistrations().catch(()=>[]);
+      await Promise.all(registrations.map(registration=>registration.unregister().catch(()=>false)));
+      if('caches'in window){
+        const keys=await caches.keys().catch(()=>[]);
+        await Promise.all(keys.filter(key=>key.startsWith('dia8-mobile-')).map(key=>caches.delete(key)));
+      }
+    });
   }
 })();

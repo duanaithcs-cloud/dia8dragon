@@ -1,4 +1,4 @@
-const VERSION = '3.5.0.5-dia8';
+const VERSION = '3.5.0.6-dia8';
 const PREFIX = 'dia8-mobile';
 const CACHES = {
   shell: `${PREFIX}-shell-${VERSION}`,
@@ -119,6 +119,6 @@ self.addEventListener('fetch', event => {
     return;
   }
   if (path.includes('/data/topics/') || path.includes('/documents/') || /\.(?:js|css|json|webmanifest)$/.test(path)) {
-    event.respondWith(staleWhileRevalidate(event.request, CACHES.shell));
+    event.respondWith(networkFirst(event.request, CACHES.shell));
   }
 });
