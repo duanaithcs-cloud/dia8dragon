@@ -207,22 +207,6 @@
             z-index: 5;
         }
 
-        /* Visual drift runs on the child layer; physics remains on the button itself. */
-        @keyframes bubble-drift-dia8 {
-            0%, 100% { transform: translate3d(0, 0, 0) rotate(0deg); }
-            25% { transform: translate3d(var(--float-x, 4px), var(--float-y, -3px), 0) rotate(var(--float-rotate, .5deg)); }
-            50% { transform: translate3d(calc(var(--float-x, 4px) * -.45), calc(var(--float-y, -3px) * .8), 0) rotate(calc(var(--float-rotate, .5deg) * -.65)); }
-            75% { transform: translate3d(calc(var(--float-x, 4px) * .35), calc(var(--float-y, -3px) * -1), 0) rotate(calc(var(--float-rotate, .5deg) * .45)); }
-        }
-        .bubble-drift-visual {
-            transform-origin: center;
-            will-change: transform;
-        }
-        .bubble-drift-visual.animate-bubble-drift {
-            animation: bubble-drift-dia8 var(--float-dur, 7s) ease-in-out infinite;
-            animation-delay: var(--float-delay, 0s);
-        }
-
         @keyframes shimmer-sweep {
             0% { transform: translate3d(-150%, -150%, 0) rotate(45deg); opacity: 0; }
             50% { opacity: 0.3; }
