@@ -494,6 +494,13 @@ const BubbleCanvas: React.FC<BubbleCanvasProps> = ({
         const displayLabel = isGenerating ? 'AI NANO-MATRIX' : getBubbleDisplayLabel(topic);
         const labelFontSize = (preferences.fontSize || 16) * (currentR / 55);
         const masteryFontSize = (preferences.fontSize || 16) * (currentR / 65);
+        const floatSeed = 91000 + topic.topic_id;
+        const floatX = ((seededRandom(floatSeed) - 0.5) * 12).toFixed(2) + 'px';
+        const floatY = ((seededRandom(floatSeed + 17) - 0.5) * 10).toFixed(2) + 'px';
+        const floatRotate = ((seededRandom(floatSeed + 31) - 0.5) * 1.6).toFixed(2) + 'deg';
+        const floatDuration = (6.2 + seededRandom(floatSeed + 53) * 3.8).toFixed(2) + 's';
+        const floatDelay = (-seededRandom(floatSeed + 71) * 8).toFixed(2) + 's';
+        const driftClass = preferences.showDrifting && !reduceMotion && !isGenerating ? 'animate-bubble-drift' : '';
         return (
           <button
             type="button"
@@ -517,12 +524,18 @@ const BubbleCanvas: React.FC<BubbleCanvasProps> = ({
               ['--breath-scale' as any]: 1 + (breathAmp / 200),
               ['--dia8-glow' as any]: glowIntensity / 55,
               ['--dia8-saturation' as any]: saturation / 65,
+              ['--float-x' as any]: floatX,
+              ['--float-y' as any]: floatY,
+              ['--float-rotate' as any]: floatRotate,
+              ['--float-dur' as any]: floatDuration,
+              ['--float-delay' as any]: floatDelay,
               zIndex: isGenerating ? 1000 : (isCelebrating ? 100 : 10),
               left: 0, top: 0,
               transform: b ? `translate3d(${b.x - b.r}px, ${b.y - b.r}px, 0)` : 'translate3d(-500px, -500px, 0)'
             }}
           >
-            <div className="bubble-neon-halo absolute inset-0 rounded-full pointer-events-none" aria-hidden="true"></div>
+            <div className={`bubble-drift-visual absolute inset-0 ${driftClass}`}>
+              <div className="bubble-neon-halo absolute inset-0 rounded-full pointer-events-none" aria-hidden="true"></div>
               <div className={`bubble-inner w-full h-full neon-ring ${pulseClass} ${preferences.showBreathing && !reduceMotion && !isGenerating ? 'animate-breathing' : ''}`}
                  style={{ 
                     opacity: isGenerating ? 1 : (preferences.transparency ?? 0.8),
@@ -591,6 +604,7 @@ const BubbleCanvas: React.FC<BubbleCanvasProps> = ({
                 </span>
               </div>
               </div>
+            </div>
             
             {!isGenerating && (
               <div className="absolute -bottom-8 left-1/2 -translate-x-1/2 opacity-0 group-hover:opacity-100 transition-all duration-300 whitespace-nowrap z-50 transform group-hover:translate-y-[-5px]">
