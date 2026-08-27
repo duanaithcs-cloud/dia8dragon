@@ -2,9 +2,9 @@ import { UIPreferences } from '../types';
 
 export const defaultUI: UIPreferences = {
   theme: 'D8_ZALO', showBreathing: true, showDrifting: true, showShimmering: true,
-  fontSize: 13, intensity: 1.0, transparency: 0.8, brightness: 1.0,
+  fontSize: 13, intensity: 55, transparency: 0.8, brightness: 1.0,
   bubbleScale: 1.0, breathAmp: 5, glowIntensity: 55, saturation: 65,
-  driftForce: 20, repulsion: 80, backgroundId: 'ORIGINAL_DRAGON',
+  driftForce: 25, repulsion: 85, backgroundId: 'ORIGINAL_DRAGON',
   readingMode: 'STUDY', readingFontScale: 1.0, readingLineHeight: 1.62,
   readingAlign: 'LEFT', readingContrast: false, quickReadWpm: 320,
   layoutMode: 'AUTO', readingTheme: 'NIGHT', allowAiProcessing: false,

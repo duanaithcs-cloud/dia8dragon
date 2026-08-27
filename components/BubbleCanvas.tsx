@@ -131,6 +131,10 @@ const getWeightedBubbleRadius = (topic: Topic, bubbleScale = 1) => {
   const topicFactor = HALF_SIZE_WEIGHTED_TOPICS.has(topic.topic_id) ? 0.5 : 1;
   return base * topicFactor * bubbleScale * weightedRadiusVariance(24000 + topic.topic_id);
 };
+const normalizeMotionIntensity = (intensity: number | undefined) => {
+  const value = intensity ?? 55;
+  return value <= 2 ? value * 55 : value;
+};
 const deriveBubbleVisual = (topic: Topic, theme: string): BubbleVisual => {
   const base = normalizeHex(topic.color || '#0d33f2');
   if (isDia8Theme(theme)) {
@@ -255,27 +259,28 @@ const BubbleCanvas: React.FC<BubbleCanvasProps> = ({
     const cellH = h / rows;
 
     physicsRef.current = topics.map((t, index) => {
-      const baseR = (35 + t.scale * 20) * (preferences.bubbleScale || 1.0);
-      const angle = Math.random() * Math.PI * 2;
-      const spawnDist = Math.max(w, h) * 0.4;
-      const gridX = (index % columns) * cellW + cellW / 2;
-      const gridY = Math.floor(index / columns) * cellH + cellH / 2;
-      const x = reduceMotion ? gridX : w/2 + Math.cos(angle) * spawnDist;
-      const y = reduceMotion ? gridY : h/2 + Math.sin(angle) * spawnDist;
+      const seed = 24000 + t.topic_id;
+      const baseR = getWeightedBubbleRadius(t, preferences.bubbleScale || 1.0);
+      const col = index % columns;
+      const row = Math.floor(index / columns);
+      const jitterX = (seededRandom(seed) - 0.5) * cellW * 0.8;
+      const jitterY = (seededRandom(seed + 50) - 0.5) * cellH * 0.8;
+      const x = (col + 0.5) * cellW + jitterX;
+      const y = (row + 0.5) * cellH + jitterY;
 
       return {
         id: t.topic_id,
         x,
         y,
-        vx: reduceMotion ? 0 : (w/2 - x) * 0.005 + (Math.random() - 0.5) * 2,
-        vy: reduceMotion ? 0 : (h/2 - y) * 0.005 + (Math.random() - 0.5) * 2,
+        vx: reduceMotion ? 0 : (seededRandom(seed + 100) - 0.5) * 4,
+        vy: reduceMotion ? 0 : (seededRandom(seed + 200) - 0.5) * 4,
         r: baseR,
         targetR: baseR,
         color: t.color,
         icon: t.icon,
         mastery: t.mastery_percent,
         pulse_type: t.pulse_type,
-        seed: Math.random() * 1000,
+        seed: seed % 1000,
         isDragging: false,
         el: null
       };
@@ -304,24 +309,48 @@ const BubbleCanvas: React.FC<BubbleCanvasProps> = ({
         return;
       }
 
-      const intensity = preferences.intensity || 1.0;
-      const gravityStrength = 0.00018 * intensity;
-      // Giữ cùng cơ chế lực chuyển động với Dia9; các màu sắc vẫn là của Dia8.
-      const driftSpeed = ((preferences.driftForce ?? 20) / 100) * 0.1 * intensity;
-      const friction = 0.99;
-      const springStrength = ((preferences.repulsion ?? 80) / 80) * 0.06;
+      const intensity = normalizeMotionIntensity(preferences.intensity);
+      const intensityFactor = intensity / 45 || 1;
+      const gravityStrength = 0.00015 * intensityFactor;
+      const clusterStrength = 0.0001 * intensityFactor;
+      const driftSpeed = ((preferences.driftForce ?? 25) / 100) * 0.1 * intensityFactor;
+      const friction = 0.985;
+      const springStrength = ((preferences.repulsion ?? 85) / 80) * 0.07;
 
-    const w = dimensions.w;
-    const h = dimensions.h;
+      const w = dimensions.w;
+      const h = dimensions.h;
       const centerX = w / 2;
       const centerY = h / 2;
+      const largeBubbles = p.filter((bubble) => bubble.r > 80);
+      const margin = window.innerWidth < 640 ? 20 : 40;
+      const topicsById = new Map(topics.map((topic) => [topic.topic_id, topic]));
 
       for (let i = 0; i < p.length; i++) {
         const b1 = p[i];
+        const topic = topicsById.get(b1.id);
+        if (topic) {
+          b1.targetR = getWeightedBubbleRadius(topic, preferences.bubbleScale || 1.0);
+          b1.r += (b1.targetR - b1.r) * 0.15;
+        }
         if (!b1.isDragging) {
           b1.vx += (centerX - b1.x) * gravityStrength;
           b1.vy += (centerY - b1.y) * gravityStrength;
-          const margin = 30;
+          if (largeBubbles.length > 0 && b1.r < 80) {
+            let nearest = largeBubbles[0];
+            let nearestDistance = Math.hypot(nearest.x - b1.x, nearest.y - b1.y);
+            for (let k = 1; k < largeBubbles.length; k++) {
+              const candidate = largeBubbles[k];
+              const distance = Math.hypot(candidate.x - b1.x, candidate.y - b1.y);
+              if (distance < nearestDistance) {
+                nearest = candidate;
+                nearestDistance = distance;
+              }
+            }
+            if (nearestDistance < 400) {
+              b1.vx += (nearest.x - b1.x) * clusterStrength;
+              b1.vy += (nearest.y - b1.y) * clusterStrength;
+            }
+          }
           if (b1.x - b1.r < margin) b1.vx += (margin - (b1.x - b1.r)) * 0.02;
           else if (b1.x + b1.r > w - margin) b1.vx -= (b1.x + b1.r - (w - margin)) * 0.02;
           if (b1.y - b1.r < margin) b1.vy += (margin - (b1.y - b1.r)) * 0.02;
@@ -333,7 +362,8 @@ const BubbleCanvas: React.FC<BubbleCanvasProps> = ({
           const dx = b2.x - b1.x;
           const dy = b2.y - b1.y;
           const distSq = dx * dx + dy * dy;
-          const minDist = (b1.r + b2.r) * (0.85 + (preferences.repulsion ?? 80) / 200);
+          const spacingFactor = b1.r + b2.r > 150 ? 1.05 : 0.95;
+          const minDist = (b1.r + b2.r) * (spacingFactor + (preferences.repulsion ?? 85) / 250);
           if (distSq < minDist * minDist) {
             const dist = Math.sqrt(distSq) || 0.1;
             const overlap = (minDist - dist);
@@ -364,13 +394,15 @@ const BubbleCanvas: React.FC<BubbleCanvasProps> = ({
         }
         if (b.el) {
           b.el.style.transform = `translate3d(${b.x - b.r}px, ${b.y - b.r}px, 0)`;
+          b.el.style.width = `${b.r * 2}px`;
+          b.el.style.height = `${b.r * 2}px`;
         }
       });
       requestRef.current = requestAnimationFrame(update);
     };
     requestRef.current = requestAnimationFrame(update);
     return () => { if (requestRef.current) cancelAnimationFrame(requestRef.current); };
-  }, [ready, preferences.showDrifting, preferences.intensity, preferences.driftForce, preferences.repulsion, dimensions, reduceMotion]);
+  }, [ready, topics, preferences.showDrifting, preferences.intensity, preferences.driftForce, preferences.repulsion, preferences.bubbleScale, dimensions, reduceMotion]);
 
   const handlePointerDown = (id: number, e: React.PointerEvent) => {
     const b = physicsRef.current.find(i => i.id === id);
