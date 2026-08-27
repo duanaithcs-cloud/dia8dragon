@@ -511,7 +511,7 @@ const BubbleCanvas: React.FC<BubbleCanvasProps> = ({
             onKeyDown={(event) => handleBubbleKeyDown(topicIndex, topic.topic_id, event)}
             aria-label={`Chuyên đề ${topic.topic_id}: ${topic.keyword_label}. Mức nắm vững ${Math.round(topic.mastery_percent)} phần trăm.`}
             aria-describedby="bubble-canvas-instructions"
-            className={`bubble-container bubble-theme-${activeTheme.toLowerCase().replaceAll('_', '-')} ${dia8Visual ? 'bubble-visual-dia8' : 'bubble-visual-dia8'} absolute will-change-transform cursor-pointer group ${focusClass} ${driftClass}`}
+            className={`bubble-container bubble-theme-${activeTheme.toLowerCase().replaceAll('_', '-')} ${dia8Visual ? 'bubble-visual-dia8' : 'bubble-visual-dia8'} absolute will-change-transform cursor-pointer group ${focusClass}`}
             style={{ 
               width: currentR * 2, 
               height: currentR * 2,
@@ -535,8 +535,9 @@ const BubbleCanvas: React.FC<BubbleCanvasProps> = ({
               transform: b ? `translate3d(${b.x - b.r}px, ${b.y - b.r}px, 0)` : 'translate3d(-500px, -500px, 0)'
             }}
           >
-            <div className="bubble-neon-halo absolute inset-0 rounded-full pointer-events-none" aria-hidden="true"></div>
-            <div className={`bubble-inner w-full h-full neon-ring ${pulseClass} ${preferences.showBreathing && !reduceMotion && !isGenerating ? 'animate-breathing' : ''}`}
+            <div className={`bubble-drift-layer absolute inset-0 ${driftClass}`}>
+              <div className="bubble-neon-halo absolute inset-0 rounded-full pointer-events-none" aria-hidden="true"></div>
+              <div className={`bubble-inner w-full h-full neon-ring ${pulseClass} ${preferences.showBreathing && !reduceMotion && !isGenerating ? 'animate-breathing' : ''}`}
                  style={{ 
                     opacity: isGenerating ? 1 : (preferences.transparency ?? 0.8),
                     filter: isGenerating
@@ -602,6 +603,7 @@ const BubbleCanvas: React.FC<BubbleCanvasProps> = ({
                 >
                   {isGenerating ? 'LOADING...' : `${topic.mastery_percent}%`}
                 </span>
+              </div>
               </div>
             </div>
             

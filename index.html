@@ -294,7 +294,11 @@
             50% { translate:calc(var(--float-x, 4px) * -.45) calc(var(--float-y, -3px) * .8); rotate:calc(var(--float-rotate, .5deg) * -.65); }
             75% { translate:calc(var(--float-x, 4px) * .35) calc(var(--float-y, -3px) * -1); rotate:calc(var(--float-rotate, .5deg) * .45); }
         }
-        .bubble-container.animate-orb-drift {
+        .bubble-drift-layer {
+            transform-origin: center;
+            will-change: transform;
+        }
+        .bubble-drift-layer.animate-orb-drift {
             animation:orb-drift-dia8 var(--float-dur, 7s) ease-in-out infinite;
             animation-delay:var(--float-delay, 0s);
         }
