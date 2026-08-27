@@ -268,8 +268,8 @@ const BubbleCanvas: React.FC<BubbleCanvasProps> = ({
         id: t.topic_id,
         x,
         y,
-        vx: reduceMotion ? 0 : (seededRandom(seed + 100) - 0.5) * 4,
-        vy: reduceMotion ? 0 : (seededRandom(seed + 200) - 0.5) * 4,
+        vx: reduceMotion ? 0 : (w/2 - x) * 0.005 + (Math.random() - 0.5) * 2,
+        vy: reduceMotion ? 0 : (h/2 - y) * 0.005 + (Math.random() - 0.5) * 2,
         r: baseR,
         targetR: baseR,
         color: t.color,
@@ -307,10 +307,10 @@ const BubbleCanvas: React.FC<BubbleCanvasProps> = ({
 
       const intensity = preferences.intensity || 1.0;
       const gravityStrength = 0.00018 * intensity;
-      // Công thức lực trôi/đẩy được chuyển nguyên bản từ Dia8, nhưng vẫn tương thích thanh cường độ Dia8.
+      // Giữ cùng cơ chế lực chuyển động với Dia9; các màu sắc vẫn là của Dia8.
       const driftSpeed = ((preferences.driftForce ?? 20) / 100) * 0.1 * intensity;
       const friction = 0.99;
-      const springStrength = 0.06;
+      const springStrength = ((preferences.repulsion ?? 80) / 80) * 0.06;
 
     const w = dimensions.w;
     const h = dimensions.h;
@@ -334,7 +334,7 @@ const BubbleCanvas: React.FC<BubbleCanvasProps> = ({
           const dx = b2.x - b1.x;
           const dy = b2.y - b1.y;
           const distSq = dx * dx + dy * dy;
-          const minDist = b1.r + b2.r + 10; 
+          const minDist = (b1.r + b2.r) * (0.85 + (preferences.repulsion ?? 80) / 200);
           if (distSq < minDist * minDist) {
             const dist = Math.sqrt(distSq) || 0.1;
             const overlap = (minDist - dist);
@@ -494,14 +494,6 @@ const BubbleCanvas: React.FC<BubbleCanvasProps> = ({
         const displayLabel = isGenerating ? 'AI NANO-MATRIX' : getBubbleDisplayLabel(topic);
         const labelFontSize = (preferences.fontSize || 16) * (currentR / 55);
         const masteryFontSize = (preferences.fontSize || 16) * (currentR / 65);
-        const floatSeed = 91000 + topic.topic_id;
-        const floatX = ((seededRandom(floatSeed) - 0.5) * 10).toFixed(2) + 'px';
-        const floatY = ((seededRandom(floatSeed + 17) - 0.5) * 8).toFixed(2) + 'px';
-        const floatRotate = ((seededRandom(floatSeed + 31) - 0.5) * 1.2).toFixed(2) + 'deg';
-        const floatDuration = (6.2 + seededRandom(floatSeed + 53) * 3.8).toFixed(2) + 's';
-        const floatDelay = (-seededRandom(floatSeed + 71) * 8).toFixed(2) + 's';
-        const driftClass = preferences.showDrifting && !reduceMotion && !isGenerating ? 'animate-orb-drift' : '';
-
         return (
           <button
             type="button"
@@ -523,11 +515,6 @@ const BubbleCanvas: React.FC<BubbleCanvasProps> = ({
               ['--ripple-color' as any]: bubbleVisual.rippleColor,
               ['--b-dur' as any]: varietyDur,
               ['--breath-scale' as any]: 1 + (breathAmp / 200),
-              ['--float-x' as any]: floatX,
-              ['--float-y' as any]: floatY,
-              ['--float-rotate' as any]: floatRotate,
-              ['--float-dur' as any]: floatDuration,
-              ['--float-delay' as any]: floatDelay,
               ['--dia8-glow' as any]: glowIntensity / 55,
               ['--dia8-saturation' as any]: saturation / 65,
               zIndex: isGenerating ? 1000 : (isCelebrating ? 100 : 10),
@@ -535,8 +522,7 @@ const BubbleCanvas: React.FC<BubbleCanvasProps> = ({
               transform: b ? `translate3d(${b.x - b.r}px, ${b.y - b.r}px, 0)` : 'translate3d(-500px, -500px, 0)'
             }}
           >
-            <div className={`bubble-drift-layer absolute inset-0 ${driftClass}`}>
-              <div className="bubble-neon-halo absolute inset-0 rounded-full pointer-events-none" aria-hidden="true"></div>
+            <div className="bubble-neon-halo absolute inset-0 rounded-full pointer-events-none" aria-hidden="true"></div>
               <div className={`bubble-inner w-full h-full neon-ring ${pulseClass} ${preferences.showBreathing && !reduceMotion && !isGenerating ? 'animate-breathing' : ''}`}
                  style={{ 
                     opacity: isGenerating ? 1 : (preferences.transparency ?? 0.8),
@@ -605,7 +591,6 @@ const BubbleCanvas: React.FC<BubbleCanvasProps> = ({
                 </span>
               </div>
               </div>
-            </div>
             
             {!isGenerating && (
               <div className="absolute -bottom-8 left-1/2 -translate-x-1/2 opacity-0 group-hover:opacity-100 transition-all duration-300 whitespace-nowrap z-50 transform group-hover:translate-y-[-5px]">
