@@ -51,6 +51,24 @@ const DIA8_THEMES = new Set(Object.keys(DIA8_THEME_COLORS));
 const isDia8Theme = (theme: string) => DIA8_THEMES.has(theme);
 
 const clampByte = (n: number) => Math.max(0, Math.min(255, Math.round(n)));
+
+// Màn hình hẹp (điện thoại): nén phần vượt chuẩn của bong bóng lớn để vừa màn hình.
+// Hàm tuyến tính theo (r0 - base) nên luôn giữ nguyên thứ tự lớn nhỏ và không bao giờ
+// tụt xuống bằng loại đa số (scale ~1, r ~55).
+const fitRadiusForViewport = (r0: number, maxR0: number, w: number, h: number, scalePref: number, compact: boolean) => {
+  if (!compact) return r0;
+  const baseMajority = 55 * scalePref;
+  if (r0 <= baseMajority || maxR0 <= baseMajority) return r0;
+  // Mobile: nén phần vượt chuẩn của bong bóng lớn để gọn màn hình.
+  // - Mặc định giảm ~25% phần vượt (softFactor) nên thứ tự lớn nhỏ luôn được giữ
+  //   và bong bóng lớn không bao giờ tụt xuống bằng loại đa số (luôn > baseMajority).
+  // - Nếu vẫn vượt quá ~56% cạnh ngắn màn hình thì nén thêm (hardFactor).
+  const desiredMax = Math.min(w, h) * 0.28;
+  const softFactor = 0.75;
+  const hardFactor = (desiredMax - baseMajority) / (maxR0 - baseMajority);
+  const factor = Math.max(0.05, Math.min(softFactor, hardFactor));
+  return baseMajority + (r0 - baseMajority) * factor;
+};
 const normalizeHex = (hex: string) => {
   const clean = (hex || '').trim().replace('#', '');
   if (clean.length === 3) return '#' + clean.split('').map(c => c + c).join('');
@@ -180,9 +198,16 @@ const BubbleCanvas: React.FC<BubbleCanvasProps> = ({
   // 1. Khởi tạo trạng thái vật lý cho toàn bộ 33 bong bóng
   useEffect(() => {
     const handleResize = () => {
-      setDimensions({ w: window.innerWidth, h: window.innerHeight - 64 });
+      // Đo đúng vùng hiển thị của canvas (trên mobile container đã chừa thanh điều hướng);
+      // tránh lệch tọa độ gây tràn viền/méo bong bóng.
+      const el = containerRef.current;
+      const w = el && el.clientWidth > 0 ? el.clientWidth : window.innerWidth;
+      const h = el && el.clientHeight > 0 ? el.clientHeight : Math.max(320, window.innerHeight - 64);
+      setDimensions(prev => (prev.w === w && prev.h === h ? prev : { w, h }));
     };
+    handleResize();
     window.addEventListener('resize', handleResize);
+    window.addEventListener('orientationchange', handleResize);
 
     const w = dimensions.w;
     const h = dimensions.h;
@@ -192,8 +217,12 @@ const BubbleCanvas: React.FC<BubbleCanvasProps> = ({
     const cellW = w / columns;
     const cellH = h / rows;
 
+    const compact = w < 768;
+    const scalePref = preferences.bubbleScale || 1.0;
+    const maxRawR = topics.reduce((m, t) => Math.max(m, (35 + t.scale * 20) * scalePref), 0);
+
     physicsRef.current = topics.map((t, index) => {
-      const baseR = (35 + t.scale * 20) * (preferences.bubbleScale || 1.0);
+      const baseR = fitRadiusForViewport((35 + t.scale * 20) * scalePref, maxRawR, w, h, scalePref, compact);
       const angle = Math.random() * Math.PI * 2;
       const spawnDist = Math.max(w, h) * 0.4;
       const gridX = (index % columns) * cellW + cellW / 2;
@@ -220,7 +249,10 @@ const BubbleCanvas: React.FC<BubbleCanvasProps> = ({
     });
 
     setReady(true);
-    return () => window.removeEventListener('resize', handleResize);
+    return () => {
+      window.removeEventListener('resize', handleResize);
+      window.removeEventListener('orientationchange', handleResize);
+    };
   }, [topics, preferences.bubbleScale, reduceMotion, dimensions.w, dimensions.h]);
 
   // 2. Vòng lặp vật lý
@@ -271,9 +303,11 @@ const BubbleCanvas: React.FC<BubbleCanvasProps> = ({
       const invMass = (r: number) => 3025 / (r * r); // r=55 => khối lượng chuẩn 1
       // Giới hạn tốc độ: bong bóng lớn di chuyển chậm hơn bong bóng nhỏ.
       const maxSpeedFor = (r: number) => Math.max(1.2, 3.0 * (55 / Math.max(30, r)));
-
       const w = dimensions.w;
       const h = dimensions.h;
+      // Margin tường: mobile hẹp để bong bóng lớn có chỗ, desktop giữ thoáng.
+      const wallPad = w < 768 ? 6 : 30;
+
       const centerX = w / 2;
       const centerY = h / 2;
 
@@ -283,11 +317,10 @@ const BubbleCanvas: React.FC<BubbleCanvasProps> = ({
         if (!b1.isDragging) {
           b1.vx += (centerX - b1.x) * gravityStrength * step;
           b1.vy += (centerY - b1.y) * gravityStrength * step;
-          const margin = 30;
-          if (b1.x - b1.r < margin) b1.vx += (margin - (b1.x - b1.r)) * 0.02 * step;
-          else if (b1.x + b1.r > w - margin) b1.vx -= (b1.x + b1.r - (w - margin)) * 0.02 * step;
-          if (b1.y - b1.r < margin) b1.vy += (margin - (b1.y - b1.r)) * 0.02 * step;
-          else if (b1.y + b1.r > h - margin) b1.vy -= (b1.y + b1.r - (h - margin)) * 0.02 * step;
+          if (b1.x - b1.r < wallPad) b1.vx += (wallPad - (b1.x - b1.r)) * 0.02 * step;
+          else if (b1.x + b1.r > w - wallPad) b1.vx -= (b1.x + b1.r - (w - wallPad)) * 0.02 * step;
+          if (b1.y - b1.r < wallPad) b1.vy += (wallPad - (b1.y - b1.r)) * 0.02 * step;
+          else if (b1.y + b1.r > h - wallPad) b1.vy -= (b1.y + b1.r - (h - wallPad)) * 0.02 * step;
         }
 
         for (let j = i + 1; j < p.length; j++) {
@@ -335,6 +368,11 @@ const BubbleCanvas: React.FC<BubbleCanvasProps> = ({
             b.vy = (b.vy / speed) * maxSpeed;
           }
           b.x += b.vx * step; b.y += b.vy * step;
+          // Clamp cứng: bong bóng không bao giờ tràn ra ngoài viền màn hình.
+          if (b.x - b.r < wallPad) { b.x = wallPad + b.r; if (b.vx < 0) b.vx *= -0.35; }
+          else if (b.x + b.r > w - wallPad) { b.x = w - wallPad - b.r; if (b.vx > 0) b.vx *= -0.35; }
+          if (b.y - b.r < wallPad) { b.y = wallPad + b.r; if (b.vy < 0) b.vy *= -0.35; }
+          else if (b.y + b.r > h - wallPad) { b.y = h - wallPad - b.r; if (b.vy > 0) b.vy *= -0.35; }
         }
         if (b.el) {
           b.el.style.transform = `translate3d(${b.x - b.r}px, ${b.y - b.r}px, 0)`;
@@ -427,6 +465,10 @@ const BubbleCanvas: React.FC<BubbleCanvasProps> = ({
     return positions;
   };
 
+  const renderScalePref = preferences.bubbleScale || 1.0;
+  const renderCompact = dimensions.w < 768;
+  const renderMaxRawR = topics.reduce((m, t) => Math.max(m, (35 + t.scale * 20) * renderScalePref), 0);
+
   const selectedBackgroundId = preferences.backgroundId || 'ORIGINAL_DRAGON';
   const selectedBackgroundPath = BACKGROUND_IMAGES[selectedBackgroundId] || BACKGROUND_IMAGES.ORIGINAL_DRAGON;
 
@@ -468,7 +510,7 @@ const BubbleCanvas: React.FC<BubbleCanvasProps> = ({
         const focusClass = isGenerating ? 'animate-generating-focus' : '';
         const varietyDur = (5 + (topic.topic_id % 4)).toFixed(1) + 's';
         const masteryStyle = getMasteryStyle(topic.mastery_percent);
-        const currentR = b ? b.r : (35 + topic.scale * 20) * (preferences.bubbleScale || 1.0);
+        const currentR = b ? b.r : fitRadiusForViewport((35 + topic.scale * 20) * renderScalePref, renderMaxRawR, dimensions.w, dimensions.h, renderScalePref, renderCompact);
         const supportedThemes = ['D8_ZALO', 'D8_NEON', 'D8_GROUPS', 'D8_AURORA', 'D8_SUNSET', 'D8_DARK', 'ORIGINAL', 'SOLAR_SYSTEM', 'CORAL_REEF', 'AURORA'];
         const activeTheme = supportedThemes.includes(preferences.theme) ? preferences.theme : 'D8_GROUPS';
         const dia8Visual = isDia8Theme(activeTheme);
