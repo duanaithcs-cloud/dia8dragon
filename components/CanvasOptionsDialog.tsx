@@ -126,7 +126,7 @@ const CanvasOptionsDialog: React.FC<CanvasOptionsDialogProps> = ({ preferences, 
   const dialogRef = useDialogFocus<HTMLDivElement>(onClose);
   const [activeSection, setActiveSection] = useState<SettingsSection>('THEME');
   const selectedBackground = preferences.backgroundId || 'ORIGINAL_DRAGON';
-  const selectedTheme = BUBBLE_THEMES.some((item) => item.id === preferences.theme) ? (preferences.theme as CanvasTheme) : 'D8_ZALO';
+  const selectedTheme = BUBBLE_THEMES.some((item) => item.id === preferences.theme) ? (preferences.theme as CanvasTheme) : 'D8_GROUPS';
   const activeMeta = SECTION_META.find((item) => item.id === activeSection) || SECTION_META[0];
 
   useEffect(() => {
@@ -146,7 +146,7 @@ const CanvasOptionsDialog: React.FC<CanvasOptionsDialogProps> = ({ preferences, 
   };
 
   const resetDefaults = () => {
-    updatePreference('theme','D8_ZALO');
+    updatePreference('theme','D8_GROUPS');
     updatePreference('backgroundId','ORIGINAL_DRAGON');
     updatePreference('showBreathing',true);
     updatePreference('showDrifting',true);
@@ -218,7 +218,7 @@ const CanvasOptionsDialog: React.FC<CanvasOptionsDialogProps> = ({ preferences, 
         <div className="settings-dia8-control-header">
           <div><strong>Bộ điều khiển thị giác Dia8</strong><small>Chuyển nguyên bản từ ứng dụng lớp 8 · tác động tức thời</small></div>
           <button type="button" onClick={() => {
-            updatePreference('theme','D8_ZALO');
+            updatePreference('theme','D8_GROUPS');
             updatePreference('bubbleScale',1);
             updatePreference('fontSize',13);
             updatePreference('intensity',1);

@@ -1,7 +1,7 @@
 import { UIPreferences } from '../types';
 
 export const defaultUI: UIPreferences = {
-  theme: 'D8_ZALO', showBreathing: true, showDrifting: true, showShimmering: true,
+  theme: 'D8_GROUPS', showBreathing: true, showDrifting: true, showShimmering: true,
   fontSize: 13, intensity: 1.0, transparency: 0.8, brightness: 1.0,
   bubbleScale: 1.0, breathAmp: 5, glowIntensity: 55, saturation: 65,
   driftForce: 20, repulsion: 80, backgroundId: 'ORIGINAL_DRAGON',
@@ -21,5 +21,5 @@ export const normalizeCanvasTheme = (theme: unknown): UIPreferences['theme'] => 
     SUNSET: 'D8_SUNSET', DARK: 'D8_DARK'
   };
   if (typeof theme === 'string' && legacyMap[theme]) return legacyMap[theme];
-  return supported.includes(theme as UIPreferences['theme']) ? theme as UIPreferences['theme'] : 'D8_ZALO';
+  return supported.includes(theme as UIPreferences['theme']) ? theme as UIPreferences['theme'] : 'D8_GROUPS';
 };
