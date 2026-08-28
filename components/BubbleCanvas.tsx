@@ -227,6 +227,8 @@ const BubbleCanvas: React.FC<BubbleCanvasProps> = ({
   useEffect(() => {
     if (!ready) return;
 
+    let lastFrameTime = performance.now();
+
     const update = () => {
       const p = physicsRef.current;
       if (p.length === 0) {
@@ -260,6 +262,16 @@ const BubbleCanvas: React.FC<BubbleCanvasProps> = ({
       const friction = 0.99;
       const springStrength = ((preferences.repulsion ?? 80) / 80) * 0.06;
 
+      // Chuẩn hóa theo thời gian khung hình: màn 120Hz không còn chạy vật lý nhanh gấp đôi.
+      const nowFrame = performance.now();
+      const dtMs = Math.min(34, Math.max(8, nowFrame - lastFrameTime));
+      lastFrameTime = nowFrame;
+      const step = dtMs / 16.667;
+      // Bong bóng lớn có "khối lượng" lớn hơn (tỉ lệ diện tích) nên nhận ít gia tốc hơn.
+      const invMass = (r: number) => 3025 / (r * r); // r=55 => khối lượng chuẩn 1
+      // Giới hạn tốc độ: bong bóng lớn di chuyển chậm hơn bong bóng nhỏ.
+      const maxSpeedFor = (r: number) => Math.max(1.2, 3.0 * (55 / Math.max(30, r)));
+
       const w = dimensions.w;
       const h = dimensions.h;
       const centerX = w / 2;
@@ -267,14 +279,15 @@ const BubbleCanvas: React.FC<BubbleCanvasProps> = ({
 
       for (let i = 0; i < p.length; i++) {
         const b1 = p[i];
+        const im1 = invMass(b1.r);
         if (!b1.isDragging) {
-          b1.vx += (centerX - b1.x) * gravityStrength;
-          b1.vy += (centerY - b1.y) * gravityStrength;
+          b1.vx += (centerX - b1.x) * gravityStrength * step;
+          b1.vy += (centerY - b1.y) * gravityStrength * step;
           const margin = 30;
-          if (b1.x - b1.r < margin) b1.vx += (margin - (b1.x - b1.r)) * 0.02;
-          else if (b1.x + b1.r > w - margin) b1.vx -= (b1.x + b1.r - (w - margin)) * 0.02;
-          if (b1.y - b1.r < margin) b1.vy += (margin - (b1.y - b1.r)) * 0.02;
-          else if (b1.y + b1.r > h - margin) b1.vy -= (b1.y + b1.r - (h - margin)) * 0.02;
+          if (b1.x - b1.r < margin) b1.vx += (margin - (b1.x - b1.r)) * 0.02 * step;
+          else if (b1.x + b1.r > w - margin) b1.vx -= (b1.x + b1.r - (w - margin)) * 0.02 * step;
+          if (b1.y - b1.r < margin) b1.vy += (margin - (b1.y - b1.r)) * 0.02 * step;
+          else if (b1.y + b1.r > h - margin) b1.vy -= (b1.y + b1.r - (h - margin)) * 0.02 * step;
         }
 
         for (let j = i + 1; j < p.length; j++) {
@@ -288,14 +301,18 @@ const BubbleCanvas: React.FC<BubbleCanvasProps> = ({
             const overlap = (minDist - dist);
             const nx = dx / dist;
             const ny = dy / dist;
-            const force = overlap * springStrength;
+            const force = overlap * springStrength * step;
+            const im2 = invMass(b2.r);
+            const totalIm = im1 + im2;
+            // Lực đẩy và sửa vị trí chia theo khối lượng: bong bóng lớn bị đẩy ít hơn,
+            // không còn cảnh 2 bong bóng lớn cộng dồn overlap*0.5 mỗi bên gây văng nhanh.
             if (!b1.isDragging) {
-              b1.vx -= nx * force; b1.vy -= ny * force;
-              b1.x -= nx * overlap * 0.5; b1.y -= ny * overlap * 0.5;
+              b1.vx -= nx * force * (im1 / totalIm) * 2; b1.vy -= ny * force * (im1 / totalIm) * 2;
+              b1.x -= nx * overlap * (im1 / totalIm); b1.y -= ny * overlap * (im1 / totalIm);
             }
             if (!b2.isDragging) {
-              b2.vx += nx * force; b2.vy += ny * force;
-              b2.x += nx * overlap * 0.5; b2.y += ny * overlap * 0.5;
+              b2.vx += nx * force * (im2 / totalIm) * 2; b2.vy += ny * force * (im2 / totalIm) * 2;
+              b2.x += nx * overlap * (im2 / totalIm); b2.y += ny * overlap * (im2 / totalIm);
             }
           }
         }
@@ -305,11 +322,19 @@ const BubbleCanvas: React.FC<BubbleCanvasProps> = ({
         if (!b.isDragging) {
           if (preferences.showDrifting) {
             const time = Date.now() * 0.0008;
-            b.vx += (Math.sin(time + b.seed) + Math.sin(time * 0.5 + b.seed * 0.3)) * driftSpeed;
-            b.vy += (Math.cos(time * 0.7 + b.seed) + Math.cos(time * 1.2 + b.seed * 0.8)) * driftSpeed;
+            b.vx += (Math.sin(time + b.seed) + Math.sin(time * 0.5 + b.seed * 0.3)) * driftSpeed * step;
+            b.vy += (Math.cos(time * 0.7 + b.seed) + Math.cos(time * 1.2 + b.seed * 0.8)) * driftSpeed * step;
           }
-          b.vx *= friction; b.vy *= friction;
-          b.x += b.vx; b.y += b.vy;
+          const fr = Math.pow(friction, step);
+          b.vx *= fr; b.vy *= fr;
+          // Giới hạn tốc độ tối đa (cũng chặn luôn cú văng quá mạnh sau khi kéo-thả).
+          const maxSpeed = maxSpeedFor(b.r);
+          const speed = Math.hypot(b.vx, b.vy);
+          if (speed > maxSpeed) {
+            b.vx = (b.vx / speed) * maxSpeed;
+            b.vy = (b.vy / speed) * maxSpeed;
+          }
+          b.x += b.vx * step; b.y += b.vy * step;
         }
         if (b.el) {
           b.el.style.transform = `translate3d(${b.x - b.r}px, ${b.y - b.r}px, 0)`;
