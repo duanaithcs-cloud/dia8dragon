@@ -1,6 +1,7 @@
 
 import React, { useEffect, useRef, useState } from 'react';
 import { Topic, UIPreferences, ArenaStats } from '../types';
+import TopicIcon from './TopicIcon';
 
 interface PhysicsState {
   id: number;
@@ -49,51 +50,6 @@ const DIA8_THEME_COLORS: Record<string, string | 'TOPIC' | 'GROUPS'> = {
 const DIA8_THEMES = new Set(Object.keys(DIA8_THEME_COLORS));
 const isDia8Theme = (theme: string) => DIA8_THEMES.has(theme);
 
-const OLD_APP_BUBBLE_LABELS: Record<number, string> = {
-  1: 'VTĐL-PVLT',
-  2: 'A/H VTĐL – PVLT',
-  3: 'ĐỊA HÌNH',
-  4: 'K.VỰC ĐH',
-  5: 'Đ2 K.SẢN',
-  6: 'P.BỐ SD KS',
-  7: 'P.HÓA ĐỊA HÌNH',
-  8: 'KH NĐAGM',
-  9: 'LƯU VỰC SÔNG',
-  10: 'P.HÓA KH',
-  11: 'T.Đ BĐKH KH+TV',
-  12: 'KH–N.NGHIỆP',
-  13: '1 HT SÔNG',
-  14: 'HỒ-ĐẦM-NN',
-  15: 'BĐ–TRẠM-KH',
-  16: 'VẼ P.T BĐ KH',
-  17: 'KH-DU.L',
-  18: 'Ư.PHÓ BĐKH',
-  19: 'K.THÁC TN NƯỚC',
-  20: 'T.Đ BĐKH TN',
-  21: '3 LOẠI ĐẤT',
-  22: 'THỔ.N NĐAGM',
-  23: 'ĐẤT FERALIT',
-  24: 'ĐẤT PHÙ SA',
-  25: 'SINH VẬT ĐA DẠNG',
-  26: 'CHỐNG THOÁI HÓA ĐẤT',
-  27: 'BẢO TỒN ĐA DẠNG SV',
-  28: 'PV BIỂN',
-  29: 'TỰ NHIÊN BIỂN',
-  30: 'TÀI NGUYÊN BIỂN',
-  31: 'MÔI TRƯỜNG BIỂN',
-  32: 'LUẬT BIỂN',
-  33: 'TL KK BIỂN',
-};
-
-const getBubbleDisplayLabel = (topic: Topic) => {
-  if (OLD_APP_BUBBLE_LABELS[topic.topic_id]) return OLD_APP_BUBBLE_LABELS[topic.topic_id];
-  const candidate = (topic.short_label || topic.keyword_label || `CD ${topic.topic_id}`).trim();
-  if (candidate.length <= 18) return candidate;
-  const words = candidate.split(/\s+/).filter(Boolean);
-  if (words.length <= 3) return candidate.slice(0, 18);
-  return words.slice(0, 3).join(' ');
-};
-
 const clampByte = (n: number) => Math.max(0, Math.min(255, Math.round(n)));
 const normalizeHex = (hex: string) => {
   const clean = (hex || '').trim().replace('#', '');
@@ -121,21 +77,6 @@ const rgba = (hex: string, alpha: number) => {
   return `rgba(${r}, ${g}, ${b}, ${alpha})`;
 };
 const getThemeColor = (palette: string[], seed: number) => palette[Math.abs(seed) % palette.length];
-const HALF_SIZE_WEIGHTED_TOPICS = new Set([1, 3]);
-const seededRandom = (seed: number) => {
-  const value = Math.sin(seed * 9301 + 49297) * 233280;
-  return value - Math.floor(value);
-};
-const weightedRadiusVariance = (seed: number, range = 0.07) => 1 + (seededRandom(seed) - 0.5) * 2 * range;
-const getWeightedBubbleRadius = (topic: Topic, bubbleScale = 1) => {
-  const base = window.innerWidth < 640 ? 25 + topic.scale * 12 : 35 + topic.scale * 20;
-  const topicFactor = HALF_SIZE_WEIGHTED_TOPICS.has(topic.topic_id) ? 0.5 : 1;
-  return base * topicFactor * bubbleScale * weightedRadiusVariance(24000 + topic.topic_id);
-};
-const normalizeMotionIntensity = (intensity: number | undefined) => {
-  const value = intensity ?? 55;
-  return value <= 2 ? value * 55 : value;
-};
 const deriveBubbleVisual = (topic: Topic, theme: string): BubbleVisual => {
   const base = normalizeHex(topic.color || '#0d33f2');
   if (isDia8Theme(theme)) {
@@ -260,28 +201,27 @@ const BubbleCanvas: React.FC<BubbleCanvasProps> = ({
     const cellH = h / rows;
 
     physicsRef.current = topics.map((t, index) => {
-      const seed = 24000 + t.topic_id;
-      const baseR = getWeightedBubbleRadius(t, preferences.bubbleScale || 1.0);
-      const col = index % columns;
-      const row = Math.floor(index / columns);
-      const jitterX = (seededRandom(seed) - 0.5) * cellW * 0.8;
-      const jitterY = (seededRandom(seed + 50) - 0.5) * cellH * 0.8;
-      const x = (col + 0.5) * cellW + jitterX;
-      const y = (row + 0.5) * cellH + jitterY;
+      const baseR = (35 + t.scale * 20) * (preferences.bubbleScale || 1.0);
+      const angle = Math.random() * Math.PI * 2;
+      const spawnDist = Math.max(w, h) * 0.4;
+      const gridX = (index % columns) * cellW + cellW / 2;
+      const gridY = Math.floor(index / columns) * cellH + cellH / 2;
+      const x = reduceMotion ? gridX : w/2 + Math.cos(angle) * spawnDist;
+      const y = reduceMotion ? gridY : h/2 + Math.sin(angle) * spawnDist;
 
       return {
         id: t.topic_id,
         x,
         y,
-        vx: reduceMotion ? 0 : (seededRandom(seed + 100) - 0.5) * 4,
-        vy: reduceMotion ? 0 : (seededRandom(seed + 200) - 0.5) * 4,
+        vx: reduceMotion ? 0 : (w/2 - x) * 0.005 + (Math.random() - 0.5) * 2,
+        vy: reduceMotion ? 0 : (h/2 - y) * 0.005 + (Math.random() - 0.5) * 2,
         r: baseR,
         targetR: baseR,
         color: t.color,
         icon: t.icon,
         mastery: t.mastery_percent,
         pulse_type: t.pulse_type,
-        seed: seed % 1000,
+        seed: Math.random() * 1000,
         isDragging: false,
         el: null
       };
@@ -302,8 +242,8 @@ const BubbleCanvas: React.FC<BubbleCanvasProps> = ({
           return;
       }
 
-      // Chốt an toàn: nếu kéo bị "treo" (mất pointerup trên desktop khi thả chuột
-      // ngoài cửa sổ/mất focus), tự nhả để bong bóng tiếp tục trôi.
+      // Desktop có thể mất pointerup khi thả chuột ngoài cửa sổ/mất focus;
+      // guard này tự nhả để bong bóng không đứng yên vĩnh viễn.
       const stuckGuardNow = Date.now();
       p.forEach((bubble) => {
         if (bubble.isDragging && bubble.lastDragEvent && stuckGuardNow - bubble.lastDragEvent > 4000) {
@@ -319,48 +259,26 @@ const BubbleCanvas: React.FC<BubbleCanvasProps> = ({
         return;
       }
 
-      const intensity = normalizeMotionIntensity(preferences.intensity);
-      const intensityFactor = intensity / 45 || 1;
-      const gravityStrength = 0.00015 * intensityFactor;
-      const clusterStrength = 0.0001 * intensityFactor;
-      const driftSpeed = ((preferences.driftForce ?? 25) / 100) * 0.1 * intensityFactor;
-      const friction = 0.985;
-      const springStrength = ((preferences.repulsion ?? 85) / 80) * 0.07;
+      const rawIntensity = preferences.intensity ?? 1.0;
+      // Tương thích prefs cũ Dia8 lưu intensity ~55 (defaultUI cũ); Dia9 dùng thang 0-2.
+      const intensity = rawIntensity > 5 ? rawIntensity / 55 : (rawIntensity || 1.0);
+      const gravityStrength = 0.00018 * intensity;
+      // Công thức lực trôi/đẩy được chuyển nguyên bản từ Dia8, nhưng vẫn tương thích thanh cường độ Dia9.
+      const driftSpeed = ((preferences.driftForce ?? 20) / 100) * 0.1 * intensity;
+      const friction = 0.99;
+      const springStrength = ((preferences.repulsion ?? 80) / 80) * 0.06;
 
       const w = dimensions.w;
       const h = dimensions.h;
       const centerX = w / 2;
       const centerY = h / 2;
-      const largeBubbles = p.filter((bubble) => bubble.r > 80);
-      const margin = window.innerWidth < 640 ? 20 : 40;
-      const topicsById = new Map(topics.map((topic) => [topic.topic_id, topic]));
 
       for (let i = 0; i < p.length; i++) {
         const b1 = p[i];
-        const topic = topicsById.get(b1.id);
-        if (topic) {
-          b1.targetR = getWeightedBubbleRadius(topic, preferences.bubbleScale || 1.0);
-          b1.r += (b1.targetR - b1.r) * 0.15;
-        }
         if (!b1.isDragging) {
           b1.vx += (centerX - b1.x) * gravityStrength;
           b1.vy += (centerY - b1.y) * gravityStrength;
-          if (largeBubbles.length > 0 && b1.r < 80) {
-            let nearest = largeBubbles[0];
-            let nearestDistance = Math.hypot(nearest.x - b1.x, nearest.y - b1.y);
-            for (let k = 1; k < largeBubbles.length; k++) {
-              const candidate = largeBubbles[k];
-              const distance = Math.hypot(candidate.x - b1.x, candidate.y - b1.y);
-              if (distance < nearestDistance) {
-                nearest = candidate;
-                nearestDistance = distance;
-              }
-            }
-            if (nearestDistance < 400) {
-              b1.vx += (nearest.x - b1.x) * clusterStrength;
-              b1.vy += (nearest.y - b1.y) * clusterStrength;
-            }
-          }
+          const margin = 30;
           if (b1.x - b1.r < margin) b1.vx += (margin - (b1.x - b1.r)) * 0.02;
           else if (b1.x + b1.r > w - margin) b1.vx -= (b1.x + b1.r - (w - margin)) * 0.02;
           if (b1.y - b1.r < margin) b1.vy += (margin - (b1.y - b1.r)) * 0.02;
@@ -372,8 +290,7 @@ const BubbleCanvas: React.FC<BubbleCanvasProps> = ({
           const dx = b2.x - b1.x;
           const dy = b2.y - b1.y;
           const distSq = dx * dx + dy * dy;
-          const spacingFactor = b1.r + b2.r > 150 ? 1.05 : 0.95;
-          const minDist = (b1.r + b2.r) * (spacingFactor + (preferences.repulsion ?? 85) / 250);
+          const minDist = (b1.r + b2.r) * (0.85 + (preferences.repulsion ?? 80) / 200); 
           if (distSq < minDist * minDist) {
             const dist = Math.sqrt(distSq) || 0.1;
             const overlap = (minDist - dist);
@@ -404,15 +321,13 @@ const BubbleCanvas: React.FC<BubbleCanvasProps> = ({
         }
         if (b.el) {
           b.el.style.transform = `translate3d(${b.x - b.r}px, ${b.y - b.r}px, 0)`;
-          b.el.style.width = `${b.r * 2}px`;
-          b.el.style.height = `${b.r * 2}px`;
         }
       });
       requestRef.current = requestAnimationFrame(update);
     };
     requestRef.current = requestAnimationFrame(update);
     return () => { if (requestRef.current) cancelAnimationFrame(requestRef.current); };
-  }, [ready, topics, preferences.showDrifting, preferences.intensity, preferences.driftForce, preferences.repulsion, preferences.bubbleScale, dimensions, reduceMotion]);
+  }, [ready, preferences.showDrifting, preferences.intensity, preferences.driftForce, preferences.repulsion, dimensions, reduceMotion]);
 
   const handlePointerDown = (id: number, e: React.PointerEvent) => {
     const b = physicsRef.current.find(i => i.id === id);
@@ -445,8 +360,6 @@ const BubbleCanvas: React.FC<BubbleCanvasProps> = ({
         cleanup();
         onBubbleClick(id);
       };
-      // Desktop có thể không nhận pointerup khi thả chuột ngoài cửa sổ hoặc mất focus;
-      // pointercancel/blur đảm bảo bong bóng không bị đứng yên vĩnh viễn.
       const onCancel = () => {
         cleanup();
       };
@@ -538,7 +451,7 @@ const BubbleCanvas: React.FC<BubbleCanvasProps> = ({
         const focusClass = isGenerating ? 'animate-generating-focus' : '';
         const varietyDur = (5 + (topic.topic_id % 4)).toFixed(1) + 's';
         const masteryStyle = getMasteryStyle(topic.mastery_percent);
-        const currentR = b ? b.r : getWeightedBubbleRadius(topic, preferences.bubbleScale || 1.0);
+        const currentR = b ? b.r : (35 + topic.scale * 20) * (preferences.bubbleScale || 1.0);
         const supportedThemes = ['D8_ZALO', 'D8_NEON', 'D8_GROUPS', 'D8_AURORA', 'D8_SUNSET', 'D8_DARK', 'ORIGINAL', 'SOLAR_SYSTEM', 'CORAL_REEF', 'AURORA'];
         const activeTheme = supportedThemes.includes(preferences.theme) ? preferences.theme : 'D8_ZALO';
         const dia8Visual = isDia8Theme(activeTheme);
@@ -546,9 +459,7 @@ const BubbleCanvas: React.FC<BubbleCanvasProps> = ({
         const glowIntensity = preferences.glowIntensity ?? 55;
         const saturation = preferences.saturation ?? 65;
         const breathAmp = preferences.breathAmp ?? 5;
-        const displayLabel = isGenerating ? 'AI NANO-MATRIX' : getBubbleDisplayLabel(topic);
-        const labelFontSize = (preferences.fontSize || 16) * (currentR / 55);
-        const masteryFontSize = (preferences.fontSize || 16) * (currentR / 65);
+
         return (
           <button
             type="button"
@@ -558,7 +469,7 @@ const BubbleCanvas: React.FC<BubbleCanvasProps> = ({
             onKeyDown={(event) => handleBubbleKeyDown(topicIndex, topic.topic_id, event)}
             aria-label={`Chuyên đề ${topic.topic_id}: ${topic.keyword_label}. Mức nắm vững ${Math.round(topic.mastery_percent)} phần trăm.`}
             aria-describedby="bubble-canvas-instructions"
-            className={`bubble-container bubble-theme-${activeTheme.toLowerCase().replaceAll('_', '-')} ${dia8Visual ? 'bubble-visual-dia8' : 'bubble-visual-dia8'} absolute will-change-transform cursor-pointer group ${focusClass}`}
+            className={`bubble-container bubble-theme-${activeTheme.toLowerCase().replaceAll('_', '-')} ${dia8Visual ? 'bubble-visual-dia8' : 'bubble-visual-dia9'} absolute will-change-transform cursor-pointer group ${focusClass}`}
             style={{ 
               width: currentR * 2, 
               height: currentR * 2,
@@ -578,7 +489,7 @@ const BubbleCanvas: React.FC<BubbleCanvasProps> = ({
             }}
           >
             <div className="bubble-neon-halo absolute inset-0 rounded-full pointer-events-none" aria-hidden="true"></div>
-              <div className={`bubble-inner w-full h-full neon-ring ${pulseClass} ${preferences.showBreathing && !reduceMotion && !isGenerating ? 'animate-breathing' : ''}`}
+            <div className={`bubble-inner w-full h-full neon-ring ${pulseClass} ${preferences.showBreathing && !reduceMotion && !isGenerating ? 'animate-breathing' : ''}`}
                  style={{ 
                     opacity: isGenerating ? 1 : (preferences.transparency ?? 0.8),
                     filter: isGenerating
@@ -619,38 +530,41 @@ const BubbleCanvas: React.FC<BubbleCanvasProps> = ({
               )}
 
               <div className="flex flex-col items-center justify-center p-2 text-center relative z-20 transition-transform group-hover:scale-105 duration-500 w-full">
-                <span
-                  className="material-symbols-outlined text-white opacity-40 group-hover:opacity-100 transition-all duration-500 drop-shadow-[0_0_10px_rgba(255,255,255,0.4)]"
+                <div
+                  className="topic-bubble-icon text-white opacity-55 group-hover:opacity-100 transition-all duration-500 drop-shadow-[0_0_10px_rgba(255,255,255,0.4)]"
                   aria-hidden="true"
-                  style={{ fontSize: currentR * 0.6 }}
                 >
-                  {isGenerating ? 'refresh' : topic.icon}
-                </span>
+                  {isGenerating ? (
+                    <svg viewBox="0 0 24 24" width={currentR * 0.58} height={currentR * 0.58} fill="none" stroke="currentColor" strokeWidth="1.9" strokeLinecap="round" strokeLinejoin="round" className="animate-spin">
+                      <path d="M20 11a8 8 0 1 0-2.3 5.7" />
+                      <path d="M20 5v6h-6" />
+                    </svg>
+                  ) : (
+                    <TopicIcon name={topic.icon} topicId={topic.topic_id} size={currentR * 0.58} title={topic.keyword_label} />
+                  )}
+                </div>
                 
-                <span
-                  className="bubble-topic-label text-white font-black uppercase tracking-tighter leading-tight whitespace-normal max-w-[95%] text-halo text-center"
-                  title={topic.keyword_label}
-                  style={{ fontSize: labelFontSize }}
-                >
-                  {displayLabel}
+                <span className="text-white font-black uppercase tracking-tighter leading-tight whitespace-normal max-w-[95%] text-halo text-center"
+                      style={{ fontSize: (preferences.fontSize || 16) * (currentR / 55) }}>
+                  {isGenerating ? 'Đang nạp' : topic.keyword_label}
                 </span>
                 
                 <span 
                   className="font-black tabular-nums mt-1 transition-all duration-500"
                   style={{ 
                     ...masteryStyle,
-                    fontSize: masteryFontSize 
+                    fontSize: (preferences.fontSize || 16) * (currentR / 65) 
                   }}
                 >
-                  {isGenerating ? 'LOADING...' : `${topic.mastery_percent}%`}
+                  {isGenerating ? 'Nạp...' : `${topic.mastery_percent}%`}
                 </span>
               </div>
-              </div>
+            </div>
             
             {!isGenerating && (
               <div className="absolute -bottom-8 left-1/2 -translate-x-1/2 opacity-0 group-hover:opacity-100 transition-all duration-300 whitespace-nowrap z-50 transform group-hover:translate-y-[-5px]">
                  <span className="text-[9px] font-black text-white/80 bg-black/80 px-4 py-1.5 rounded-full border border-white/20 shadow-2xl backdrop-blur-xl uppercase">
-                   TOPIC #{topic.topic_id}
+                   CĐ #{topic.topic_id}
                  </span>
               </div>
             )}
