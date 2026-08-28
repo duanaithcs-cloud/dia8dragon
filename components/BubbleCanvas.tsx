@@ -173,17 +173,9 @@ const BubbleCanvas: React.FC<BubbleCanvasProps> = ({
   const requestRef = useRef<number>(null);
   const [ready, setReady] = useState(false);
   const [dimensions, setDimensions] = useState({ w: window.innerWidth, h: window.innerHeight - 64 });
-  const [systemReduceMotion, setSystemReduceMotion] = useState(() => window.matchMedia?.('(prefers-reduced-motion: reduce)').matches || false);
-  const reduceMotion = Boolean(preferences.reduceMotion || systemReduceMotion);
-
-  useEffect(() => {
-    const media = window.matchMedia?.('(prefers-reduced-motion: reduce)');
-    if (!media) return;
-    const update = () => setSystemReduceMotion(media.matches);
-    update();
-    media.addEventListener?.('change', update);
-    return () => media.removeEventListener?.('change', update);
-  }, []);
+  // Desktop yêu cầu luôn có hiệu ứng: chỉ tôn trọng toggle "Giảm chuyển động" trong app,
+  // không tự tắt theo prefers-reduced-motion của hệ điều hành.
+  const reduceMotion = Boolean(preferences.reduceMotion);
 
   // 1. Khởi tạo trạng thái vật lý cho toàn bộ 33 bong bóng
   useEffect(() => {

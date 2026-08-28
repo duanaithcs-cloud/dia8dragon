@@ -58,11 +58,9 @@
         }
         .material-symbols-outlined::before { content: none !important; }
         @media (prefers-reduced-motion: reduce) {
-            *, *::before, *::after {
-                animation-duration: 0.01ms !important;
-                animation-iteration-count: 1 !important;
+            /* Chỉ tắt smooth-scroll; hiệu ứng canvas/bong bóng do toggle "Giảm chuyển động" trong app tự quyết. */
+            * {
                 scroll-behavior: auto !important;
-                transition-duration: 0.01ms !important;
             }
         }
 
