@@ -16,6 +16,7 @@ interface PhysicsState {
   pulse_type?: 'correct' | 'decay' | 'achievement' | null;
   seed: number;
   isDragging: boolean;
+  lastDragEvent?: number;
   el: HTMLButtonElement | null;
 }
 
@@ -301,6 +302,15 @@ const BubbleCanvas: React.FC<BubbleCanvasProps> = ({
           return;
       }
 
+      // Chốt an toàn: nếu kéo bị "treo" (mất pointerup trên desktop khi thả chuột
+      // ngoài cửa sổ/mất focus), tự nhả để bong bóng tiếp tục trôi.
+      const stuckGuardNow = Date.now();
+      p.forEach((bubble) => {
+        if (bubble.isDragging && bubble.lastDragEvent && stuckGuardNow - bubble.lastDragEvent > 4000) {
+          bubble.isDragging = false;
+        }
+      });
+
       if (reduceMotion) {
         p.forEach((bubble) => {
           if (bubble.el) bubble.el.style.transform = `translate3d(${bubble.x - bubble.r}px, ${bubble.y - bubble.r}px, 0)`;
@@ -408,12 +418,14 @@ const BubbleCanvas: React.FC<BubbleCanvasProps> = ({
     const b = physicsRef.current.find(i => i.id === id);
     if (b) {
       b.isDragging = true;
+      b.lastDragEvent = Date.now();
       const startX = e.clientX; const startY = e.clientY;
       const initialX = b.x; const initialY = b.y;
       let lastTime = Date.now();
       const onMove = (me: PointerEvent) => {
         const now = Date.now();
         const dt = now - lastTime;
+        b.lastDragEvent = now;
         if (dt > 0) {
             b.vx = (me.clientX - b.x) / dt * 10;
             b.vy = (me.clientY - b.y) / dt * 10;
@@ -422,14 +434,26 @@ const BubbleCanvas: React.FC<BubbleCanvasProps> = ({
         b.y = initialY + (me.clientY - startY);
         lastTime = now;
       };
-      const onUp = () => {
+      const cleanup = () => {
         b.isDragging = false;
         window.removeEventListener('pointermove', onMove);
         window.removeEventListener('pointerup', onUp);
+        window.removeEventListener('pointercancel', onCancel);
+        window.removeEventListener('blur', onCancel);
+      };
+      const onUp = () => {
+        cleanup();
         onBubbleClick(id);
+      };
+      // Desktop có thể không nhận pointerup khi thả chuột ngoài cửa sổ hoặc mất focus;
+      // pointercancel/blur đảm bảo bong bóng không bị đứng yên vĩnh viễn.
+      const onCancel = () => {
+        cleanup();
       };
       window.addEventListener('pointermove', onMove);
       window.addEventListener('pointerup', onUp);
+      window.addEventListener('pointercancel', onCancel);
+      window.addEventListener('blur', onCancel);
     }
   };
 
